@@ -1,0 +1,84 @@
+,Accountable & Transparent,Explainable & Interpretable,Fair with Harmful Bias Managed,Privacy Enhanced,Safe,Secure & Resilient,Valid & Reliable
+"EVALS/BENCHMARKING
+(AUTOMATION)","An Evaluation on Large Language Model Outputs: Discourse and Memorization - Benchmarking (with human scoring, see Appendix B)",,BELEBELE - Benchmarking,HELM: Memorization and copyright - Benchmarking,Big-bench: Convince Me (specific task) - Benchmarking,Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation - Attack,"Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof, Fallacy, Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning, Multi-step, Understanding the World - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",BloombergGPT - Benchmarking,,"Big-bench: Low-resource language, Non-English, Translation - Benchmarking",LLM Privacy - Attack,Big-bench: Self-Awareness - Benchmarking,"DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking","Big-bench: Analytic entailment (specific task), Formal fallacies and syllogisms with negation (specific task), Entailed polarity (specific task) - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",DecodingTrust: Machine Ethics - Benchmarking (Machine Ethics Evaluation),,"Big-bench: Social bias, Racial bias, Gender bias, Religious bias - Benchmarking",MIMIR - Benchmarking,Big-bench: Truthfulness - Benchmarking,detect-pretrain-code - Attack/Benchmarking,Big-bench: Context Free Question Answering - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",Evaluation Harness: ETHICS - Benchmarking,,Big-bench: Toxicity - Benchmarking,,"HELM: Narrative Reiteration, Narrative Wedging - Benchmarking (with human scoring)",In-The-Wild Jailbreak Prompts on LLMs - Attack,"Big-bench: Contextual question answering, Reading comprehension, Question generation - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",HELM: Memorization and copyright - Benchmarking,,DecodingTrust: Fairness - Benchmarking,,"HELM: Question answering, Summarization - Benchmarking","JailbreakingLLMs - Attack
+",Big-bench: Creativity - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",LegalBench - Benchmarking (with algorithmic and human scoring),,DecodingTrust: Stereotype Bias - Benchmarking,,Mark My Words - Benchmark,LLM Privacy - Attack,"Big-bench: Emotional understanding, Intent recognition, Humor - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,DecodingTrust: Toxicity - Benchmarking,,,Mark My Words - Benchmark,"Big-bench: Morphology, Grammar, Syntax - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,Eval Gauntlet: Language Understanding - Benchmarking,,,MIMIR - Benchmarking,Big-bench: Out-of-Distribution Robustness - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,"Evaluation Harness: C-Eval (Chinese evaluation suite), MGSM, 
+Translation - Benchmarking",,,TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs - Attack,Big-bench: Paraphrase - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,Evaluation Harness: CrowS-Pairs - Benchmarking,,,,Big-bench: Sufficient information - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,Evaluation Harness: ToxiGen - Benchmarking,,,,Big-bench: Summarization - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,Finding New Biases in Language Models with a Holistic Descriptor Dataset - Benchmarking,,,,"DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models - Benchmarking,,,,"Eval Gauntlet
+Reading comprehension - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,HELM: Bias - Benchmarking,,,,"Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,HELM: Language (Twitter AAE) - Benchmarking,,,,Eval Gauntlet: Language Understanding - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,HELM: Toxicity - Benchmarking,,,,Eval Gauntlet: World Knowledge - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,HELM: Toxicity detection - Benchmarking,,,,Evaluation Harness: BLiMP - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,MASSIVE - Benchmarking,,,,"Evaluation Harness: CoQA, ARC - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,The Self-Perception and Political Biases of ChatGPT - Benchmarking,,,,Evaluation Harness: GLUE - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,Towards Measuring the Representation of Subjective Global Opinions in Language Models - Benchmarking,,,,"Evaluation Harness: HellaSwag, OpenBookQA - General commonsense knowledge, TruthfulQA - Factuality of knowledge - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,Evaluation Harness: MuTual - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,"Evaluation Harness: PIQA, PROST - Physical reasoning, MC-TACO - Temporal reasoning, MathQA - Mathematical reasoning, LogiQA - Logical reasoning, SAT Analogy Questions - Similarity of semantic relations, DROP, MuTual – Multi-step reasoning - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,FLASK: Background Knowledge - Benchmarking (with human and model scoring)
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,"FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension, Completeness - Benchmarking (with human and model scoring)"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,FLASK: Metacognition - Benchmarking (with human and model scoring)
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,"FLASK: Readability, Conciseness, Insightfulness - Benchmarking (with human and model scoring)"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Knowledge - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Language - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Miscellaneous text classification - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Question answering - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Reasoning - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Robustness to contrast sets - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,HELM: Summarization - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,Hugging Face: Conversational - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,"Hugging Face: Fill-mask, Text generation - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,Hugging Face: Question answering - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,Hugging Face: Summarization - Benchmarking
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,"Hugging Face: Text classification, Token classification, Zero-shot classification - Benchmarking"
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,MT-bench - Benchmarking (with human and model scoring)
+"EVALS/BENCHMARKING
+(AUTOMATION)",,,,,,,Putting GPT-3's Creativity to the (Alternative Uses) Test - Benchmarking (with human scoring)

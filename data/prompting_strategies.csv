@@ -1,0 +1,19 @@
+Strategy, Description
+AI and coding framing,Coding or AI language that may more easily circumvent content moderation rules due to cognitive biases in design and implementation of guardrails.
+Autocompletion ,Ask a system to autocomplete a phrase with restricted or sensitive information. 
+Biographical,Asking a system to describe another person or yourself in an attempt to elicit provably untrue information or restricted or sensitive information.
+Calculation,Exploting GAI systems' difficulties in dealing with numeric quantities.
+Character and word play,"Content moderation often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play."
+Content exhaustion,"A class of strategies that circumvent content moderation rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below."
+Content exhaustion: Goading,"Begging, pleading, manipulating, and bullying to circumvent content moderation."
+Content exhaustion: Logic-overloading,Exploiting the inability of ML systems to reliably perform reasoning tasks.
+Content exhaustion: Multi-tasking,Simultaneous task assignments where some tasks are benign and others are adversarial.
+Content exhaustion: Multi-tasking: Pros-and-cons,Eliciting the “pros” of problematic topics.
+Content exhaustion: Niche-seeking,Forcing a LM into addressing niche topics where training data and content moderation are sparse.
+Counterfactuals,Repeated prompts with different entities or subjects from different demographic groups.
+Location awareness,Prompts that reveal a prompter's location or expose location tracking.
+Low-context prompts,"“Leader,” “bad guys,” or other simple inputs that may expose latent biases."
+“Repeat this” prompts,Prompts that exploit instability in underlying LM autoregressive predictions.
+Reverse psychology,Falsely presenting a good-faith need for negative or problematic language.
+Role-playing,Adopting a character that would reasonably make problematic statements or need to access problematic topics.
+Time perplexity,Exploiting ML’s inability to understand the passage of time or the occurrence of real-world events over time.

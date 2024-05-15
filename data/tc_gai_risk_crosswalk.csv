@@ -1,0 +1,13 @@
+Accountable & Transparent,Explainable & Interpretable,Fair with Harmful Bias Managed,Privacy Enhanced,Safe,Secure & Resilient,Valid & Reliable
+Confabulation,Data Privacy,Confabulation,Confabulation,CBRN Information,CBRN Information,Confabulation
+Data Privacy,Human AI Configuration,Data Privacy,Data Privacy,Confabulation,Confabulation,Data Privacy
+Environmental,Information Integrity,Environmental,Human AI Configuration,Data Privacy,Data Privacy,Environmental
+Human AI Configuration,Information Security,Human AI Configuration,Information Integrity,Human AI Configuration,Human AI Configuration,Human AI Configuration
+Information Integrity,Intellectual Property,Information Integrity,Information Security,Information Integrity,Information Integrity,Information Integrity
+Information Security,Third-party,Information Security,Intellectual Property,Information Security,Information Security,Information Security
+Intellectual Property,Toxicity & Bias,Intellectual Property,Obscenity,Intellectual Property,Intellectual Property,Intellectual Property
+Oversight of System Autonomy,,Obscenity,Third-party,Obscenity,Oversight of System Autonomy,Oversight of System Autonomy
+Third-party,,Oversight of System Autonomy,Toxicity & Bias,Oversight of System Autonomy,Third-party,Third-party
+Toxicity & Bias,,Third-party,Violent & Dangerous Recommendations,Third-party,Toxicity & Bias,Toxicity & Bias
+Violent & Dangerous Recommendations,,Toxicity & Bias,,Toxicity & Bias,Violent & Dangerous Recommendations,Violent & Dangerous Recommendations
+,,Violent & Dangerous Recommendations,,Violent & Dangerous Recommendations,,
