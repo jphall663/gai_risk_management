@@ -29,7 +29,10 @@
 \usepackage{mdframed}
 \usepackage{changepage}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
-  
+
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{makecell}
 
 \begin{document}
 
@@ -43,11 +46,15 @@
 \section{Introduction} \label{sec:intro}
 % ---------- ----------
 
-The National Institute of Standards and Technology Artificial Intelligencde (AI) Risk Management Framework (RMF).\cite{airmf}
+The National Institute of Standards and Technology Artificial Intelligence (AI) Risk Management Framework (RMF).\cite{airmf}
 
 % ---------- ----------
 \section{Generative AI Governance}\label{sec:govern}
 % ---------- ----------
+
+% What's different?
+% - Supply chain/third party 
+% - Complex human AI interaction
 
 % ---------- ----------
 \section{Generative AI Inventories}\label{sec:inv}
@@ -91,9 +98,121 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \bibliography{bibliography}
 % ---------- ----------
 
+\begin{landscape}
+\thispagestyle{empty}	
 % ---------- ----------
 \section*{Appendix A: Generative AI--Trustworthy Characteristic Crosswalk}\label{sec:appndxa}
 % ---------- ----------
+
+% ---------- ----------
+\subsection{A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk}\label{sec:appndxa1}
+% ---------- ----------
+
+\begin{table}[H]
+	\caption{Trustworthy Characteristic to Generative AI Risk Crosswalk.}
+	\label{tab:tc_to_gai_risk_cw}
+	\footnotesize
+	\begin{tabular}{llll}
+		\toprule
+		Accountable and Transparent & Explainable and Interpretable & Fair with Harmful Bias Managed & Privacy Enhanced \\
+		\midrule
+		Confabulation & Data Privacy & Confabulation & Confabulation \\
+		Dangerous or Violent Recommendations & Human-AI Configuration & Dangerous or Violent Recommendations & Data Privacy \\
+		Data Privacy & Information Integrity & Data Privacy & Human-AI Configuration \\
+		Environmental & Information Security & Environmental & Information Integrity \\
+		Human-AI Configuration & Intellectual Property & Human-AI Configuration & Information Security \\
+		Information Integrity & Value Chain and Component Integration & Information Integrity & Intellectual Property \\
+		Information Security & Toxicity, Bias, and Homogenization & Information Security & Obscene, Degrading, and/or Abusive Content \\
+		Intellectual Property &  & Intellectual Property & Value Chain and Component Integration \\
+		Toxicity, Bias, and Homogenization &  & Obscene, Degrading, and/or Abusive Content & Toxicity, Bias, and Homogenization \\
+		Value Chain and Component Integration &  & Toxicity, Bias, and Homogenization & Dangerous or Violent Recommendations \\
+		&  & Value Chain and Component Integration &  \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline
+	\begin{tabular}{lll}
+		\toprule
+		Safe & Secure and Resilient & Valid and Reliable \\
+		\midrule
+		CBRN Information & CBRN Information & Confabulation \\
+		Confabulation & Confabulation & Dangerous or Violent Recommendations \\
+		Dangerous or Violent Recommendations & Dangerous or Violent Recommendations & Data Privacy \\
+		Data Privacy & Data Privacy & Environmental \\
+		Human-AI Configuration & Human-AI Configuration & Human-AI Configuration \\
+		Information Integrity & Information Integrity & Information Integrity \\
+		Information Security & Information Security & Information Security \\
+		Intellectual Property & Intellectual Property & Intellectual Property \\
+		Obscene, Degrading, and/or Abusive Content & Toxicity, Bias, and Homogenization & Toxicity, Bias, and Homogenization \\
+		Toxicity, Bias, and Homogenization & Value Chain and Component Integration & Value Chain and Component Integration \\
+		Value Chain and Component Integration &  &  \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+\end{landscape}
+
+\begin{landscape}
+\thispagestyle{empty}	
+% ---------- ----------
+\subsection{A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk}\label{sec:appndxa2}
+% ---------- ----------
+
+\begin{table}[H]
+	\caption{Generative AI Risk to Trustworthy Characteristic Crosswalk.}
+	\label{tab:gai_risk_to_tc_cw}
+	\small
+	\begin{tabular}{llll}
+		\toprule
+		CBRN Information & Confabulation & Dangerous or Violent Recommendations & Data Privacy \\
+		\midrule
+		Safe & Accountable and Transparent & Accountable and Transparent & Accountable and Transparent \\
+		Secure and Resilient & Fair with Harmful Bias Managed & Fair with Harmful Bias Managed & Explainable and Interpretable \\
+		& Privacy Enhanced & Privacy Enhanced & Fair with Harmful Bias Managed \\
+		& Safe & Safe & Privacy Enhanced \\
+		& Secure and Resilient & Secure and Resilient & Safe \\
+		& Valid and Reliable & Valid and Reliable & Secure and Resilient \\
+		&  &  & Valid and Reliable \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline	
+	\begin{tabular}{llll}
+		\toprule
+		Environmental & Human-AI Configuration & Information Integrity & Information Security \\
+		\midrule
+		Accountable and Transparent & Accountable and Transparent & Accountable and Transparent & Accountable and Transparent \\
+		Fair with Harmful Bias Managed & Explainable and Interpretable & Explainable and Interpretable & Explainable and Interpretable \\
+		Valid and Reliable & Fair with Harmful Bias Managed & Fair with Harmful Bias Managed & Fair with Harmful Bias Managed \\
+		& Privacy Enhanced & Privacy Enhanced & Privacy Enhanced \\
+		& Safe & Safe & Safe \\
+		& Secure and Resilient & Secure and Resilient & Secure and Resilient \\
+		& Valid and Reliable & Valid and Reliable & Valid and Reliable \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline
+	\begin{tabular}{llll}
+		\toprule
+		Intellectual Property & Obscene, Degrading, and/or Abusive Content & Toxicity, Bias, and Homogenization & Value Chain and Component Integration \\
+		\midrule
+		Accountable and Transparent & Fair with Harmful Bias Managed & Accountable and Transparent & Accountable and Transparent \\
+		Explainable and Interpretable & Privacy Enhanced & Explainable and Interpretable & Explainable and Interpretable \\
+		Fair with Harmful Bias Managed & Safe & Fair with Harmful Bias Managed & Fair with Harmful Bias Managed \\
+		Privacy Enhanced &  & Privacy Enhanced & Privacy Enhanced \\
+		Safe &  & Safe & Safe \\
+		Secure and Resilient &  & Secure and Resilient & Secure and Resilient \\
+		Valid and Reliable &  & Valid and Reliable & Valid and Reliable \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+\end{landscape}
 
 % ---------- ----------
 \section*{Appendix B: Example Risk Tiers for Generative AI}\label{sec:appndxb}
@@ -107,9 +226,423 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \subsection*{C.1: Publicly Available Model Testing Suites (``Evals'') by Trustworthy Characteristic}\label{appndxc1}
 % ---------- ----------
 
+\begin{table}[H]
+	\caption{Publicly Available Model Testing Suites (``Evals'') by Trustworthy Characteristic.}
+	\label{tab:low_risk_measure_by_tc}
+	\footnotesize
+	\begin{tabular}{l}
+		\toprule
+		Accountable and Transparent \\
+		\midrule
+		\makecell[l]{An Evaluation on Large Language Model Outputs: Discourse and Memorization:\\\hspace{10pt}Benchmarking (with human scoring, see Appendix B)} \\
+		BloombergGPT - Benchmarking \\
+		DecodingTrust: Machine Ethics - Benchmarking (Machine Ethics Evaluation) \\
+		Evaluation Harness: ETHICS - Benchmarking \\
+		HELM: Memorization and copyright - Benchmarking \\
+		LegalBench - Benchmarking (with algorithmic and human scoring) \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline
+	\begin{tabular}{l}
+		\toprule
+		Fair with Harmful Bias Managed \\
+		\midrule
+		BELEBELE - Benchmarking \\
+		Big-bench: Low-resource language, Non-English, Translation - Benchmarking \\
+		Big-bench: Social bias, Racial bias, Gender bias, Religious bias - Benchmarking \\
+		Big-bench: Toxicity - Benchmarking \\
+		DecodingTrust: Fairness - Benchmarking \\
+		DecodingTrust: Stereotype Bias - Benchmarking \\
+		DecodingTrust: Toxicity - Benchmarking \\
+		Eval Gauntlet: Language Understanding - Benchmarking \\
+		Evaluation Harness: C-Eval (Chinese evaluation suite), MGSM, 
+		Translation - Benchmarking \\
+		Evaluation Harness: CrowS-Pairs - Benchmarking \\
+		Evaluation Harness: ToxiGen - Benchmarking \\
+		Finding New Biases in Language Models with a Holistic Descriptor Dataset - Benchmarking \\
+		\makecell[l]{From Pretraining Data to Language Models to Downstream Tasks:\\\hspace{10pt}Tracking the Trails of Political Biases Leading to Unfair NLP Models - Benchmarking} \\
+		HELM: Bias - Benchmarking \\
+		HELM: Language (Twitter AAE) - Benchmarking \\
+		HELM: Toxicity - Benchmarking \\
+		HELM: Toxicity detection - Benchmarking \\
+		MASSIVE - Benchmarking \\
+		The Self-Perception and Political Biases of ChatGPT - Benchmarking \\
+		Towards Measuring the Representation of Subjective Global Opinions in Language Models - Benchmarking \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline
+	\begin{tabular}{l}
+		\toprule
+		Privacy Enhanced \\
+		\midrule
+		HELM: Memorization and copyright - Benchmarking \\
+		LLM Privacy - Attack \\
+		MIMIR - Benchmarking \\
+	\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline	
+	\begin{tabular}{l}
+		\toprule
+		Safe \\
+		\midrule
+		Big-bench: Convince Me (specific task) - Benchmarking \\
+		Big-bench: Self-Awareness - Benchmarking \\
+		Big-bench: Truthfulness - Benchmarking \\
+		HELM: Narrative Reiteration, Narrative Wedging - Benchmarking (with human scoring) \\
+		HELM: Question answering, Summarization - Benchmarking \\
+		Mark My Words - Benchmark \\
+		\bottomrule
+	\end{tabular}	
+\end{table}	
+
+\pagebreak 
+
+\begin{table}[H]
+	\caption*{Publicly Available Model Testing Suites (``Evals'') by Trustworthy Characteristic (continued).}
+	\label{tab:low_risk_measure_by_tc_cont}
+	\footnotesize
+	\begin{tabular}{l}
+		\toprule
+		Secure and Resilient \\
+		\midrule
+		Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation - Attack \\
+		DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking \\
+		detect-pretrain-code - Attack/Benchmarking \\
+		In-The-Wild Jailbreak Prompts on LLMs - Attack \\
+		JailbreakingLLMs - Attack \\
+		LLM Privacy - Attack \\
+		Mark My Words - Benchmark \\
+		MIMIR - Benchmarking \\
+		TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs - Attack \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline		
+	\begin{tabular}{l}
+		\toprule
+		Valid and Reliable \\
+		\midrule
+		\makecell[l]{Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof, Fallacy,\\\hspace{10pt} Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning, Multi-step,\\\hspace{10pt} Understanding the World - Benchmarking} \\
+		\makecell[l]{Big-bench: Analytic entailment (specific task), Formal fallacies and syllogisms with negation (specific task),\\\hspace{10pt}Entailed polarity (specific task) - Benchmarking} \\
+		Big-bench: Context Free Question Answering - Benchmarking \\
+		Big-bench: Contextual question answering, Reading comprehension, Question generation - Benchmarking \\
+		Big-bench: Creativity - Benchmarking \\
+		Big-bench: Emotional understanding, Intent recognition, Humor - Benchmarking \\
+		Big-bench: Morphology, Grammar, Syntax - Benchmarking \\
+		Big-bench: Out-of-Distribution Robustness - Benchmarking \\
+		Big-bench: Paraphrase - Benchmarking \\
+		Big-bench: Sufficient information - Benchmarking \\
+		Big-bench: Summarization - Benchmarking \\
+		DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking \\
+		Eval Gauntlet
+		Reading comprehension - Benchmarking \\
+		Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming - Benchmarking \\
+		Eval Gauntlet: Language Understanding - Benchmarking \\
+		Eval Gauntlet: World Knowledge - Benchmarking \\
+		Evaluation Harness: BLiMP - Benchmarking \\
+		Evaluation Harness: CoQA, ARC - Benchmarking \\
+		Evaluation Harness: GLUE - Benchmarking \\
+		Evaluation Harness: HellaSwag, OpenBookQA - General commonsense knowledge, TruthfulQA - Factuality of knowledge - Benchmarking \\
+		\makecell[l]{Evaluation Harness: MuTual - Benchmarking \\
+		Evaluation Harness: PIQA, PROST - Physical reasoning, MC-TACO - Temporal reasoning, MathQA - Mathematical reasoning,\\\hspace{10pt} LogiQA - Logical reasoning, SAT Analogy Questions - Similarity of semantic relations, DROP,\\\hspace{10pt} MuTual – Multi-step reasoning - Benchmarking \\
+		FLASK: Background Knowledge - Benchmarking (with human and model scoring)} \\
+		\makecell[l]{FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension,\\\hspace{10pt} Completeness - Benchmarking (with human and model scoring)} \\
+		FLASK: Metacognition - Benchmarking (with human and model scoring) \\
+		FLASK: Readability, Conciseness, Insightfulness - Benchmarking (with human and model scoring) \\
+		HELM: Knowledge - Benchmarking \\
+		HELM: Language - Benchmarking \\
+		HELM: Miscellaneous text classification - Benchmarking \\
+		HELM: Question answering - Benchmarking \\
+		HELM: Reasoning - Benchmarking \\
+		HELM: Robustness to contrast sets - Benchmarking \\
+		HELM: Summarization - Benchmarking \\
+		Hugging Face: Conversational - Benchmarking \\
+		Hugging Face: Fill-mask, Text generation - Benchmarking \\
+		Hugging Face: Question answering - Benchmarking \\
+		Hugging Face: Summarization - Benchmarking \\
+		Hugging Face: Text classification, Token classification, Zero-shot classification - Benchmarking \\
+		MT-bench - Benchmarking (with human and model scoring) \\
+		Putting GPT-3's Creativity to the (Alternative Uses) Test - Benchmarking (with human scoring) \\
+		\bottomrule
+	\end{tabular}	
+\end{table}	
+
 % ---------- ----------
 \subsection*{C.2: Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk}\label{appndxc2}
 % ---------- ----------
+\begin{table}[H]
+	\caption{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk. Note that all available evals maybe applied to Confabulation, Dangerous or Violent Recommendations, Data Privacy, Human-AI Configuration, Information Integrity, Information Security, Intellectual Property, Toxicity, Bias, and Homogenization, and Value Chain and Component Integration risks.}
+	\label{tab:low_risk_measure_by_gai_risk}
+	\footnotesize
+	\begin{tabular}{l}
+		\toprule
+		CBRN Information \\
+		\midrule
+		Big-bench: Convince Me (specific task) - Benchmarking \\
+		Big-bench: Self-Awareness - Benchmarking \\
+		Big-bench: Truthfulness - Benchmarking \\
+		Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation - Attack \\
+		DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking \\
+		detect-pretrain-code - Attack/Benchmarking \\
+		HELM: Narrative Reiteration, Narrative Wedging - Benchmarking (with human scoring) \\
+		HELM: Question answering, Summarization - Benchmarking \\
+		In-The-Wild Jailbreak Prompts on LLMs - Attack \\
+		JailbreakingLLMs - Attack
+		\\
+		LLM Privacy - Attack \\
+		MIMIR - Benchmarking \\
+		Mark My Words - Benchmark \\
+		TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs - Attack \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline
+	\begin{tabular}{l}
+		\toprule
+		\makecell[l]{Confabulation, Dangerous or Violent Recommendations, Data Privacy, Human-AI Configuration, \\\hspace{10pt}Information Integrity, Information Security, Intellectual Property, Toxicity, Bias, and Homogenization,\\\hspace{10pt}and Value Chain and Component Integration} \\
+		\midrule
+		\makecell[l]{An Evaluation on Large Language Model Outputs: Discourse and Memorization:\\\hspace{10pt} Benchmarking (with human scoring, see Appendix B)} \\
+		BELEBELE - Benchmarking \\
+		\makecell[l]{Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof, Fallacy,\\\hspace{10pt} Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning, Multi-step,\\\hspace{10pt} Understanding the World - Benchmarking} \\
+		\makecell[l]{Big-bench: Analytic entailment (specific task), Formal fallacies and syllogisms with negation (specific task),\\\hspace{10pt}Entailed polarity (specific task) - Benchmarking} \\
+		Big-bench: Context Free Question Answering - Benchmarking \\
+		Big-bench: Contextual question answering, Reading comprehension, Question generation - Benchmarking \\
+		Big-bench: Convince Me (specific task) - Benchmarking \\
+		Big-bench: Creativity - Benchmarking \\
+		Big-bench: Emotional understanding, Intent recognition, Humor - Benchmarking \\
+		Big-bench: Low-resource language, Non-English, Translation - Benchmarking \\
+		Big-bench: Morphology, Grammar, Syntax - Benchmarking \\
+		Big-bench: Out-of-Distribution Robustness - Benchmarking \\
+		Big-bench: Paraphrase - Benchmarking \\
+		Big-bench: Self-Awareness - Benchmarking \\
+		Big-bench: Social bias, Racial bias, Gender bias, Religious bias - Benchmarking \\
+		Big-bench: Sufficient information - Benchmarking \\
+		Big-bench: Summarization - Benchmarking \\
+		Big-bench: Toxicity - Benchmarking \\
+		Big-bench: Truthfulness - Benchmarking \\
+		BloombergGPT - Benchmarking \\
+		Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation - Attack \\
+		DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking \\
+		DecodingTrust: Fairness - Benchmarking \\
+		DecodingTrust: Machine Ethics - Benchmarking (Machine Ethics Evaluation) \\
+		DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking \\
+		DecodingTrust: Stereotype Bias - Benchmarking \\
+		DecodingTrust: Toxicity - Benchmarking \\
+		detect-pretrain-code - Attack/Benchmarking \\
+		Eval Gauntlet
+		Reading comprehension - Benchmarking \\
+		Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming - Benchmarking \\
+		Eval Gauntlet: Language Understanding - Benchmarking \\
+		Eval Gauntlet: World Knowledge - Benchmarking \\
+		\bottomrule
+	\end{tabular}
+\end{table}		
+		
+\pagebreak
+
+\begin{table}[H]
+	\caption*{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk. Note that all available evals maybe applied to Confabulation, Dangerous or Violent Recommendations, Data Privacy, Human-AI Configuration, Information Integrity, Information Security, Intellectual Property, Toxicity, Bias, and Homogenization, and Value Chain and Component Integration risks (continued).}
+	\label{tab:low_risk_measure_by_gai_risk_cont1}
+	\footnotesize
+	\begin{tabular}{l}	
+		\toprule
+		\makecell[l]{Confabulation, Dangerous or Violent Recommendations, Data Privacy, Human-AI Configuration, \\\hspace{10pt}Information Integrity, Information Security, Intellectual Property, Toxicity, Bias, and Homogenization,\\\hspace{10pt}and Value Chain and Component Integration (continued)} \\
+		\midrule	
+		Evaluation Harness: BLiMP - Benchmarking \\
+		Evaluation Harness: C-Eval (Chinese evaluation suite), MGSM, Translation - Benchmarking \\
+		Evaluation Harness: CoQA, ARC - Benchmarking \\
+		Evaluation Harness: CrowS-Pairs - Benchmarking \\
+		Evaluation Harness: ETHICS - Benchmarking \\
+		Evaluation Harness: GLUE - Benchmarking \\
+		Evaluation Harness: HellaSwag, OpenBookQA - General commonsense knowledge, TruthfulQA - Factuality of knowledge - Benchmarking \\
+		Evaluation Harness: MuTual - Benchmarking \\
+		Evaluation Harness: PIQA, PROST - Physical reasoning, MC-TACO - Temporal reasoning, MathQA - Mathematical reasoning,\\\hspace{10pt} LogiQA - Logical reasoning, SAT Analogy Questions - Similarity of semantic relations, DROP,\\\hspace{10pt} MuTual – Multi-step reasoning - Benchmarking \\
+		\makecell[l]{FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension,\\\hspace{10pt} Completeness - Benchmarking (with human and model scoring)} \\
+		FLASK: Readability, Conciseness, Insightfulness - Benchmarking (with human and model scoring) \\
+		Finding New Biases in Language Models with a Holistic Descriptor Dataset - Benchmarking \\
+		\makecell[l]{From Pretraining Data to Language Models to Downstream Tasks:\\\hspace{10pt}Tracking the Trails of Political Biases Leading to Unfair NLP Models - Benchmarking} \\
+		HELM: Bias - Benchmarking \\
+		HELM: Knowledge - Benchmarking \\
+		HELM: Language (Twitter AAE) - Benchmarking \\
+		HELM: Language - Benchmarking \\
+		HELM: Memorization and copyright - Benchmarking \\
+		HELM: Miscellaneous text classification - Benchmarking \\
+		HELM: Narrative Reiteration, Narrative Wedging - Benchmarking (with human scoring) \\
+		HELM: Question answering - Benchmarking \\
+		HELM: Question answering, Summarization - Benchmarking \\
+		HELM: Reasoning - Benchmarking \\
+		HELM: Robustness to contrast sets - Benchmarking \\
+		HELM: Summarization - Benchmarking \\
+		HELM: Toxicity - Benchmarking \\
+		HELM: Toxicity detection - Benchmarking \\
+		Hugging Face: Conversational - Benchmarking \\
+		Hugging Face: Fill-mask, Text generation - Benchmarking \\
+		Hugging Face: Question answering - Benchmarking \\
+		Hugging Face: Summarization - Benchmarking \\
+		Hugging Face: Text classification, Token classification, Zero-shot classification - Benchmarking \\
+		In-The-Wild Jailbreak Prompts on LLMs - Attack \\
+		JailbreakingLLMs - Attack
+		\\
+		LLM Privacy - Attack \\
+		LegalBench - Benchmarking (with algorithmic and human scoring) \\
+		MASSIVE - Benchmarking \\
+		MIMIR - Benchmarking \\
+		MT-bench - Benchmarking (with human and model scoring) \\
+		Mark My Words - Benchmark \\
+		Putting GPT-3's Creativity to the (Alternative Uses) Test - Benchmarking (with human scoring) \\
+		TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs - Attack \\
+		The Self-Perception and Political Biases of ChatGPT - Benchmarking \\
+		Towards Measuring the Representation of Subjective Global Opinions in Language Models - Benchmarking \\
+		\bottomrule
+	\end{tabular}
+\end{table}	
+
+\pagebreak
+
+\begin{table}[H]
+	\caption*{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk. Note that all available evals maybe applied to Confabulation, Dangerous or Violent Recommendations, Data Privacy, Human-AI Configuration, Information Integrity, Information Security, Intellectual Property, Toxicity, Bias, and Homogenization, and Value Chain and Component Integration risks (continued).}
+	\label{tab:low_risk_measure_by_gai_risk_cont2}
+	\footnotesize
+	\begin{tabular}{l}
+		\toprule
+		Environmental \\
+		\midrule
+		An Evaluation on Large Language Model Outputs: Discourse and Memorization - Benchmarking (with human scoring, see Appendix B) \\
+		BELEBELE - Benchmarking \\
+		\makecell[l]{Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof, Fallacy,\\\hspace{10pt} Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning, Multi-step,\\\hspace{10pt} Understanding the World - Benchmarking} \\
+		\makecell[l]{Big-bench: Analytic entailment (specific task), Formal fallacies and syllogisms with negation (specific task),\\\hspace{10pt}Entailed polarity (specific task) - Benchmarking} \\
+		Big-bench: Context Free Question Answering - Benchmarking \\
+		Big-bench: Contextual question answering, Reading comprehension, Question generation - Benchmarking \\
+		Big-bench: Creativity - Benchmarking \\
+		Big-bench: Emotional understanding, Intent recognition, Humor - Benchmarking \\
+		Big-bench: Low-resource language, Non-English, Translation - Benchmarking \\
+		Big-bench: Morphology, Grammar, Syntax - Benchmarking \\
+		Big-bench: Out-of-Distribution Robustness - Benchmarking \\
+		Big-bench: Paraphrase - Benchmarking \\
+		Big-bench: Social bias, Racial bias, Gender bias, Religious bias - Benchmarking \\
+		Big-bench: Sufficient information - Benchmarking \\
+		Big-bench: Summarization - Benchmarking \\
+		Big-bench: Toxicity - Benchmarking \\
+		BloombergGPT - Benchmarking \\
+		DecodingTrust: Fairness - Benchmarking \\
+		DecodingTrust: Machine Ethics - Benchmarking (Machine Ethics Evaluation) \\
+		DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations - Benchmarking \\
+		DecodingTrust: Stereotype Bias - Benchmarking \\
+		DecodingTrust: Toxicity - Benchmarking \\
+		Eval Gauntlet
+		Reading comprehension - Benchmarking \\
+		Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming - Benchmarking \\
+		Eval Gauntlet: Language Understanding - Benchmarking \\
+		Eval Gauntlet: World Knowledge - Benchmarking \\
+		Evaluation Harness: BLiMP - Benchmarking \\
+		Evaluation Harness: C-Eval (Chinese evaluation suite), MGSM, 
+		Translation - Benchmarking \\
+		Evaluation Harness: CoQA, ARC - Benchmarking \\
+		Evaluation Harness: CrowS-Pairs - Benchmarking \\
+		Evaluation Harness: ETHICS - Benchmarking \\
+		Evaluation Harness: GLUE - Benchmarking \\
+		Evaluation Harness: HellaSwag, OpenBookQA - General commonsense knowledge, TruthfulQA - Factuality of knowledge - Benchmarking \\
+		Evaluation Harness: MuTual - Benchmarking \\
+		\makecell[l]{Evaluation Harness: PIQA, PROST - Physical reasoning, MC-TACO - Temporal reasoning, MathQA - Mathematical reasoning,\\\hspace{10pt} LogiQA - Logical reasoning, SAT Analogy Questions - Similarity of semantic relations, DROP,\\\hspace{10pt} MuTual – Multi-step reasoning - Benchmarking} \\
+		Evaluation Harness: ToxiGen - Benchmarking \\
+		FLASK: Background Knowledge - Benchmarking (with human and model scoring) \\
+		\makecell[l]{FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension,\\\hspace{10pt} Completeness - Benchmarking (with human and model scoring)} \\
+		FLASK: Metacognition - Benchmarking (with human and model scoring) \\
+		FLASK: Readability, Conciseness, Insightfulness - Benchmarking (with human and model scoring) \\
+		Finding New Biases in Language Models with a Holistic Descriptor Dataset - Benchmarking \\
+		\makecell[l]{From Pretraining Data to Language Models to Downstream Tasks:\\\hspace{10pt}Tracking the Trails of Political Biases Leading to Unfair NLP Models - Benchmarking} \\
+		HELM: Bias - Benchmarking \\
+		HELM: Knowledge - Benchmarking \\
+		HELM: Language (Twitter AAE) - Benchmarking \\
+		HELM: Language - Benchmarking \\
+		HELM: Memorization and copyright - Benchmarking \\
+		HELM: Miscellaneous text classification - Benchmarking \\
+		HELM: Question answering - Benchmarking \\
+		HELM: Reasoning - Benchmarking \\
+		HELM: Robustness to contrast sets - Benchmarking \\
+		HELM: Summarization - Benchmarking \\
+		HELM: Toxicity - Benchmarking \\
+		HELM: Toxicity detection - Benchmarking \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\pagebreak 
+
+\begin{table}[H]
+	\caption*{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk. Note that all available evals maybe applied to Confabulation, Dangerous or Violent Recommendations, Data Privacy, Human-AI Configuration, Information Integrity, Information Security, Intellectual Property, Toxicity, Bias, and Homogenization, and Value Chain and Component Integration risks (continued).}
+	\label{tab:low_risk_measure_by_gai_risk_cont3}
+	\footnotesize
+	\begin{tabular}{l}
+		\toprule
+		Environmental (continued)\\
+		\midrule
+		Hugging Face: Conversational - Benchmarking \\
+		Hugging Face: Fill-mask, Text generation - Benchmarking \\
+		Hugging Face: Question answering - Benchmarking \\
+		Hugging Face: Summarization - Benchmarking \\
+		Hugging Face: Text classification, Token classification, Zero-shot classification - Benchmarking \\
+		Hugging Face: Conversational - Benchmarking \\
+		Hugging Face: Fill-mask, Text generation - Benchmarking \\
+		Hugging Face: Question answering - Benchmarking \\
+		Hugging Face: Summarization - Benchmarking \\
+		Hugging Face: Text classification, Token classification, Zero-shot classification - Benchmarking \\
+		LegalBench - Benchmarking (with algorithmic and human scoring) \\
+		MASSIVE - Benchmarking \\
+		MT-bench - Benchmarking (with human and model scoring) \\
+		Putting GPT-3's Creativity to the (Alternative Uses) Test - Benchmarking (with human scoring) \\
+		The Self-Perception and Political Biases of ChatGPT - Benchmarking \\
+		Towards Measuring the Representation of Subjective Global Opinions in Language Models - Benchmarking \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline
+	\begin{tabular}{l}
+		\toprule
+		Obscene, Degrading, and/or Abusive Content \\
+		\midrule
+		BELEBELE - Benchmarking \\
+		Big-bench: Convince Me (specific task) - Benchmarking \\
+		Big-bench: Low-resource language, Non-English, Translation - Benchmarking \\
+		Big-bench: Self-Awareness - Benchmarking \\
+		Big-bench: Social bias, Racial bias, Gender bias, Religious bias - Benchmarking \\
+		Big-bench: Toxicity - Benchmarking \\
+		Big-bench: Truthfulness - Benchmarking \\
+		DecodingTrust: Fairness - Benchmarking \\
+		DecodingTrust: Stereotype Bias - Benchmarking \\
+		DecodingTrust: Toxicity - Benchmarking \\
+		Eval Gauntlet: Language Understanding - Benchmarking \\
+		Evaluation Harness: C-Eval (Chinese evaluation suite), MGSM, 
+		Translation - Benchmarking \\
+		Evaluation Harness: CrowS-Pairs - Benchmarking \\
+		Evaluation Harness: ToxiGen - Benchmarking \\
+		Finding New Biases in Language Models with a Holistic Descriptor Dataset - Benchmarking \\
+		\makecell[l]{From Pretraining Data to Language Models to Downstream Tasks:\\\hspace{10pt}Tracking the Trails of Political Biases Leading to Unfair NLP Models - Benchmarking} \\
+		HELM: Bias - Benchmarking \\
+		HELM: Language (Twitter AAE) - Benchmarking \\
+		HELM: Memorization and copyright - Benchmarking \\
+		HELM: Narrative Reiteration, Narrative Wedging - Benchmarking (with human scoring) \\
+		HELM: Question answering, Summarization - Benchmarking \\
+		HELM: Toxicity - Benchmarking \\
+		HELM: Toxicity detection - Benchmarking \\
+		LLM Privacy - Attack \\
+		MASSIVE - Benchmarking \\
+		MIMIR - Benchmarking \\
+		Mark My Words - Benchmark \\
+		The Self-Perception and Political Biases of ChatGPT - Benchmarking \\
+		Towards Measuring the Representation of Subjective Global Opinions in Language Models - Benchmarking \\
+		\bottomrule
+	\end{tabular}
+\end{table}
 
 % ---------- ----------
 \section*{Appendix D: List of Common Adversarial Prompting Strategies}\label{sec:appndxd}
