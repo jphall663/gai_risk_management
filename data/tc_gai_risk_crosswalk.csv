@@ -1,12 +1,11 @@
 Accountable and Transparent,Explainable and Interpretable,Fair with Harmful Bias Managed,Privacy Enhanced,Safe,Secure and Resilient,Valid and Reliable
-Confabulation,Data Privacy,Confabulation,Confabulation,CBRN Information,CBRN Information,Confabulation
-Dangerous or Violent Recommendations,Human-AI Configuration,Dangerous or Violent Recommendations,Data Privacy,Confabulation,Confabulation,Dangerous or Violent Recommendations
-Data Privacy,Information Integrity,Data Privacy,Human-AI Configuration,Dangerous or Violent Recommendations,Dangerous or Violent Recommendations,Data Privacy
-Environmental,Information Security,Environmental,Information Integrity,Data Privacy,Data Privacy,Environmental
-Human-AI Configuration,Intellectual Property,Human-AI Configuration,Information Security,Human-AI Configuration,Human-AI Configuration,Human-AI Configuration
-Information Integrity,Value Chain and Component Integration,Information Integrity,Intellectual Property,Information Integrity,Information Integrity,Information Integrity
-Information Security,"Toxicity, Bias, and Homogenization",Information Security,"Obscene, Degrading, and/or Abusive Content",Information Security,Information Security,Information Security
-Intellectual Property,,Intellectual Property,Value Chain and Component Integration,Intellectual Property,Intellectual Property,Intellectual Property
-"Toxicity, Bias, and Homogenization",,"Obscene, Degrading, and/or Abusive Content","Toxicity, Bias, and Homogenization","Obscene, Degrading, and/or Abusive Content","Toxicity, Bias, and Homogenization","Toxicity, Bias, and Homogenization"
-Value Chain and Component Integration,,"Toxicity, Bias, and Homogenization",Dangerous or Violent Recommendations,"Toxicity, Bias, and Homogenization",Value Chain and Component Integration,Value Chain and Component Integration
-,,Value Chain and Component Integration,,Value Chain and Component Integration,,
+Data Privacy,Human-AI Configuration,Confabulation,Data Privacy,CBRN Information,Dangerous or Violent Recommendations,Confabulation
+Environmental,Value Chain and Component Integration,Environmental,Human-AI Configuration,Confabulation,Data Privacy,Human-AI Configuration
+Human-AI Configuration,,Human-AI Configuration,Information Security,Dangerous or Violent Recommendations,Human-AI Configuration,Information Integrity
+Information Integrity,,Intellectual Property,Intellectual Property,Data Privacy,Information Security,Information Security
+Intellectual Property,,"Obscene, Degrading, and/or Abusive Content",Value Chain and Component Integration,Environmental,Value Chain and Component Integration,"Toxicity, Bias, and Homogenization"
+Value Chain and Component Integration,,"Toxicity, Bias, and Homogenization",,Human-AI Configuration,,Value Chain and Component Integration
+,,Value Chain and Component Integration,,Information Integrity,,
+,,,,Information Security,,
+,,,,"Obscene, Degrading, and/or Abusive Content",,
+,,,,Value Chain and Component Integration,,
