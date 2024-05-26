@@ -33,6 +33,7 @@
 \usepackage{booktabs}
 \usepackage{pdflscape}
 \usepackage{makecell}
+\usepackage{multirow}
 
 \begin{document}
 
@@ -215,6 +216,135 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 % ---------- ----------
 \section*{Appendix B: Example Risk Tiers for Generative AI}\label{sec:appndxb}
 % ---------- ----------
+
+\subsection{IEEE 1012 Example Impact Descriptions}
+
+\begin{table}[H]
+    \caption{Example Impact Levels from IEEE 1012 \cite{ieee1012} Annex B, Table B.2.}
+    \small
+        \begin{tabular}{|m{0.20\linewidth} | m{0.75\linewidth}|}
+            \hline
+            \textbf{Level} & \textbf{Description} \\ \hline
+            Catastrophic & Loss of human life, complete mission failure, loss of system security and safety, or extensive financial or social loss. \\
+            \hline
+            Critical & Major and permanent injury, partial loss of mission, major system damage, or major financial or social loss. \\
+            \hline
+            Marginal & Severe injury or illness, degradation of secondary mission, or some financial or social loss. \\
+            \hline
+            Neglible & Minor injury or illness, minor impact on system performance, or operator inconvenience. \\
+            \hline
+    \end{tabular}
+    \label{table:ieee_impacts}
+\end{table}
+
+\subsection{NIST 800-30r1 Example Impact Descriptions}
+
+\begin{table}[H]
+	\caption{Example Impact Levels from NIST SP800-30r1 \cite{nist80030r1} Appendix H, Table H-3.}
+	\small
+    \begin{tabular}{|m{0.20\linewidth} |m{0.20\linewidth} | m{0.05\linewidth} | m{0.40\linewidth}|}
+        \hline
+        \textbf{Qualitative Values} & \multicolumn{2}{c|}{\textbf{Semi-Quantitative Values}} & \textbf{Description} \\
+        \hline
+        Very High & 96-100 & 10 & The event could be expected to have multiple severe or catastrophic adverse effects on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        \hline
+        High & 80-95 & 8 & The event could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. A severe or catastrophic adverse effect means that, for example, the threat event might: (i) cause a severe degradation in or loss of mission capability to an extent and duration that the organization is not able to perform one or more of its primary functions; (ii) result in major damage to organizational assets; (iii) result in major financial loss; or (iv) result in severe or catastrophic harm to individuals involving loss of life or serious life-threatening injuries. \\
+        \hline		
+        Moderate & 21-79 & 5 & The event could be expected to have a serious adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. A serious adverse effect means that, for example, the threat event might: (i) cause a significant degradation in mission capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is significantly reduced; (ii) result in significant damage to organizational assets; (iii) result in significant financial loss; or (iv) result in significant harm to individuals that does not involve loss of life or serious life-threatening injuries. \\
+        \hline
+        Low & 5-20 & 2 & The event could be expected to have a limited adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. A limited adverse effect means that, for example, the threat event might: (i) cause a degradation in mission capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is noticeably reduced; (ii) result in minor damage to organizational assets; (iii) result in minor financial loss; or (iv) result in minor harm to individuals. \\
+        \hline
+        Very Low & 0-4 & 0 & The threat event could be expected to have a negligible adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. \\
+        \hline
+    \end{tabular}
+	
+    \label{table:nist_impacts}
+\end{table}
+
+\subsection{NIST 800-30r1 Example Likelihood Descriptions}
+
+\begin{table}[H]
+	\caption{Example Likelihood Levels from NIST SP800-30r1 \cite{nist80030r1} Appendix G, Table G-3.}
+    \begin{tabular}{|m{0.20\linewidth} |m{0.20\linewidth} | m{0.05\linewidth} | m{0.40\linewidth}|}
+        \hline
+        \textbf{Qualitative Values} & \multicolumn{2}{c|}{\textbf{Semi-Quantitative Values}} & \textbf{Description} \\
+        \hline
+        Very High & 96-100 & 10 & Error, accident, or act of nature is almost certain to occur; or occurs more than 100 times a year. \\
+        \hline
+        High & 80-95 & 8 & Error, accident, or act of nature is highly likely to occur; or occurs between 10-100 times a year.\\
+        \hline		
+        Moderate & 21-79 & 5 & Error, accident, or act of nature is somewhat likely to occur; or occurs between 1-10 times a year.\\
+        \hline
+        Low & 5-20 & 2 & Error, accident, or act of nature is unlikely to occur; or occurs less than once a year, but more than once every 10 years.  \\
+        \hline
+        Very Low & 0-4 & 0 & Error, accident, or act of nature is highly unlikely to occur; or occurs less than once every 10 years. \\
+        \hline
+    \end{tabular}
+    \label{table:nist_likelihood}
+\end{table}
+
+\subsection{NIST 800-30r1 Example Risk Tiers}
+
+\begin{table}[H]
+    \caption{Example Risk Assessment Matrix with 5 Impact Levels, 5 Likelihood Levels, and 5 Risk Tiers from NIST SP800-30r1 \cite{nist80030r1} Appendix I, Table I-2.}
+    \small
+    \begin{tabular}{|c|l|l|l|l|l|l|}
+        \hline
+        \multirow{2}{*}{\textbf{Likelihood}} & \multicolumn{5}{|c|}{\textbf{Level of Impact}}   \\
+        \cline{2-6}
+        & \textbf{Very Low} & \textbf{Low} & \textbf{Moderate} & \textbf{High} &\textbf{Very High} \\
+        \hline
+        \textbf{Very High} & Tier 5 & Tier 4 & Tier 3 & Tier 2 & Tier 1 \\
+        \hline		
+        \textbf{High} & Tier 5 & Tier 4 & Tier 3  & Tier 2 & Tier 1 \\
+        \hline
+        \textbf{Moderate} & Tier 5 & Tier 4 & Tier 4  & Tier 3 & Tier 2 \\
+        \hline
+        \textbf{Low} & Tier 5 & Tier 4 & Tier 4  & Tier 4 & Tier 3 \\
+        \hline
+        \textbf{Very Low} & Tier 5 & Tier 5 & Tier 5  & Tier 4 & Tier 4 \\
+        \hline
+    \end{tabular}
+    \label{table:nist_risk_tiers}
+\end{table}
+
+\subsection{NIST 800-30r1 Example Risk Descriptions}
+
+\begin{table}[H]
+	\caption{Example Risk Descriptions from NIST SP800-30r1 \cite{nist80030r1} Appendix I, Table I-3.}
+    \begin{tabular}{|m{0.20\linewidth} |m{0.20\linewidth} | m{0.05\linewidth} | m{0.40\linewidth}|}
+        \hline
+        \textbf{Qualitative Values} & \multicolumn{2}{c|}{\textbf{Semi-Quantitative Values}} & \textbf{Description} \\
+        \hline
+        Very High & 96-100 & 10 & Very high risk means that an event could be expected to have multiple severe or catastrophic adverse effects on organizational operations, organizational assets, individuals, other organizations, or the Nation.\\
+        \hline
+        High & 80-95 & 8 & High risk means that an event could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        \hline		
+        Moderate & 21-79 & 5 & Moderate risk means that an event could be expected to have a serious adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation.\\
+        \hline
+        Low & 5-20 & 2 & Low risk means that an event could be expected to have a limited adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        \hline
+        Very Low & 0-4 & 0 & Very low risk means that an event could be expected to have a negligible adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        \hline
+    \end{tabular}
+    \label{table:nist_likelihood}
+\end{table}
+
+\subsection{Practical Risk-tiering Questions}
+
+\begin{itemize}
+
+\item \textbf{Confabulation}: What happens if it’s wrong?
+\item \textbf{Dangerous and Violent Recommendations}: Can it possibly give dangerous or violent recommendations?
+\item \textbf{Data Privacy}: What happens is someone enters sensitive data into the system?
+\item \textbf{Human-AI Configuration}: What happens if someone uses it wrong? Is it used for decision-making?
+\item \textbf{Information Integrity}: Will it pump out large-scale disinformation, even internally? Will output be used as input? Will output be tagged as generated by AI?
+\item \textbf{Information Security}: What happens if someone steals the training data? What happens is someone steals the model? Who has access to training data? Are standard security controls applied? Are all dependencies audited? Are supply chains understood? Can it be used to impersonate bank personnel?
+\item \textbf{Intellectual Property}: What happens if outputs contain other entities IP?
+\item \textbf{Toxicity, Bias, and Homogenization}: What happens if outputs are biased, toxic or obscene? Will output be used as input? Is the application accessible?
+\item \textbf{Value Chain and Component Integration}: Are contracts reviewed for legal risks? Standard acquisition/procurement controls applied? Do vendors provide incident response? With guaranteed response times? Other critical support?
+
+\end{itemize}
 
 % ---------- ----------
 \section*{Appendix C: List of Publicly Available Model Testing Suites (``Evals'')}\label{sec:appndxc}
