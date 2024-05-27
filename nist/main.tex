@@ -34,12 +34,15 @@
 \usepackage{pdflscape}
 \usepackage{makecell}
 \usepackage{multirow}
+\usepackage{enumitem}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
+	
+% requires mixing MRM, ERM, and security 
 	
 \end{abstract}
 
@@ -48,6 +51,10 @@
 % ---------- ----------
 
 The National Institute of Standards and Technology Artificial Intelligence (AI) Risk Management Framework (RMF).\cite{airmf}
+
+% ---------- ----------
+\section{Generative AI Incidents}\label{sec:incident}
+% ---------- ----------
 
 % ---------- ----------
 \section{Generative AI Governance}\label{sec:govern}
@@ -109,11 +116,11 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 % Other interpretations or crosswalks are possible
 
 % ---------- ----------
-\subsection{A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk}\label{sec:appndxa1}
+\subsection*{A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk}\label{sec:appndxa1}
 % ---------- ----------
 
 \begin{table}[H]
-	\caption{Trustworthy Characteristic to Generative AI Risk Crosswalk.}
+	\caption*{Table A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk.}
 	\label{tab:tc_to_gai_risk_cw}
 	\footnotesize
 	\begin{tabular}{llll}
@@ -159,11 +166,11 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \begin{landscape}
 \thispagestyle{empty}	
 % ---------- ----------
-\subsection{A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk}\label{sec:appndxa2}
+\subsection*{A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk}\label{sec:appndxa2}
 % ---------- ----------
 
 \begin{table}[H]
-	\caption{Generative AI Risk to Trustworthy Characteristic Crosswalk.}
+	\caption*{Table A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk.}
 	\label{tab:gai_risk_to_tc_cw}
 	\small
 	\begin{tabular}{llll}
@@ -214,140 +221,219 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \end{landscape}
 
 % ---------- ----------
-\section*{Appendix B: Example Risk Tiers for Generative AI}\label{sec:appndxb}
+\section*{Appendix B: Example Risk-tiering Materials for Generative AI}\label{sec:appndxb}
 % ---------- ----------
 
-\subsection{IEEE 1012 Example Impact Descriptions}
+\subsection*{B.1: Example Adverse Impacts}
 
 \begin{table}[H]
-    \caption{Example Impact Levels from IEEE 1012 \cite{ieee1012} Annex B, Table B.2.}
-    \small
+    \caption*{Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 \cite{nist80030r1}.}
+    \footnotesize
         \begin{tabular}{|m{0.20\linewidth} | m{0.75\linewidth}|}
             \hline
             \textbf{Level} & \textbf{Description} \\ \hline
-            Catastrophic & Loss of human life, complete mission failure, loss of system security and safety, or extensive financial or social loss. \\
+            Harm to Operations & 
+            \begin{itemize}[noitemsep]
+           		\item Inability to perform current missions/business functions.
+           		\begin{itemize}[noitemsep,nolistsep]
+           			\item In a sufficiently timely manner.
+           			\item With sufficient confidence and/or correctness.
+           			\item Within planned resource constraints.
+           		\end{itemize}
+           		\item Inability, or limited ability, to perform missions/business functions in the future.           	
+           		\begin{itemize}[noitemsep,nolistsep]
+           			\item Inability to restore missions/business functions.
+           			\item In a sufficiently timely manner.
+					\item With sufficient confidence and/or correctness.
+					\item Within planned resource constraints.
+           		\end{itemize}
+           		\item Harms (e.g., financial costs, sanctions) due to noncompliance. 
+           		\begin{itemize}[noitemsep,nolistsep]
+           			\item With applicable laws or regulations.
+           			\item With contractual requirements or other requirements in other binding agreements (e.g., liability).
+           		\end{itemize}
+           		\item Direct financial costs.
+           		\item Reputational harms.	
+           		\begin{itemize}[noitemsep,nolistsep]
+           			\item Damage to trust relationships.
+           			\item Damage to image or reputation (and hence future or potential trust relationships).
+           		\end{itemize}
+            \end{itemize} \\
             \hline
-            Critical & Major and permanent injury, partial loss of mission, major system damage, or major financial or social loss. \\
+            Harm to Assets & 
+            \begin{itemize}[noitemsep]
+				\item Damage to or loss of physical facilities.
+				\item  Damage to or loss of information systems or networks.
+				\item Damage to or loss of information technology or equipment.
+				\item Damage to or loss of component parts or supplies.
+				\item Damage to or of loss of information assets.
+				\item Loss of intellectual property.            	
+            \end{itemize} \\
             \hline
-            Marginal & Severe injury or illness, degradation of secondary mission, or some financial or social loss. \\
+            Harm to Individuals & 
+            \begin{itemize}[noitemsep]
+				\item Injury or loss of life.
+				\item Physical or psychological mistreatment.
+				\item Identity theft.
+				\item Loss of personally identifiable information.
+				\item Damage to image or reputation.
+				\item Infringement of intellectual property rights.
+				\item Financial harm or loss of income.	
+			\end{itemize} \\            
             \hline
-            Neglible & Minor injury or illness, minor impact on system performance, or operator inconvenience. \\
+            Harm to Other Organizations & 
+            \begin{itemize}[noitemsep]
+				\item Harms (e.g., financial costs, sanctions) due to noncompliance. 
+				\begin{itemize}[noitemsep,nolistsep]
+					\item With applicable laws or regulations.
+					\item With contractual requirements or other requirements in other binding agreements (e.g., liability).
+				\end{itemize}
+				\item Direct financial costs.
+				\item Reputational harms.	
+				\begin{itemize}[noitemsep,nolistsep]
+					\item Damage to trust relationships.
+					\item Damage to image or reputation (and hence future or potential trust relationships).	
+				\end{itemize}
+			\end{itemize} \\            
+            \hline
+            Harm to the Nation & 
+            \begin{itemize}[noitemsep]
+				\item Damage to or incapacitation of critical infrastructure.
+				\item Loss of government continuity of operations.
+				\item Reputational harms.
+				\begin{itemize}[noitemsep,nolistsep]
+					\item Damage to trust relationships with other governments or with nongovernmental entities.
+					\item Damage to national reputation (and hence future or potential trust relationships).
+				\end{itemize} 
+				\item Damage to current or future ability to achieve national objectives.
+				\begin{itemize}[noitemsep,nolistsep]
+					\item Harm to national security.
+				\end{itemize}
+				\item Large-scale economic or workforce displacement.
+			\end{itemize} \\            
             \hline
     \end{tabular}
-    \label{table:ieee_impacts}
+    \label{nist:adverse_impacts}
 \end{table}
 
-\subsection{NIST 800-30r1 Example Impact Descriptions}
+\subsection*{B.2: Example Impact Descriptions}
 
 \begin{table}[H]
-	\caption{Example Impact Levels from NIST SP800-30r1 \cite{nist80030r1} Appendix H, Table H-3.}
+	\caption*{Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3 \cite{nist80030r1}.}
 	\small
     \begin{tabular}{|m{0.20\linewidth} |m{0.20\linewidth} | m{0.05\linewidth} | m{0.40\linewidth}|}
         \hline
         \textbf{Qualitative Values} & \multicolumn{2}{c|}{\textbf{Semi-Quantitative Values}} & \textbf{Description} \\
         \hline
-        Very High & 96-100 & 10 & The event could be expected to have multiple severe or catastrophic adverse effects on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        Very High & 96-100 & 10 & An incident could be expected to have multiple severe or catastrophic adverse effects on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
         \hline
-        High & 80-95 & 8 & The event could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. A severe or catastrophic adverse effect means that, for example, the threat event might: (i) cause a severe degradation in or loss of mission capability to an extent and duration that the organization is not able to perform one or more of its primary functions; (ii) result in major damage to organizational assets; (iii) result in major financial loss; or (iv) result in severe or catastrophic harm to individuals involving loss of life or serious life-threatening injuries. \\
+        High & 80-95 & 8 & An incident could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. A severe or catastrophic adverse effect means that, for example, the incident might: (i) cause a severe degradation in or loss of mission capability to an extent and duration that the organization is not able to perform one or more of its primary functions; (ii) result in major damage to organizational assets; (iii) result in major financial loss; or (iv) result in severe or catastrophic harm to individuals involving loss of life or serious life-threatening injuries. \\
         \hline		
-        Moderate & 21-79 & 5 & The event could be expected to have a serious adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. A serious adverse effect means that, for example, the threat event might: (i) cause a significant degradation in mission capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is significantly reduced; (ii) result in significant damage to organizational assets; (iii) result in significant financial loss; or (iv) result in significant harm to individuals that does not involve loss of life or serious life-threatening injuries. \\
+        Moderate & 21-79 & 5 & An incident could be expected to have a serious adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. A serious adverse effect means that, for example, the incident might: (i) cause a significant degradation in mission capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is significantly reduced; (ii) result in significant damage to organizational assets; (iii) result in significant financial loss; or (iv) result in significant harm to individuals that does not involve loss of life or serious life-threatening injuries. \\
         \hline
-        Low & 5-20 & 2 & The event could be expected to have a limited adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. A limited adverse effect means that, for example, the threat event might: (i) cause a degradation in mission capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is noticeably reduced; (ii) result in minor damage to organizational assets; (iii) result in minor financial loss; or (iv) result in minor harm to individuals. \\
+        Low & 5-20 & 2 & An incident could be expected to have a limited adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. A limited adverse effect means that, for example, the incident might: (i) cause a degradation in mission capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is noticeably reduced; (ii) result in minor damage to organizational assets; (iii) result in minor financial loss; or (iv) result in minor harm to individuals. \\
         \hline
-        Very Low & 0-4 & 0 & The threat event could be expected to have a negligible adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. \\
+        Very Low & 0-4 & 0 & An incident could be expected to have a negligible adverse effect on organizational operations, organizational assets, individuals other organizations, or the Nation. \\
         \hline
     \end{tabular}
-	
     \label{table:nist_impacts}
 \end{table}
 
-\subsection{NIST 800-30r1 Example Likelihood Descriptions}
+\subsection*{B.3: Example Likelihood Descriptions}
 
 \begin{table}[H]
-	\caption{Example Likelihood Levels from NIST SP800-30r1 \cite{nist80030r1} Appendix G, Table G-3.}
+	\caption*{Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3 \cite{nist80030r1}.}
     \begin{tabular}{|m{0.20\linewidth} |m{0.20\linewidth} | m{0.05\linewidth} | m{0.40\linewidth}|}
         \hline
         \textbf{Qualitative Values} & \multicolumn{2}{c|}{\textbf{Semi-Quantitative Values}} & \textbf{Description} \\
         \hline
-        Very High & 96-100 & 10 & Error, accident, or act of nature is almost certain to occur; or occurs more than 100 times a year. \\
+        Very High & 96-100 & 10 & An incident is almost certain to occur; or occurs more than 100 times a year. \\
         \hline
-        High & 80-95 & 8 & Error, accident, or act of nature is highly likely to occur; or occurs between 10-100 times a year.\\
+        High & 80-95 & 8 & An incident is highly likely to occur; or occurs between 10-100 times a year.\\
         \hline		
-        Moderate & 21-79 & 5 & Error, accident, or act of nature is somewhat likely to occur; or occurs between 1-10 times a year.\\
+        Moderate & 21-79 & 5 & An incident is somewhat likely to occur; or occurs between 1-10 times a year.\\
         \hline
-        Low & 5-20 & 2 & Error, accident, or act of nature is unlikely to occur; or occurs less than once a year, but more than once every 10 years.  \\
+        Low & 5-20 & 2 & An incident is unlikely to occur; or occurs less than once a year, but more than once every 10 years.  \\
         \hline
-        Very Low & 0-4 & 0 & Error, accident, or act of nature is highly unlikely to occur; or occurs less than once every 10 years. \\
+        Very Low & 0-4 & 0 & An incident is highly unlikely to occur; or occurs less than once every 10 years. \\
         \hline
     \end{tabular}
     \label{table:nist_likelihood}
 \end{table}
 
-\subsection{NIST 800-30r1 Example Risk Tiers}
+\subsection*{B.4: Example Risk Tiers}
 
 \begin{table}[H]
-    \caption{Example Risk Assessment Matrix with 5 Impact Levels, 5 Likelihood Levels, and 5 Risk Tiers from NIST SP800-30r1 \cite{nist80030r1} Appendix I, Table I-2.}
+    \caption*{Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2 \cite{nist80030r1} .}
     \small
-    \begin{tabular}{|c|l|l|l|l|l|l|}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
         \hline
         \multirow{2}{*}{\textbf{Likelihood}} & \multicolumn{5}{|c|}{\textbf{Level of Impact}}   \\
         \cline{2-6}
         & \textbf{Very Low} & \textbf{Low} & \textbf{Moderate} & \textbf{High} &\textbf{Very High} \\
         \hline
-        \textbf{Very High} & Tier 5 & Tier 4 & Tier 3 & Tier 2 & Tier 1 \\
+        \textbf{Very High} & Very Low (Tier 5) & Low (Tier 4) & Moderate (Tier 3) & High (Tier 2) & Very High 
+        (Tier 1) \\
         \hline		
-        \textbf{High} & Tier 5 & Tier 4 & Tier 3  & Tier 2 & Tier 1 \\
+        \textbf{High} & Very Low (Tier 5) & Low (Tier 4) & Moderate (Tier 3)  & High (Tier 2) & Very High (Tier 1) \\
         \hline
-        \textbf{Moderate} & Tier 5 & Tier 4 & Tier 4  & Tier 3 & Tier 2 \\
+        \textbf{Moderate} & Very Low (Tier 5) & Low (Tier 4) & Moderate (Tier 3)  & Moderate (Tier 3) & High (Tier 2) \\
         \hline
-        \textbf{Low} & Tier 5 & Tier 4 & Tier 4  & Tier 4 & Tier 3 \\
+        \textbf{Low} & Very Low (Tier 5) & Low (Tier 4) & Low (Tier 4)  & Low (Tier 4) & Moderate (Tier 3) \\
         \hline
-        \textbf{Very Low} & Tier 5 & Tier 5 & Tier 5  & Tier 4 & Tier 4 \\
+        \textbf{Very Low} & Very Low (Tier 5) & Very Low (Tier 5) & Very Low (Tier 5) & Low (Tier 4) & Low (Tier 4) \\
         \hline
     \end{tabular}
     \label{table:nist_risk_tiers}
 \end{table}
 
-\subsection{NIST 800-30r1 Example Risk Descriptions}
+\subsection*{B.5: Example Risk Descriptions}
 
 \begin{table}[H]
-	\caption{Example Risk Descriptions from NIST SP800-30r1 \cite{nist80030r1} Appendix I, Table I-3.}
+	\caption*{Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3 \cite{nist80030r1} .}
+    \small
     \begin{tabular}{|m{0.20\linewidth} |m{0.20\linewidth} | m{0.05\linewidth} | m{0.40\linewidth}|}
         \hline
         \textbf{Qualitative Values} & \multicolumn{2}{c|}{\textbf{Semi-Quantitative Values}} & \textbf{Description} \\
         \hline
-        Very High & 96-100 & 10 & Very high risk means that an event could be expected to have multiple severe or catastrophic adverse effects on organizational operations, organizational assets, individuals, other organizations, or the Nation.\\
+        Very High & 96-100 & 10 & Very high risk means that an incident could be expected to have multiple severe or catastrophic adverse effects on organizational operations, organizational assets, individuals, other organizations, or the Nation.\\
         \hline
-        High & 80-95 & 8 & High risk means that an event could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        High & 80-95 & 8 & High risk means that an incident could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
         \hline		
-        Moderate & 21-79 & 5 & Moderate risk means that an event could be expected to have a serious adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation.\\
+        Moderate & 21-79 & 5 & Moderate risk means that an incident could be expected to have a serious adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation.\\
         \hline
-        Low & 5-20 & 2 & Low risk means that an event could be expected to have a limited adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        Low & 5-20 & 2 & Low risk means that an incident could be expected to have a limited adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
         \hline
-        Very Low & 0-4 & 0 & Very low risk means that an event could be expected to have a negligible adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
+        Very Low & 0-4 & 0 & Very low risk means that an incident could be expected to have a negligible adverse effect on organizational operations, organizational assets, individuals, other organizations, or the Nation. \\
         \hline
     \end{tabular}
-    \label{table:nist_likelihood}
+    \label{table:nist_risk_descriptions}
 \end{table}
 
-\subsection{Practical Risk-tiering Questions}
+\subsection*{B.6: Practical Risk-tiering Questions}
 
-\begin{itemize}
+\noindent\textbf{B.6.1: Confabulation}: How likely are system outputs to contain errors? What are the impacts if errors occur?\\
 
-\item \textbf{Confabulation}: What happens if it’s wrong?
-\item \textbf{Dangerous and Violent Recommendations}: Can it possibly give dangerous or violent recommendations?
-\item \textbf{Data Privacy}: What happens is someone enters sensitive data into the system?
-\item \textbf{Human-AI Configuration}: What happens if someone uses it wrong? Is it used for decision-making?
-\item \textbf{Information Integrity}: Will it pump out large-scale disinformation, even internally? Will output be used as input? Will output be tagged as generated by AI?
-\item \textbf{Information Security}: What happens if someone steals the training data? What happens is someone steals the model? Who has access to training data? Are standard security controls applied? Are all dependencies audited? Are supply chains understood? Can it be used to impersonate bank personnel?
-\item \textbf{Intellectual Property}: What happens if outputs contain other entities IP?
-\item \textbf{Toxicity, Bias, and Homogenization}: What happens if outputs are biased, toxic or obscene? Will output be used as input? Is the application accessible?
-\item \textbf{Value Chain and Component Integration}: Are contracts reviewed for legal risks? Standard acquisition/procurement controls applied? Do vendors provide incident response? With guaranteed response times? Other critical support?
+\noindent\textbf{B.6.2: Dangerous and Violent Recommendations}: How likely is the system to give dangerous or violent recommendations? What are the impacts if it does?\\
 
-\end{itemize}
+\noindent\textbf{B.6.3: Data Privacy}: How likely is someone to enter sensitive data into the system? What are the impacts if this occurs? Are standard data privacy controls applied to the system to mitigate potential adverse impacts?\\
+
+\noindent\textbf{B.6.4: Human-AI Configuration}: How likely is someone to use the system incorrectly or abuse it? How likely is use for decision-making? What are the impacts of incorrect use or abuse? What are the impacts of invalid or unreliable decision-making?\\
+
+\noindent\textbf{B.6.5: Information Integrity}: How likely is the system to generate deepfakes or mis or disinformation? At what scale? Are content provenance mechanisms applied to system outputs? What are the impacts of generating deepfakes or mis or disinformation? Without controls for content provenance?\\
+
+\noindent\textbf{B.6.6: Information Security}: How likely are system resources to be breached or exfiltrated? How likely is the system to be used in the generation of phishing or malware content? What are the impacts in these cases? Are standard information security controls applied to the system to mitigate potential adverse impacts? \\
+
+\noindent\textbf{B.6.7: Intellectual Property}: How likely are system outputs to contain other entities' intellectual property? What are the impacts if this occurs?\\
+
+\noindent\textbf{B.6.8: Toxicity, Bias, and Homogenization}: How likely are system outputs to be biased, toxic, homogenizing or otherwise obscene? How likely are system outputs to be used as subsequent training inputs? What are the impacts of these scenarios? Are standard nondiscrimination controls applied to mitigate potential adverse impacts? Is the application accessible to all user groups? What are the impacts if the system is not accessible to all user groups?\\
+
+\noindent\textbf{B.6.9: Value Chain and Component Integration}: Are contracts relating to the system reviewed for legal risks? Are standard acquisition/procurement controls applied to mitigate potential adverse impacts? Do vendors provide incident response with guaranteed response times? What are the impacts if these conditions are not met?
+
+\pagebreak
 
 % ---------- ----------
-\section*{Appendix C: List of Publicly Available Model Testing Suites (``Evals'')}\label{sec:appndxc}
+\section*{Appendix C: List of Selected Model Testing Suites (``Evals'')}\label{sec:appndxc}
 % ---------- ----------
 
 % https://mlcommons.org/benchmarks/ai-safety/
@@ -358,11 +444,11 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 % evals cant test some things -- explainability, HAI-config, supply chain
 
 % ---------- ----------
-\subsection*{C.1: Publicly Available Model Testing Suites (``Evals'') by Trustworthy Characteristic}\label{appndxc1}
+\subsection*{C.1: Selected Model Testing Suites Organized by Trustworthy Characteristic}\label{appndxc1}
 % ---------- ----------
 
 \begin{table}[H]
-	\caption{Publicly Available Model Testing Suites (``Evals'') by Trustworthy Characteristic.}
+	\caption*{Table C.1: Selected model testing suites organized by trustworthy characteristic.}
 	\label{tab:low_risk_measure_by_tc}
 	\footnotesize
 	\begin{tabular}{l}
@@ -435,7 +521,7 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \pagebreak 
 
 \begin{table}[H]
-	\caption*{Publicly Available Model Testing Suites (``Evals'') by Trustworthy Characteristic (continued).}
+	\caption*{Table C.1: Selected model testing suites organized by trustworthy characteristic (continued).}
 	\label{tab:low_risk_measure_by_tc_cont}
 	\footnotesize
 	\begin{tabular}{l}
@@ -499,10 +585,10 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \end{table}	
 
 % ---------- ----------
-\subsection*{C.2: Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk}\label{appndxc2}
+\subsection*{C.2: Selected Model Testing Suites Organized by Generative AI Risk}\label{appndxc2}
 % ---------- ----------
 \begin{table}[H]
-	\caption{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk.}
+	\caption*{Table C.2: Selected model testing suites by organized generative AI risk.}
 	\label{tab:low_risk_measure_by_gai_risk}
 	\footnotesize
 	\begin{tabular}{l}
@@ -575,7 +661,7 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \pagebreak
 
 \begin{table}[H]
-	\caption*{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk (continued).}
+	\caption*{Table C.2: Selected model testing suites by organized generative AI risk (continued).}
 	\label{tab:low_risk_measure_by_gai_risk_cont1}
 	\footnotesize
 	\begin{tabular}{l}	
@@ -671,7 +757,7 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \pagebreak
 
 \begin{table}[H]
-	\caption*{Publicly Available Model Testing Suites (``Evals'') by Generative AI Risk (continued).}
+	\caption*{Table C.2: Selected model testing suites by organized generative AI risk (continued).}
 	\label{tab:low_risk_measure_by_gai_risk_cont2}
 	\footnotesize
 	\begin{tabular}{l}
