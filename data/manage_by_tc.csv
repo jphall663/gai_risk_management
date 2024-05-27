@@ -27,7 +27,7 @@ Privacy-enhanced ,Data Collection,All data collection is disclosed and .
 Privacy-enhanced ,Location Tracking,"Any location tracking is conducted with user consent, disclosed, aligned with relevant privacy policies and laws and potential threats to user safety are managed.  "
 Privacy-enhanced ,Secondary Use,"Any secondary use of GAI input data is conducted with user consent, disclosed, and aligned with relevant privacy policies and laws."
 Privacy-enhanced ,Sensitive/Personal Data ,"Personal, sensitive, biometric,or otherwise restricted data is minimized or eliminated from GAI training data. "
-Safe,,Anonymous use of GAI systems is prohibited. 
+Safe,Anonymous Use,Anonymous use of GAI systems is prohibited. 
 Safe,Antropomorphization ,"Human, animal, cyborg or other images or features that promote anthropomorphization of GAI systems are prohibited.  "
 Safe,Approved List,"Vendors, service providers, plugins, open source packages and other external resources are screened, approved, and documented. "
 Safe,Blocklist ,"Users or internal personnel who violate terms of service, prohibited use policies, and other organization polices and documented, tracked, and prohibited from future system use. "
