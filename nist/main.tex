@@ -98,6 +98,7 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 	\item AI: Artificial Intelligence
 	\item AI RMF: Artificial Intelligence Risk Management Framework
 	\item GAI: Generative AI
+	\item LLM: Large Language Model
 	\item RMF: Risk Management Framework
 \end{itemize}
 
@@ -433,13 +434,8 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \pagebreak
 
 % ---------- ----------
-\section*{Appendix C: List of Selected Model Testing Suites}\label{sec:appndxc}
+\section*{Appendix C: List of Selected Model Testing Suites}\label{sec:appndxc}\cite{aiverify_evals}
 % ---------- ----------
-
-% https://mlcommons.org/benchmarks/ai-safety/
-% https://github.com/IMDA-BTG/LLM-Evals-Catalogue
-% https://github.com/HongshengHu/membership-inference-machine-learning-literature
-% https://github.com/chawins/llm-sp
 
 % evals cant test some things -- explainability, HAI-config, supply chain
 
@@ -841,15 +837,64 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \end{table}
 
 % ---------- ----------
-\section*{Appendix D: List of Common Adversarial Prompting Strategies}\label{sec:appndxd}
+\section*{Appendix D: List of Common Adversarial Prompting Strategies}
 % ---------- ----------
+
+\begin{table}[H]
+	\caption*{Table D: Common adversarial prompting strategies \cite{Saravia_Prompt_Engineering_Guide_2022}, \cite{defcon_rt}, \cite{amli_repo}.}
+	\label{tab:prompting_strategies}
+	\small
+	\begin{tabular}{|m{0.25\linewidth}|m{0.70\linewidth}|}
+		\hline
+		Prompting Strategy &  Description \\
+		\hline
+		AI and coding framing & Coding or AI language that may more easily circumvent content moderation rules due to cognitive biases in design and implementation of guardrails. \\
+		\hline
+		Autocompletion  & Ask a system to autocomplete a phrase with restricted or sensitive information.  \\
+		\hline
+		Biographical & Asking a system to describe another person or yourself in an attempt to elicit provably untrue information or restricted or sensitive information. \\
+		\hline
+		Calculation & Exploting GAI systems' difficulties in dealing with numeric quantities. \\
+		\hline
+		Character and word play & Content moderation often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play. \\
+		\hline
+		Content exhaustion & A class of strategies that circumvent content moderation rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below. \\
+		\hline
+		\makecell[ml]{Content exhaustion:\\Goading} & Begging, pleading, manipulating, and bullying to circumvent content moderation.\vspace{-5pt} \\
+		\hline
+		\makecell[ml]{Content exhaustion:\\Logic-overloading} & Exploiting the inability of ML systems to reliably perform reasoning tasks.\vspace{-5pt} \\
+		\hline
+		\makecell[ml]{Content exhaustion:\\Multi-tasking} & Simultaneous task assignments where some tasks are benign and others are adversarial.\vspace{-10pt} \\
+		\hline
+		\makecell[ml]{Content exhaustion:\\Multi-tasking: Pros-and-cons} & Eliciting the “pros” of problematic topics.\vspace{-5pt} \\
+		\hline
+		\makecell[ml]{Content exhaustion:\\Niche-seeking} & Forcing a GAI system into addressing niche topics where training data and content moderation are sparse.\vspace{-10pt} \\
+		\hline
+		Counterfactuals & Repeated prompts with different entities or subjects from different demographic groups. \\
+		\hline
+		Location awareness & Prompts that reveal a prompter's location or expose location tracking. \\
+		\hline
+		Low-context & “Leader,” “bad guys,” or other simple inputs that may expose latent biases. \\
+		\hline
+		“Repeat this” & Prompts that exploit instability in underlying LLM autoregressive predictions. \\
+		\hline
+		Reverse psychology & Falsely presenting a good-faith need for negative or problematic language. \\
+		\hline
+		Role-playing & Adopting a character that would reasonably make problematic statements or need to access problematic topics. \\
+		\hline
+		Time perplexity & Exploiting ML’s inability to understand the passage of time or the occurrence of real-world events over time; exploiting task contamination before and after a model's release date. \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\pagebreak
 
 % ---------- ----------
 \subsection*{D.1: Common Adversarial Prompting Strategies by Trustworthy Characteristic}\label{sec:appndxd1}
 % ---------- ----------
 
 \begin{table}[H]
-	\caption*{Table D.1: Common adversarial prompting techniques organized by trustworthy characteristic.}
+	\caption*{Table D.1: Common adversarial prompting techniques organized by trustworthy characteristic \cite{Saravia_Prompt_Engineering_Guide_2022}, \cite{defcon_rt}, \cite{amli_repo}, \cite{hu2022membership}, \cite{llmsp}.}
 	\label{tab:rt_by_tc}
 	\scriptsize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.40\linewidth} | m{0.35\linewidth} |}
@@ -993,7 +1038,7 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 % ---------- ----------
 
 \begin{table}[H]
-	\caption*{Table D.2: Common adversarial prompting techniques organized by generative AI risk.}
+	\caption*{Table D.2: Common adversarial prompting techniques organized by generative AI risk \cite{Saravia_Prompt_Engineering_Guide_2022}, \cite{defcon_rt}, \cite{amli_repo}, \cite{hu2022membership}, \cite{llmsp}.}
 	\label{tab:rt_by_gai_riks}
 	\scriptsize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.40\linewidth} | m{0.35\linewidth} |}
