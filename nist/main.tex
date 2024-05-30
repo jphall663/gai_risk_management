@@ -1257,13 +1257,337 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \section*{Appendix E: Common Risk Controls for Generative AI}\label{sec:appndxe}
 % ---------- ----------
 
-% ---------- ----------
-\section*{E.1: Common Risk Controls for Generative AI by Trustworthy Characteristic}\label{sec:appndxe1}
-% ---------- ----------
+\begin{table}[H]
+	\caption*{Table E: Selected generative AI risk controls \cite{airmf}, \cite{playbook}, \cite{ai600-1}, \cite{iso42001}, \cite{mcgraw2024architectural}, \cite{mcgraw2020architectural}, \cite{msft_rai_std}, \cite{uk_ai_safety}, \cite{occ_mrm}. }
+	\label{tab:controls}
+	\scriptsize
+	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
+		\hline
+		Name & Description \\
+		\hline
+		Access Control  & GAI systems are limited to authorized users.  \\ \hline
+		Accessibility  & Accessibility features, opt-out, and reasonable accomodation are available to users. \\ \hline
+		Anonymous Use & Anonymous use of GAI systems is prohibited.  \\ \hline
+		Antropomorphization  & Human, animal, cyborg or other images or features that promote anthropomorphization of GAI systems are prohibited.   \\ \hline
+		Approved List & Vendors, service providers, plugins, open source packages and other external resources are screened, approved, and documented.  \\ \hline
+		Authentication  & GAI system user identities are confirmed via authentication mechanisms.  \\ \hline
+		Blocklist  & Users or internal personnel who violate terms of service, prohibited use policies, and other organization polices and documented, tracked, and prohibited from future system use.  \\ \hline
+		CSAM/Obsenity Removal  & Training data and system outputs are screened for obscene materials and CSAM using human oversight, business rules, and other language models.   \\ \hline
+		Change Management & GAI systems and components are versioned; plans for updates, hotfixes, patches and other changes are documented and communicated.   \\ \hline
+		Consent & User consent for data use is obtained and documented.  \\ \hline
+		Content Moderation & Training data and system outputs are screened for accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, and other issues using human oversight, business rules, and other language models.   \\ \hline
+		Contract Review & Vendor, services and data provider agreements are reviewed for coverage of SLAs, content ownership, usage rights, performance standards, security requirements, incident response, critical support, system availability, assignment of liabilitly, appropriate indemnification, dispute resolution and other provisions relevanto AI risk management.  \\ \hline
+		Data Collection & All data collection is disclosed and . \\ \hline
+		Data Provenance & Training data origins, ownership, contents, and metadata are well understood, documented, and do not increase AI risk.  \\ \hline
+		Data Quality & Input data is accurate, representative, complete and documented, and data quality issues have been minimized.  \\ \hline
+		Data Retention & User prompts and associated system outputs are retained and monitored in alignment with relevant data privacy policies and roles.   \\ \hline
+		Decision making  & GAI systems are not employed for material decision-making tasks.  \\ \hline
+		Decommission Process & Decommissioning processes for GAI systems are planned, documented and communicated to users, and involve staging, data protection, containment protocols, and recourse mechanisms for decommissioned GAI systems.   \\ \hline
+		Dependency Screening  & GAI system dependencies are screened for security vulnerabilities.  \\ \hline
+		Digital Signature & GAI-generated content is signed to preserve information integrity using watermarking, cryptogrpahic signature, steganography or similar methods.  \\ \hline
+		Disclosure of AI Interaction & AI interactions are disclosed to internal personnel and external users. \\ \hline
+		External Audit & GAI systems are audited by qualified external experts.  \\ \hline
+		Failure Avoidance & AIID, AVID, GWU AI Litigation Database, OECD incident monitor or similar are consulted in design or procurement phases of GAI lifecycles to avoid repeating past known failures.  \\ \hline
+		Fine Tuning & GAI systems are fine-tuned to their operational domain using relevant and high-quality data.  \\ \hline
+		Grounding & GAI systems are trained or fine-tuned on accurate, clean, and fully transparent training data.  \\ \hline
+		Homogeneity & Feedback loops in which GAI systems are trained with GAI-generated data are prohibited. \\ \hline
+		Human Review  & AI generated content is reviewed for accuracy and safety by qualified personnel.  \\ \hline
+		Incident Response & Incident response plans for GAI failures, abuses, or misuses are documented, rehearsed, and updated appropriately after each incident; GAI incident response plans are coordinated with and communicated to other incident response functions.  \\ \hline
+		Incorporate feedback  & User feedback is incorporated in GAI design, development, and risk management.  \\ \hline
+		Instructions & Users are provided with the necessary instructions for safe, valid, and productive use. \\ \hline
+		Insurance & Risk transfer via insurance policies is considered and implemented when feasibable and appropriate.  \\ \hline
+		Intellectual Property Removal & Licensed, patented, trademarked, trade secret, or other data that may violate the intellectual property rights of others is removed from system training data; generated system outputs are monitored for similar information.  \\ \hline
+		Internet Access & GAI systems are disconnected from the internet.  \\ \hline
+		Inventory & GAI system is information is stored in the organizational model inventory.  \\ \hline
+		Kill Switch & GAI systems can be quickly and safely disengaged.  \\ \hline
+		Location Tracking & Any location tracking is conducted with user consent, disclosed, aligned with relevant privacy policies and laws and potential threats to user safety are managed.   \\ \hline
+		Malware Screening & GAI weights and other software components are scanned for malware.  \\ \hline
+		Minors & Use of organizational GAI systems by minors are prohibited.  \\ \hline
+		Model Documentation  & All technical mchanisms with GAI systems are well documented, including open source and third party GAI systems.  \\ \hline
+		Monitoring & GAI systems are inputs and outputs are monitored for drift, accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, obscene materials, and CSAM.  \\ \hline
+		Narrow Scope & Systems are deployed for targeted business applications with documented and direct business value. \\ \hline
+		Open Source & Open source code is used to promote explainability and transparency.  \\ \hline
+		Ownership & GAI systems and vendor relationships are owned by specific and documented internal personnel. \\ \hline
+		Prohibited Use Policy & General abuse and misuse of GAI systems by internal parties is prohibited by organizational policies. \\ \hline
+		RAG & Retreival augmented generation (RAG) is used to improve accuracy in generated content.  \\ \hline
+	\end{tabular}
+\end{table}		
+		
+\pagebreak		
+	
+\begin{table}[H]
+	\caption*{Table E: Selected generative AI risk controls (continued).}
+	\label{tab:controls_cont}
+	\scriptsize
+	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
+		\hline
+		Name & Description \\
+		\hline		
+		RLHF & For third-party GAI systems, vendors engage in specific reinforcement with human feedback (RLHF) exercises to address identified risks; for internal systems, internal personnel engage in RLHF to address identified risks.   \\ \hline
+		Rate-limiting  & GAI response times and query volumes are limited.  \\ \hline
+		Redudancy & Rollover, fallback, and other redundancy mechanisms are available for GAI systems and address weights and other important system components.   \\ \hline
+		Refresh & Systems are retrained or re-tuned at a reasonable cadence.  \\ \hline
+		Regulated Dealings & GAI is not deployed in regulated dealings or for material decision making.  \\ \hline
+		Secondary Use & Any secondary use of GAI input data is conducted with user consent, disclosed, and aligned with relevant privacy policies and laws. \\ \hline
+		Sensitive/Personal Data  & Personal, sensitive, biometric,or otherwise restricted data is minimized or eliminated from GAI training data.  \\ \hline
+		Session Limits & Time, query volume, and response rate are limited for GAI user sessions. \\ \hline
+		Supply Chain Audit & GAI system supply chains are audited and documented, with a focus on data poisoning, malware, and software and hardware vulnerabilities.   \\ \hline
+		System Documentation & GAI systems are well-documented whether internal, open source, or vendor-provided.  \\ \hline
+		System Prompt  & System prompts are used to tune GAI systems to specific tasks and to mitigate risks.  \\ \hline
+		Team Diversity & Teams that implement and manage GAI systems represent broad professional, educational, life-stage, and demographic diversity.  \\ \hline
+		Temperature & Temperature settings are used to tune GAI systems to specific tasks and to mitigate risks.  \\ \hline
+		Terms of Service & General abuse and misuse by external parties is prohibited by organizational policies.  \\ \hline
+		Training  & Internal personnel recieve training on productivity and basic risk management for GAI systems.  \\ \hline
+		User Feedback & GAI systems implement user feedback mechanisms.   \\ \hline
+		User Recourse & Policies, processes, and technical mechanisms enable recourse for users who are harmed by GAI systems.  \\ \hline
+		Validation & GAI systems are shown to reliably generate valid results for their targeted business application. \\ \hline
+		XAI & Methods such as visualization, occlusion, model compression, pertubation studies, and similar are applied to increase explainability of GAI systems.  \\ \hline
+	\end{tabular}
+\end{table}
+
+\pagebreak
 
 % ---------- ----------
-\section*{E.2: Common Risk Controls for Generative AI by Generative AI Risk}\label{sec:appndxe2}
+\section*{E.1: Common Risk Controls for Generative AI Organized by Trustworthy Characteristic}\label{sec:appndxe1}
 % ---------- ----------
+
+\begin{table}[H]
+	\caption*{Table E.1: Selected risk controls organized by trustworthy characteristic \cite{airmf}, \cite{playbook}, \cite{ai600-1}, \cite{iso42001}, \cite{mcgraw2024architectural}, \cite{mcgraw2020architectural}, \cite{msft_rai_std}, \cite{uk_ai_safety}, \cite{occ_mrm}.}
+	\label{tab:controls_by_tc}
+	\footnotesize
+	\begin{tabular}{lll}
+		\toprule
+		Accountable and Transparent & Fair-with Harmful Bias Managed & Interpretable and Explainable \\
+		\midrule
+		Contract Review & Accessibility & Model Documentation \\
+		Data Provenance & Homogeneity & Open Source \\
+		Digital Signature & Team Diversity & XAI \\
+		Disclosure of AI Interaction & & \\
+		Human Review  & & \\
+		Instructions & & \\
+		Insurance & & \\
+		Intellectual Property Removal & & \\
+		Inventory & & \\
+		Ownership & & \\
+		Prohibited Use Policy & & \\
+		Regulated Dealings & & \\
+		System Documentation & & \\
+		Terms of Service & & \\
+		Training  & & \\
+		User Feedback & & \\
+		User Recourse & & \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline	
+	\begin{tabular}{llll}
+		\toprule
+		Privacy-enhanced & Safe & Secure and Resilient & Valid and Reliable \\
+		\midrule
+		Consent & Anonymous Use & Access Control  & Data Quality \\
+		Data Collection & Antropomorphization  & Internet Access & Decision making  \\
+		Location Tracking & Approved List & Authentication  & External Audit \\
+		Secondary Use & Blocklist  & Malware Screening & Fine Tuning \\
+		Sensitive/Personal Data  & Change Management & Rate-limiting  & Grounding \\
+		& Content Moderation & Dependency Screening  & Incorporate feedback  \\
+		& CSAM/Obsenity Removal  & Supply Chain Audit & Narrow Scope \\
+		& Data Retention &  & RAG \\
+		& Decommission Process &  & Refresh \\
+		& Failure Avoidance &  & RLHF \\
+		& Incident Response &  & System Prompt  \\
+		& Kill Switch &  & Temperature \\
+		& Minors &  & Validation \\
+		& Monitoring &  &  \\
+		& Redudancy &  &  \\
+		& Session Limits &  &  \\
+		\bottomrule
+	\end{tabular}
+\end{table}		
+		
+% ---------- ----------
+\section*{E.2: Selected Risk Controls for Generative AI Organized by Generative AI Risk}\label{sec:appndxe2}
+% ---------- ----------
+
+\begin{table}[H]
+	\caption*{Table E.2: Selected risk controls organized by generative AI risk \cite{airmf}, \cite{playbook}, \cite{ai600-1}, \cite{iso42001}, \cite{mcgraw2024architectural}, \cite{mcgraw2020architectural}, \cite{msft_rai_std}, \cite{uk_ai_safety}, \cite{occ_mrm}.}
+	\label{tab:controls_by_gai_risk}
+	\footnotesize
+	\begin{tabular}{llll}
+	\toprule
+	CBRN Information & Confabulation & Dangerous or Violent Recommendations & Data Privacy \\
+	\midrule
+	Access Control  & Antropomorphization  & Access Control  & Access Control  \\
+	Anonymous Use & Blocklist  & Anonymous Use & Anonymous Use \\
+	Approved List & Change Management & Approved List & Approved List \\
+	Authentication  & Content Moderation & Blocklist  & Authentication  \\
+	Blocklist  & Data Quality & CSAM/Obsenity Removal  & Blocklist  \\
+	Change Management & Data Retention & Change Management & CSAM/Obsenity Removal  \\
+	Content Moderation & Decision making  & Content Moderation & Change Management \\
+	Data Retention & Decommission Process & Data Retention & Content Moderation \\
+	Decommission Process & Disclosure of AI Interaction & Decommission Process & Contract Review \\
+	Dependency Screening  & External Audit & Dependency Screening  & Data Provenance \\
+	External Audit & Failure Avoidance & External Audit & Data Retention \\
+	Failure Avoidance & Fine Tuning & Failure Avoidance & Decommission Process \\
+	Incident Response & Grounding & Human Review  & Dependency Screening  \\
+	Internet Access & Human Review  & Incident Response & External Audit \\
+	Kill Switch & Incident Response & Internet Access & Failure Avoidance \\
+	Minors & Incorporate feedback  & Kill Switch & Human Review  \\
+	Monitoring & Internet Access & Malware Screening & Incident Response \\
+	Prohibited Use Policy & Minors & Minors & Insurance \\
+	Rate-limiting  & Monitoring & Monitoring & Intellectual Property Removal \\
+	Session Limits & Narrow Scope & Prohibited Use Policy & Internet Access \\
+	Supply Chain Audit & RAG & Rate-limiting  & Malware Screening \\
+	Terms of Service & Refresh & Session Limits & Minors \\
+	& Regulated Dealings & Supply Chain Audit & Monitoring \\
+	& RLHF & Terms of Service & Ownership \\
+	& Session Limits & User Feedback & Prohibited Use Policy \\
+	& System Prompt  &  & Rate-limiting  \\
+	& Temperature &  & Regulated Dealings \\
+	& Training  &  & Session Limits \\
+	& User Feedback &  & Supply Chain Audit \\
+	& User Recourse &  & System Documentation \\
+	& Validation &  & Terms of Service \\
+	&  &  & Training  \\
+	&  &  & User Feedback \\
+	&  &  & User Recourse \\
+	\end{tabular}
+\end{table}
+
+\pagebreak
+
+\begin{table}[H]
+	\caption*{Table E.2: Selected risk controls organized by generative AI risk (continued).}
+	\label{tab:controls_by_gai_risk_cont}
+	\footnotesize
+	\begin{tabular}{llll}
+		\toprule
+		Environmental & Human-AI Configuration & Information Integrity & Information Security \\
+		\midrule
+		Access Control  & Access Control  & Anonymous Use & Access Control  \\
+		Anonymous Use & Anonymous Use & Antropomorphization  & Anonymous Use \\
+		Approved List & Antropomorphization  & Approved List & Approved List \\
+		Blocklist  & Approved List & Authentication  & Authentication  \\
+		Change Management & Authentication  & Blocklist  & Blocklist  \\
+		Decommission Process & Blocklist  & Change Management & Change Management \\
+		External Audit & Change Management & Content Moderation & Content Moderation \\
+		Failure Avoidance & Content Moderation & Data Provenance & Data Quality \\
+		Incident Response & Data Retention & Data Quality & Data Retention \\
+		Insurance & Decision making  & Data Retention & Decision making  \\
+		Inventory & Digital Signature & Decommission Process & Decommission Process \\
+		Kill Switch & Disclosure of AI Interaction & Digital Signature & Dependency Screening  \\
+		Monitoring & External Audit & Disclosure of AI Interaction & External Audit \\
+		Ownership & Failure Avoidance & External Audit & Failure Avoidance \\
+		Session Limits & Human Review  & Failure Avoidance & Incident Response \\
+		Training  & Incident Response & Fine Tuning & Incorporate feedback  \\
+		& Incorporate feedback  & Grounding & Internet Access \\
+		& Instructions & Human Review  & Inventory \\
+		& Kill Switch & Incident Response & Kill Switch \\
+		& Minors & Incorporate feedback  & Malware Screening \\
+		& Monitoring & Instructions & Minors \\
+		& Narrow Scope & Intellectual Property Removal & Monitoring \\
+		& Ownership & Internet Access & Rate-limiting  \\
+		& Prohibited Use Policy & Inventory & Redundancy \\
+		& Regulated Dealings & Kill Switch & Session Limits \\
+		& Session Limits & Minors & Supply Chain Audit \\
+		& Terms of Service & Monitoring &  \\
+		& Training  & Narrow Scope &  \\
+		& User Feedback & Ownership &  \\
+		& User Recourse & Prohibited Use Policy &  \\
+		&  & RAG &  \\
+		&  & RLHF &  \\
+		&  & Refresh &  \\
+		&  & Regulated Dealings &  \\
+		&  & System Prompt  &  \\
+		&  & Temperature &  \\
+		&  & Terms of Service &  \\
+		&  & Training  &  \\
+		&  & User Feedback &  \\
+		&  & User Recourse &  \\
+		&  & Validation &  \\
+		\bottomrule
+	\end{tabular}	
+\end{table}
+
+\pagebreak
+
+\begin{table}[H]
+	\caption*{Table E.2: Selected risk controls organized by generative AI risk (continued).}
+	\label{tab:controls_by_gai_risk_cont2}
+	\footnotesize
+	\begin{tabular}{lll}
+		\toprule
+		Intellectual Property & Obscene, Degrading, and/or Abusive Content & Toxicity, Bias, and Homogenization \\
+		\midrule
+		Contract Review & Access Control  & Anonymous Use \\
+		Data Provenance & Anonymous Use & Approved List \\
+		Digital Signature & Approved List & Blocklist  \\
+		Disclosure of AI Interaction & Blocklist  & CSAM/Obsenity Removal  \\
+		External Audit & CSAM/Obsenity Removal  & Change Management \\
+		Human Review  & Change Management & Content Moderation \\
+		Instructions & Content Moderation & Data Provenance \\
+		Intellectual Property Removal & Data Retention & Data Quality \\
+		Internet Access & Decommission Process & Decision making  \\
+		Inventory & External Audit & External Audit \\
+		Ownership & Failure Avoidance & Failure Avoidance \\
+		Prohibited Use Policy & Human Review  & Fine Tuning \\
+		Terms of Service & Incident Response & Grounding \\
+		Training  & Internet Access & Human Review  \\
+		User Feedback & Kill Switch & Incorporate feedback  \\
+		User Recourse & Minors & Internet Access \\
+		& Monitoring & Instructions \\
+		& Session Limits & Kill Switch \\
+		& User Feedback & Minors \\
+		& User Recourse & Monitoring \\
+		&  & Narrow Scope \\
+		&  & Prohibited Use Policy \\
+		&  & RAG \\
+		&  & RLHF \\
+		&  & Refresh \\
+		&  & System Prompt  \\
+		&  & Temperature \\
+		&  & Terms of Service \\
+		&  & User Feedback \\
+		&  & User Recourse \\
+		&  & Validation \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline	
+	\begin{tabular}{l}
+		\toprule
+		Value Chain and Component Integration \\
+		\midrule
+		Approved List \\
+		Blocklist  \\
+		CSAM/Obsenity Removal  \\
+		Change Management \\
+		Contract Review \\
+		Data Provenance \\
+		Data Quality \\
+		Dependency Screening  \\
+		Digital Signature \\
+		Disclosure of AI Interaction \\
+		External Audit \\
+		Failure Avoidance \\
+		Fine Tuning \\
+		Grounding \\
+		Insurance \\
+		Intellectual Property Removal \\
+		Internet Access \\
+		Inventory \\
+		Malware Screening \\
+		Ownership \\
+		Prohibited Use Policy \\
+		Redundancy \\
+		Supply Chain Audit \\
+		System Documentation \\
+		Terms of Service \\
+		\bottomrule
+	\end{tabular}	
+\end{table}
+
 
 % ---------- ----------
 \section*{Appendix F: Example Low-risk Generative AI Measurement and Management Plan}\label{sec:appndxf}

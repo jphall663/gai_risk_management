@@ -1,0 +1,42 @@
+CBRN Information,Confabulation,Dangerous or Violent Recommendations,Data Privacy,Environmental,Human-AI Configuration,Information Integrity,Information Security,Intellectual Property,"Obscene, Degrading, and/or Abusive Content","Toxicity, Bias, and Homogenization",Value Chain and Component Integration
+Access Control ,Antropomorphization ,Access Control ,Access Control ,Access Control ,Access Control ,Anonymous Use,Access Control ,Contract Review,Access Control ,Anonymous Use,Approved List
+Anonymous Use,Blocklist ,Anonymous Use,Anonymous Use,Anonymous Use,Anonymous Use,Antropomorphization ,Anonymous Use,Data Provenance,Anonymous Use,Approved List,Blocklist 
+Approved List,Change Management,Approved List,Approved List,Approved List,Antropomorphization ,Approved List,Approved List,Digital Signature,Approved List,Blocklist ,CSAM/Obsenity Removal 
+Authentication ,Content Moderation,Blocklist ,Authentication ,Blocklist ,Approved List,Authentication ,Authentication ,Disclosure of AI Interaction,Blocklist ,CSAM/Obsenity Removal ,Change Management
+Blocklist ,Data Quality,CSAM/Obsenity Removal ,Blocklist ,Change Management,Authentication ,Blocklist ,Blocklist ,External Audit,CSAM/Obsenity Removal ,Change Management,Contract Review
+Change Management,Data Retention,Change Management,CSAM/Obsenity Removal ,Decommission Process,Blocklist ,Change Management,Change Management,Human Review ,Change Management,Content Moderation,Data Provenance
+Content Moderation,Decision making ,Content Moderation,Change Management,External Audit,Change Management,Content Moderation,Content Moderation,Instructions,Content Moderation,Data Provenance,Data Quality
+Data Retention,Decommission Process,Data Retention,Content Moderation,Failure Avoidance,Content Moderation,Data Provenance,Data Quality,Intellectual Property Removal,Data Retention,Data Quality,Dependency Screening 
+Decommission Process,Disclosure of AI Interaction,Decommission Process,Contract Review,Incident Response,Data Retention,Data Quality,Data Retention,Internet Access,Decommission Process,Decision making ,Digital Signature
+Dependency Screening ,External Audit,Dependency Screening ,Data Provenance,Insurance,Decision making ,Data Retention,Decision making ,Inventory,External Audit,External Audit,Disclosure of AI Interaction
+External Audit,Failure Avoidance,External Audit,Data Retention,Inventory,Digital Signature,Decommission Process,Decommission Process,Ownership,Failure Avoidance,Failure Avoidance,External Audit
+Failure Avoidance,Fine Tuning,Failure Avoidance,Decommission Process,Kill Switch,Disclosure of AI Interaction,Digital Signature,Dependency Screening ,Prohibited Use Policy,Human Review ,Fine Tuning,Failure Avoidance
+Incident Response,Grounding,Human Review ,Dependency Screening ,Monitoring,External Audit,Disclosure of AI Interaction,External Audit,Terms of Service,Incident Response,Grounding,Fine Tuning
+Internet Access,Human Review ,Incident Response,External Audit,Ownership,Failure Avoidance,External Audit,Failure Avoidance,Training ,Internet Access,Human Review ,Grounding
+Kill Switch,Incident Response,Internet Access,Failure Avoidance,Session Limits,Human Review ,Failure Avoidance,Incident Response,User Feedback,Kill Switch,Incorporate feedback ,Insurance
+Minors,Incorporate feedback ,Kill Switch,Human Review ,Training ,Incident Response,Fine Tuning,Incorporate feedback ,User Recourse,Minors,Internet Access,Intellectual Property Removal
+Monitoring,Internet Access,Malware Screening,Incident Response,,Incorporate feedback ,Grounding,Internet Access,,Monitoring,Instructions,Internet Access
+Prohibited Use Policy,Minors,Minors,Insurance,,Instructions,Human Review ,Inventory,,Session Limits,Kill Switch,Inventory
+Rate-limiting ,Monitoring,Monitoring,Intellectual Property Removal,,Kill Switch,Incident Response,Kill Switch,,User Feedback,Minors,Malware Screening
+Session Limits,Narrow Scope,Prohibited Use Policy,Internet Access,,Minors,Incorporate feedback ,Malware Screening,,User Recourse,Monitoring,Ownership
+Supply Chain Audit,RAG,Rate-limiting ,Malware Screening,,Monitoring,Instructions,Minors,,,Narrow Scope,Prohibited Use Policy
+Terms of Service,Refresh,Session Limits,Minors,,Narrow Scope,Intellectual Property Removal,Monitoring,,,Prohibited Use Policy,Redundancy
+,Regulated Dealings,Supply Chain Audit,Monitoring,,Ownership,Internet Access,Rate-limiting ,,,RAG,Supply Chain Audit
+,RLHF,Terms of Service,Ownership,,Prohibited Use Policy,Inventory,Redundancy,,,RLHF,System Documentation
+,Session Limits,User Feedback,Prohibited Use Policy,,Regulated Dealings,Kill Switch,Session Limits,,,Refresh,Terms of Service
+,System Prompt ,,Rate-limiting ,,Session Limits,Minors,Supply Chain Audit,,,System Prompt ,
+,Temperature,,Regulated Dealings,,Terms of Service,Monitoring,,,,Temperature,
+,Training ,,Session Limits,,Training ,Narrow Scope,,,,Terms of Service,
+,User Feedback,,Supply Chain Audit,,User Feedback,Ownership,,,,User Feedback,
+,User Recourse,,System Documentation,,User Recourse,Prohibited Use Policy,,,,User Recourse,
+,Validation,,Terms of Service,,,RAG,,,,Validation,
+,,,Training ,,,RLHF,,,,,
+,,,User Feedback,,,Refresh,,,,,
+,,,User Recourse,,,Regulated Dealings,,,,,
+,,,,,,System Prompt ,,,,,
+,,,,,,Temperature,,,,,
+,,,,,,Terms of Service,,,,,
+,,,,,,Training ,,,,,
+,,,,,,User Feedback,,,,,
+,,,,,,User Recourse,,,,,
+,,,,,,Validation,,,,,
