@@ -1365,252 +1365,8 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 	\end{tabular}
 \end{table}
 
-\pagebreak
-
-% ---------- ----------
-\section*{E.1: Selected Risk Controls for Generative AI Organized by Trustworthy Characteristic}\label{sec:appndxe1}
-% ---------- ----------
-
-\begin{table}[H]
-	\caption*{Table E.1: Selected risk controls organized by trustworthy characteristic \cite{airmf}, \cite{playbook}, \cite{ai600-1}, \cite{iso42001}, \cite{mcgraw2024architectural}, \cite{mcgraw2020architectural}, \cite{msft_rai_std}, \cite{uk_ai_safety}, \cite{occ_mrm}.}
-	\label{tab:controls_by_tc}
-	\footnotesize
-	\begin{tabular}{lll}
-		\toprule
-		\textbf{Accountable and Transparent} & \textbf{Fair-with Harmful Bias Managed} & \textbf{Interpretable and Explainable} \\
-		\midrule
-		Contract Review & Accessibility & Model Documentation \\
-		Data Provenance & Homogeneity & Open Source \\
-		Digital Signature & Team Diversity & XAI \\
-		Disclosure of AI Interaction & & \\
-		Human Review  & & \\
-		Instructions & & \\
-		Insurance & & \\
-		Intellectual Property Removal & & \\
-		Inventory & & \\
-		Ownership & & \\
-		Prohibited Use Policy & & \\
-		Regulated Dealings & & \\
-		System Documentation & & \\
-		Terms of Service & & \\
-		Training  & & \\
-		User Feedback & & \\
-		User Recourse & & \\
-		\bottomrule
-	\end{tabular}
-	\newline
-	\vspace{10pt}
-	\newline	
-	\begin{tabular}{llll}
-		\toprule
-		\textbf{Privacy-enhanced} & \textbf{Safe} & \textbf{Secure and Resilient} & \textbf{Valid and Reliable} \\
-		\midrule
-		Consent & Anonymous Use & Access Control  & Data Quality \\
-		Data Collection & Antropomorphization  & Internet Access & Decision making  \\
-		Location Tracking & Approved List & Authentication  & External Audit \\
-		Secondary Use & Blocklist  & Malware Screening & Fine Tuning \\
-		Sensitive/Personal Data  & Change Management & Rate-limiting  & Grounding \\
-		& Content Moderation & Dependency Screening  & Incorporate feedback  \\
-		& CSAM/Obsenity Removal  & Supply Chain Audit & Narrow Scope \\
-		& Data Retention &  & RAG \\
-		& Decommission Process &  & Refresh \\
-		& Failure Avoidance &  & RLHF \\
-		& Incident Response &  & System Prompt  \\
-		& Kill Switch &  & Temperature \\
-		& Minors &  & Validation \\
-		& Monitoring &  &  \\
-		& Redudancy &  &  \\
-		& Session Limits &  &  \\
-		\bottomrule
-	\end{tabular}
-\end{table}		
-		
-% ---------- ----------
-\section*{E.2: Selected Risk Controls for Generative AI Organized by Generative AI Risk}\label{sec:appndxe2}
-% ---------- ----------
-
-\begin{table}[H]
-	\caption*{Table E.2: Selected risk controls organized by generative AI risk \cite{airmf}, \cite{playbook}, \cite{ai600-1}, \cite{iso42001}, \cite{mcgraw2024architectural}, \cite{mcgraw2020architectural}, \cite{msft_rai_std}, \cite{uk_ai_safety}, \cite{occ_mrm}.}
-	\label{tab:controls_by_gai_risk}
-	\footnotesize
-	\begin{tabular}{llll}
-	\toprule
-	\textbf{CBRN Information} & \textbf{Confabulation} & \textbf{Dangerous or Violent Recommendations} & \textbf{Data Privacy} \\
-	\midrule
-	Access Control  & Antropomorphization  & Access Control  & Access Control  \\
-	Anonymous Use & Blocklist  & Anonymous Use & Anonymous Use \\
-	Approved List & Change Management & Approved List & Approved List \\
-	Authentication  & Content Moderation & Blocklist  & Authentication  \\
-	Blocklist  & Data Quality & CSAM/Obsenity Removal  & Blocklist  \\
-	Change Management & Data Retention & Change Management & CSAM/Obsenity Removal  \\
-	Content Moderation & Decision making  & Content Moderation & Change Management \\
-	Data Retention & Decommission Process & Data Retention & Content Moderation \\
-	Decommission Process & Disclosure of AI Interaction & Decommission Process & Contract Review \\
-	Dependency Screening  & External Audit & Dependency Screening  & Data Provenance \\
-	External Audit & Failure Avoidance & External Audit & Data Retention \\
-	Failure Avoidance & Fine Tuning & Failure Avoidance & Decommission Process \\
-	Incident Response & Grounding & Human Review  & Dependency Screening  \\
-	Internet Access & Human Review  & Incident Response & External Audit \\
-	Kill Switch & Incident Response & Internet Access & Failure Avoidance \\
-	Minors & Incorporate feedback  & Kill Switch & Human Review  \\
-	Monitoring & Internet Access & Malware Screening & Incident Response \\
-	Prohibited Use Policy & Minors & Minors & Insurance \\
-	Rate-limiting  & Monitoring & Monitoring & Intellectual Property Removal \\
-	Session Limits & Narrow Scope & Prohibited Use Policy & Internet Access \\
-	Supply Chain Audit & RAG & Rate-limiting  & Malware Screening \\
-	Terms of Service & Refresh & Session Limits & Minors \\
-	& Regulated Dealings & Supply Chain Audit & Monitoring \\
-	& RLHF & Terms of Service & Ownership \\
-	& Session Limits & User Feedback & Prohibited Use Policy \\
-	& System Prompt  &  & Rate-limiting  \\
-	& Temperature &  & Regulated Dealings \\
-	& Training  &  & Session Limits \\
-	& User Feedback &  & Supply Chain Audit \\
-	& User Recourse &  & System Documentation \\
-	& Validation &  & Terms of Service \\
-	&  &  & Training  \\
-	&  &  & User Feedback \\
-	&  &  & User Recourse \\
-	\end{tabular}
-\end{table}
-
-\pagebreak
-
-\begin{table}[H]
-	\caption*{Table E.2: Selected risk controls organized by generative AI risk (continued).}
-	\label{tab:controls_by_gai_risk_cont}
-	\footnotesize
-	\begin{tabular}{llll}
-		\toprule
-		\textbf{Environmental} & \textbf{Human-AI Configuration} & \textbf{Information Integrity} & \textbf{Information Security} \\
-		\midrule
-		Access Control  & Access Control  & Anonymous Use & Access Control  \\
-		Anonymous Use & Anonymous Use & Antropomorphization  & Anonymous Use \\
-		Approved List & Antropomorphization  & Approved List & Approved List \\
-		Blocklist  & Approved List & Authentication  & Authentication  \\
-		Change Management & Authentication  & Blocklist  & Blocklist  \\
-		Decommission Process & Blocklist  & Change Management & Change Management \\
-		External Audit & Change Management & Content Moderation & Content Moderation \\
-		Failure Avoidance & Content Moderation & Data Provenance & Data Quality \\
-		Incident Response & Data Retention & Data Quality & Data Retention \\
-		Insurance & Decision making  & Data Retention & Decision making  \\
-		Inventory & Digital Signature & Decommission Process & Decommission Process \\
-		Kill Switch & Disclosure of AI Interaction & Digital Signature & Dependency Screening  \\
-		Monitoring & External Audit & Disclosure of AI Interaction & External Audit \\
-		Ownership & Failure Avoidance & External Audit & Failure Avoidance \\
-		Session Limits & Human Review  & Failure Avoidance & Incident Response \\
-		Training  & Incident Response & Fine Tuning & Incorporate feedback  \\
-		& Incorporate feedback  & Grounding & Internet Access \\
-		& Instructions & Human Review  & Inventory \\
-		& Kill Switch & Incident Response & Kill Switch \\
-		& Minors & Incorporate feedback  & Malware Screening \\
-		& Monitoring & Instructions & Minors \\
-		& Narrow Scope & Intellectual Property Removal & Monitoring \\
-		& Ownership & Internet Access & Rate-limiting  \\
-		& Prohibited Use Policy & Inventory & Redundancy \\
-		& Regulated Dealings & Kill Switch & Session Limits \\
-		& Session Limits & Minors & Supply Chain Audit \\
-		& Terms of Service & Monitoring &  \\
-		& Training  & Narrow Scope &  \\
-		& User Feedback & Ownership &  \\
-		& User Recourse & Prohibited Use Policy &  \\
-		&  & RAG &  \\
-		&  & RLHF &  \\
-		&  & Refresh &  \\
-		&  & Regulated Dealings &  \\
-		&  & System Prompt  &  \\
-		&  & Temperature &  \\
-		&  & Terms of Service &  \\
-		&  & Training  &  \\
-		&  & User Feedback &  \\
-		&  & User Recourse &  \\
-		&  & Validation &  \\
-		\bottomrule
-	\end{tabular}	
-\end{table}
-
-\pagebreak
-
-\begin{table}[H]
-	\caption*{Table E.2: Selected risk controls organized by generative AI risk (continued).}
-	\label{tab:controls_by_gai_risk_cont2}
-	\footnotesize
-	\begin{tabular}{lll}
-		\toprule
-		\textbf{Intellectual Property} & \textbf{Obscene, Degrading, and/or Abusive Content} & \textbf{Toxicity, Bias, and Homogenization} \\
-		\midrule
-		Contract Review & Access Control  & Anonymous Use \\
-		Data Provenance & Anonymous Use & Approved List \\
-		Digital Signature & Approved List & Blocklist  \\
-		Disclosure of AI Interaction & Blocklist  & CSAM/Obsenity Removal  \\
-		External Audit & CSAM/Obsenity Removal  & Change Management \\
-		Human Review  & Change Management & Content Moderation \\
-		Instructions & Content Moderation & Data Provenance \\
-		Intellectual Property Removal & Data Retention & Data Quality \\
-		Internet Access & Decommission Process & Decision making  \\
-		Inventory & External Audit & External Audit \\
-		Ownership & Failure Avoidance & Failure Avoidance \\
-		Prohibited Use Policy & Human Review  & Fine Tuning \\
-		Terms of Service & Incident Response & Grounding \\
-		Training  & Internet Access & Human Review  \\
-		User Feedback & Kill Switch & Incorporate feedback  \\
-		User Recourse & Minors & Internet Access \\
-		& Monitoring & Instructions \\
-		& Session Limits & Kill Switch \\
-		& User Feedback & Minors \\
-		& User Recourse & Monitoring \\
-		&  & Narrow Scope \\
-		&  & Prohibited Use Policy \\
-		&  & RAG \\
-		&  & RLHF \\
-		&  & Refresh \\
-		&  & System Prompt  \\
-		&  & Temperature \\
-		&  & Terms of Service \\
-		&  & User Feedback \\
-		&  & User Recourse \\
-		&  & Validation \\
-		\bottomrule
-	\end{tabular}
-	\newline
-	\vspace{10pt}
-	\newline	
-	\begin{tabular}{l}
-		\toprule
-		\textbf{Value Chain and Component Integration} \\
-		\midrule
-		Approved List \\
-		Blocklist  \\
-		CSAM/Obsenity Removal  \\
-		Change Management \\
-		Contract Review \\
-		Data Provenance \\
-		Data Quality \\
-		Dependency Screening  \\
-		Digital Signature \\
-		Disclosure of AI Interaction \\
-		External Audit \\
-		Failure Avoidance \\
-		Fine Tuning \\
-		Grounding \\
-		Insurance \\
-		Intellectual Property Removal \\
-		Internet Access \\
-		Inventory \\
-		Malware Screening \\
-		Ownership \\
-		Prohibited Use Policy \\
-		Redundancy \\
-		Supply Chain Audit \\
-		System Documentation \\
-		Terms of Service \\
-		\bottomrule
-	\end{tabular}	
-\end{table}
-
-\begin{landscape}
-\thispagestyle{empty}	
-
+\begin{landscape} 
+	
 % ---------- ----------
 \section*{Appendix F: Example Low-risk Generative AI Measurement and Management Plan}\label{sec:appndxf}
 % ---------- ----------
@@ -1792,7 +1548,6 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \end{table}
 
 \end{landscape}
-
 \pagebreak 
 
 \begin{table}[H]
@@ -2020,7 +1775,8 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 			\textbullet\hspace{3pt} Instructions \\
 			\textbullet\hspace{3pt} Inventory \\
 			\textbullet\hspace{3pt} Ownership \\		 		
-			\textbullet\hspace{3pt} Prohibited Use Policy\\ 
+			\textbullet\hspace{3pt} Prohibited Use Policy\\
+			\textbullet\hspace{3pt} Regulated Dealings \\ 
 			\textbullet\hspace{3pt} System Documentation \\
 			\textbullet\hspace{3pt} System Prompt \\
 			\textbullet\hspace{3pt} Temperature	\\
@@ -2271,8 +2027,9 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 
 \vfill
 \raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
-\end{landscape}
 
+\pagebreak
+\thispagestyle{empty}
 
 % ---------- ----------
 \section*{Appendix G: Example Medium-risk Generative AI Measurement and Management Plan}\label{sec:appndxg}
@@ -2281,6 +2038,76 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 % ---------- ----------
 \subsection*{G.1: Example Medium-risk Generative AI Measurement and Management Plan by Trustworthy Characteristic}\label{appdxg1}
 % ---------- ----------
+
+\begin{table}[H]
+	\caption*{Table G.1: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by trustworthy characteristic.}
+	\footnotesize
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{\textbf{Function}} & \multicolumn{4}{|c|}{\textbf{Trustworthy Characteristic}}   \\
+		\cline{2-5}
+		& \textbf{Accountable and Transparent} & \textbf{Fair with Harmful Bias Managed} & \textbf{Interpretable and Explainable} & \textbf{Privacy-enhanced} \\
+		\hline
+		\textbf{Measure} & 
+		\makecell[l]{
+			\textbullet\hspace{3pt} Context exhaustion:\\\hspace{10pt}logic-overloading prompts. \\
+			\textbullet\hspace{3pt} Loaded/leading questions. \\
+			\textbullet\hspace{3pt} Multi-tasking prompts. \\
+		}
+		&
+		\makecell[l]{ 	
+			\textbullet\hspace{3pt} Counterfactual prompts.\\ 	
+			\textbullet\hspace{3pt} Pros and cons prompts.\\ 	
+			\textbullet\hspace{3pt} Role-playing prompts.\\ 	
+			\textbullet\hspace{3pt} Loaded/leading questions.\\ 	
+			\textbullet\hspace{3pt} Low context prompts.\\ 	
+			\textbullet\hspace{3pt} Repeat this. \\
+		}
+		&
+		\makecell[l]{ 	
+			\textbullet\hspace{3pt} Context exhaustion:\\\hspace{10pt}logic-overloading prompts \\\hspace{10pt}(to reveal unexplainable\\\hspace{10pt}decisioning processes).  	\\
+		} 
+		&
+		\makecell[l]{ 	
+			\textbullet\hspace{3pt} Auto/biographical prompts.\\ 	
+			\textbullet\hspace{3pt} Location awareness prompts.\\ 	
+			\textbullet\hspace{3pt} Autocompletion prompts.\\ 	
+			\textbullet\hspace{3pt} Repeat this. 	\\
+		}
+		\\
+		\hline		
+		\textbf{Manage} & & & & \\
+		\hline
+	\end{tabular}
+	\label{table:med_risk_plan_by_tc}
+\end{table}
+
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+
+\pagebreak
+\thispagestyle{empty}
+
+\begin{table}[H]
+	\caption*{Table G.1: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by trustworthy characteristic (continued).}
+	\footnotesize
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{\textbf{Function}} & \multicolumn{3}{|c|}{\textbf{Trustworthy Characteristic}}   \\
+		\cline{2-4}
+		& \textbf{Safe} & \textbf{Secure and Resilient} & \textbf{Valid and Reliable} \\
+		\hline
+		\textbf{Measure} & & & \\
+		\hline		
+		\textbf{Manage} & & & \\
+		\hline
+	\end{tabular}
+	\label{table:med_risk_plan_by_tc_cont}
+\end{table}
+
+\end{landscape}
+
+\pagebreak 
 
 % ---------- ----------
 \subsection*{G.2: Example Medium-risk Generative AI Measurement and Management Plan by Generative AI Risk}\label{appdxg2}
