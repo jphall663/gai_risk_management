@@ -1,18 +1,3 @@
-	 \textbullet\hspace{3pt} CSAM/Obsenity Removal 
-	 \textbullet\hspace{3pt} Fast Decommission
-	 \textbullet\hspace{3pt} Insurance
-	 \textbullet\hspace{3pt} Intellectual Property Removal
-	 \textbullet\hspace{3pt} Redudancy
-	 \textbullet\hspace{3pt} Restrict Internet Access
-	 \textbullet\hspace{3pt} Restrict Minors
-	 \textbullet\hspace{3pt} Restrict Regulated Dealings
-	 \textbullet\hspace{3pt} Sensitive/Personal Data Removal 
-	 \textbullet\hspace{3pt} Supply Chain Audit
-	 \textbullet\hspace{3pt} User Recourse
-
-\makecell[l]{							 	 
-} 
-
 matches:
 Fair/Toxic
 Privay/Privacy
@@ -20,6 +5,218 @@ Safe/Dangerous
 Security/Security
 V and R/Confab
 
-TODOS: 
-- Text
-- Abbreviations
+& \makecell[l]{
+	\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
+	\textbullet\hspace{3pt} Fast decommission. \\ 	
+	\textbullet\hspace{3pt} Insurance. \\ 	
+	\textbullet\hspace{3pt} Intellectual property removal. \\ 		
+	\textbullet\hspace{3pt} Restrict minors. \\ 	
+	\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
+	\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+	\textbullet\hspace{3pt} Supply chain audit. \\ 	
+	\textbullet\hspace{3pt} User recourse. \\   		 
+}
+
+\begin{landscape}
+\pagebreak
+\thispagestyle{empty}
+
+\begin{table}[H]
+	\caption*{Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI Risk (continued).}
+	\footnotesize
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{\textbf{Function}} & \multicolumn{4}{|c|}{\textbf{Generative AI Risk}}   \\
+		\cline{2-5}
+		& \textbf{Environmental} & \textbf{Human-AI Configuration} & \textbf{Information Integrity} & \textbf{Information Security} \\
+		\hline	
+		\textbf{Measure} & 
+		\makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		\\
+		\hline
+		\textbf{Manage} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Fast decommission. \\ 	
+			\textbullet\hspace{3pt} Insurance. \\ 		
+			\textbullet\hspace{3pt} Supply chain audit. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\						 	 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
+			\textbullet\hspace{3pt} Fast decommission. \\ 		
+			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
+			\textbullet\hspace{3pt} Restrict minors. \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
+			\textbullet\hspace{3pt} Fast decommission. \\ 	
+			\textbullet\hspace{3pt} Insurance. \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
+			\textbullet\hspace{3pt} Restrict internet access. \\ 	
+			\textbullet\hspace{3pt} Restrict minors. \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+			\textbullet\hspace{3pt} Supply chain audit. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\ 						 	 		 	 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
+			\textbullet\hspace{3pt} Fast decommission. \\ 	
+			\textbullet\hspace{3pt} Insurance. \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
+			\textbullet\hspace{3pt} Redundancy. \\ 	
+			\textbullet\hspace{3pt} Restrict internet access. \\ 	
+			\textbullet\hspace{3pt} Restrict minors. \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+			\textbullet\hspace{3pt} Supply chain audit. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\				 	 
+		} 
+		\\
+		\hline
+	\end{tabular}
+	\label{table:high_risk_plan_by_gai_risk_cont}
+\end{table}
+
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+
+\pagebreak
+\thispagestyle{empty}
+
+\begin{table}[H]
+	\caption*{Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI Risk (continued).}
+	\footnotesize
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{\textbf{Function}} & \multicolumn{4}{|c|}{\textbf{Generative AI Risk}}   \\
+		\cline{2-5}
+		& \textbf{Intellectual Property} & \makecell[l]{\textbf{Obscene, Degrading,}\\\textbf{and/or Abusive Content}} & \makecell[l]{\textbf{Toxicity, Bias, and}\\\textbf{Homogenization}} & \makecell[l]{\textbf{Value Chain and}\\\textbf{Component Integration}} \\
+		\hline		
+		\textbf{Measure} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} A. \\ 
+			\textbullet\hspace{3pt} B. \\
+			\textbullet\hspace{3pt} C. \\
+			\textbullet\hspace{3pt} D. \\
+			\textbullet\hspace{3pt} E. \\ 
+			\textbullet\hspace{3pt} F. \\
+			\textbullet\hspace{3pt} G. \\
+		}
+		\\
+		\hline
+		\textbf{Manage} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Fast decommission. \\ 	
+			\textbullet\hspace{3pt} Insurance. \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
+			\textbullet\hspace{3pt} Restrict internet access. \\ 		
+			\textbullet\hspace{3pt} Supply chain audit. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\ 					 	 
+		} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
+			\textbullet\hspace{3pt} Fast decommission. \\ 	
+			\textbullet\hspace{3pt} Insurance. \\ 	
+			\textbullet\hspace{3pt} Restrict internet access. \\ 	
+			\textbullet\hspace{3pt} Restrict minors. \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+			\textbullet\hspace{3pt} Supply chain audit. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\						 	 
+		} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
+			\textbullet\hspace{3pt} Fast decommission. \\ 	
+			\textbullet\hspace{3pt} Insurance. \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+			\textbullet\hspace{3pt} Supply chain audit. \\ 	
+			\textbullet\hspace{3pt} User recourse. \\  
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 		
+			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
+			\textbullet\hspace{3pt} Redundancy. \\ 		
+			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
+			\textbullet\hspace{3pt} Supply chain audit. \\ 							 	 
+		} 
+		\\
+		\hline
+	\end{tabular}
+	\label{table:high_risk_plan_by_gai_risk_cont2}
+\end{table}
+
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+
+\pagebreak
+\thispagestyle{empty}
+
+\end{landscape}
