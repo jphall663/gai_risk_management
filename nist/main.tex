@@ -432,6 +432,13 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 
 \noindent\textbf{B.6.9: Value Chain and Component Integration}: Are contracts relating to the system reviewed for legal risks? Are standard acquisition/procurement controls applied to mitigate potential adverse impacts? Do vendors provide incident response with guaranteed response times? What are the impacts if these conditions are not met?
 
+% ---------- ----------
+\subsection*{B.7: AI Risk Management Framework Actions Aligned to Risk Tiering}\label{appndxb7}
+% ---------- ----------
+
+GOVERN 1.3, GOVERN 1.5, GOVERN 2.3, GOVERN 3.2, GOVERN 4.1, GOVERN 5.2, GOVERN 6.1, MANAGE 1.2, MANAGE 1.3, MANAGE 2.1, MANAGE 2.2, MANAGE 2.3, 
+MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6
+
 \pagebreak
 
 % ---------- ----------
@@ -836,6 +843,12 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\bottomrule			
 	\end{tabular}
 \end{table}
+
+% ---------- ----------
+\subsection*{C.3: AI Risk Management Framework Actions Aligned to Benchmarking}\label{appndxc3}
+% ---------- ----------
+
+GOVERN 5.1, MAP 1.2, MAP 3.1, MEASURE 2.2, MEASURE 2.3, MEASURE 2.7, MEASURE 2.9, MEASURE 2.11, MEASURE 3.1, MEASURE 4.2
 
 % ---------- ----------
 \section*{Appendix D: List of Common Adversarial Prompting Strategies}
@@ -1286,6 +1299,14 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \end{table}
 
 % ---------- ----------
+\subsection*{D.3: AI Risk Management Framework Actions Aligned to Red Teaming}\label{sec:appndxd3}
+% ---------- ----------
+
+GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASURE 2.6, MEASURE 2.7, MEASURE 2.8, MEASURE 2.10, MEASURE 2.11
+
+\pagebreak
+
+% ---------- ----------
 \section*{Appendix E: Selected Risk Controls for Generative AI}\label{sec:appndxe}
 % ---------- ----------
 
@@ -1297,31 +1318,46 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\hline
 		\textbf{Name} & \textbf{Description} \\
 		\hline
-		Access Control  & GAI systems are limited to authorized users.  \\ \hline
-		Accessibility  & Accessibility features, opt-out, and reasonable accomodation are available to users. \\ \hline
-		Approved List & Vendors, service providers, plugins, open source packages and other external resources are screened, approved, and documented.  \\ \hline
-		Authentication  & GAI system user identities are confirmed via authentication mechanisms.  \\ \hline
-		Blocklist  & Users or internal personnel who violate terms of service, prohibited use policies, and other organization polices and documented, tracked, and restricted from future system use.  \\ \hline		
-		Change Management & GAI systems and components are versioned; plans for updates, hotfixes, patches and other changes are documented and communicated.   \\ \hline
-		Consent & User consent for data use is obtained and documented.  \\ \hline
-		Content Moderation & Training data and system outputs are screened for accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, and other issues using human oversight, business rules, and other language models.   \\ \hline
-		Contract Review & Vendor, services and data provider agreements are reviewed for coverage of SLAs, content ownership, usage rights, performance standards, security requirements, incident response, critical support, system availability, assignment of liabilitly, appropriate indemnification, dispute resolution and other provisions relevanto AI risk management.  \\ \hline		
-		CSAM/Obsenity Removal  & Training data and system outputs are screened for obscene materials and CSAM using human oversight, business rules, and other language models.   \\ \hline		
-		Data Provenance & Training data origins, ownership, contents, and metadata are well understood, documented, and do not increase AI risk.  \\ \hline
-		Data Quality & Input data is accurate, representative, complete and documented, and data quality issues have been minimized.  \\ \hline
-		Data Retention & User prompts and associated system outputs are retained and monitored in alignment with relevant data privacy policies and roles.   \\ \hline
-		Decommission Process & Decommissioning processes for GAI systems are planned, documented and communicated to users, and involve staging, data protection, containment protocols, and recourse mechanisms for decommissioned GAI systems.   \\ \hline
-		Dependency Screening  & GAI system dependencies are screened for security vulnerabilities.  \\ \hline
-		Digital Signature & GAI-generated content is signed to preserve information integrity using watermarking, cryptogrpahic signature, steganography or similar methods.  \\ \hline
-		Disclosure of AI Interaction & AI interactions are disclosed to internal personnel and external users. \\ \hline
-		External Audit & GAI systems are audited by qualified external experts.  \\ \hline
-		Failure Avoidance & AIID, AVID, GWU AI Litigation Database, OECD incident monitor or similar are consulted in design or procurement phases of GAI lifecycles to avoid repeating past known failures.  \\ \hline
-		Fast Decommission & GAI systems can be quickly and safely disengaged.  \\ \hline		
-		Fine Tuning & GAI systems are fine-tuned to their operational domain using relevant and high-quality data.  \\ \hline
-		Grounding & GAI systems are trained or fine-tuned on accurate, clean, and fully transparent training data.  \\ \hline
-		Human Review  & AI generated content is reviewed for accuracy and safety by qualified personnel.  \\ \hline
-		Incident Response & Incident response plans for GAI failures, abuses, or misuses are documented, rehearsed, and updated appropriately after each incident; GAI incident response plans are coordinated with and communicated to other incident response functions.  \\ \hline
-		Incorporate feedback  & User feedback is incorporated in GAI design, development, and risk management.  \\ \hline
+		Access Control  & GAI systems are limited to authorized users. (MG-2.2-009, MG-2.2-014, MS-2.7-030) \\ \hline
+		Accessibility  & Accessibility features, opt-out, and reasonable accomodation are available to users. (GV-3.1-004, GV-3.1-005, GV-3.2-002, GV-6.1-016, MG-2.1-005, MS-2.11-009, MS-2.8-006) \\ \hline
+		Approved List & Vendors, service providers, plugins, open source packages and other external resources are screened, approved, and documented. (GV-6.1-013, MP-4.2-003) \\ \hline
+		Authentication  & GAI system user identities are confirmed via authentication mechanisms. (MG-2.2-009, MG-2.2-014, MS-2.7-030) \\ \hline
+		Blocklist & Users or internal personnel who violate terms of service, prohibited use policies, and other organization polices and documented, tracked, and restricted from future system use. (GV-4.2-007) \\ \hline		
+		Change Management & GAI systems and components are versioned; plans for updates, hotfixes, patches and other changes are documented and communicated. (GV-1.2-009, GV-1.4-002, GV-1.6-003, GV-2.2-006, 		MG-2.4-001, MG-2.4-006, MG-3.1-013, MG-4.3-002, MP-4.1-023, 
+		MS-2.5-010)  \\ \hline
+		Consent & User consent for data use is obtained and documented. (GV-1.6-003, MS-2.10-006, MS-2.10-013, MS-2.2-009, MS-2.2-011, 	MS-2.2-021, MS-2.2-023, MS-2.3-003, MS-2.4-002)  \\ \hline
+		Content Moderation & Training data and system outputs are screened for accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, and other issues using human oversight, business rules, and other language models. (GV-3.2-002, MS-2.5-005, MS-2.11-002)  \\ \hline
+		Contract Review & Vendor, services and data provider agreements are reviewed for coverage of SLAs, content ownership, usage rights, performance standards, security requirements, incident response, critical support, system availability, assignment of liabilitly, appropriate indemnification, dispute resolution and other provisions relevanto AI risk management. (GV-1.7-003
+		GV-6.1-004, GV-6.1-009, GV-6.1-012, GV-6.1-019, GV-6.2-016, 		MG-2.2-015, MP-4.1-015, MP-4.1-021) \\ \hline		
+		CSAM/Obsenity Removal  & Training data and system outputs are screened for obscene materials and CSAM using human oversight, business rules, and other language models. (GV-1.1-005
+		GV-1.2-005)  \\ \hline		
+		Data Provenance & Training data origins, ownership, contents, and metadata are well understood, documented, and do not increase AI risk. (GV-1.2-006, GV-1.2-007, GV-1.3-001, GV-1.3-005, GV-1.5-001, GV-1.5-003, GV-1.5-006, GV-1.5-007, GV-1.6-003, GV-4.2-001, GV-4.2-008, GV-4.2-009, GV-5.1-003, GV-6.1-001, GV-6.1-003, GV-6.1-006, GV-6.1-007, GV-6.1-009, GV-6.1-010, GV-6.1-011, GV-6.1-012, GV-6.1-014, GV-6.1-015, GV-6.1-016, MG-2.2-002, MG-2.2-003, MG-2.2-008, MG-2.2-011, MG-3.1-007, MG-3.1-009, MG-3.2-003, MG-3.2-005, MG-3.2-006, MG-3.2-007, MG-3.2-009, MG-4.1-001, MG-4.1-002, MG-4.1-003, MG-4.1-008, MG-4.1-009, MG-4.1-013, MG-4.1-015, MG-4.2-001, MG-4.2-003, MG-4.2-004, MP-2.1-001, MP-2.1-003, MP-2.1-005, MP-2.2-003, MP-2.2-004, MP-2.2-005, MP-2.3-001, MP-2.3-004, MP-2.3-006, MP-2.3-008, MP-2.3-011, MP-2.3-012, MP-3.4-001, MP-3.4-002, MP-3.4-004, MP-3.4-005, MP-3.4-006, MP-3.4-007, MP-3.4-008, MP-3.4-009, MP-4.1-004, MP-4.1-009, MP-4.1-011, MP-5.1-001, MP-5.1-002, MP-5.1-005, MS-1.1-006, MS-1.1-007, MS-1.1-008, MS-1.1-009, MS-1.1-010, MS-1.1-011, MS-1.1-012, MS-1.1-014, MS-1.1-015, MS-1.1-016, MS-1.1-017, MS-1.1-018, MS-2.10-001, MS-2.10-004, MS-2.10-006, MS-2.10-007, MS-2.10-009, MS-2.2-001, MS-2.2-002, MS-2.2-003, MS-2.2-004, MS-2.2-005, MS-2.2-008, MS-2.2-009, MS-2.2-010, MS-2.2-011, MS-2.2-015, MS-2.2-016, MS-2.2-022, MS-2.5-012, MS-2.6-002, MS-2.7-002, MS-2.7-003, MS-2.7-004, MS-2.7-005, MS-2.7-007, MS-2.7-009, MS-2.7-010, MS-2.7-011, MS-2.7-012, MS-2.7-020, MS-2.7-021, MS-2.7-025, MS-2.7-032, MS-2.8-001, MS-2.8-005, MS-2.8-008, MS-2.8-011, MS-2.9-003, MS-3.3-002, MS-3.3-003, MS-3.3-006, MS-3.3-008, MS-3.3-009, MS-3.3-012, MS-4.2-001, MS-4.2-004, MS-4.2-005, MS-4.2-006, MS-4.2-008, MS-4.2-009, MS-4.2-011) \\ \hline
+		Data Quality & Input data is accurate, representative, complete and documented, and data quality issues have been minimized. (GV-1.2-009, MS-2.2-020, MS-2.9-003, MS-4.2-007) \\ \hline
+		Data Retention & User prompts and associated system outputs are retained and monitored in alignment with relevant data privacy policies and roles. (GV-1.5-006, MP-4.1-009, MS-2.10-013)  \\ \hline
+		Decommission Process & Decommissioning processes for GAI systems are planned, documented and communicated to users, and involve staging, data protection, containment protocols, and recourse mechanisms for decommissioned GAI systems. (GV-1.6-004, GV-1.7-001, GV-1.7-002, GV-1.7-003, GV-1.7-004, GV-1.7-005, GV-1.7-006, GV-1.7-007, GV-1.7-008, GV-3.2-002, GV-3.2-006, GV-4.1-004, GV-5.2-002, MG-2.3-005, MG-2.4-009, MG-3.1-003, MG-3.1-012, MG-3.2-011, MG-3.2-012, MG-4.1-016, MP-1.5-004, MP-2.2-007, MS-4.2-010) \\ \hline
+		Dependency Screening  & GAI system dependencies are screened for security vulnerabilities. (GV-1.3-001, GV-1.4-002, GV-1.6-003, GV-1.7-003, GV-1.7-006, GV-6.2-002, GV-6.2-005, GV-6.2-006, MP-1.2-006, MP-1.6-001, MP-2.2-008, MP-4.1-012, MS-2.7-001) \\ \hline
+	\end{tabular}
+\end{table}		
+\pagebreak	
+		
+\begin{table}[H]
+	\caption*{Table E: Selected generative AI risk controls (continued).}
+	\label{tab:controls_cont}
+	\footnotesize
+	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
+		\hline
+		\textbf{Name} & \textbf{Description} \\
+		\hline		
+		Digital Signature & GAI-generated content is signed to preserve information integrity using watermarking, cryptogrpahic signature, steganography or similar methods. (GV-1.2-006, GV-1.6-003, GV-6.1-011, MG-4.1-008, MP-2.3-004, MS-1.1-006, MS-1.1-016, MS-2.7-009, MS-2.7-032) \\ \hline
+		Disclosure of AI Interaction & AI interactions are disclosed to internal personnel and external users. (GV-1.1-003, GV-1.4-004, GV-1.6-003, GV-5.1-002) \\ \hline
+		External Audit & GAI systems are audited by qualified external experts. (GV-1.2-009, GV-1.4-004, GV-3.2-001, GV-3.2-002, GV-4.1-003, GV-4.1-008, GV-5.1-003, MG-4.2-002, MP-2.3-011, MP-4.1-002, MS-1.3-005, MS-1.3-006, MS-1.3-010, MS-2.5-003, MS-2.8-020) \\ \hline
+		Failure Avoidance & AIID, AVID, GWU AI Litigation Database, OECD incident monitor or similar are consulted in design or procurement phases of GAI lifecycles to avoid repeating past known failures. (GV-1.6-003, MG-2.1-006, MG-3.1-008, MG-4.1-003, MP-1.1-003, MP-1.1-006, MS-1.1-003, MS-2.2-020, MS-2.7-031) \\ \hline
+		Fast Decommission & GAI systems can be quickly and safely disengaged. (GV-1.7-002, GV-1.7-003, GV-1.7-006, GV-3.2-006, GV-5.2-002, MG-2.3-005, MG-2.4-009, MG-3.1-003, MG-3.1-012, MG-3.2-012, MG-4.1-016) \\ \hline		
+		Fine Tuning & GAI systems are fine-tuned to their operational domain using relevant and high-quality data. (GV-6.1-016, 	MG-3.1-001, MG-3.2-002, MP-4.1-013, MS-2.6-004) \\ \hline
+		Grounding & GAI systems are trained or fine-tuned on accurate, clean, and fully transparent training data. (GV-1.2-002, MG-3.1-001, MP-2.3-001, MS-2.3-017, MS-2.5-012) \\ \hline
+		Human Review  & AI generated content is reviewed for accuracy and safety by qualified personnel. (GV-1.3-001, MG-2.2-008, MS-2.4-005, MS-2.5-015 ) \\ \hline
+		Incident Response & Incident response plans for GAI failures, abuses, or misuses are documented, rehearsed, and updated appropriately after each incident; GAI incident response plans are coordinated with and communicated to other incident response functions. (GV-1.2-009, GV-1.5-001, GV-1.5-004, GV-1.5-005, GV-1.5-013, GV-1.5-015, GV-1.6-003, GV-1.6-007, GV-2.1-004, GV-3.2-002, GV-4.1-006, GV-4.2-002, GV-4.3-013, GV-6.1-006, GV-6.2-008, GV-6.2-016, GV-6.2-018, MG-1.3-001, MG-2.3-001, MG-2.3-002, MG-2.3-003, MG-2.4-004, MG-4.2-006, MG-4.3-001, MS-2.6-003, MS-2.6-012, MS-2.6-015, MS-2.7-002, MS-2.7-018, MS-2.7-028, MS-3.1-007) \\ \hline
+		Incorporate feedback & User feedback is incorporated in GAI design, development, and risk management. \\ \hline
 		Instructions & Users are provided with the necessary instructions for safe, valid, and productive use. \\ \hline
 		Insurance & Risk transfer via insurance policies is considered and implemented when feasibable and appropriate.  \\ \hline
 		Intellectual Property Removal & Licensed, patented, trademarked, trade secret, or other data that may violate the intellectual property rights of others is removed from system training data; generated system outputs are monitored for similar information.  \\ \hline
@@ -1329,14 +1365,14 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		Malware Screening & GAI weights and other software components are scanned for malware.  \\ \hline
 		Model Documentation  & All technical mchanisms with GAI systems are well documented, including open source and third party GAI systems.  \\ \hline
 		Monitoring & GAI systems are inputs and outputs are monitored for drift, accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, obscene materials, and CSAM.  \\ \hline
-	\end{tabular}
-\end{table}		
 		
+	\end{tabular}
+\end{table}	
 \pagebreak		
 	
 \begin{table}[H]
 	\caption*{Table E: Selected generative AI risk controls (continued).}
-	\label{tab:controls_cont}
+	\label{tab:controls_cont2}
 	\footnotesize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
 		\hline
@@ -2053,29 +2089,29 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\hline
 		\textbf{Measure} & 
 		\makecell[l]{
-			\textbullet\hspace{3pt} Context exhaustion:\\\hspace{10pt}logic-overloading prompts. \\
-			\textbullet\hspace{3pt} Loaded/leading questions. \\
-			\textbullet\hspace{3pt} Multi-tasking prompts. \\
+			\textbullet\hspace{3pt} Context exhaustion:\\\hspace{10pt}logic-overloading prompts \\
+			\textbullet\hspace{3pt} Loaded/leading questions \\
+			\textbullet\hspace{3pt} Multi-tasking prompts \\
 		}
 		&
 		\makecell[l]{ 	
-			\textbullet\hspace{3pt} Counterfactual prompts.\\ 	
-			\textbullet\hspace{3pt} Pros and cons prompts.\\ 	
-			\textbullet\hspace{3pt} Role-playing prompts.\\ 	
-			\textbullet\hspace{3pt} Loaded/leading questions.\\ 	
-			\textbullet\hspace{3pt} Low context prompts.\\ 	
-			\textbullet\hspace{3pt} Repeat this. \\
+			\textbullet\hspace{3pt} Counterfactual prompts\\  	
+			\textbullet\hspace{3pt} Pros and cons prompts\\  	
+			\textbullet\hspace{3pt} Role-playing prompts\\  	
+			\textbullet\hspace{3pt} Loaded/leading questions\\  	
+			\textbullet\hspace{3pt} Low context prompts\\  	
+			\textbullet\hspace{3pt} Repeat this \\
 		}
 		&
 		\makecell[l]{ 	
-			\textbullet\hspace{3pt} Context exhaustion:\\\hspace{10pt}logic-overloading prompts \\\hspace{10pt}(to reveal unexplainable\\\hspace{10pt}decisioning processes).  	\\
+			\textbullet\hspace{3pt} Context exhaustion:\\\hspace{10pt}logic-overloading prompts \\\hspace{10pt}(to reveal unexplainable\\\hspace{10pt}decisioning processes)  	\\
 		} 
 		&
 		\makecell[l]{ 	
-			\textbullet\hspace{3pt} Auto/biographical prompts.\\ 	
-			\textbullet\hspace{3pt} Location awareness prompts.\\ 	
-			\textbullet\hspace{3pt} Autocompletion prompts.\\ 	
-			\textbullet\hspace{3pt} Repeat this. 	\\
+			\textbullet\hspace{3pt} Auto/biographical prompts\\  	
+			\textbullet\hspace{3pt} Location awareness prompts\\  	
+			\textbullet\hspace{3pt} Autocompletion prompts\\  	
+			\textbullet\hspace{3pt} Repeat this 	\\
 		}
 		\\
 		\hline		
@@ -2161,34 +2197,34 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\hline
 		\textbf{Measure} & 
 		\makecell[l]{
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Content exhaustion: niche-seeking prompts. \\
-			\textbullet\hspace{3pt} Ingratiation/reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Loaded/leading questions. \\
-			\textbullet\hspace{3pt} Location awareness prompts. \\
-			\textbullet\hspace{3pt} Repeat this. \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Content exhaustion: niche-seeking prompts \\
+			\textbullet\hspace{3pt} Ingratiation/reverse psychology prompts \\
+			\textbullet\hspace{3pt} Loaded/leading questions \\
+			\textbullet\hspace{3pt} Location awareness prompts \\
+			\textbullet\hspace{3pt} Repeat this \\
 		}	
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Multi-tasking prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Content exhaustion: niche-seeking prompts. \\
-			\textbullet\hspace{3pt} Ingratiation/reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Prompt injection attacks. \\
-			\textbullet\hspace{3pt} Membership inference attacks. \\
-			\textbullet\hspace{3pt} Random attacks. \\
+			\textbullet\hspace{3pt} Multi-tasking prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Content exhaustion: niche-seeking prompts \\
+			\textbullet\hspace{3pt} Ingratiation/reverse psychology prompts \\
+			\textbullet\hspace{3pt} Prompt injection attacks \\
+			\textbullet\hspace{3pt} Membership inference attacks \\
+			\textbullet\hspace{3pt} Random attacks \\
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Multi-tasking prompts. \\
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Ingratiation/reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Loaded/leading questions. \\
-			\textbullet\hspace{3pt} Time-perplexity prompts. \\
-			\textbullet\hspace{3pt} Niche-seeking prompts. \\
-			\textbullet\hspace{3pt} Logic overloading prompts. \\
-			\textbullet\hspace{3pt} Repeat this. \\
-			\textbullet\hspace{3pt} Numeric calculation. \\
+			\textbullet\hspace{3pt} Multi-tasking prompts \\
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Ingratiation/reverse psychology prompts \\
+			\textbullet\hspace{3pt} Loaded/leading questions \\
+			\textbullet\hspace{3pt} Time-perplexity prompts \\
+			\textbullet\hspace{3pt} Niche-seeking prompts \\
+			\textbullet\hspace{3pt} Logic overloading prompts \\
+			\textbullet\hspace{3pt} Repeat this \\
+			\textbullet\hspace{3pt} Numeric calculation \\
 		}
 		\\
 		\hline		
@@ -2261,34 +2297,34 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		& \textbf{CBRN Information} & \textbf{Confabulation} & \textbf{Dangerous and Violent Recommendations} & \textbf{Data Privacy} \\
 		\hline	
 		\textbf{Measure} & \makecell[l]{
-			\textbullet\hspace{3pt} Auto-completion prompts.  \\ 
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\
-			\textbullet\hspace{3pt} Repeat this. \\ 
+			\textbullet\hspace{3pt} Auto-completion prompts  \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\
+			\textbullet\hspace{3pt} Repeat this \\ 
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Context exhaustion: Logic overloading prompts. \\
-			\textbullet\hspace{3pt} Context exhaustion: Multi-tasking prompts. \\
-			\textbullet\hspace{3pt} Context exhaustion: Niche-seeking prompts. \\
-			\textbullet\hspace{3pt} Time perplexity prompts. \\
-			\textbullet\hspace{3pt} Loaded/leading questions. \\ 
-			\textbullet\hspace{3pt} Calculation and numeric queries. \\
+			\textbullet\hspace{3pt} Context exhaustion: Logic overloading prompts \\
+			\textbullet\hspace{3pt} Context exhaustion: Multi-tasking prompts \\
+			\textbullet\hspace{3pt} Context exhaustion: Niche-seeking prompts \\
+			\textbullet\hspace{3pt} Time perplexity prompts \\
+			\textbullet\hspace{3pt} Loaded/leading questions \\ 
+			\textbullet\hspace{3pt} Calculation and numeric queries \\
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\ 
-			\textbullet\hspace{3pt} Repeat this. \\ 
-			\textbullet\hspace{3pt} Loaded/leading questions. \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\ 
+			\textbullet\hspace{3pt} Repeat this \\ 
+			\textbullet\hspace{3pt} Loaded/leading questions \\ 
 		}   
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Location awareness. \\ 
-			\textbullet\hspace{3pt} Membership inference attacks. \\ 
-			\textbullet\hspace{3pt} Auto/biographical prompts. \\ 
-			\textbullet\hspace{3pt} Repeat this. \\
+			\textbullet\hspace{3pt} Location awareness \\ 
+			\textbullet\hspace{3pt} Membership inference attacks \\ 
+			\textbullet\hspace{3pt} Auto/biographical prompts \\ 
+			\textbullet\hspace{3pt} Repeat this \\
 		}
 		\\
 		\hline
@@ -2368,34 +2404,34 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		& \textbf{Environmental} & \textbf{Human-AI Configuration} & \textbf{Information Integrity} & \textbf{Information Security} \\
 		\hline	
 		\textbf{Measure} & \makecell[l]{
-			\textbullet\hspace{3pt} Availability attacks. \\ 
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\ 
+			\textbullet\hspace{3pt} Availability attacks \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\ 
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\ 
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Loaded/leading questions.  \\ 
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\
+			\textbullet\hspace{3pt} Loaded/leading questions  \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Confidentiality attacks.  \\ 
-			\textbullet\hspace{3pt} Integrity attacks.  \\ 
-			\textbullet\hspace{3pt} Availability attacks. \\ 
-			\textbullet\hspace{3pt} Random attacks. \\ 
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\
+			\textbullet\hspace{3pt} Confidentiality attacks  \\ 
+			\textbullet\hspace{3pt} Integrity attacks  \\ 
+			\textbullet\hspace{3pt} Availability attacks \\ 
+			\textbullet\hspace{3pt} Random attacks \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\
 		}
 		\\
 		\hline
@@ -2473,27 +2509,27 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		& \textbf{Intellectual Property} & \makecell[l]{\textbf{Obscene, Degrading,}\\\textbf{and/or Abusive Content}} & \makecell[l]{\textbf{Toxicity, Bias, and}\\\textbf{Homogenization}} & \makecell[l]{\textbf{Value Chain and}\\\textbf{Component Integration}} \\
 		\hline		
 		\textbf{Measure} & \makecell[l]{
-			\textbullet\hspace{3pt} Confidentiality attacks. \\ 
-			\textbullet\hspace{3pt} Auto-complete prompts. \\
+			\textbullet\hspace{3pt} Confidentiality attacks \\ 
+			\textbullet\hspace{3pt} Auto-complete prompts \\
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Confidentiality attacks. \\ 
-			\textbullet\hspace{3pt} Autocomplete prompts. \\ 
-			\textbullet\hspace{3pt} Role-playing prompts. \\
-			\textbullet\hspace{3pt} Reverse psychology prompts. \\
-			\textbullet\hspace{3pt} Pros and cons prompts. \\
-			\textbullet\hspace{3pt} Multitasking prompts. \\
-			\textbullet\hspace{3pt} Loaded/leading questions.  \\ 
-			\textbullet\hspace{3pt} Repeat this. \\
+			\textbullet\hspace{3pt} Confidentiality attacks \\ 
+			\textbullet\hspace{3pt} Autocomplete prompts \\ 
+			\textbullet\hspace{3pt} Role-playing prompts \\
+			\textbullet\hspace{3pt} Reverse psychology prompts \\
+			\textbullet\hspace{3pt} Pros and cons prompts \\
+			\textbullet\hspace{3pt} Multitasking prompts \\
+			\textbullet\hspace{3pt} Loaded/leading questions  \\ 
+			\textbullet\hspace{3pt} Repeat this \\
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Data poisoning attacks. \\ 
+			\textbullet\hspace{3pt} Data poisoning attacks \\ 
 			\textbullet\hspace{3pt} Counterfactual prompts \\
 			\textbullet\hspace{3pt} Pros and cons prompts \\
 			\textbullet\hspace{3pt} Role-playing prompts \\
-			\textbullet\hspace{3pt} Low context prompts. \\ 
-			\textbullet\hspace{3pt} Loaded/leading questions.  \\ 
-			\textbullet\hspace{3pt} Repeat this. \\
+			\textbullet\hspace{3pt} Low context prompts \\ 
+			\textbullet\hspace{3pt} Loaded/leading questions  \\ 
+			\textbullet\hspace{3pt} Repeat this \\
 		}
 		& \\
 		\hline
@@ -2579,88 +2615,114 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\cline{2-5}
 		& \textbf{Accountable and Transparent} & \textbf{Fair with Harmful Bias Managed} & \textbf{Interpretable and Explainable} & \textbf{Privacy-enhanced} \\
 		\hline
-		\textbf{Measure} & 
-		
+		\textbf{Measure} & \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Bias bounties \\ 
+			\textbullet\hspace{3pt} Calibration*\\ 
+			\textbullet\hspace{3pt} Cybersecurity testing \\ 
+			\textbullet\hspace{3pt} Environmental metrics \\ 
+			\textbullet\hspace{3pt} Field testing*\\ 
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Multi-session experiments*\\ 
+			\textbullet\hspace{3pt} Online metrics/monitoring \\ 
+			\textbullet\hspace{3pt} Perturbation studies*\\ 
+			\textbullet\hspace{3pt} PII identification and removal \\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Screening for information integrity \\ 
+			\textbullet\hspace{3pt} Sensitivity analysis*\\ 
+			\textbullet\hspace{3pt} Software testing \\ 
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 
+			\textbullet\hspace{3pt} Statistical quality control*\\ 
+			\textbullet\hspace{3pt} Stress testing*\\ 
+			\textbullet\hspace{3pt} Sub-sampling traffic for manually annotating \\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\ 
+			\textbullet\hspace{3pt} Testing third-party dependencies \\ 
+			\textbullet\hspace{3pt} User surveys*\\ 
+			\textbullet\hspace{3pt} Validity testing/validation.* \\	
+		}	
 		&
 		\makecell[l]{ 	
-			\textbullet\hspace{3pt} Algorithmic impact assessments\\ 	
-			\textbullet\hspace{3pt} Analyze differences between \\\hspace{10pt}intended and actual population of \\\hspace{10pt}users or data subjects.*\\	
-			\textbullet\hspace{3pt} Anomaly detection*\\ 	
-			\textbullet\hspace{3pt} Assessing data quality*\\ 	
-			\textbullet\hspace{3pt} Bias bounties\\ 	
-			\textbullet\hspace{3pt} Bias testing\\ 	
-			\textbullet\hspace{3pt} Calibration*\\ 	
-			\textbullet\hspace{3pt} Counterfactual/causal analysis\\ 	
-			\textbullet\hspace{3pt} Disaggregated metrics\\ 	
-			\textbullet\hspace{3pt} Field testing*\\ 	
-			\textbullet\hspace{3pt} Model assessment*\\ 	
-			\textbullet\hspace{3pt} Model comparisons*\\ 	
-			\textbullet\hspace{3pt} Multi-session experiments*\\ 	
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Software testing*\\ 	
-			\textbullet\hspace{3pt} Statistical quality control*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 		
-			\textbullet\hspace{3pt} User surveys*\\ 		
-			\textbullet\hspace{3pt} Validity testing*
+			\textbullet\hspace{3pt} Algorithmic impact assessments\\  	
+			\textbullet\hspace{3pt} Analyze differences between \\\hspace{10pt}intended and actual population of \\\hspace{10pt}users or data subjects*\\ 	
+			\textbullet\hspace{3pt} Anomaly detection*\\  	
+			\textbullet\hspace{3pt} Assessing data quality*\\  	
+			\textbullet\hspace{3pt} Bias bounties\\  	
+			\textbullet\hspace{3pt} Bias testing\\  	
+			\textbullet\hspace{3pt} Calibration*\\  	
+			\textbullet\hspace{3pt} Counterfactual/causal analysis\\  	
+			\textbullet\hspace{3pt} Disaggregated metrics\\  	
+			\textbullet\hspace{3pt} Field testing*\\  	
+			\textbullet\hspace{3pt} Model assessment*\\  	
+			\textbullet\hspace{3pt} Model comparison*\\  	
+			\textbullet\hspace{3pt} Multi-session experiments*\\  	
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Software testing\\  	
+			\textbullet\hspace{3pt} Statistical quality control*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  		
+			\textbullet\hspace{3pt} User surveys*\\  		
+			\textbullet\hspace{3pt} Validity testing/validation.*
 		}
 		&
 		\makecell[l]{ 	
-			\textbullet\hspace{3pt} Algorithmic impact assessments. \\
-			\textbullet\hspace{3pt} Analyze differences between \\\hspace{10pt}intended and actual population of \\\hspace{10pt}users or data subjects.*\\
-			\textbullet\hspace{3pt} Model comparisons.* \\
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\
+			\textbullet\hspace{3pt} Analyze differences between \\\hspace{10pt}intended and actual population of \\\hspace{10pt}users or data subjects*\\ 
+			\textbullet\hspace{3pt} Model comparison.* \\
 			\textbullet\hspace{3pt} Multi-session experiments.* \\	
 			\textbullet\hspace{3pt} Root cause analysis.* \\			
 			\textbullet\hspace{3pt} Stakeholder engagement and \\\hspace{10pt}feedback.*	\\		
-			\textbullet\hspace{3pt} UI/UX studies. \\			
-			\textbullet\hspace{3pt} User surveys*\\ 
+			\textbullet\hspace{3pt} UI/UX studies \\			
+			\textbullet\hspace{3pt} User surveys*\\  
 		} 
 		& 	
 		\makecell[l]{
-			\textbullet\hspace{3pt} Algorithmic impact assessments\\ 	
-			\textbullet\hspace{3pt} Assessing data quality* \\
-			\textbullet\hspace{3pt} Cybersecurity testing\\ 
-			\textbullet\hspace{3pt} PII identification and removal\\ 		
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 	
+			\textbullet\hspace{3pt} Algorithmic impact assessments\\  	
+			\textbullet\hspace{3pt} Assessing data quality.* \\
+			\textbullet\hspace{3pt} Cybersecurity testing\\  
+			\textbullet\hspace{3pt} PII identification and removal\\  		
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  	
 			\textbullet\hspace{3pt} Testing third-party dependencies \\
 		}
 		\\
 		\hline		
 		\textbf{Manage} &  \makecell[l]{
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Intellectual property removal. \\ 			
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\ 		 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 			
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\ 		 	
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\   
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\   
 		}
 		& \makecell[l]{	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 		
-			\textbullet\hspace{3pt} Supply Chain Audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\  
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 		
+			\textbullet\hspace{3pt} Supply Chain Audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\  
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Intellectual property removal. \\ 		
-			\textbullet\hspace{3pt} Restrict minors. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\   		 
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 		
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\   		 
 		}
 		\\
 		\hline
@@ -2684,83 +2746,100 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		& \textbf{Safe} & \textbf{Secure and Resilient} & \textbf{Valid and Reliable} \\
 		\hline
 		\textbf{Measure} & \makecell[l]{
-			\textbullet\hspace{3pt} Algorithmic impact assessments\\ 	
-			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects.*\\	 	
-			\textbullet\hspace{3pt} Assessing data quality*\\ 	 	
-			\textbullet\hspace{3pt} Bias bounties\\ 	
-			\textbullet\hspace{3pt} Calibration*\\ 	
-			\textbullet\hspace{3pt} Chaos testing\\ 	
+			\textbullet\hspace{3pt} Algorithmic impact assessments\\  	
+			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects*\\ 	 	
+			\textbullet\hspace{3pt} Assessing data quality*\\  	 	
+			\textbullet\hspace{3pt} Bias bounties\\  	
+			\textbullet\hspace{3pt} Calibration*\\  	
+			\textbullet\hspace{3pt} Chaos testing\\  	
 			\textbullet\hspace{3pt} Dangerous and violent
-			\\\hspace{10pt}content removal\\ 		
-			\textbullet\hspace{3pt} Field testing*\\ 	
-			\textbullet\hspace{3pt} Input/output filtering\\\hspace{10pt}using classifiers\\ 	
-			\textbullet\hspace{3pt} Model assessment*\\ 	
-			\textbullet\hspace{3pt} Model comparisons*\\ 	
-			\textbullet\hspace{3pt} Multi-session experiments*\\ 	
-			\textbullet\hspace{3pt} Perturbation studies*\\ 		
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Sensitivity analysis*\\ 	
-			\textbullet\hspace{3pt} Stakeholder engagement and\\\hspace{10pt}feedback*\\ 	
-			\textbullet\hspace{3pt} Statistical quality control*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 		
-			\textbullet\hspace{3pt} User surveys*\\ 	
-			\textbullet\hspace{3pt} Validity testing*\\ 
+			\\\hspace{10pt}content removal\\  		
+			\textbullet\hspace{3pt} Field testing*\\  	
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Model assessment*\\  	
+			\textbullet\hspace{3pt} Model comparison*\\  	
+			\textbullet\hspace{3pt} Multi-session experiments*\\  	
+			\textbullet\hspace{3pt} Perturbation studies*\\  		
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Sensitivity analysis*\\  	
+			\textbullet\hspace{3pt} Stakeholder engagement and\\\hspace{10pt}feedback*\\  	
+			\textbullet\hspace{3pt} Statistical quality control*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  		
+			\textbullet\hspace{3pt} User surveys*\\  	
+			\textbullet\hspace{3pt} Validity testing/validation*\\  
 		}
-		& 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Algorithmic impact\\\hspace{10pt}assessments\\ 	
-			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects.*\\			
-			\textbullet\hspace{3pt} Assessing data quality*\\ 		
-			\textbullet\hspace{3pt} Bias bounties\\ 	
-			\textbullet\hspace{3pt} Calibration*\\ 	
-			\textbullet\hspace{3pt} Field testing*\\ 	
-			\textbullet\hspace{3pt} Input/output data measurement\\\hspace{10pt}using classifiers\\ 	
-			\textbullet\hspace{3pt} Model assessment*\\ 	
-			\textbullet\hspace{3pt} Model comparisons*\\ 	
-			\textbullet\hspace{3pt} Multi-session experiments*\\ 		
-			\textbullet\hspace{3pt} Perturbation studies*\\ 				
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Sensitivity analysis*\\ 	
-			\textbullet\hspace{3pt} Stakeholder engagement and \\\hspace{10pt}feedback*\\ 	
-			\textbullet\hspace{3pt} Statistical quality control*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 		
-			\textbullet\hspace{3pt} User surveys*\\ 	
-			\textbullet\hspace{3pt} Validity testing*\\
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Anomaly detection*\\ 
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Bias bounties \\ 
+			\textbullet\hspace{3pt} Calibration*\\ 
+			\textbullet\hspace{3pt} Chaos testing \\ 
+			\textbullet\hspace{3pt} Cybersecurity testing \\ 
+			\textbullet\hspace{3pt} Data poisoning detection \\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Software testing \\ 
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 
+			\textbullet\hspace{3pt} Stress testing*\\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\ 
+			\textbullet\hspace{3pt} Testing third-party dependencies \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact\\\hspace{10pt}assessments\\  	
+			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects*\\ 			
+			\textbullet\hspace{3pt} Assessing data quality*\\  		
+			\textbullet\hspace{3pt} Bias bounties\\  	
+			\textbullet\hspace{3pt} Calibration*\\  	
+			\textbullet\hspace{3pt} Field testing*\\  	
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Model assessment*\\  	
+			\textbullet\hspace{3pt} Model comparison*\\  	
+			\textbullet\hspace{3pt} Multi-session experiments*\\  		
+			\textbullet\hspace{3pt} Perturbation studies*\\  				
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Sensitivity analysis*\\  	
+			\textbullet\hspace{3pt} Stakeholder engagement and \\\hspace{10pt}feedback*\\  	
+			\textbullet\hspace{3pt} Statistical quality control*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  		
+			\textbullet\hspace{3pt} User surveys*\\  	
+			\textbullet\hspace{3pt} Validity testing/validation*\\ 
 		}
 		\\
 		\hline		
 		\textbf{Manage} & \makecell[l]{	
-			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Redundancy. \\ 	
-			\textbullet\hspace{3pt} Restrict internet access. \\ 	
-			\textbullet\hspace{3pt} Restrict minors. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply Chain Audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\ 		 	 	 
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Redundancy \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply Chain Audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\ 		 	 	 
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Intellectual property removal. \\ 	
-			\textbullet\hspace{3pt} Redundancy. \\ 	
-			\textbullet\hspace{3pt} Restrict internet access. \\ 	
-			\textbullet\hspace{3pt} Restrict minors. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\					 	 
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Redundancy \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\					 	 
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Redundancy. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\  					 	 
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Redundancy \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\  					 	 
 		}
 		\\
 		\hline
@@ -2789,111 +2868,361 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\hline	
 		\textbf{Measure} & 
 		\makecell[l]{	
-			\textbullet\hspace{3pt} Chaos testing\\ 	
-			\textbullet\hspace{3pt} Cybersecurity testing\\ 	
-			\textbullet\hspace{3pt} Input/output filtering\\\hspace{10pt}using classifiers\\ 	
-			\textbullet\hspace{3pt} Online metrics/monitoring\\ 	
-			\textbullet\hspace{3pt} Perturbation studies*\\ 	
-			\textbullet\hspace{3pt} Prompt engineering\\ 		
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Sensitivity analysis*\\ 	
-			\textbullet\hspace{3pt} Software testing\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 	
+			\textbullet\hspace{3pt} Chaos testing\\  	
+			\textbullet\hspace{3pt} Cybersecurity testing\\  	
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Online metrics/monitoring\\  	
+			\textbullet\hspace{3pt} Perturbation studies*\\  	
+			\textbullet\hspace{3pt} Prompt engineering\\  		
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Sensitivity analysis*\\  	
+			\textbullet\hspace{3pt} Software testing\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  	
 			\textbullet\hspace{3pt} Supply chain auditing \\
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Algorithmic impact\\\hspace{10pt}assessments\\ 	
-			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects.*\\			
-			\textbullet\hspace{3pt} Assessing data quality*\\ 		
-			\textbullet\hspace{3pt} Bias bounties\\ 	
-			\textbullet\hspace{3pt} Calibration*\\ 	
-			\textbullet\hspace{3pt} Field testing*\\ 	
-			\textbullet\hspace{3pt} Input/output data measurement\\\hspace{10pt}using classifiers\\ 	
-			\textbullet\hspace{3pt} Model assessment*\\ 	
-			\textbullet\hspace{3pt} Model comparisons*\\ 	
-			\textbullet\hspace{3pt} Multi-session experiments*\\ 		
-			\textbullet\hspace{3pt} Perturbation studies*\\ 				
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Sensitivity analysis*\\ 	
-			\textbullet\hspace{3pt} Stakeholder engagement and \\\hspace{10pt}feedback*\\ 	
-			\textbullet\hspace{3pt} Statistical quality control*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 		
-			\textbullet\hspace{3pt} User surveys*\\ 	
-			\textbullet\hspace{3pt} Validity testing*\\
+			\textbullet\hspace{3pt} Algorithmic impact\\\hspace{10pt}assessments\\  	
+			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects*\\ 			
+			\textbullet\hspace{3pt} Assessing data quality*\\  		
+			\textbullet\hspace{3pt} Bias bounties\\  	
+			\textbullet\hspace{3pt} Calibration*\\  	
+			\textbullet\hspace{3pt} Field testing*\\  	
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Model assessment*\\  	
+			\textbullet\hspace{3pt} Model comparison*\\  	
+			\textbullet\hspace{3pt} Multi-session experiments*\\  		
+			\textbullet\hspace{3pt} Perturbation studies*\\  				
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Sensitivity analysis*\\  	
+			\textbullet\hspace{3pt} Stakeholder engagement and \\\hspace{10pt}feedback*\\  	
+			\textbullet\hspace{3pt} Statistical quality control*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  		
+			\textbullet\hspace{3pt} User surveys*\\  	
+			\textbullet\hspace{3pt} Validity testing/validation*\\ 
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Algorithmic impact assessments\\ 	
-			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects.*\\	 	
-			\textbullet\hspace{3pt} Assessing data quality*\\ 	 	
-			\textbullet\hspace{3pt} Bias bounties\\ 	
-			\textbullet\hspace{3pt} Calibration*\\ 	
-			\textbullet\hspace{3pt} Chaos testing\\ 	
+			\textbullet\hspace{3pt} Algorithmic impact assessments\\  	
+			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects*\\ 	 	
+			\textbullet\hspace{3pt} Assessing data quality*\\  	 	
+			\textbullet\hspace{3pt} Bias bounties\\  	
+			\textbullet\hspace{3pt} Calibration*\\  	
+			\textbullet\hspace{3pt} Chaos testing\\  	
 			\textbullet\hspace{3pt} Dangerous and violent
-			\\\hspace{10pt}content removal\\ 		
-			\textbullet\hspace{3pt} Field testing*\\ 	
-			\textbullet\hspace{3pt} Input/output filtering\\\hspace{10pt}using classifiers\\ 	
-			\textbullet\hspace{3pt} Model assessment*\\ 	
-			\textbullet\hspace{3pt} Model comparisons*\\ 	
-			\textbullet\hspace{3pt} Multi-session experiments*\\ 	
-			\textbullet\hspace{3pt} Perturbation studies*\\ 		
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Sensitivity analysis*\\ 	
-			\textbullet\hspace{3pt} Stakeholder engagement and\\\hspace{10pt}feedback*\\ 	
-			\textbullet\hspace{3pt} Statistical quality control*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 		
-			\textbullet\hspace{3pt} User surveys*\\ 	
-			\textbullet\hspace{3pt} Validity testing*\\ 
+			\\\hspace{10pt}content removal\\  		
+			\textbullet\hspace{3pt} Field testing*\\  	
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Model assessment*\\  	
+			\textbullet\hspace{3pt} Model comparison*\\  	
+			\textbullet\hspace{3pt} Multi-session experiments*\\  	
+			\textbullet\hspace{3pt} Perturbation studies*\\  		
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Sensitivity analysis*\\  	
+			\textbullet\hspace{3pt} Stakeholder engagement and\\\hspace{10pt}feedback*\\  	
+			\textbullet\hspace{3pt} Statistical quality control*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  		
+			\textbullet\hspace{3pt} User surveys*\\  	
+			\textbullet\hspace{3pt} Validity testing/validation*\\  
  	    }
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Algorithmic impact assessments\\ 	
-			\textbullet\hspace{3pt} Assessing data quality* \\
-			\textbullet\hspace{3pt} Cybersecurity testing\\ 
-			\textbullet\hspace{3pt} PII identification and removal\\ 		
-			\textbullet\hspace{3pt} Root cause analysis*\\ 	
-			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 	
-			\textbullet\hspace{3pt} Stress testing*\\ 	
+			\textbullet\hspace{3pt} Algorithmic impact assessments\\  	
+			\textbullet\hspace{3pt} Assessing data quality.* \\
+			\textbullet\hspace{3pt} Cybersecurity testing\\  
+			\textbullet\hspace{3pt} PII identification and removal\\  		
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  	
 			\textbullet\hspace{3pt} Testing third-party dependencies \\
 		} \\
 		\hline
 		\textbf{Manage} & 
 		\makecell[l]{
-			\textbullet\hspace{3pt} CBRN info removal\\ 
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Restrict internet access. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 							 	 
+			\textbullet\hspace{3pt} CBRN info removal\\  
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 							 	 
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 		
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\  						 	 
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 		
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\  						 	 
 		}
 		& \makecell[l]{
-			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Restrict minors. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\ 		 	 	 
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\ 		 	 	 
 		} 
 		& \makecell[l]{
-			\textbullet\hspace{3pt} CSAM/Obscenity removal. \\ 	
-			\textbullet\hspace{3pt} Fast decommission. \\ 	
-			\textbullet\hspace{3pt} Insurance. \\ 	
-			\textbullet\hspace{3pt} Intellectual property removal. \\ 		
-			\textbullet\hspace{3pt} Restrict minors. \\ 	
-			\textbullet\hspace{3pt} Restrict regulated dealings. \\ 	
-			\textbullet\hspace{3pt} Sensitive/Personal data removal. \\ 	
-			\textbullet\hspace{3pt} Supply chain audit. \\ 	
-			\textbullet\hspace{3pt} User recourse. \\  	 
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 		
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\  	 
 		}
 		\\
 		\hline
 	\end{tabular}
 	\label{table:high_risk_plan_by_gai_risk}
+\end{table}
+
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+
+\pagebreak
+\thispagestyle{empty}
+
+\begin{table}[H]
+	\caption*{Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI Risk (continued).}
+	\footnotesize
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{\textbf{Function}} & \multicolumn{4}{|c|}{\textbf{Generative AI Risk}}   \\
+		\cline{2-5}
+		& \textbf{Environmental} & \textbf{Human-AI Configuration} & \textbf{Information Integrity} & \textbf{Information Security} \\
+		\hline	
+		\textbf{Measure} & 
+		\makecell[l]{
+			\textbullet\hspace{3pt}  Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt}  Environmental metrics \\ 
+			\textbullet\hspace{3pt}  Model comparison*\\ 
+			\textbullet\hspace{3pt}  Online metrics/monitoring \\ 
+			\textbullet\hspace{3pt}  Supply chain auditing \\ 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Analyze differences between\\\hspace{10pt}intended and actual population\\\hspace{10pt}of users or data subjects*\\ 	 
+			\textbullet\hspace{3pt} Analyzing user feedback \\ 
+			\textbullet\hspace{3pt} Bias bounties \\ 
+			\textbullet\hspace{3pt} Calibration*\\ 
+			\textbullet\hspace{3pt} Explainability/interpretability \\ 
+			\textbullet\hspace{3pt} Field testing*\\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Multi-session experiments*\\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Stakeholder engagement\\\hspace{10pt}and feedback*\\ 
+			\textbullet\hspace{3pt} UI/UX studies \\ 
+			\textbullet\hspace{3pt} User surveys*\\ 
+			\textbullet\hspace{3pt} Validity testing/validation*\\ 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Calibration*\\ 
+			\textbullet\hspace{3pt} Human content moderation\\  
+			\textbullet\hspace{3pt} Data poisoning detection \\ 
+			\textbullet\hspace{3pt} Field testing*\\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Multi-session experiments*\\ 
+			\textbullet\hspace{3pt} Perturbation studies*\\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Screening for information integrity \\ 
+			\textbullet\hspace{3pt} Sensitivity analysis*\\ 
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 
+			\textbullet\hspace{3pt} Statistical quality control*\\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\ 
+			\textbullet\hspace{3pt} Testing third-party dependencies \\
+			\textbullet\hspace{3pt} User surveys*\\ 
+			\textbullet\hspace{3pt} Validity testing/validation.* \\
+		} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Anomaly detection*\\ 
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Bias bounties \\ 
+			\textbullet\hspace{3pt} Calibration*\\ 
+			\textbullet\hspace{3pt} Chaos testing \\ 
+			\textbullet\hspace{3pt} Cybersecurity testing \\ 
+			\textbullet\hspace{3pt} Data poisoning detection \\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Software testing \\ 
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 
+			\textbullet\hspace{3pt} Stress testing*\\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\ 
+			\textbullet\hspace{3pt} Testing third-party dependencies \\
+		}
+		\\
+		\hline
+		\textbf{Manage} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 		
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\						 	 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 		
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} User recourse \\
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\ 						 	 		 	 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Redundancy \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\				 	 
+		} 
+		\\
+		\hline
+	\end{tabular}
+	\label{table:high_risk_plan_by_gai_risk_cont}
+\end{table}
+
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+
+\pagebreak
+\thispagestyle{empty}
+
+\begin{table}[H]
+	\caption*{Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI Risk (continued).}
+	\footnotesize
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{\textbf{Function}} & \multicolumn{4}{|c|}{\textbf{Generative AI Risk}}   \\
+		\cline{2-5}
+		& \textbf{Intellectual Property} & \makecell[l]{\textbf{Obscene, Degrading,}\\\textbf{and/or Abusive Content}} & \makecell[l]{\textbf{Toxicity, Bias, and}\\\textbf{Homogenization}} & \makecell[l]{\textbf{Value Chain and}\\\textbf{Component Integration}} \\
+		\hline		
+		\textbf{Measure} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Cybersecurity testing \\ 
+			\textbullet\hspace{3pt} Field testing*\\ 
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\  
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 
+			\textbullet\hspace{3pt} Sub-sampling traffic for\\\hspace{10pt}manually annotating \\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\ 
+			\textbullet\hspace{3pt} Testing third-party dependencies \\ 
+			\textbullet\hspace{3pt} User surveys*\\ 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments \\ 
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Calibration*\\ 
+			\textbullet\hspace{3pt} Field testing*\\ 
+			\textbullet\hspace{3pt} Input/output measurement\\\hspace{10pt}using classifiers \\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Root cause analysis*\\ 
+			\textbullet\hspace{3pt} Small user studies \\ 
+			\textbullet\hspace{3pt} Software testing \\ 
+			\textbullet\hspace{3pt} Stakeholder engagement and feedback*\\ 
+			\textbullet\hspace{3pt} Statistical quality control*\\ 
+			\textbullet\hspace{3pt} Stress testing*\\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\
+			\textbullet\hspace{3pt} Testing third-party dependencies \\ 
+			\textbullet\hspace{3pt} User surveys*\\ 
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Algorithmic impact assessments\\  	
+			\textbullet\hspace{3pt} Analyze differences between \\\hspace{10pt}intended and actual population of \\\hspace{10pt}users or data subjects*\\ 	
+			\textbullet\hspace{3pt} Anomaly detection*\\  	
+			\textbullet\hspace{3pt} Assessing data quality*\\  	
+			\textbullet\hspace{3pt} Bias bounties\\  	
+			\textbullet\hspace{3pt} Bias testing\\  	
+			\textbullet\hspace{3pt} Calibration*\\  	
+			\textbullet\hspace{3pt} Counterfactual/causal analysis\\  	
+			\textbullet\hspace{3pt} Disaggregated metrics\\  	
+			\textbullet\hspace{3pt} Field testing*\\  	
+			\textbullet\hspace{3pt} Model assessment*\\  	
+			\textbullet\hspace{3pt} Model comparison*\\  	
+			\textbullet\hspace{3pt} Multi-session experiments*\\  	
+			\textbullet\hspace{3pt} Root cause analysis*\\  	
+			\textbullet\hspace{3pt} Software testing\\  	
+			\textbullet\hspace{3pt} Statistical quality control*\\  	
+			\textbullet\hspace{3pt} Stress testing*\\  		
+			\textbullet\hspace{3pt} User surveys*\\  		
+			\textbullet\hspace{3pt} Validity testing/validation.*
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Assessing data quality*\\ 
+			\textbullet\hspace{3pt} Model assessment*\\ 
+			\textbullet\hspace{3pt} Model comparison*\\ 
+			\textbullet\hspace{3pt} Software testing \\ 
+			\textbullet\hspace{3pt} Supply chain auditing \\ 
+			\textbullet\hspace{3pt} Testing third-party dependencies \\
+		}
+		\\
+		\hline
+		\textbf{Manage} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 		
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\ 					 	 
+		} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Restrict internet access \\ 	
+			\textbullet\hspace{3pt} Restrict minors \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\						 	 
+		} 
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 	
+			\textbullet\hspace{3pt} Fast decommission \\ 	
+			\textbullet\hspace{3pt} Insurance \\ 	
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Restrict regulated dealings \\ 	
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 	
+			\textbullet\hspace{3pt} User recourse \\  
+		}
+		& \makecell[l]{
+			\textbullet\hspace{3pt} CSAM/Obscenity removal \\ 		
+			\textbullet\hspace{3pt} Intellectual property removal \\ 	
+			\textbullet\hspace{3pt} Redundancy \\ 		
+			\textbullet\hspace{3pt} Sensitive/Personal data removal \\ 	
+			\textbullet\hspace{3pt} Supply chain audit \\ 							 	 
+		} 
+		\\
+		\hline
+	\end{tabular}
+	\label{table:high_risk_plan_by_gai_risk_cont2}
 \end{table}
 
 \vfill
