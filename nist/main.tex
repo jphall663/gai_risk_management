@@ -1316,7 +1316,7 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\footnotesize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
 		\hline
-		\textbf{Name} & \textbf{Description} (Applicable NIST AI RMF Action ID) \\
+		\textbf{Name} & \textbf{Description} (Selected NIST AI RMF Action IDs) \\
 		\hline
 		Access Control  & GAI systems are limited to authorized users. (MG-2.2-009, MG-2.2-014, MS-2.7-030) \\ 
 		\hline
@@ -1356,7 +1356,7 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\footnotesize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
 		\hline
-		\textbf{Name} & \textbf{Description} (Applicable NIST AI RMF Action ID) \\
+		\textbf{Name} & \textbf{Description} (Selected NIST AI RMF Action IDs) \\
 		\hline		
 		Digital Signature & GAI-generated content is signed to preserve information integrity using watermarking, cryptogrpahic signature, steganography or similar methods. (GV-1.2-006, GV-1.6-003, GV-6.1-011, MG-4.1-008, MP-2.3-004, MS-1.1-006, MS-1.1-016, MS-2.7-009, MS-2.7-032) \\ 
 		\hline
@@ -1399,7 +1399,7 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\footnotesize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
 		\hline
-		\textbf{Name} & \textbf{Description} (Applicable NIST AI RMF Action ID)\\
+		\textbf{Name} & \textbf{Description} (Selected NIST AI RMF Action IDs)\\
 		\hline		
 		Narrow Scope & Systems are deployed for targeted business applications with documented and direct business value. (GV-1.2-002, MP-3.3-001, MP-5.1-011) \\ \hline
 		Open Source & Open source code is used to promote explainability and transparency. (MG-4.2-007, MP-4.1-017) \\ 
@@ -1407,7 +1407,7 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 		Ownership & GAI systems and vendor relationships are owned by specific and documented internal personnel. (GV-6.1-009, GV-6.1-016, GV-6.2-008, MP-1.1-005, MP-1.1-008) \\ \hline
 		Prohibited Use Policy & General abuse and misuse of GAI systems by internal parties is restricted by organizational policies. (GV-1.1-006, GV-1.2-003, GV-1.6-003, GV-3.2-003, GV-4.1-001, GV-6.1-017, GV-6.1-017) \\ 
 		\hline
-		RAG & Retreival augmented generation (RAG) is used to improve accuracy in generated content.  \\ \hline
+		RAG & Retreival augmented generation (RAG) is used to improve accuracy in generated content. (GV-1.2-002, MS-2.3-004, MS-2.5-005, MS-2.5-012, MS-2.9-003, MG-3.1-001, MG-3.1-006, MG-3.2-002, MG-3.2-003)  \\ \hline
 		Rate-limiting  & GAI response times and query volumes are limited. (MS-2.6-007) \\ 
 		\hline
 		Redudancy & Rollover, fallback, and other redundancy mechanisms are available for GAI systems and address weights and other important system components. (GV-6.2-003, GV-6.2-007, GV-6.2-012, MG-2.4-012, MS-2.6-008)   \\ 
@@ -1416,41 +1416,41 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 		\hline
 		Restrict Anonymous Use & Anonymous use of GAI systems is restricted. (GV-3.2-002)  \\ 
 		\hline
-		Restrict Anthropomorphization  & Human, animal, cyborg, emotional or other images or features that promote anthropomorphization of GAI systems are restricted. (MG-3.2-011, MS-2.5-009)   \\ 
+		Restrict Anthropomorphization  & Human, animal, cyborg, emotional or other images or features that promote anthropomorphization of GAI systems are restricted. (GV-1.3-001, MS-2.5-009)   \\ 
 		\hline
-		Restrict Data Collection & All data collection is disclosed, collected data is protected and use in a transparent fashion. (GV-6.2-016, MP-2.3-016, MP-2.3-021, MS-2.9-003,  MS-2.10-013) \\ 
+		Restrict Data Collection & All data collection is disclosed, collected data is protected and use in a transparent fashion. (GV-6.2-016,  MS-2.2-023, MS-2.10-013) \\ 
 		\hline		
-		Restrict Decision Making  & GAI systems are not employed for material decision-making tasks. (GV-1.3-001, GV-4.1-001, MP-1.1-018, MP-2.3-013; MP-1.6-001, MP-3.4-017, MS-1.3-007, MS-1.3-015, MS-2.11-018)  \\ \hline		
-		Restrict Homogeneity & Feedback loops in which GAI systems are trained with GAI-generated data are restricted. (MS-2.11-011)  \\ 
+		Restrict Decision Making  & GAI systems are not employed for material decision-making tasks. (GV-1.3-001, GV-4.1-001, MP-1.1-018, MP-1.6-001, MP-3.4-017)  \\ \hline		
+		Restrict Homogeneity & Feedback loops in which GAI systems are trained with GAI-generated data are restricted. (GV-1.3-004, MS-2.11-011)  \\ 
 		\hline
 		Restrict Internet Access & GAI systems are disconnected from the internet. (MP-2.2-007)  \\ 
 		\hline		
-		Restrict Location Tracking & Any location tracking is conducted with user consent, disclosed, aligned with relevant privacy policies and laws and potential threats to user safety are managed. (GV-1.6-003, MS-2.10-002; MG-2.2-014, MS-2.11-003, MS-2.2-015,)  \\ 
+		Restrict Location Tracking & Any location tracking is conducted with user consent, disclosed, aligned with relevant privacy policies and laws and potential threats to user safety are managed. (MS-2.10-002)  \\ 
 		\hline		
-		Restrict Minors & Use of organizational GAI systems by minors are restricted. (PH)  \\ 
+		Restrict Minors & Use of organizational GAI systems by minors are restricted. \textcolor{red}{()}  \\ 
 		\hline
-		Restrict Regulated Dealings & GAI is not deployed in regulated dealings or for material decision making. (GV-1.1-004 GV-1.3-001, GV-2.2-004, GV-4.1-001, GV-5.2-001, MG-3.2-008, MP-1.1-018, MP-2.3-012, MP-2.3-013, MS-2.10-011; MP-1.6-001, MP-3.4-017, MS-1.3-007, MS-1.3-015, MS-2.11-018 ) \\ 
-		\hline			
+		Restrict Regulated Dealings & GAI is not deployed in regulated dealings or for material decision making. (GV-1.1-004, GV-1.3-001, GV-4.1-001, GV-5.2-001, MP-2.3-013,  MS-2.11-018) \\ 
+		\hline		
+		Restrict Secondary Use & Any secondary use of GAI input data is conducted with user consent, disclosed, and aligned with relevant privacy policies and laws. (GV-6.1-016, GV-6.2-016)  \\ 
+		\hline	
+		RLHF & For third-party GAI systems, vendors engage in specific reinforcement with human feedback (RLHF) exercises to address identified risks; for internal systems, internal personnel engage in RLHF to address identified risks. (MG-2.1-002, MS-2.5-005, MS-2.9-003, MS-2.9-007)  \\ 
+		\hline	
+		Sensitive/Personal Data Removal & Personal, sensitive, biometric, or otherwise restricted data is minimized or eliminated from GAI training data. (GV-1.2-009, GV-1.6-003, MP-4.1-002, MP-4.1-016, MS-2.10-002, MS-2.10-003, MS-2.10-005, MS-2.10-014, MS-2.10-017, MS-2.10-018, MS-2.10-020)  \\ 
+		\hline
+		Session Limits & Time, query volume, and response rate are limited for GAI user sessions. (GV-4.1-001, MS-2.6-007, MS-2.6-010) \\ 
+		\hline
 	\end{tabular}
 \end{table}
 \pagebreak
 
 \begin{table}[H]
 	\caption*{Table E: Selected generative AI risk controls (continued).}
-	\label{tab:controls_cont2}
+	\label{tab:controls_cont3}
 	\footnotesize
 	\begin{tabular}{|m{0.25\linewidth} |m{0.70\linewidth} |}
 		\hline
-		\textbf{Name} & \textbf{Description} (Applicable NIST AI RMF Action ID)\\
+		\textbf{Name} & \textbf{Description} (Selected NIST AI RMF Action IDs)\\
 		\hline	
-		Restrict Secondary Use & Any secondary use of GAI input data is conducted with user consent, disclosed, and aligned with relevant privacy policies and laws. (GV-6.1-016, GV-6.2-016)  \\ 
-		\hline	
-		RLHF & For third-party GAI systems, vendors engage in specific reinforcement with human feedback (RLHF) exercises to address identified risks; for internal systems, internal personnel engage in RLHF to address identified risks. (MS-2.5-005, MS-2.9-003)  \\ 
-		\hline
-		Sensitive/Personal Data Removal & Personal, sensitive, biometric, or otherwise restricted data is minimized or eliminated from GAI training data. (GV-1.2-009, GV-1.6-003, MP-4.1-002, MP-4.1-016, MS-2.10-002, MS-2.10-003, MS-2.10-005, MS-2.10-014, MS-2.10-017, MS-2.10-018, MS-2.10-020)  \\ 
-		\hline
-		Session Limits & Time, query volume, and response rate are limited for GAI user sessions. (GV-1.4-002, GV-4.1-001, MS-2.6-010, MS-2.7-020, MS-2.8-004, MS-2.10-019) \\ 
-		\hline
 		Supply Chain Audit & GAI system supply chains are audited and documented, with a focus on data poisoning, malware, and software and hardware vulnerabilities. (GV-4.1-004, GV-6.1-011, GV-6.1-022, GV-6.2-003, MG-2.3-001, MG-3.1-002, MP-5.1-003, MS-1.1-008, MS-2.6-001, MS-2.7-001)  \\ 
 		\hline
 		System Documentation & GAI systems are well-documented whether internal, open source, or vendor-provided. (MG-1.3-010 )  \\ 
