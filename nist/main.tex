@@ -3,7 +3,7 @@
 \documentclass[fleqn]{article}
 \renewcommand\refname{}
 \title{Incorporating Generative AI in Model Governance Programs}
-\author{Patrick Hall}
+\author{Patrick Hall, ...}
 
 \usepackage{graphicx}
 \usepackage{fullpage}
@@ -161,6 +161,9 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 		\bottomrule
 	\end{tabular}
 \end{table}
+
+\noindent\textbf{Usage Note}: Table A.1 provides an example of mapping GAI risks onto AI RMF trustworthy characteristics. Mapping GAI risks to AI RMF trustworthy characteristics can be particularly useful when existing policies, processes, or controls can be applied to manage GAI risks, but have been previously implemented  in alignment with the AI RMF trustworthy characteristics. Many mappings are possible. Mappings that differ from the example may be more appropriate to meet a particular organization's risk management goals. 
+
 \vfill
 \raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
 \end{landscape}
@@ -214,10 +217,66 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
  		&  &  & Privacy Enhanced \\
  		&  &  & Safe \\
  		&  &  & Secure and Resilient \\
- 		&  &  & Valid and Reliable \\
+ 		&  &  & Valid and Reliable \\		
 		\bottomrule
 	\end{tabular}
 \end{table}
+
+\noindent\textbf{Usage Note}: Table A.2 provides an example of mapping AI RMF trustworthy characteristics onto GAI risks. Mapping AI RMF trustworthy characteristics to GAI risks can assist organizations in aligning GAI guidance to existing AI/ML policies, processes, or controls or to extend GAI guidance to address additional AI/ML technologies. Many mappings are possible. Mappings that differ from the example may be more appropriate to meet a particular organization's risk management goals.
+
+\vfill
+\raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
+\end{landscape}
+
+\begin{landscape}
+\thispagestyle{empty}	
+% ---------- ----------
+\subsection*{A.3: Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk}\label{sec:appndxa3}
+% ---------- ----------
+\begin{table}[H]
+	\caption*{Table A.3: Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk.}
+	\label{tab:bankrisk_gai_risk_tc}
+	\footnotesize
+	\begin{tabular}{llll}
+		\toprule
+		\textbf{Compliance Risk} & \textbf{Information Security Risk} &  \textbf{Legal Risk} & \textbf{Model Risk} \\ 
+		\midrule
+		Data Privacy &  Data Privacy &  Intellectual Property & Confabulation \\
+		Information Security &  Information Security & Obscene, Degrading, and/or Abusive Content & Dangerous or Violent Recommendations \\
+		Toxicity, Bias, and Homogenization  & Value Chain and Component Integration & Value Chain and Component Integration & Information Integrity \\
+		Value Chain and Component Integration & & & Obscene, Degrading, and/or Abusive Content \\
+		& & & Toxicity, Bias, and Homogenization \\
+		\midrule
+		Accountable and Transparent & Privacy Enhanced & Accountable and Transparent & Valid and Reliable \\
+		Fair with Harmful Bias Managed &  Secure and Resilient & Safe & \\
+		Privacy Enhanced & & & \\
+		Secure and Resilient & & & \\
+		\bottomrule
+	\end{tabular}
+	\newline
+	\vspace{10pt}
+	\newline	
+	\begin{tabular}{llll}
+		\toprule
+		\textbf{Operational Risk} & \textbf{Reputational Risk} & \textbf{Strategic Risk} & \textbf{Third Party Risk} \\
+		\midrule
+	 	Confabulation & Confabulation & Environmental & Information Integrity \\
+	 	Human-AI Configuration & Dangerous or Violent Recommendations & Information Integrity & Value Chain and Component Integration \\
+	 	Information Security & Environmental & Information Security & \\
+	 	Value Chain and Component Integration & Human-AI Configuration & Value Chain and Component Integration & \\
+	 	& Information Integrity & & \\
+	 	& Obscene, Degrading, and/or Abusive Content & & \\
+	 	& Toxicity, Bias, and Homogenization & & \\
+	 	\midrule 
+	 	Safe & Accountable and Transparent & Accountable and Transparent & Accountable and Transparent \\
+	 	Secure and Resilient & Fair with Harmful Bias Managed & Secure and Resilient & Explainable and Interpretable \\
+	 	Valid and Reliable & Valid and Reliable & Valid and Reliable & \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\noindent\textbf{Usage Note}: Table A.3 provides an example of mapping GAI risks and AI RMF trustworthy characteristics. This type of mapping can enable incorporation of new AI guidance into existing policies, processes, or controls or the application of existing policies, processes, or controls to newer AI risks.
+
 \vfill
 \raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
 \end{landscape}
@@ -437,12 +496,23 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 % ---------- ----------
 
 GOVERN 1.3, GOVERN 1.5, GOVERN 2.3, GOVERN 3.2, GOVERN 4.1, GOVERN 5.2, GOVERN 6.1, MANAGE 1.2, MANAGE 1.3, MANAGE 2.1, MANAGE 2.2, MANAGE 2.3, 
-MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6
+MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6 \\
+
+\noindent \textbf{Usage Note}: Materials in Appendix B can be used to create or update risk tiers or other risk assessment tools for GAI systems or applications as follows:
+\begin{itemize}
+	\item Table B.1 can enable mapping of GAI risks and impacts. 
+	\item Table B.2 can enable quantification of impacts for risk tiering or risk assessment. 
+	\item Table B.3 can enable quantification of likelihood for risk tiering or risk assessment.
+	\item Table B.4 presents an example of combining assessed impact and likelihood into risk tiers. 
+	\item Table B.5 presents example risk tiers with associated qualitative, semi-quantitative, and quantitative values for risk tiering  or risk assessment.
+	\item Subsection B.6 presents example questions for qualitative risk assessment.
+	\item Subsection B.7 highlights subcategories to indicate alignment with the AI RMF.   
+\end{itemize} 
 
 \pagebreak
 
 % ---------- ----------
-\section*{Appendix C: List of Selected Model Testing Suites}\label{sec:appndxc}\cite{aiverify_evals}
+\section*{Appendix C: List of Selected Model Testing Suites}\label{sec:appndxc}
 % ---------- ----------
 
 % evals cant test some things -- explainability, HAI-config, supply chain
@@ -452,7 +522,7 @@ MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6
 % ---------- ----------
 
 \begin{table}[H]
-	\caption*{Table C.1: Selected model testing suites organized by trustworthy characteristic.}
+	\caption*{Table C.1: Selected model testing suites organized by trustworthy characteristic. Adapted from AI Verify Evaluation Taxonimization \cite{aiverify_evals} and various additional resources.}
 	\label{tab:low_risk_measure_by_tc}
 	\footnotesize
 	\begin{tabular}{l}
@@ -849,6 +919,18 @@ MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6
 % ---------- ----------
 
 GOVERN 5.1, MAP 1.2, MAP 3.1, MEASURE 2.2, MEASURE 2.3, MEASURE 2.7, MEASURE 2.9, MEASURE 2.11, MEASURE 3.1, MEASURE 4.2
+
+\pagebreak
+
+\noindent \textbf{Usage Note}: Materials in Appendix C can be used to perform \textit{in silica} model testing for the presence of information in LLM outputs that may give rise to GAI risks or violate trustworthy characteristics. Model testing and benchmarking outcomes cannot be dispositive for the presence or absence of any \textit{in situ} real-world risk. Model testing and benchmarking results may be compromised by task-contamination and other scientific measurement issues \cite{balloccu2024leak}. Furthermore, model testing is often ineffective for measuring human-AI configuration and value chain risks and few model tests appear to address explainability and interpretability. 
+
+\begin{itemize}
+	\item Material in Table C.1 can be applied to measure whether \textit{in silica} LLM outputs may give rise to risks that violate trustworthy characteristics.
+	\item Material in Table C.2 can be applied to measure whether \textit{in silica} LLM outputs may give rise to GAI risks.
+	\item Subsection C.3 highlights subcategories to indicate alignment with the AI RMF.   
+\end{itemize}
+
+\noindent The materials in Appendix C reference measurement approaches that should be accompanied by red-teaming for medium risk systems or applications and field testing for high risk systems or applications.  
 
 % ---------- ----------
 \section*{Appendix D: List of Common Adversarial Prompting Strategies}
@@ -1302,7 +1384,17 @@ GOVERN 5.1, MAP 1.2, MAP 3.1, MEASURE 2.2, MEASURE 2.3, MEASURE 2.7, MEASURE 2.9
 \subsection*{D.3: AI Risk Management Framework Actions Aligned to Red Teaming}\label{sec:appndxd3}
 % ---------- ----------
 
-GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASURE 2.6, MEASURE 2.7, MEASURE 2.8, MEASURE 2.10, MEASURE 2.11
+GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASURE 2.6, MEASURE 2.7, MEASURE 2.8, MEASURE 2.10, MEASURE 2.11 \\
+
+\noindent\textbf{Usage Note}: Materials in Appendix D can be used to perform red-teaming to measure the risk that expert adversarial actors can manipulate LLM systems or risks that users may encounter under worst-case or anomalous scenarios. 
+
+\begin{itemize}
+	\item Strategies and goals in Table D.1 can be applied to assess whether LLM outputs may violate trustworthy characteristics under adversarial, anomalous, or worst-case scenarios.   
+	\item Strategies and goals in Table D.2 can be applied to assess whether LLM outputs may give rise to GAI risks under adversarial, anomalous, or worst-case scenarios.
+	\item Subsection D.3 highlights subcategories to indicate alignment with the AI RMF.   
+\end{itemize}
+
+\noindent The materials in Appendix D reference measurement approaches that should be accompanied by field testing for high risk systems or applications.  
 
 \pagebreak
 
@@ -1476,8 +1568,11 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\end{tabular}
 \end{table}
 
+\noindent\textbf{Usage Note}: Appendix E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions \cite{ai600-1}, \cite{playbook}. 
+
 \begin{landscape} 
-	
+\thispagestyle{empty}	
+
 % ---------- ----------
 \section*{Appendix F: Example Low-risk Generative AI Measurement and Management Plan}\label{sec:appndxf}
 % ---------- ----------
@@ -2127,6 +2222,15 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\label{table:low_risk_plan_by_gai_risk_cont3}
 \end{table}
 
+\noindent\textbf{Usage Note}: Appendix F puts forward an example risk measurement and management plan for low risk GAI systems or applications. The low risk plan focuses on automatable model testing and applies minimally burdensome risk controls. 
+
+\begin{itemize}
+	\item Material in Table F.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics. 
+	\item Material in Table F.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks. 
+\end{itemize}
+
+\noindent Appendix G below presents an example plan for medium risk systems and Appendix H presents an example plan for high risk systems.   
+
 \vfill
 \raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
 
@@ -2654,6 +2758,15 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\end{tabular}
 	\label{table:med_risk_plan_by_gai_risk_cont2}
 \end{table}
+
+\noindent\textbf{Usage Note}: Appendix G puts forward an example risk measurement and management plan for medium risk GAI systems or applications. The medium risk plan focuses on red-teaming and applies moderate risk controls. Measurement and management approaches from Appendix F should also be applied to medium risk systems or applications.
+
+\begin{itemize}
+	\item Material in Table G.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics. 
+	\item Material in Table G.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks. 
+\end{itemize}
+
+\noindent Appendix H below presents an example plan for high risk systems.  
 
 \vfill
 \raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
@@ -3288,6 +3401,13 @@ GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE 1.3, MEASUR
 	\label{table:high_risk_plan_by_gai_risk_cont2}
 \end{table}
 
+\noindent\textbf{Usage Note}: Appendix H puts forward an example risk measurement and management plan for high risk GAI systems or applications. The high risk plan focuses on field testing and applies extensive risk controls. Measurement and management approaches from Appendices F and G should also be applied to high risk systems or applications.
+
+\begin{itemize}
+	\item Material in Table H.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics. 
+	\item Material in Table H.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks. 
+\end{itemize}
+ 
 \vfill
 \raisebox{-10pt}{\makebox[\linewidth]{\thepage}}
 
