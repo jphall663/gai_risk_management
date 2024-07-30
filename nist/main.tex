@@ -1,8 +1,6 @@
-% Copyright Patrick Hall 20XX
-
 \documentclass[fleqn]{article}
 \renewcommand\refname{}
-\title{Incorporating Generative AI in Model Governance Programs}
+\title{Incorporating Generative AI Into Model Governance Programs}
 \author{Patrick Hall, ...}
 
 \usepackage{graphicx}
@@ -43,8 +41,7 @@
 
 \begin{abstract}
 	
-% requires mixing MRM, ERM, and security 
-	
+
 \end{abstract}
 
 % ---------- ----------
@@ -53,44 +50,54 @@
 
 The National Institute of Standards and Technology Artificial Intelligence (AI) Risk Management Framework (RMF).\cite{airmf}
 
-% Generally model governance from SR 11-7, FHA, NIST AI RMF, NIST ERM, ISO ERM all apply at the policy level, but there are a few differences.
+% requires mixing MRM, ERM, and security 
 
-% Security approaches may also be important
+% Generally model governance from SR 11-7, FHA, NIST AI RMF, NIST ERM, ISO ERM all apply at the policy level, but there are a few differences.
 
 % What's different?
 % - Supply chain/third party 
 % - Complex human AI interaction
+% - Environmental impact 
 
-% Establish a charter and policies
-% Start inventory
-% Procedures or standards will have to be updated signficantly, see, e.g., NIST AI 600-1 
-% - Create and apply risk tiers
-% -- Risk measurement 
-% - Risk management
+% Security approaches may also be important
+% - Bug bounties
+% - Red-teaming 
+% - Incident response 
 
 % ---------- ----------
 \section{Generative AI Governance}\label{sec:govern}
 % ---------- ----------
 
+% legal requirements: IP, hiring/employment, CSAM, reasonable accomodation, data priavcy
 % executive buy-in and participation
 % update/create definitions
+% - model vs. tool
+% establish a charter and policies
 % risk tolerance
 % initial communication
-% define policies (easy) and procedures (difficult)
-% -- refer to appendix A for how existing policies can be aligned to AI/GAI risk materials  
-% coordination with security, fair lending/HR, data privacy, data management/governance, IT 
+% Start inventory
+% Procedures or standards will have to be updated signficantly, see, e.g., NIST AI 600-1 
+% - Create and apply risk tiers
+% -- Risk measurement 
+% - Risk management
+% - Refer to appendix A for how existing policies can be aligned to AI/GAI risk materials  
+% coordination with security, fair lending/HR, data privacy, data management/governance, IT, legal 
 
 % ---------- ----------
 \section{Generative AI Policies and Procedures}\label{sec:polpro}
 % ---------- ----------
 
+% Polices should require light-touch update, new procedures may be required
+% Need a general policy as catch-all 
+% Embedded tools, should not be models, should not waste risk management resources
+
 % ---------- ----------
 \subsection{General Policies}\label{sec:genpol}
 % ---------- ----------
 
-% update policies, easy 
-% - acceptable/prohibited use policy/end use compute policy as catch all 
-% - provide bullets
+% update policies, should be easy 
+% but need an acceptable/prohibited use policy/end use compute policy as catch all 
+% - provide bullets?
 % -- Anonymous Use
 % -- Anthropomorphization of Generated Content or User Interfaces
 % -- Automated, Direct, or Material Decision-making (e.g., legal, financial, employment, pay, promotion)
@@ -107,35 +114,146 @@ The National Institute of Standards and Technology Artificial Intelligence (AI) 
 % -- Unauthorized External Sharing of Output
 % -- Example: https://policies.google.com/terms/generative-ai/use-policy
 
+% ---------- ----------
+\subsection{Embedded Tools}\label{sec:tool}
+% ---------- ----------
 
+% not models, not validated by risk management
+% kept in inventory
+% managed 
+% - by acceptabled use policy, other general policies, 
+% - IT
+% - acquistion, procurement
+% - contracts
+% - relationships with vendors 
 
+% ---------- ----------
+\subsection{Procedures}\label{sec:genpro}
+% ---------- ----------
 
+% procedures are lower-level, sometimes refered to as standards
+% details should be updated for GAI
 
-% update procedures
+% ---------- ----------
+\subsubsection{Considerations for Data}\label{sec:data}
+% ---------- ----------
 
-% - data/supply chain issues
-% -- Ad-hoc Data Collection and Web-scraping
-% -- Demographic, Biometric, or Personally Identifiable Information (PII)
-% -- Plagiarized, Trademarked, Patented, Licensed, or Trade Secret Materials
-% -- Data Provenance, Quality and Grounding
-% --- Data Quality
-% --- Ground Truth Data/”Grounding”
+% data/supply chain issues
+% - Ad-hoc Data Collection and Web-scraping
+% - Demographic, Biometric, or Personally Identifiable Information (PII)
+% - Plagiarized, Trademarked, Patented, Licensed, or Trade Secret Materials
+% - Data Provenance, Quality and Grounding
+% -- Data Quality
+% -- Ground Truth Data/”Grounding”
+% - Fulsome description of data 
 
-% - training processes and budgets 
-% -- can require truly industrial strength compute and coordination with IT
-% -- RAG, fine-tuning?
-% - validation, refer to appendices C, D, F, G, H
-% - mitigation
-% - decommission
+% ---------- ----------
+\subsubsection{Considerations for Model Training and Updates}\label{sec:train}
+% ---------- ----------
 
+% training processes and budgets 
+% - can require truly industrial strength compute and coordination with IT
+% -- hyperparameter search very expensive
+% - embeddings, RAG, fine-tuning?
+% - assumptions and limitations
+% - alternative models
+% - design documentation and diagrams
 
+% ---------- ----------
+\subsubsection{Considerations for Model Training and Updates}\label{sec:valid}
+% ---------- ----------
+
+% validation, refer to risk measurement section and appendices C, D, F, G, H
+% - model testing
+% - red-teaming
+% - field testing
+
+% ---------- ----------
+\subsubsection{Considerations for Monitoring}\label{sec:monitor}
+% ---------- ----------
+
+% Ongoing Monitoring and Control
+% - Ongoing benchmarks
+% - User feedback mechanisms
+% - Must also monitor any moderation or provenance systems
+% Operational Interruptions
+% Retention, Monitoring and Review of GAI Input and Output (with appropriate data privacy controls)
+% Tracking GAI System Output Over Time (e.g., term frequencies or embedding orientations, with comparison to pre-deployment baseline)
+% Monitor output for Plagiarized, Trademarked, Patented, Licensed, or Trade Secret Materials
+% Monitor for Over-engagement (e.g., emotional entanglement) or Under-engagement (e.g., algorithmic aversion)
+
+% ---------- ----------
+\subsubsection{Considerations for Incident Response}\label{sec:response}
+% ---------- ----------
+
+% Incident response: 
+% - “Kill-switch” Processes
+% - Redundant or Fall-back Capabilities
+% - Identification, Containment and Recovery
+% - Rehearsal, Tabletops and Retrospective Learning
+
+% ---------- ----------
+\subsubsection{Considerations for Change Management}\label{sec:change}
+% ---------- ----------
+
+% Change Management:
+% - Updates to data management
+% - Model Fine-tuning, Refresh or Retrain cadences 
+% - Application or User-interface (Tool) Updates
+% - Vendor Communication and Updates 
+
+% ---------- ----------
+\subsubsection{Considerations for System Decommission}\label{sec:decom}
+% ---------- ----------
+
+% Decommission
+% - Contractual/Legal Obligations
+% - Cloud Resources
+% - Data Retention
+% - Recourse Processes
+% - User Communication
+% -- Users’ emotional entanglement with GAI functions.
+% - Data security, e.g., containment, protocols, data leakage after decommissioning
+% - Dependencies between upstream, downstream, or other data, internet of things (IOT) or AI systems
+
+% ---------- ----------
+\subsubsection{Considerations for Third Parties and Value Chains}\label{sec:3p}
+% ---------- ----------
 
 % TPRM/Supply chains
 
+% - Update GAI acceptable use policies to address proprietary and open-source GAI technologies and data, and contractors, consultants, and other third-party personnel.
+
+% - Open source counts at third party!
+
+% - Engagement/Model Owner (?)
+% - GAI Vendor Due Diligence:
+% -- Contract, Services Agreement, or Warranty Review
+% -- Review vendor contracts and avoid arbitrary or capricious termination of critical GAI technologies or vendor services and non-standard terms that may amplify or defer liability in unexpected ways and/or contribute to unauthorized data collection by vendors or third-parties (e.g., secondary data use). 
+% -- Cross-reference/Update Whitelists
+% -- Review of Vendor Documentation and Instructions 
+% -- Review of Vendor Financial Stability and Analyst Reports
+% -- Review of Vendor AI Risk Management
+% -- Review of Past Incidents Involving Vendor or Technology (AI Incident Database, AVID, OWASP Top-10 for LLMs, MITRE Att&ck ATLAS, OECD Incident Monitor)
+% - Request: 
+% -- Notification and disclosure for serious incidents arising from third-party data and systems
+% -- Service Level Agreements (SLAs) in vendor contracts that address incident response, response times, and availability of critical support.
+% - Data Retention and Secondary Use
+% - Monitoring and Telemetrics 
+% - Inventory
 
 % ---------- ----------
 \section{Generative AI Inventories}\label{sec:inv}
 % ---------- ----------
+
+% Data provenance information (e.g., source, signatures, versioning, watermarks)
+% Known issues reported from internal bug tracking or external information sharing resources (e.g., AI incident database, AVID, CVE, NVD, or OECD AI incident monitor)
+% Human oversight roles and responsibilities 
+% Special rights and considerations for intellectual property, licensed works, or personal, privileged, proprietary or sensitive data
+% Underlying foundation models, versions of underlying models, and access modes
+% Challenges for explainability, interpretability, or transparency
+% Connections or dependencies between other systems
+% incident response plans 
 
 % TPRM/Supply chains
 
@@ -143,19 +261,84 @@ The National Institute of Standards and Technology Artificial Intelligence (AI) 
 \section{Generative AI Documentation Templates}\label{sec:doc}
 % ---------- ----------
 
+% enable transparency and efficient, standardized review
+
+% - Business justification
+% -- consider potentially high costs of implementing GAI applications
+% - Scope and usages
+% -- Narrow scope enables better risk managements
+% - Assumptions and limitations
+% - Description and characterization of training data
+% -- Requires greater detail than "text" for adequate risk management
+% - Algorithmic methodology
+% -- Embeddings
+% -- Weights 
+% -- Considerations for RAG or Guardrail models
+% - Evaluated alternative approaches
+% - Description of output data, modalities etc. 
+% - Testing and validation results (including explanatory visualizations and information) 
+% -- model testing
+% -- red-teaming 
+% -- field testing
+% - User feedback/stakeholder engagement plans
+
+% Consider nutrition labels for users 
+
 % TPRM/Supply chains
 
 % ---------- ----------
 \section{Generative AI Risk Tiers}\label{sec:tiers}
 % ---------- ----------
 
+% Refer to appendix B 
+
+% Likelihood x impact
+
+% Risk tiers, risk assessment instruments, risk calculators
+
+% Primary considerations: 
+% - Internal vs. external use
+% - Unreliable decision making capabilities
+% - Legal or regulatory requirements bvs. reputational risk
+
+% Additional considerations: 
+% - Irregular cadence of vendor releases and updates
+% - Dependencies between GenAI and other IT or data systems
+% - Human review of GenAI system outputs
+% - Immediate and long term impacts
+% - Confabulation
+% - Dangerous and Violent Recommendations
+% - Data Privacy
+% - Environmental impact 
+% - Human-AI Configuration
+% - Information Integrity
+% - Information Security
+% - Intellectual Property
+% - Toxicity, Bias, and Homogenization
+% - Value Chain and Component Integration
+
 % ---------- ----------
 \subsection{Generative AI Incidents}\label{sec:incident}
 % ---------- ----------
 
+% Use them to identify realistic risks
+% Incidents often related to ... 
+% - Confabulation
+% - Deepfakes
+% - Data privacy/consent issues/IP 
+% - Autonomous vehicle issues
+
+% Can help understand real likelihoods and impacts, and what is not real
+
 % ---------- ----------
 \subsection{Generative AI Risk Measurement}\label{sec:measure}
 % ---------- ----------
+
+% Refer to appendix F, G, H
+
+% Low risk: evals/model testing
+% Medium risk: model testing + red-teaming
+% High risk: model testing + red-teaming + field testing
 
 % TPRM/Supply chains
 
@@ -163,7 +346,35 @@ The National Institute of Standards and Technology Artificial Intelligence (AI) 
 \section{Generative AI Risk Management}\label{sec:manage}
 % ---------- ----------
 
-% Training
+% mitigation, refer to appendix E, F, G, H
+ 
+% - Output Data Provenance/Watermarking/Signatures/Steganography
+% - Restriction of API or Programmatic Access
+% - Session, Rate, Time, or Volume Limits
+% - Abuse detection
+% - Accessibility
+% - Citation
+% - Clear instructions
+% - Content moderation/filters
+% - Disclosure of AI interaction
+% - Dynamic blocklists
+% - Ground truth training data
+% - Kill switches
+% - Incident response plans
+% - Pre-approved responses 
+% - Retrieval augmented generation (RAG) approaches
+% - Strong system prompts
+% - Redundant or Fall-back Capabilities
+% - No:
+% -- Anonymous use
+% -- Anthropomorphization 
+% -- Bots
+% -- Internet access
+% -- Minors
+% -- Personal/sensitive training data
+% -- Regulated applications
+% -- Undisclosed data collection 
+
 % TPRM/Supply chain
 
 % ---------- ----------
@@ -199,7 +410,7 @@ Thank you to Bernie Siskin and Nick Schmidt of BLDS and Eric Sublett of Relman C
 \section*{Appendix A: Example Generative AI--Trustworthy Characteristic Crosswalk}\label{sec:appndxa}
 % ---------- ----------
 
-% Cross enables applying guidance fro AI RMF to risks 
+% Cross enables applying guidance for AI RMF to risks 
 % Other interpretations or crosswalks are possible
 
 % ---------- ----------
@@ -601,6 +812,7 @@ MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6 \\
 % ---------- ----------
 
 % evals cant test some things -- explainability, HAI-config, supply chain
+% TODO: incorporate https://github.com/leondz/garak/
 
 % ---------- ----------
 \subsection*{C.1: Selected Model Testing Suites Organized by Trustworthy Characteristic}\label{appndxc1}
@@ -1022,6 +1234,7 @@ GOVERN 5.1, MAP 1.2, MAP 3.1, MEASURE 2.2, MEASURE 2.3, MEASURE 2.7, MEASURE 2.9
 % ---------- ----------
 
 % combining strategies, like jailbreaks and role playing, seem to give best results.
+% TODO: incorporate https://github.com/leondz/garak/
  
 \begin{table}[H]
 	\caption*{Table D: Common adversarial prompting strategies and attacks. \cite{Saravia_Prompt_Engineering_Guide_2022}, \cite{defcon_rt}, \cite{amli_repo}, \cite{hu2022membership}, \cite{chao2023jailbreaking}, \cite{barreno2010security}, \cite{shumailov2021sponge}, \cite{perez2022red}, \cite{liu2023prompt}.}
