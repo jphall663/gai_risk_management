@@ -6,7 +6,7 @@ Copyright `ph_` 2024, CC BY 4.0
 
 ## Table of Contents
 
-* **Section A**: [Example Generative AI--Trustworthy Characteristic Crosswalk]()
+* **Section A**: [Example Generative AI-Trustworthy Characteristic Crosswalk]()
   * **A.1**: [Trustworthy Characteristic to Generative AI Risk Crosswalk]()
   * **A.2**: [Generative AI Risk to Trustworthy Characteristic Crosswalk]()
   * **A.3**: [Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk]()
@@ -20,7 +20,7 @@ Copyright `ph_` 2024, CC BY 4.0
   * **B.6**: [Practical Risk-tiering Questions]()
   * **B.7**: [AI Risk Management Framework Actions Aligned to Risk Tiering]()
 
-## A: Example Generative AI--Trustworthy Characteristic Crosswalk
+## A: Example Generative AI-Trustworthy Characteristic Crosswalk
 
 ### A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk
 
