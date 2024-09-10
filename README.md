@@ -2,6 +2,8 @@
 
 A place for personal ideas and drafts related to GAI risk management.
 
+Copyright `ph_` 2024, CC BY 4.0
+
 ## Table of Contents
 
 * **Section A**: [Example Generative AI--Trustworthy Characteristic Crosswalk]()
