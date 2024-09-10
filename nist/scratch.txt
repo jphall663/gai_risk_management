@@ -1,6 +1,0 @@
-matches:
-Fair/Toxic
-Privay/Privacy
-Safe/Dangerous
-Security/Security
-V and R/Confab
