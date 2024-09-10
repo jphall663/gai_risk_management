@@ -6,19 +6,19 @@ Copyright `ph_` 2024, CC BY 4.0
 
 ## Table of Contents
 
-* **Section A**: [Example Generative AI-Trustworthy Characteristic Crosswalk]()
-  * **A.1**: [Trustworthy Characteristic to Generative AI Risk Crosswalk]()
-  * **A.2**: [Generative AI Risk to Trustworthy Characteristic Crosswalk]()
-  * **A.3**: [Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk]()
+* **Section A**: [Example Generative AI-Trustworthy Characteristic Crosswalk](#a-example-generative-ai-trustworthy-characteristic-crosswalk)
+  * **A.1**: [Trustworthy Characteristic to Generative AI Risk Crosswalk](#a1-trustworthy-characteristic-to-generative-ai-risk-crosswalk)
+  * **A.2**: [Generative AI Risk to Trustworthy Characteristic Crosswalk](#a2-generative-ai-risk-to-trustworthy-characteristic-crosswalk)
+  * **A.3**: [Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk](#a3-traditional-banking-risks-generative-ai-risks-and-trustworthy-characteristics-crosswalk)
 
-* **Section B**: [Example Risk-tiering Materials for Generative AI]()
+* **Section B**: [Example Risk-tiering Materials for Generative AI](#b-example-risk-tiering-materials-for-generative-ai)
   * **B.1**: [Example Adverse Impacts]()
-  * **B.2**: [Example Impact Descriptions]()
-  * **B.3**: [Example Likelihood Descriptions]()
-  * **B.4**: [Example Risk Tiers]()
-  * **B.5**: [Example Risk Descriptions]()
-  * **B.6**: [Practical Risk-tiering Questions]()
-  * **B.7**: [AI Risk Management Framework Actions Aligned to Risk Tiering]()
+  * **B.2**: [Example Impact Descriptions](#b2-example-impact-descriptions)
+  * **B.3**: [Example Likelihood Descriptions](#b3-example-likelihood-descriptions)
+  * **B.4**: [Example Risk Tiers](#b4-example-risk-tiers)
+  * **B.5**: [Example Risk Descriptions](#b5-example-risk-descriptions)
+  * **B.6**: [Practical Risk-tiering Questions](#b6-practical-risk-tiering-questions)
+  * **B.7**: [AI Risk Management Framework Actions Aligned to Risk Tiering](#b7-ai-risk-management-framework-actions-aligned-to-risk-tiering)
 
 ## A: Example Generative AI-Trustworthy Characteristic Crosswalk
 
