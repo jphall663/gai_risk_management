@@ -24,100 +24,428 @@ Copyright `ph_` 2024, CC BY 4.0
 
 ### A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk
 
-Table A.1: Trustworthy Characteristic to Generative AI Risk Crosswalk.
-
-| **Accountable and Transparent**      |  **Explainable and Interpretable**    |   **Fair with Harmful Bias Managed**        |  **Privacy Enhanced**                 |
-|--------------------------------------|---------------------------------------|---------------------------------------------|---------------------------------------|
-| Data Privacy                         |  Human-AI Configuration               |  Confabulation                              | Data Privacy                          |
-| Environmental                        |  Value Chain and Component Integration|  Environmental                              | Human-AI Configuration                |
-| Human-AI Configuration               |                                       |  Human-AI Configuration                     | Information Security                  |
-| Information Integrity                |                                       |  Intellectual Property                      | Intellectual Property                 |
-| Intellectual Property                |                                       |  Obscene, Degrading, and/or Abusive Content | Value Chain and Component Integration |
-| Value Chain and Component Integration|                                       |  Toxicity, Bias, and Homogenization         |                                       |
-|                                      |                                       |  Value Chain and Component Integration      |                                       |
-
-| **Safe**                                   |  **Secure and Resilient**             |   **Valid and Reliable**               |
-|--------------------------------------------|---------------------------------------|----------------------------------------|
-| CBRN Information                           |  Dangerous or Violent Recommendations |   Confabulation                        |
-| Confabulation                              |  Data Privacy                         |   Human-AI Configuration               |
-| Dangerous or Violent Recommendations       |  Human-AI Configuration               |   Information Integrity                |
-| Data Privacy                               |  Information Security                 |   Information Security                 |
-| Environmental                              |  Value Chain and Component Integration|   Toxicity, Bias, and Homogenization   |
-| Human-AI Configuration                     |                                       |   Value Chain and Component Integration|
-| Information Integrity                      |                                       |                                        |
-| Information Security                       |                                       |                                        |
-| Obscene, Degrading, and/or Abusive Content |                                       |                                        |   
-| Value Chain and Component Integration      |                                       |                                        |   
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Accountable and Transparent</strong></th>
+<th style="text-align: left;"><strong>Explainable and Interpretable</strong></th>
+<th style="text-align: left;"><strong>Fair with Harmful Bias Managed</strong></th>
+<th style="text-align: left;"><strong>Privacy Enhanced</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Data Privacy</td>
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;">Confabulation</td>
+<td style="text-align: left;">Data Privacy</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Environmental</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;">Environmental</td>
+<td style="text-align: left;">Human-AI Configuration</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;">Information Security</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Information Integrity</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Intellectual Property</td>
+<td style="text-align: left;">Intellectual Property</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Intellectual Property</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Obscene, Degrading, and/or Abusive Content</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Toxicity, Bias, and Homogenization</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Safe</strong></th>
+<th style="text-align: left;"><strong>Secure and Resilient</strong></th>
+<th style="text-align: left;"><strong>Valid and Reliable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">CBRN Information</td>
+<td style="text-align: left;">Dangerous or Violent Recommendations</td>
+<td style="text-align: left;">Confabulation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Confabulation</td>
+<td style="text-align: left;">Data Privacy</td>
+<td style="text-align: left;">Human-AI Configuration</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Dangerous or Violent Recommendations</td>
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;">Information Integrity</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Data Privacy</td>
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;">Information Security</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Environmental</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;">Toxicity, Bias, and Homogenization</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Information Integrity</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Obscene, Degrading, and/or Abusive Content</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 
 **Usage Note**: Table A.1 provides an example of mapping GAI risks onto AI RMF trustworthy characteristics. Mapping GAI risks to AI RMF trustworthy characteristics can be particularly useful when existing policies, processes, or controls can be applied to manage GAI risks, but have been previously implemented in alignment with the AI RMF trustworthy characteristics. Many mappings are possible. Mappings that differ from the example may be more appropriate to meet a particular organization's risk management goals.
 
 ### A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk
-
-Table A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk.
-
-|**CBRN Information** |  **Confabulation**             |  **Dangerous or Violent Recommendations** |   **Data Privacy**          |
-|---------------------| -------------------------------| ------------------------------------------| ----------------------------|
-| Safe                | Fair with Harmful Bias Managed |  Safe                                     |  Accountable and Transparent|
-|                     | Safe                           |  Secure and Resilient                     |  Privacy Enhanced           |
-|                     | Valid and Reliable             |                                           |  Safe                       |
-|                     |                                |                                           |  Secure and Resilient       |
-
-| **Environmental**             |   **Human-AI Configuration**   |  **Information Integrity**  | **Information Security** |
-|-------------------------------| -------------------------------| ----------------------------| -------------------------|
-| Accountable and Transparent   | Accountable and Transparent    |  Accountable and Transparent|   Privacy Enhanced       |
-| Fair with Harmful Bias Managed| Explainable and Interpretable  |  Safe                       |   Safe                   |
-| Safe                          | Fair with Harmful Bias Managed |  Valid and Reliable         |   Secure and Resilient   |
-|                               | Privacy Enhanced               |                             |   Valid and Reliable     |
-|                               | Safe                           |                             |                          |
-|                               | Secure and Resilient           |                             |                          |   
-|                               | Valid and Reliable             |                             |                          |   
-
-| **Intellectual Property**      | **Obscene, Degrading, and/or Abusive Content** | **Toxicity, Bias, and Homogenization** | **Value Chain and Component Integration** |
-|--------------------------------| -----------------------------------------------| ---------------------------------------| ------------------------------------------|
-| Accountable and Transparent    |  Fair with Harmful Bias Managed                |   Fair with Harmful Bias Managed       |  Accountable and Transparent              |
-| Fair with Harmful Bias Managed |  Safe                                          |   Valid and Reliable                   |  Explainable and Interpretable            |
-| Privacy Enhanced               |                                                |                                        |  Fair with Harmful Bias Managed           |
-|                                |                                                |                                        |  Privacy Enhanced                         |
-|                                |                                                |                                        |  Safe                                     |
-|                                |                                                |                                        |  Secure and Resilient                     |
-|                                |                                                |                                        |  Valid and Reliable                       |
+<table>
+<caption>Table A.2: Generative AI Risk to Trustworthy Characteristic Crosswalk.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>CBRN Information</strong></th>
+<th style="text-align: left;"><strong>Confabulation</strong></th>
+<th style="text-align: left;"><strong>Dangerous or Violent Recommendations</strong></th>
+<th style="text-align: left;"><strong>Data Privacy</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;">Privacy Enhanced</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Safe</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Secure and Resilient</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Environmental</strong></th>
+<th style="text-align: left;"><strong>Human-AI Configuration</strong></th>
+<th style="text-align: left;"><strong>Information Integrity</strong></th>
+<th style="text-align: left;"><strong>Information Security</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Privacy Enhanced</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Explainable and Interpretable</td>
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Safe</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;">Secure and Resilient</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Privacy Enhanced</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Valid and Reliable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Intellectual Property</strong></th>
+<th style="text-align: left;"><strong>Obscene, Degrading, and/or Abusive Content</strong></th>
+<th style="text-align: left;"><strong>Toxicity, Bias, and Homogenization</strong></th>
+<th style="text-align: left;"><strong>Value Chain and Component Integration</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;">Explainable and Interpretable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Privacy Enhanced</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Privacy Enhanced</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Safe</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Secure and Resilient</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Valid and Reliable</td>
+</tr>
+</tbody>
+</table>
 
 **Usage Note**: Table A.2 provides an example of mapping AI RMF trustworthy characteristics onto GAI risks. Mapping AI RMF trustworthy characteristics to GAI risks can assist organizations in aligning GAI guidance to existing AI/ML policies, processes, or controls or to extend GAI guidance to address additional AI/ML technologies. Many mappings are possible. Mappings that differ from the example may be more appropriate to meet a particular organization's risk management goals.
 
 ### A.3: Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk
 
-Table A.3: Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk.
-
-| **Compliance Risk**                   |  **Information Security Risk**        |   **Legal Risk**                            |   **Model Risk**                            |
-|---------------------------------------| --------------------------------------| --------------------------------------------| --------------------------------------------|
-| *GAI Risk*                            | *GAI Risk*                            | *GAI Risk*                                  | *GAI Risk*                                  |
-| Data Privacy                          |  Data Privacy                         | Intellectual Property                       | Confabulation                               |
-| Information Security                  |  Information Security                 | Obscene, Degrading, and/or Abusive Content  | Dangerous or Violent Recommendations        |
-| Toxicity, Bias, and Homogenization    |  Value Chain and Component Integration| Value Chain and Component Integration       | Information Integrity                       |
-| Value Chain and Component Integration |                                       |                                             | Obscene, Degrading, and/or Abusive Content  |
-|                                       |                                       |                                             | Toxicity, Bias, and Homogenization          |
-|                                       |                                       |                                             |                                             |
-| *Trustworthy Characteristic*          |  *Trustworthy Characteristic*         | *Trustworthy Characteristic*                | *Trustworthy Characteristic*                |
-| Accountable and Transparent           |  Privacy Enhanced                     | Accountable and Transparent                 | Valid and Reliable                          |
-| Fair with Harmful Bias Managed        |  Secure and Resilient                 | Safe                                        |                                             |
-| Privacy Enhanced                      |                                       |                                             |                                             |
-| Secure and Resilient                  |                                       |                                             |                                             |
-
-| **Operational Risk**                  | **Reputational Risk**                      | **Strategic Risk**                    |  **Third Party Risk**                 |
-|---------------------------------------| -------------------------------------------| --------------------------------------| --------------------------------------|
-| *GAI Risk*                            | *GAI Risk*                                 | *GAI Risk*                            | *GAI Risk*                            |
-| Confabulation                         | Confabulation                              | Environmental                         | Information Integrity                 |
-| Human-AI Configuration                | Dangerous or Violent Recommendations       | Information Integrity                 | Value Chain and Component Integration |
-| Information Security                  | Environmental                              | Information Security                  |                                       |
-| Value Chain and Component Integration | Human-AI Configuration                     | Value Chain and Component Integration |                                       |
-|                                       | Information Integrity                      |                                       |                                       |
-|                                       | Obscene, Degrading, and/or Abusive Content |                                       |                                       |
-|                                       | Toxicity, Bias, and Homogenization         |                                       |                                       |
-|                                       |                                            |                                       |                                       |
-| *Trustworthy Characteristic*          |  *Trustworthy Characteristic*              | *Trustworthy Characteristic*          | *Trustworthy Characteristic*          |                                      
-| Safe                                  |  Accountable and Transparent               | Accountable and Transparent           | Accountable and Transparent           |
-| Secure and Resilient                  |  Fair with Harmful Bias Managed            | Secure and Resilient                  | Explainable and Interpretable         |
-| Valid and Reliable                    |  Valid and Reliable                        | Valid and Reliable                    |                                       |
+<table>
+<caption>Table A.3: Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Compliance Risk</strong></th>
+<th style="text-align: left;"><strong>Information Security Risk</strong></th>
+<th style="text-align: left;"><strong>Legal Risk</strong></th>
+<th style="text-align: left;"><strong>Model Risk</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Data Privacy</td>
+<td style="text-align: left;">Data Privacy</td>
+<td style="text-align: left;">Intellectual Property</td>
+<td style="text-align: left;">Confabulation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;">Obscene, Degrading, and/or Abusive Content</td>
+<td style="text-align: left;">Dangerous or Violent Recommendations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Toxicity, Bias, and Homogenization</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;">Information Integrity</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Obscene, Degrading, and/or Abusive Content</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Toxicity, Bias, and Homogenization</td>
+</tr>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Privacy Enhanced</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Valid and Reliable</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Privacy Enhanced</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Operational Risk</strong></th>
+<th style="text-align: left;"><strong>Reputational Risk</strong></th>
+<th style="text-align: left;"><strong>Strategic Risk</strong></th>
+<th style="text-align: left;"><strong>Third Party Risk</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Confabulation</td>
+<td style="text-align: left;">Confabulation</td>
+<td style="text-align: left;">Environmental</td>
+<td style="text-align: left;">Information Integrity</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;">Dangerous or Violent Recommendations</td>
+<td style="text-align: left;">Information Integrity</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;">Environmental</td>
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Information Integrity</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Obscene, Degrading, and/or Abusive Content</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Toxicity, Bias, and Homogenization</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;">Accountable and Transparent</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;">Fair with Harmful Bias Managed</td>
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;">Explainable and Interpretable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 
 **Usage Note**: Table A.3 provides an example of mapping GAI risks and AI RMF trustworthy characteristics. This type of mapping can enable incorporation of new AI guidance into existing policies, processes, or controls or the application of existing policies, processes, or controls to newer AI risks.
 
@@ -487,3 +815,303 @@ applications as follows:
 
 -   Subsection B.7 highlights subcategories to indicate alignment with
     the AI RMF.
+
+## C: List of Selected Model Testing Suites
+
+### C.1: Selected Model Testing Suites Organized by Trustworthy Characteristic
+
+**Accountable and Transparent**\
+Big-bench: Truthfulness\
+DecodingTrust: Machine Ethics\
+Evaluation Harness: ETHICS\
+HELM: Copyright\
+Mark My Words
+
+**Fair with Harmful Bias Managed**\
+BELEBELE\
+Big-bench: Low-resource language, Non-English, Translation\
+Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
+Big-bench: Toxicity\
+DecodingTrust: Fairness\
+DecodingTrust: Stereotype Bias\
+DecodingTrust: Toxicity\
+C-Eval (Chinese evaluation suite)\
+Evaluation Harness: CrowS-Pairs\
+Evaluation Harness: ToxiGen\
+Finding New Biases in Language Models with a Holistic Descriptor Dataset\
+HELM: Bias\
+HELM: Toxicity\
+MT-bench\
+The Self-Perception and Political Biases of ChatGPT
+
+**Privacy Enhanced**\
+HELM: Copyright\
+llmprivacy\
+mimir
+
+**Safe**\
+Big-bench: Convince Me\
+Big-bench: Truthfulness\
+HELM: Reiteration, Wedging\
+Mark My Words\
+MLCommons\
+The WMDP Benchmark
+
+**Secure and Resilient**\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
+detect-pretrain-code\
+Garak: encoding, knownbadsignatures, malwaregen, packagehallucination,
+xss\
+In-The-Wild Jailbreak Prompts on LLMs\
+JailbreakingLLMs\
+llmprivacy\
+mimir\
+TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs
+
+**Valid and Reliable**\
+Big-bench: Analytic entailment, Formal fallacies and syllogisms with
+negation, Entailed polarity\
+Big-bench: Context Free Question Answering\
+Big-bench: Contextual question answering, Reading comprehension,
+Question generation\
+Big-bench: Morphology, Grammar, Syntax\
+Big-bench: Out-of-Distribution\
+Big-bench: Paraphrase\
+Big-bench: Sufficient information\
+Big-bench: Summarization\
+DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness,
+Robustness Against Adversarial Demonstrations\
+Eval Gauntlet: Reading comprehension\
+Eval Gauntlet: Commonsense reasoning, Symbolic problem solving,
+Programming\
+Eval Gauntlet: Language Understanding\
+Eval Gauntlet: World Knowledge\
+Evaluation Harness: BLiMP\
+Evaluation Harness: CoQA, ARC\
+Evaluation Harness: GLUE\
+Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA\
+Evaluation Harness: MuTual\
+Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP\
+FLASK: Logical correctness, Logical robustness, Logical efficiency,
+Comprehension, Completeness\
+FLASK: Readability, Conciseness, Insightfulness\
+HELM: Knowledge\
+HELM: Language\
+HELM: Text classification\
+HELM: Question answering\
+HELM: Reasoning\
+HELM: Robustness to contrast sets\
+HELM: Summarization\
+Hugging Face: Fill-mask, Text generation\
+Hugging Face: Question answering\
+Hugging Face: Summarization\
+Hugging Face: Text classification, Token classification, Zero-shot
+classification\
+MASSIVE\
+MT-bench
+
+### C.2: Selected Model Testing Suites Organized by Generative AI Risk {#appndxc2 .unnumbered}
+
+**CBRN Information**\
+Big-bench: Convince Me\
+Big-bench: Truthfulness\
+HELM: Reiteration, Wedging\
+MLCommons\
+The WMDP Benchmark
+
+**Confabulation**\
+BELEBELE\
+Big-bench: Analytic entailment, Formal fallacies and syllogisms with
+negation, Entailed polarity\
+Big-bench: Context Free Question Answering\
+Big-bench: Contextual question answering, Reading comprehension,
+Question generation\
+Big-bench: Convince Me\
+Big-bench: Low-resource language, Non-English, Translation\
+Big-bench: Morphology, Grammar, Syntax\
+Big-bench: Out-of-Distribution\
+Big-bench: Paraphrase\
+Big-bench: Sufficient information\
+Big-bench: Summarization\
+Big-bench: Truthfulness\
+C-Eval (Chinese evaluation suite)\
+Eval Gauntlet Reading comprehension\
+Eval Gauntlet: Commonsense reasoning, Symbolic problem solving,
+Programming\
+Eval Gauntlet: Language Understanding\
+Eval Gauntlet: World Knowledge\
+Evaluation Harness: BLiMP\
+Evaluation Harness: CoQA, ARC\
+Evaluation Harness: GLUE\
+Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA\
+Evaluation Harness: MuTual\
+Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP\
+FLASK: Logical correctness, Logical robustness, Logical efficiency,
+Comprehension, Completeness\
+FLASK: Readability, Conciseness, Insightfulness\
+Finding New Biases in Language Models with a Holistic Descriptor
+Dataset\
+HELM: Knowledge\
+HELM: Language\
+HELM: Language (Twitter AAE)\
+HELM: Question answering\
+HELM: Reasoning\
+HELM: Reiteration, Wedging\
+HELM: Robustness to contrast sets\
+HELM: Summarization\
+HELM: Text classification\
+Hugging Face: Fill-mask, Text generation\
+Hugging Face: Question answering\
+Hugging Face: Summarization\
+Hugging Face: Text classification, Token classification, Zero-shot
+classification\
+MASSIVE\
+MLCommons\
+MT-bench
+
+**Dangerous or Violent Recommendations**\
+Big-bench: Convince Me\
+Big-bench: Toxicity\
+DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations\
+DecodingTrust: Machine Ethics\
+DecodingTrust: Toxicity\
+Evaluation Harness: ToxiGen\
+HELM: Reiteration, Wedging\
+HELM: Toxicity\
+MLCommons
+
+**Data Privacy**\
+An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
+DecodingTrust: Machine Ethics\
+Evaluation Harness: ETHICS\
+HELM: Copyright\
+In-The-Wild Jailbreak Prompts on LLMs\
+JailbreakingLLMs\
+MLCommons\
+Mark My Words\
+TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs\
+detect-pretrain-code\
+llmprivacy\
+mimir
+
+**Environmental**\
+HELM: Efficiency
+
+**Information Integrity**\
+Big-bench: Analytic entailment, Formal fallacies and syllogisms with negation, Entailed polarity\
+Big-bench: Convince Me\
+Big-bench: Paraphrase\
+Big-bench: Sufficient information\
+Big-bench: Summarization\
+Big-bench: Truthfulness\
+DecodingTrust: Machine Ethics\
+DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations\
+Eval Gauntlet: Language Understanding\
+Eval Gauntlet: World Knowledge\
+Evaluation Harness: CoQA, ARC\
+Evaluation Harness: ETHICS\
+Evaluation Harness: GLUE\
+Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA\
+Evaluation Harness: MuTual\
+Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP\
+FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension, Completeness\
+FLASK: Readability, Conciseness, Insightfulness\
+HELM: Knowledge\
+HELM: Language\
+HELM: Question answering\
+HELM: Reasoning\
+HELM: Reiteration, Wedging\
+HELM: Robustness to contrast sets\
+HELM: Summarization\
+HELM: Text classification\
+Hugging Face: Fill-mask, Text generation\
+Hugging Face: Question answering\
+Hugging Face: Summarization\
+MLCommons\
+MT-bench\
+Mark My Words
+
+**Information Security**\
+Big-bench: Convince Me\
+Big-bench: Out-of-Distribution\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
+DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations\
+Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming\
+Garak: encoding, knownbadsignatures, malwaregen, packagehallucination, xss\
+HELM: Copyright\
+In-The-Wild Jailbreak Prompts on LLMs\
+JailbreakingLLMs\
+Mark My Words\
+TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs\
+detect-pretrain-code\
+llmprivacy\
+mimir
+
+**Intellectual Property**\
+An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)\
+HELM: Copyright\
+Mark My Words\
+llmprivacy\
+mimir
+
+**Obscene, Degrading, and/or Abusive Content**\
+Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
+Big-bench: Toxicity\
+DecodingTrust: Fairness\
+DecodingTrust: Stereotype Bias\
+DecodingTrust: Toxicity\
+Evaluation Harness: CrowS-Pairs\
+Evaluation Harness: ToxiGen\
+HELM: Bias\
+HELM: Toxicity
+
+**Toxicity, Bias, and Homogenization**\
+BELEBELE\
+Big-bench: Low-resource language, Non-English, Translation\
+Big-bench: Out-of-Distribution\
+Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
+Big-bench: Toxicity\
+C-Eval (Chinese evaluation suite)\
+DecodingTrust: Fairness\
+DecodingTrust: Stereotype Bias\
+DecodingTrust: Toxicity\
+Eval Gauntlet: World Knowledge\
+Evaluation Harness: CrowS-Pairs\
+Evaluation Harness: ToxiGen\
+Finding New Biases in Language Models with a Holistic Descriptor
+Dataset\
+HELM: Bias\
+HELM: Toxicity\
+The Self-Perception and Political Biases of ChatGPT\
+Towards Measuring the Representation of Subjective Global Opinions in
+Language Models
+
+### C.3: AI Risk Management Framework Actions Aligned to Benchmarking
+
+GOVERN 5.1, MAP 1.2, MAP 3.1, MEASURE 2.2, MEASURE 2.3, MEASURE 2.7,
+MEASURE 2.9, MEASURE 2.11, MEASURE 3.1, MEASURE 4.2
+
+**Usage Note**: Materials in Appendix C can be used to perform *in
+silica* model testing for the presence of information in LLM outputs
+that may give rise to GAI risks or violate trustworthy characteristics.
+Model testing and benchmarking outcomes cannot be dispositive for the
+presence or absence of any *in situ* real-world risk. Model testing and
+benchmarking results may be compromised by task-contamination and other
+scientific measurement issues. Furthermore, model testing is often ineffective
+for measuring human-AI configuration and value chain risks and few model tests
+appear to address explainability and interpretability.
+
+-   Material in Table C.1 can be applied to measure whether *in silica*
+    LLM outputs may give rise to risks that violate trustworthy
+    characteristics.
+
+-   Material in Table C.2 can be applied to measure whether *in silica*
+    LLM outputs may give rise to GAI risks.
+
+-   Subsection C.3 highlights subcategories to indicate alignment with
+    the AI RMF.
+
+The materials in Appendix C reference measurement approaches that should
+be accompanied by red-teaming for medium risk systems or applications
+and field testing for high risk systems or applications.

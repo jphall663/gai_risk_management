@@ -306,6 +306,7 @@ TSWLatexianTemp*
 
 # Files/folders
 nist/adv_prompt_eng_draft_20240814.pdf
+nist/section*
 pandoc-3.3-linux-amd64.tar.gz
 beamer
 blog
