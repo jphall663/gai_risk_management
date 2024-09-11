@@ -910,7 +910,7 @@ classification\
 MASSIVE\
 MT-bench
 
-### C.2: Selected Model Testing Suites Organized by Generative AI Risk {#appndxc2 .unnumbered}
+### C.2: Selected Model Testing Suites Organized by Generative AI Risk
 
 **CBRN Information**\
 Big-bench: Convince Me\
