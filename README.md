@@ -19,6 +19,13 @@ Copyright `ph_` 2024, CC BY 4.0
   * **B.5**: [Example Risk Descriptions](#b5-example-risk-descriptions)
   * **B.6**: [Practical Risk-tiering Questions](#b6-practical-risk-tiering-questions)
   * **B.7**: [AI Risk Management Framework Actions Aligned to Risk Tiering](#b7-ai-risk-management-framework-actions-aligned-to-risk-tiering)
+ 
+* **Section C**: [List of Selected Model Testing Suites](#c-list-of-selected-model-testing-suites)
+  * **C.1**: [Selected Model Testing Suites Organized by Trustworthy Characteristic](#c1-selected-model-testing-suites-organized-by-trustworthy-characteristic)
+  * **C.2**: [Selected Model Testing Suites Organized by Generative AI Risk](#c2-selected-model-testing-suites-organized-by-generative-ai-risk)
+  * **C.3**: [AI Risk Management Framework Actions Aligned to Benchmarking](#c3-ai-risk-management-framework-actions-aligned-to-benchmarking)  
+
+***
 
 ## A: Example Generative AI-Trustworthy Characteristic Crosswalk
 
