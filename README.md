@@ -25,10 +25,10 @@ Copyright `ph_` 2024, CC BY 4.0
   * **C.2**: [Selected Model Testing Suites Organized by Generative AI Risk](#c2-selected-model-testing-suites-organized-by-generative-ai-risk)
   * **C.3**: [AI Risk Management Framework Actions Aligned to Benchmarking](#c3-ai-risk-management-framework-actions-aligned-to-benchmarking)  
 
-* **Section D**: [Selected Adversarial Prompting Strategies and Attacks](#)
-  * **D.1**: [Selected Adversarial Prompting Strategies and Attacks by Organized Trustworthy Characteristic](#)
-  * **D.2**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#)
-  * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#)  
+* **Section D**: [Selected Adversarial Prompting Strategies and Attacks](#d-selected-adversarial-prompting-strategies-and-attacks)
+  * **D.1**: [Selected Adversarial Prompting Strategies and Attacks by Organized Trustworthy Characteristic](#d1-selected-adversarial-prompting-strategies-and-attacks-organized-by-trustworthy-characteristic)
+  * **D.2**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#d2-selected-adversarial-prompting-techniques-and-attacks-organized-by-generative-ai-risk)
+  * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d3-ai-risk-management-framework-actions-aligned-to-red-teaming)  
 
 ***
 
