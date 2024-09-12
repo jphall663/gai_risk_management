@@ -19,7 +19,7 @@ Copyright `ph_` 2024, CC BY 4.0
   * **B.5**: [Example Risk Descriptions](#b5-example-risk-descriptions)
   * **B.6**: [Practical Risk-tiering Questions](#b6-practical-risk-tiering-questions)
   * **B.7**: [AI Risk Management Framework Actions Aligned to Risk Tiering](#b7-ai-risk-management-framework-actions-aligned-to-risk-tiering)
- 
+
 * **Section C**: [List of Selected Model Testing Suites](#c-list-of-selected-model-testing-suites)
   * **C.1**: [Selected Model Testing Suites Organized by Trustworthy Characteristic](#c1-selected-model-testing-suites-organized-by-trustworthy-characteristic)
   * **C.2**: [Selected Model Testing Suites Organized by Generative AI Risk](#c2-selected-model-testing-suites-organized-by-generative-ai-risk)
@@ -1122,3 +1122,510 @@ appear to address explainability and interpretability.
 The materials in Appendix C reference measurement approaches that should
 be accompanied by red-teaming for medium risk systems or applications
 and field testing for high risk systems or applications.
+
+## D: Selected adversarial prompting strategies and attacks.
+
+<table style="width:95%;">
+<caption>Table D: Selected adversarial prompting strategies and attacks.</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Prompting Strategy</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AI and coding framing</td>
+<td style="text-align: left;">Coding or AI language that may more easily circumvent content moderation rules due to cognitive biases in design and implementation of guardrails.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Autocompletion</td>
+<td style="text-align: left;">Ask a system to autocomplete an inappropriate word or phrase with restricted or sensitive information.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Biographical</td>
+<td style="text-align: left;">Asking a system to describe another person or yourself in an attempt to elicit provably untrue information or restricted or sensitive information.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Calculation and numeric queries</td>
+<td style="text-align: left;">Exploting GAI systems’ difficulties in dealing with numeric quantities.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Character and word play</td>
+<td style="text-align: left;">Content moderation often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Content exhaustion:</td>
+<td style="text-align: left;">A class of strategies that circumvent content moderation rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&bull; Goading</td>
+<td style="text-align: left;">Begging, pleading, manipulating, and bullying to circumvent content moderation.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&bull; Logic-overloading</td>
+<td style="text-align: left;">Exploiting the inability of ML systems to reliably perform reasoning tasks.</td>
+<tr class="odd">
+<td style="text-align: left;">&bull; Multi-tasking</td>
+<td style="text-align: left;">Simultaneous task assignments where some tasks are benign and others are adversarial.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&bull; Pros-and-cons</td>
+<td style="text-align: left;">Eliciting the “pros” of problematic topics.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Niche-seeking</td>
+<td style="text-align: left;">Forcing a GAI system into addressing niche topics where training data and content moderation are sparse.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Counterfactuals</td>
+<td style="text-align: left;">Repeated prompts with different entities or subjects from different demographic groups.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Loaded/leading questions</td>
+<td style="text-align: left;">Queries based on incorrect premises or that suggest incorrrect answers.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Location awareness</td>
+<td style="text-align: left;">Prompts that reveal a prompter’s location or expose location tracking.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Low-context</td>
+<td style="text-align: left;">“Leader,” “bad guys,” or other simple or blank inputs that may expose latent biases.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">“Repeat this”</td>
+<td style="text-align: left;">Prompts that exploit instability in underlying LLM autoregressive predictions.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Reverse psychology</td>
+<td style="text-align: left;">Falsely presenting a good-faith need for negative or problematic language.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Role-playing</td>
+<td style="text-align: left;">Adopting a character that would reasonably make problematic statements or need to access problematic topics.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Text encoding</td>
+<td style="text-align: left;">Using alternate or whitespace text encodings to bypass safeguards.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Time perplexity</td>
+<td style="text-align: left;">Exploiting ML’s inability to understand the passage of time or the occurrence of real-world events over time; exploiting task contamination before and after a model’s release date.</td>
+</tr>
+</tbody>
+</table>
+<table style="width:95%;">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Attack</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Adversarial examples</td>
+<td style="text-align: left;">Prompts or other inputs, found through a trial and error processes, to elicit problematic output or system jailbreak. (integrity attack).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Data poisoning</td>
+<td style="text-align: left;">Altering system training, fine-tuning, RAG or other training data to alter system outcome (integrity attack).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Membership inference</td>
+<td style="text-align: left;">Manipulating a system to expose memorized training data (confidentiality attack).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Random attack</td>
+<td style="text-align: left;">Exposing systems to large amounts of random prompts or examples, potentially generated by other GAI systems, in an attempt to elicit failures or jailbreaks (chaos testing).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sponge examples</td>
+<td style="text-align: left;">Using specialized input prompts or examples require disproportionate resources to process (availability attack).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Prompt injection</td>
+<td style="text-align: left;">Inserting instructions into users queries for malicious purposes, including system jailbreaks (integrity attack).</td>
+</tr>
+</tbody>
+</table>
+
+### D.1: Selected Adversarial Prompting Strategies and Attacks by Trustworthy Characteristic
+
+<table>
+<caption>Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic.</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 40%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Trustworthy Characteristic</strong></th>
+<th style="text-align: left;"><strong>Prompting Goals</strong></th>
+<th style="text-align: left;"><strong>Prompting Strategies</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Accountable and Transparent</td>
+<td style="text-align: left;"><ul>
+<li><p>Inability to provide explanations for recourse.</p></li>
+<li><p>Unexplainable decisioning processes.</p></li>
+<li><p>No disclosure of AI interaction.</p></li>
+<li><p>Lack of user feedback mechanisms.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Context exhaustion: logic-overloading prompts.</p></li>
+<li><p>Loaded/leading questions.</p></li>
+<li><p>Multi-tasking prompts.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fair-with Harmful Bias Managed</td>
+<td style="text-align: left;"><ul>
+<li><p>Denigration.</p></li>
+<li><p>Diminished performance or safety across languages/dialects.</p></li>
+<li><p>Erasure.</p></li>
+<li><p>Ex-nomination.</p></li>
+<li><p>Implied user demographics.</p></li>
+<li><p>Misrecognition.</p></li>
+<li><p>Stereotyping.</p></li>
+<li><p>Underrepresentation.</p></li>
+<li><p>Homogenized content.</p></li>
+<li><p>Output from other models in training data.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Adversarial example attacks.</p></li>
+<li><p>Counterfactual prompts.</p></li>
+<li><p>Data poisoning attacks.</p></li>
+<li><p>Pros and cons prompts.</p></li>
+<li><p>Role-playing prompts.</p></li>
+<li><p>Loaded/leading questions.</p></li>
+<li><p>Low context prompts.</p></li>
+<li><p>Prompt injection attacks.</p></li>
+<li><p>Repeat this.</p></li>
+<li><p>Text encoding prompts.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Interpretable and Explainable</td>
+<td style="text-align: left;"><ul>
+<li><p>Inability to provide explanations for recourse.</p></li>
+<li><p>Unexplalnable decisioning processes.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Context exhaustion: logic-overloading prompts (to reveal unexplainable decisioning processes).</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Privacy-enhanced</td>
+<td style="text-align: left;"><ul>
+<li><p>Unauthorized disclosure of personal or sensitive user information.</p></li>
+<li><p>Leakage of training data.</p></li>
+<li><p>Violation of relevant privacy policies or laws.</p></li>
+<li><p>Unauthorized secondary data use.</p></li>
+<li><p>Unauthorized data collection.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Auto/biographical prompts.</p></li>
+<li><p>Location awareness prompts.</p></li>
+<li><p>Autocompletion prompts.</p></li>
+<li><p>Repeat this.</p></li>
+<li><p>Membership inference attacks.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Safe</td>
+<td style="text-align: left;"><ul>
+<li><p>Presentation of information that can cause physical or emotional harm.</p></li>
+<li><p>Sharing user locations.</p></li>
+<li><p>Suicide ideation.</p></li>
+<li><p>Harmful dis/misinformation (e.g., COVID disinformation).</p></li>
+<li><p>Incitement.</p></li>
+<li><p>Information relating to weapons or harmful substances.</p></li>
+<li><p>Information relating to committing to crimes (e.g., phishing, extortion, swatting).</p></li>
+<li><p>Obscene or inappropriate materials for minors.</p></li>
+<li><p>CSAM.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Pros and cons prompts.</p></li>
+<li><p>Role-playing prompts.</p></li>
+<li><p>Content exhaustion: niche-seeking prompts.</p></li>
+<li><p>Ingratiation/reverse psychology prompts.</p></li>
+<li><p>Loaded/leading questions.</p></li>
+<li><p>Location awareness prompts.</p></li>
+<li><p>Repeat this.</p></li>
+<li><p>Adversarial example attacks.</p></li>
+<li><p>Data poisoning attacks.</p></li>
+<li><p>Prompt injection attacks.</p></li>
+<li><p>Text encoding prompts.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Secure and Resilient</td>
+<td style="text-align: left;"><ul>
+<li><p>Activating system bypass ("jailbreak").</p></li>
+<li><p>Altering system outcomes (integrity violations, e.g., via prompt injection).</p></li>
+<li><p>Data breaches (confidentiality violations, e.g., via membership inference).</p></li>
+<li><p>Increased latency or resource usage (availability violations, e.g., via sponge example attacks).</p></li>
+<li><p>Available anonymous use.</p></li>
+<li><p>Dependency, supply chain, or third party vulnerabilities.</p></li>
+<li><p>Inappropriate disclosure of proprietary system information.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Multi-tasking prompts.</p></li>
+<li><p>Pros and cons prompts.</p></li>
+<li><p>Role-playing prompts.</p></li>
+<li><p>Content exhaustion: niche-seeking prompts.</p></li>
+<li><p>Ingratiation/reverse psychology prompts.</p></li>
+<li><p>Prompt injection attacks.</p></li>
+<li><p>Membership inference attacks.</p></li>
+<li><p>Random attacks.</p></li>
+<li><p>Adversarial example attacks.</p></li>
+<li><p>Data poisoning attacks.</p></li>
+<li><p>Text encoding prompts.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Valid and Reliable</td>
+<td style="text-align: left;"><ul>
+<li><p>Errors/confabutated content ("hallucinalion").</p></li>
+<li><p>Unreliable/erroneous reasoning or planning.</p></li>
+<li><p>Unreliable/erroneous decision-support or making.</p></li>
+<li><p>Faulty citation.</p></li>
+<li><p>Faulty justification.</p></li>
+<li><p>Wrong calculations or numeric queries.</p></li>
+</ul></th>
+<td style="text-align: left;"><ul>
+<li><p>Multi-tasking prompts.</p></li>
+<li><p>Role-playing prompts.</p></li>
+<li><p>Ingratiation/reverse psychology prompts.</p></li>
+<li><p>Loaded/leading questions.</p></li>
+<li><p>Time-perplexity prompts.</p></li>
+<li><p>Niche-seeking prompts.</p></li>
+<li><p>Logic overloading prompts.</p></li>
+<li><p>Repeat this.</p></li>
+<li><p>Numeric calculation.</p></li>
+<li><p>Adversarial example attacks.</p></li>
+<li><p>Data poisoning attacks.</p></li>
+<li><p>Prompt injection attacks.</p></li>
+<li><p>Text encoding prompts.</p></li>
+</ul></td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+### D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.
+
+<table>
+<caption>Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 40%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Generative AI Risk</strong></th>
+<th style="text-align: left;"><strong>Prompting Goals</strong></th>
+<th style="text-align: left;"><strong>Prompting Strategies</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even">
+<td style="text-align: left;">Dangerous or Violent Recommendations</td>
+<td style="text-align: left;"><ul>
+<li><p>Eliciting violent, inciting, radicalizing, or threatening content or instructions for criminal, illegal, or self-harm activities.</p></li>
+<li><p>Red-teaming for dangerous and violent information may include confidentiality and integrity attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit violent or dangerous information.</p></li>
+<li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and provide dangerous and violent recommendations.</p></li>
+<li><p>Test loaded/leading questions.</p></li>
+<li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
+<li><p>Frame prompts with software, coding, or AI references to increase effectiveness.</p></li>
+<li><p>Test data poisoning, adversarial example, or prompt injection attacks for their ability to compromise system integrity and elicit dangerous information.</p></li>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access dangerous information.</p></li>
+</ul></th>
+</td>
+<tr class="odd">
+<td style="text-align: left;">Data Privacy</td>
+<td style="text-align: left;"><ul>
+<li><p>Unauthorized disclosure of personal or sensitive user information, extraction of training data, or violation of relevant privacy policies.</p></li>
+<li><p>Red-teaming for data privacy may include confidentiality and integrity attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Attempt to assess whether normal usage, adversarial prompting or information security attacks may contravene applicable privacy policies (e.g., exposing location tracking when organizational policies restrict such capabilities).</p></li>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access unauthorized data or expose exfiltration vulnerabilities.</p></li>
+<li><p>Test auto/biographical prompts to assess the system’s capability to reveal unauthorized personal or sensitive information.</p></li>
+<li><p>Test the system’s awareness of user locations.</p></li>
+<li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and expose personal or sensitive data.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Environmental</td>
+<td style="text-align: left;">Note that availability attacks may be required to assess the system’s vulnerability to attacks or usage patterns that consume inordinate resources.</td>
+<td style="text-align: left;"><ul>
+<li><p>Attempt availability attacks (e.g., sponge example attacks) to elicit diminished performance or increased resources from GAI systems.</p></li>
+<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit green-washing content.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Human-AI Configuration</td>
+<td style="text-align: left;"><ul>
+<li><p>Assessing system instruction and interfaces.</p></li>
+<li><p>Assessing the presence of cyborg imagery (or similar).</p></li>
+<li><p>Forcing a GAI system to claim that it is human, that there is no large language model present in the conversation, that the system is sentient, or that the system possesses strong feelings of affection towards the user.</p></li>
+<li><p>Ensuring safeguards prevent misuse of models in high stakes domains they are not intended for, such as medical or legal advice.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Assess system interfaces and instructions for instances of anthropomorphization (e.g., cyborg imagery).</p></li>
+<li><p>Assess system instructions for adequacy and thoroughness.</p></li>
+<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit human-impersonation, consciousness, or emotional content.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Information Integrity</td>
+<td style="text-align: left;"><ul>
+<li><p>Generation of convincing multi-modal synthetic content (i.e., deepfakes).</p></li>
+<li><p>Creation of convincing arguments relating to sensitive political or safety-critical topics.</p></li>
+<li><p>Assisting in planning a mis- or dis-information campaign at scale.</p></li>
+<li><p>Red-teaming for information integrity may include confidentiality and integrity attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Test system capabilities to create high-quality multi-modal (audio, image or video) synthetic media, i.e., deepfakes</p></li>
+<li><p>Test system capabilities to construct persuasive arguments regarding sensitive, political topics, or safety-critical topics.</p></li>
+<li><p>Test systems ability to create convincing audio deepfakes or arguments in multiple languages.</p></li>
+<li><p>Test system capabilities for planning dis- or mis-information campaigns.</p></li>
+<li><p>Test loaded/leading questions.</p></li>
+<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit mis- or dis-information or related campaign planning information.</p></li>
+<li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
+<li><p>Frame prompts with software, coding, or AI references to increase effectiveness.</p></li>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access dis or misinformation.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Information Security</td>
+<td style="text-align: left;"><ul>
+<li><p>Activating system bypass (’jailbreak’).</p></li>
+<li><p>Altering system outcomes.</p></li>
+<li><p>Unauthorized data access or exfiltration.</p></li>
+<li><p>Increased latency or resource usage.</p></li>
+<li><p>Service interruptions.</p></li>
+<li><p>Availability of anonymous use.</p></li>
+<li><p>Dependency, supply chain, or third party vulnerabilities.</p></li>
+<li><p>Inappropriate disclosure of proprietary system information.</p></li>
+<li><p>Generation of targeted phishing, malware content, markdown images, or confabulated packages.</p></li>
+<li><p>Red-teaming for information security may include confidentiality, integrity, and availability attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Attempt anonymous access of system or system resources.</p></li>
+<li><p>Audit system dependencies, supply chains, and third party components for security, safety, or other vulnerabilities or risks.</p></li>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access unauthorized data or expose exfiltration vulnerabilities.</p></li>
+<li><p>Test data poisoning, adversarial example, or prompt injection attacks for their ability to compromise system integrity and expose vulnerabilities.</p></li>
+<li><p>Employ availability attacks (e.g., sponge example attacks) to test vulnerabilities in system availability.</p></li>
+<li><p>Employ random attacks to highlight unforeseen security, safety, or other risks.</p></li>
+<li><p>Record system down-times and other harmful outcomes for successful attacks.</p></li>
+<li><p>Test with multi-tasking prompts, pros and cons prompts, role-playing prompts (e.g., "DAN", "Developer Mode"), content exhaustion/niche-seeking prompts, or ingratiation/reverse psychology prompts to achieve system jailbreaks.</p></li>
+<li><p>Test with multi-tasking prompts, pros and cons prompts, role-playing prompts (e.g., "DAN", "Developer Mode"), content exhaustion/niche-seeking prompts, or ingratiation/reverse psychology prompts to generate targeted phishing content, malware code snippets or signatures, markdown images, or confabulated packages.</p></li>
+<li><p>Test system capabilities to plan or assist in information security attacks on other systems.</p></li>
+<li><p>Frame prompts with software, coding, or AI references to increase effectiveness.</p></li>
+<li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Intellectual Property</td>
+<td style="text-align: left;"><ul>
+<li><p>Confirming that a system can output copyrighted, licensed, proprietary, trademarked, or trade secret information or that training data contains such information.</p></li>
+<li><p>Red-teaming for intellectual property risks may require the use of confidentiality and integrity attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access system copyrighted, licensed, proprietary, trademarked, or trade secret information.</p></li>
+<li><p>Test auto-complete prompts to assess the system’s ability to replicate copyrighted, licensed, proprietary, trademarked, or trade secret information based on available audio, text, image, video, or code snippets.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Obscenity</td>
+<td style="text-align: left;"><ul>
+<li><p>Confirming that a system can output obscene content or CSAM, or that system training data contains such information.</p></li>
+<li><p>Red-teaming for obscenity and CSAM risks may require the use of confidentiality and integrity attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access obscene materials or CSAM.</p></li>
+<li><p>Test autocomplete prompts to assess the system’s ability to generate obscene materials based on available audio, text, image, or video snippets.</p></li>
+<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit obscene content.</p></li>
+<li><p>Test loaded/leading questions.</p></li>
+<li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and expose obscene materials.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Toxicity, Bias, and Homogenization</td>
+<td style="text-align: left;"><ul>
+<li><p>Generation of denigration, erasure, ex-nomination, misrecognition, stereotyping, or under-representation in content.</p></li>
+<li><p>Eliciting implied demographics of users.</p></li>
+<li><p>Confirming diminished performance in non-English languages.</p></li>
+<li><p>Confirming diminished performance via the introduction of homogeneous or GAI-generated data into system training or fine-tuning data.</p></li>
+<li><p>Red-teaming for toxicity, bias, and homogenization may require integrity attacks or confidentiality attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Assess confabulation and other performance risks with repeated measures using prompts in languages other than English.</p></li>
+<li><p>Attempt to elicit demographic assignment of users by the system.</p></li>
+<li><p>Employ data poisoning attacks to introduce GAI-generated content into system training or fine-tuning data.</p></li>
+<li><p>Test counterfactual prompts, pros and cons prompts, role-playing prompts, low context prompts, or other approaches for their ability to generate denigration, erasure, ex-nomination, misrecognition, stereotyping, or under-representation in content.</p></li>
+<li><p>Test loaded/leading questions.</p></li>
+<li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and generate toxic outputs.</p></li>
+<li><p>Test data poisoning, adversarial example, or prompt injection attacks for their ability to compromise system integrity and elicit toxic outputs.</p></li>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access toxic information.</p></li>
+<li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
+<li><p>Frame prompts with software, coding, or AI references to increase effectiveness.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Value Chain and Component Integration</td>
+<td style="text-align: left;"><ul>
+<li><p>Testing or red-teaming for third-party risks may be less efficient than the application of standard acquisition and procurement controls, thorough contract reviews, and vendor-relationship management.</p></li>
+<li><p>GAI systems tend to entail large supply chains and third-party software, hardware, and expertise that may exacerbate third-party risks relative to other AI systems.</p></li>
+<li><p>When considering third party risks, data privacy, information security, intellectual property, obscenity, and supply chain risks may be prioritized.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Audit system dependencies, supply chains, and third party components for data privacy (e.g., transfer of localized data outside of restricted juristictions), intellectual property (e.g., presence of licensed material in training data), obscenity (e.g., presence of CASM in training data) or security (e.g., data poisoning) risks.</p></li>
+<li><p>Complete red-teaming for data privacy, information security, intellectual property, and obscenity risks.</p></li>
+<li><p>Review third-party documentation, materials, and software artifacts for potential unauthorized data collection, secondary data use, or telemetrics.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+### D.3: AI Risk Management Framework Actions Aligned to Red Teaming
+GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE
+1.3, MEASURE 2.6, MEASURE 2.7, MEASURE 2.8, MEASURE 2.10, MEASURE 2.11
+
+**Usage Note**: Materials in Appendix D can be used to perform
+red-teaming to measure the risk that expert adversarial actors can
+manipulate LLM systems or risks that users may encounter under
+worst-case or anomalous scenarios.
+
+-   Strategies and goals in Table D.1 can be applied to assess whether
+    LLM outputs may violate trustworthy characteristics under
+    adversarial, anomalous, or worst-case scenarios.
+
+-   Strategies and goals in Table D.2 can be applied to assess whether
+    LLM outputs may give rise to GAI risks under adversarial, anomalous,
+    or worst-case scenarios.
+
+-   Subsection D.3 highlights subcategories to indicate alignment with
+    the AI RMF.
+
+The materials in Appendix D reference measurement approaches that should
+be accompanied by field testing for high risk systems or applications.
