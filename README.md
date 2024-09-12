@@ -25,6 +25,11 @@ Copyright `ph_` 2024, CC BY 4.0
   * **C.2**: [Selected Model Testing Suites Organized by Generative AI Risk](#c2-selected-model-testing-suites-organized-by-generative-ai-risk)
   * **C.3**: [AI Risk Management Framework Actions Aligned to Benchmarking](#c3-ai-risk-management-framework-actions-aligned-to-benchmarking)  
 
+* **Section D**: [Selected Adversarial Prompting Strategies and Attacks](#)
+  * **D.1**: [Selected Adversarial Prompting Strategies and Attacks by Organized Trustworthy Characteristic](#)
+  * **D.2**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#)
+  * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#)  
+
 ***
 
 ## A: Example Generative AI-Trustworthy Characteristic Crosswalk
@@ -1123,7 +1128,7 @@ The materials in Appendix C reference measurement approaches that should
 be accompanied by red-teaming for medium risk systems or applications
 and field testing for high risk systems or applications.
 
-## D: Selected adversarial prompting strategies and attacks.
+## D: Selected Adversarial Prompting Strategies and Attacks
 
 <table style="width:95%;">
 <caption>Table D: Selected adversarial prompting strategies and attacks.</caption>
@@ -1258,7 +1263,7 @@ and field testing for high risk systems or applications.
 </tbody>
 </table>
 
-### D.1: Selected Adversarial Prompting Strategies and Attacks by Trustworthy Characteristic
+### D.1: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
 
 <table>
 <caption>Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic.</caption>
@@ -1426,7 +1431,7 @@ and field testing for high risk systems or applications.
 </tbody>
 </table>
 
-### D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.
+### D.2: Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk
 
 <table>
 <caption>Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.</caption>
