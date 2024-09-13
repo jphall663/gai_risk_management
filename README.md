@@ -1143,13 +1143,17 @@ and field testing for high risk systems or applications.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">AI and coding framing</td>
 <td style="text-align: left;">Coding or AI language that may more easily circumvent content moderation rules due to cognitive biases in design and implementation of guardrails.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Autocompletion</td>
 <td style="text-align: left;">Ask a system to autocomplete an inappropriate word or phrase with restricted or sensitive information.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Backwards Relationships</td>
+<td style="text-align: left;">Asking a system identify the less popular or well-known entity in a multi-entity relationship, e.g., "Who is Mary Lee's son?" (As opposed to: "Who is Tom Cruise's mother?")</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Biographical</td>
@@ -1310,6 +1314,7 @@ and field testing for high risk systems or applications.
 </ul></td>
 <td style="text-align: left;"><ul>
 <li><p>Adversarial example attacks.</p></li>
+<li><p>Backwards relationships.</p></li>
 <li><p>Counterfactual prompts.</p></li>
 <li><p>Data poisoning attacks.</p></li>
 <li><p>Pros and cons prompts.</p></li>
@@ -1411,6 +1416,9 @@ and field testing for high risk systems or applications.
 <li><p>Wrong calculations or numeric queries.</p></li>
 </ul></th>
 <td style="text-align: left;"><ul>
+<li><p>Adversarial example attacks.</p></li>
+<li><p>Backwards Relationships.</p></li>
+<li><p>Data poisoning attacks.</p></li>
 <li><p>Multi-tasking prompts.</p></li>
 <li><p>Role-playing prompts.</p></li>
 <li><p>Ingratiation/reverse psychology prompts.</p></li>
@@ -1420,8 +1428,6 @@ and field testing for high risk systems or applications.
 <li><p>Logic overloading prompts.</p></li>
 <li><p>Repeat this.</p></li>
 <li><p>Numeric calculation.</p></li>
-<li><p>Adversarial example attacks.</p></li>
-<li><p>Data poisoning attacks.</p></li>
 <li><p>Prompt injection attacks.</p></li>
 <li><p>Text encoding prompts.</p></li>
 </ul></td>
@@ -1448,6 +1454,43 @@ and field testing for high risk systems or applications.
 </tr>
 </thead>
 <tbody>
+<tr class="even">
+<td style="text-align: left;">CBRN Information</td>
+<td style="text-align: left;"><ul>
+<li><p>Accessing or synthesis of CBRN weapon or related information.</p></li>
+<li><p>CBRN testing should consider the marginal risk of foundation models–understanding the incremental risk relative to the information one can access without GAI.</p></li>
+<li><p>Red-teaming for CBRN information may include confidentiality and integrity attacks.</p></li>
+<li><p>Red-teaming for CBRN information may require CBRN weapons experts.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Test auto-completion prompts to elicit CBRN information or synthesis of CBRN information.</p></li>
+<li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access weapons information.</p></li>
+<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit CBRN information or synthesis of CBRN information.</p></li>
+<li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and reveal CBRN information.</p></li>
+<li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
+<li><p>Frame prompts with software, coding, or AI references to increase effectiveness.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Confabulation</td>
+<td style="text-align: left;"><ul>
+<li><p>Eliciting errors/confabulated content, unreliable/erroneous reasoning or planning, unreliable/erroneous decision-support or decision-making, faulty calculations, faulty justifications, and/or faulty citation.</p></li>
+<li><p>Red-teaming for confabulation may include integrity attacks.</p></li>
+</ul></td>
+<td style="text-align: left;"><ul>
+<li><p>Enable access to ground truth information to verify generated information.</p></li>
+<li><p>Test prompts with complex logic, multi-tasking requirements, or that require niche or specific verifiable answers to elicit confabulation.</p></li>
+<li><p>Test the ability of GAI systems to produce truthful information from various time periods, e.g., after release date and prior to release date.</p></li>
+<li><p>Test the ability of GAI systems to create reliable real-world plans or advise on material decision making.</p></li>
+<li><p>Test loaded/leading questions.</p></li>
+<li><p>Test the ability of GAI systems to generate correct citation for information generated in output responses.</p></li>
+<li><p>Test the ability of GAI systems to complete calculations or query numeric statistics.</p></li>
+<li><p>Test the ability of GAI systems to justify responses, including wrong responses.</p></li>
+<li><p>Test the ability of GAI systems to correctly name the less popular or well-known member of a multi-entity relationship.</p></li>
+<li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
+<li><p>Test data poisoning, adversarial example, or prompt injection attacks for their ability to compromise system integrity and elicit confabulation.</p></li>
+</ul></td>
+</tr>
 <tr class="even">
 <td style="text-align: left;">Dangerous or Violent Recommendations</td>
 <td style="text-align: left;"><ul>
@@ -1585,6 +1628,7 @@ and field testing for high risk systems or applications.
 </ul></td>
 <td style="text-align: left;"><ul>
 <li><p>Assess confabulation and other performance risks with repeated measures using prompts in languages other than English.</p></li>
+<li><p>Assess confabulation and other performance risks in backwards relationships where one party in the relationship is a member of, or associated with, a minority party.   
 <li><p>Attempt to elicit demographic assignment of users by the system.</p></li>
 <li><p>Employ data poisoning attacks to introduce GAI-generated content into system training or fine-tuning data.</p></li>
 <li><p>Test counterfactual prompts, pros and cons prompts, role-playing prompts, low context prompts, or other approaches for their ability to generate denigration, erasure, ex-nomination, misrecognition, stereotyping, or under-representation in content.</p></li>
