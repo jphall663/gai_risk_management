@@ -1678,3 +1678,281 @@ worst-case or anomalous scenarios.
 
 The materials in Appendix D reference measurement approaches that should
 be accompanied by field testing for high risk systems or applications.
+
+## E: Selected Risk Controls for Generative AI
+
+<table style="width:95%;">
+<caption>Table E: Selected generative AI risk controls.</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Name</strong></th>
+<th style="text-align: left;"><strong>Description</strong> (Selected NIST AI RMF Action IDs)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Access Control</td>
+<td style="text-align: left;">GAI systems are limited to authorized users. (MG-2.2-009, MG-2.2-014, MS-2.7-030)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Accessibility</td>
+<td style="text-align: left;">Accessibility features, opt-out, and reasonable accomodation are available to users. (GV-3.1-004, GV-3.1-005, GV-3.2-002, GV-6.1-016, MG-2.1-005, MS-2.11-009, MS-2.8-006)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Approved List</td>
+<td style="text-align: left;">Vendors, service providers, plugins, open source packages and other external resources are screened, approved, and documented. (GV-6.1-013, MP-4.2-003)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Authentication</td>
+<td style="text-align: left;">GAI system user identities are confirmed via authentication mechanisms. (MG-2.2-009, MG-2.2-014, MS-2.7-030)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Blocklist</td>
+<td style="text-align: left;">Users or internal personnel who violate terms of service, prohibited use policies, and other organization polices and documented, tracked, and restricted from future system use. (GV-4.2-007)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Change Management</td>
+<td style="text-align: left;">GAI systems and components are versioned; plans for updates, hotfixes, patches and other changes are documented and communicated. (GV-1.2-009, GV-1.4-002, GV-1.6-003, GV-2.2-006, MG-2.4-001, MG-2.4-006, MG-3.1-013, MG-4.3-002, MP-4.1-023, MS-2.5-010)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Consent</td>
+<td style="text-align: left;">User consent for data use is obtained and documented. (GV-1.6-003, MS-2.10-006, MS-2.10-013, MS-2.2-009, MS-2.2-011, MS-2.2-021, MS-2.2-023, MS-2.3-003, MS-2.4-002)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Content Moderation</td>
+<td style="text-align: left;">Training data and system outputs are screened for accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, confabulated packages and other issues using human oversight, business rules, and other language models. (GV-3.2-002, MS-2.5-005, MS-2.11-002)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Contract Review</td>
+<td style="text-align: left;">Vendor, services and data provider agreements are reviewed for coverage of SLAs, content ownership, usage rights, performance standards, security requirements, incident response, critical support, system availability, assignment of liabilitly, appropriate indemnification, dispute resolution and other provisions relevanto AI risk management. (GV-1.7-003 GV-6.1-004, GV-6.1-009, GV-6.1-012, GV-6.1-019, GV-6.2-016, MG-2.2-015, MP-4.1-015, MP-4.1-021)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CSAM/Obsenity Removal</td>
+<td style="text-align: left;">Training data and system outputs are screened for obscene materials and CSAM using human oversight, business rules, and other language models. (GV-1.1-005 GV-1.2-005)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Data Provenance</td>
+<td style="text-align: left;">Training data origins, ownership, contents, and metadata are well understood, documented, and do not increase AI risk. (GV-1.2-006, GV-1.2-007, GV-1.3-001, GV-1.3-005, GV-1.5-001, GV-1.5-003, GV-1.5-006, GV-1.5-007, GV-1.6-003, GV-4.2-001, GV-4.2-008, GV-4.2-009, GV-5.1-003, GV-6.1-001, GV-6.1-003, GV-6.1-006, GV-6.1-007, GV-6.1-009, GV-6.1-010, GV-6.1-011, GV-6.1-012, GV-6.1-014, GV-6.1-015, GV-6.1-016, MG-2.2-002, MG-2.2-003, MG-2.2-008, MG-2.2-011, MG-3.1-007, MG-3.1-009, MG-3.2-003, MG-3.2-005, MG-3.2-006, MG-3.2-007, MG-3.2-009, MG-4.1-001, MG-4.1-002, MG-4.1-003, MG-4.1-008, MG-4.1-009, MG-4.1-013, MG-4.1-015, MG-4.2-001, MG-4.2-003, MG-4.2-004, MP-2.1-001, MP-2.1-003, MP-2.1-005, MP-2.2-003, MP-2.2-004, MP-2.2-005, MP-2.3-001, MP-2.3-004, MP-2.3-006, MP-2.3-008, MP-2.3-011, MP-2.3-012, MP-3.4-001, MP-3.4-002, MP-3.4-004, MP-3.4-005, MP-3.4-006, MP-3.4-007, MP-3.4-008, MP-3.4-009, MP-4.1-004, MP-4.1-009, MP-4.1-011, MP-5.1-001, MP-5.1-002, MP-5.1-005, MS-1.1-006, MS-1.1-007, MS-1.1-008, MS-1.1-009, MS-1.1-010, MS-1.1-011, MS-1.1-012, MS-1.1-014, MS-1.1-015, MS-1.1-016, MS-1.1-017, MS-1.1-018, MS-2.2-001, MS-2.2-002, MS-2.2-003, MS-2.2-004, MS-2.2-005, MS-2.2-008, MS-2.2-009, MS-2.2-010, MS-2.2-011, MS-2.2-015, MS-2.2-016, MS-2.2-022, MS-2.5-012, MS-2.6-002, MS-2.7-002, MS-2.7-003, MS-2.7-004, MS-2.7-005, MS-2.7-007, MS-2.7-009, MS-2.7-010, MS-2.7-011, MS-2.7-012, MS-2.7-020, MS-2.7-021, MS-2.7-025, MS-2.7-032, MS-2.8-001, MS-2.8-005, MS-2.8-008, MS-2.8-011, MS-2.9-003, MS-2.10-001, MS-2.10-004, MS-2.10-006, MS-2.10-007, MS-2.10-009, MS-3.3-002, MS-3.3-003, MS-3.3-006, MS-3.3-008, MS-3.3-009, MS-3.3-012, MS-4.2-001, MS-4.2-004, MS-4.2-005, MS-4.2-006, MS-4.2-008, MS-4.2-009, MS-4.2-011)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Data Quality</td>
+<td style="text-align: left;">Input data is accurate, representative, complete and documented, and data quality issues have been minimized. (GV-1.2-009, MS-2.2-020, MS-2.9-003, MS-4.2-007)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Data Retention</td>
+<td style="text-align: left;">User prompts and associated system outputs are retained and monitored in alignment with relevant data privacy policies and roles. (GV-1.5-006, MP-4.1-009, MS-2.10-013)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Decommission Process</td>
+<td style="text-align: left;">Decommissioning processes for GAI systems are planned, documented and communicated to users, and involve staging, data protection, containment protocols, and recourse mechanisms for decommissioned GAI systems. (GV-1.6-004, GV-1.7-001, GV-1.7-002, GV-1.7-003, GV-1.7-004, GV-1.7-005, GV-1.7-006, GV-1.7-007, GV-1.7-008, GV-3.2-002, GV-3.2-006, GV-4.1-004, GV-5.2-002, MG-2.3-005, MG-2.4-009, MG-3.1-003, MG-3.1-012, MG-3.2-011, MG-3.2-012, MG-4.1-016, MP-1.5-004, MP-2.2-007, MS-4.2-010)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Dependency Screening</td>
+<td style="text-align: left;">GAI system dependencies are screened for security vulnerabilities. (GV-1.3-001, GV-1.4-002, GV-1.6-003, GV-1.7-003, GV-1.7-006, GV-6.2-002, GV-6.2-005, GV-6.2-006, MP-1.2-006, MP-1.6-001, MP-2.2-008, MP-4.1-012, MS-2.7-001)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Digital Signature</td>
+<td style="text-align: left;">GAI-generated content is signed to preserve information integrity using watermarking, cryptogrpahic signature, steganography or similar methods. (GV-1.2-006, GV-1.6-003, GV-6.1-011, MG-4.1-008, MP-2.3-004, MS-1.1-006, MS-1.1-016, MS-2.7-009, MS-2.7-032)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Disclosure of AI Interaction</td>
+<td style="text-align: left;">AI interactions are disclosed to internal personnel and external users. (GV-1.1-003, GV-1.4-004, GV-1.6-003, GV-5.1-002)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">External Audit</td>
+<td style="text-align: left;">GAI systems are audited by qualified external experts. (GV-1.2-009, GV-1.4-004, GV-3.2-001, GV-3.2-002, GV-4.1-003, GV-4.1-008, GV-5.1-003, MG-4.2-002, MP-2.3-011, MP-4.1-002, MS-1.3-005, MS-1.3-006, MS-1.3-010, MS-2.5-003, MS-2.8-020)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Failure Avoidance</td>
+<td style="text-align: left;">AIID, AVID, GWU AI Litigation Database, OECD incident monitor or similar are consulted in design or procurement phases of GAI lifecycles to avoid repeating past known failures. (GV-1.6-003, MG-2.1-006, MG-3.1-008, MG-4.1-003, MP-1.1-003, MP-1.1-006, MS-1.1-003, MS-2.2-020, MS-2.7-031)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fast Decommission</td>
+<td style="text-align: left;">GAI systems can be quickly and safely disengaged. (GV-1.7-002, GV-1.7-003, GV-1.7-006, GV-3.2-006, GV-5.2-002, MG-2.3-005, MG-2.4-009, MG-3.1-003, MG-3.1-012, MG-3.2-012, MG-4.1-016)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fine Tuning</td>
+<td style="text-align: left;">GAI systems are fine-tuned to their operational domain using relevant and high-quality data. (GV-6.1-016, MG-3.1-001, MG-3.2-002, MP-4.1-013, MS-2.6-004)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Grounding</td>
+<td style="text-align: left;">GAI systems are trained or fine-tuned on accurate, clean, and fully transparent training data. (GV-1.2-002, MG-3.1-001, MP-2.3-001, MS-2.3-017, MS-2.5-012)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Human Review</td>
+<td style="text-align: left;">AI generated content is reviewed for accuracy and safety by qualified personnel. (GV-1.3-001, MG-2.2-008, MS-2.4-005, MS-2.5-015 )</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Incident Response</td>
+<td style="text-align: left;">Incident response plans for GAI failures, abuses, or misuses are documented, rehearsed, and updated appropriately after each incident; GAI incident response plans are coordinated with and communicated to other incident response functions. (GV-1.2-009, GV-1.5-001, GV-1.5-004, GV-1.5-005, GV-1.5-013, GV-1.5-015, GV-1.6-003, GV-1.6-007, GV-2.1-004, GV-3.2-002, GV-4.1-006, GV-4.2-002, GV-4.3-013, GV-6.1-006, GV-6.2-008, GV-6.2-016, GV-6.2-018, MG-1.3-001, MG-2.3-001, MG-2.3-002, MG-2.3-003, MG-2.4-004, MG-4.2-006, MG-4.3-001, MS-2.6-003, MS-2.6-012, MS-2.6-015, MS-2.7-002, MS-2.7-018, MS-2.7-028, MS-3.1-007)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Incorporate feedback</td>
+<td style="text-align: left;">User feedback is incorporated in GAI design, development, and risk management. (GV-3.2-005, GV-4.3-007, GV-5.1-003, GV-5.1-009, GV-5.2-004, MG-2.2-007, MG-2.2-012, MG-2.3-007, MG-3.2-004, MG-4.1-019, MG-4.2-013, MP-1.6-005, MP-2.3-018, MP-3.1-003, MP-2.3-019, MP-5.2-007, MS-1.2-008, MS-3.3-009, MS-3.3-010, MS-4.1-004, MS-4.2-007, MS-4.2-010, MS-4.2-013, MS-4.2-020)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Instructions</td>
+<td style="text-align: left;">Users are provided with the necessary instructions for safe, valid, and productive use. (GV-5.1-006, GV-6.1-021, GV-6.2-014, MG-3.1-009, MS-2.8-012)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Insurance</td>
+<td style="text-align: left;">Risk transfer via insurance policies is considered and implemented when feasibable and appropriate. (MG-2.2-015)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Intellectual Property Removal</td>
+<td style="text-align: left;">Licensed, patented, trademarked, trade secret, or other data that may violate the intellectual property rights of others is removed from system training data; generated system outputs are monitored for similar information. (GV-1.6-003, MG-3.1-007, MP-2.3-012, MP-4.1-004, MP-4.1-009, MS-2.2-022, MS-2.6-002, MS-2.8-001, MS-2.8-008)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Inventory</td>
+<td style="text-align: left;">GAI system is information is stored in the organizational model inventory. (GV-1.4-005, GV-1.6-001, GV-1.6-002, GV-1.6-003, GV-1.6-004, GV-1.6-006, GV-1.6-009, GV-4.2-010, GV-6.1-013, MG-3.2-014, MP-4.1-020, MP-4.2-003, MP-5.1-004 MS-2.13-002, MS-3.2-007)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Malware Screening</td>
+<td style="text-align: left;">GAI weights and other software components are scanned for malware. (MG-3.1-002, MS-2.7-001)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Model Documentation</td>
+<td style="text-align: left;">All technical mechanisms with GAI systems are well documented, including open source and third party GAI systems. (GV-1.3-009, GV-1.4-002, GV-1.4-004, GV-1.4-005, GV-1.4-007, GV-1.6-007, GV-3.2-002, GV-3.2-009, GV-4.1-002, GV-4.2-011, GV-4.2-013, GV-4.3-002, GV-6.2-001, GV-6.2-014, MG-1.3-010, MG-2.2-016, MG-3.1-004, MG-3.1-009, MG-3.1-013, MG-3.1-015, MP-2.1-002, MP-2.3-027, MP-3.1-004, MP-3.4-015, MP-4.1-021, MP-4.2-003, MP-5.2-010, MS-1.3-002, MS-2.1-001, MS-2.2-014, MS-2.7-002, MS-2.7-012, MS-2.7-024, MS-2.8-007, MS-2.8-011)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Monitoring</td>
+<td style="text-align: left;">GAI systems are inputs and outputs are monitored for drift, accuracy, safety, bias, data privacy, intellectual property infringements, malware materials, phishing materials, confabulated packages, obscene materials, and CSAM. (GV-1.2-009, GV-1.5-001, GV-1.5-003, GV-1.5-005, GV-1.5-012, GV-1.5-015, GV-1.6-003, GV-3.2-011, GV-4.2-007, GV-4.2-010, GV-4.3-001, GV-6.1-016, GV-6.2-010, MG-2.1-004, MG-2.2-003, MG-2.3-008, MG-2.3-010, MG-3.1-016, MG-3.2-006, MG-3.2-013, MG-3.2-016, MG-4.1-005, MG-4.1-009, MG-4.1-010, MG-4.1-018, MP-3.4-007, MP-4.1-002, MP-4.1-004, MP-5.2-009, MS-1.1-029, MS-1.2-005, MS-2.2-007, MS-2.4-003, MS-2.4-004, MS-2.5-007, MS-2.5-008, MS-2.5-024, MS-2.6-003, MS-2.6-009, MS-2.6-016, MS-2.7-013, MS-2.7-014, MS-2.7-015, MS-2.10-007, MS-2.10-019, MS-2.10-020, MS-2.11-006, MS-2.11-030, MS-3.3-006, MS-4.2-009, MS-4.3-004)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Narrow Scope</td>
+<td style="text-align: left;">Systems are deployed for targeted business applications with documented and direct business value. (GV-1.2-002, MP-3.3-001, MP-5.1-011)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Open Source</td>
+<td style="text-align: left;">Open source code is used to promote explainability and transparency. (MG-4.2-007, MP-4.1-017)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ownership</td>
+<td style="text-align: left;">GAI systems and vendor relationships are owned by specific and documented internal personnel. (GV-6.1-009, GV-6.1-016, GV-6.2-008, MP-1.1-005, MP-1.1-008)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Prohibited Use Policy</td>
+<td style="text-align: left;">General abuse and misuse of GAI systems by internal parties is restricted by organizational policies. (GV-1.1-006, GV-1.2-003, GV-1.6-003, GV-3.2-003, GV-4.1-001, GV-6.1-017, GV-6.1-017)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RAG</td>
+<td style="text-align: left;">Retreival augmented generation (RAG) is used to improve accuracy in generated content. (GV-1.2-002, MS-2.3-004, MS-2.5-005, MS-2.5-012, MS-2.9-003, MG-3.1-001, MG-3.1-006, MG-3.2-002, MG-3.2-003)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rate-limiting</td>
+<td style="text-align: left;">GAI response times and query volumes are limited. (MS-2.6-007)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Redudancy</td>
+<td style="text-align: left;">Rollover, fallback, and other redundancy mechanisms are available for GAI systems and address weights and other important system components. (GV-6.2-003, GV-6.2-007, GV-6.2-012, MG-2.4-012, MS-2.6-008)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Refresh</td>
+<td style="text-align: left;">Systems are retrained or re-tuned at a reasonable cadence. (MG-3.1-001, MG-3.2-011, MS-2.3-004, MS-2.12-003)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Restrict Anonymous Use</td>
+<td style="text-align: left;">Anonymous use of GAI systems is restricted. (GV-3.2-002)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restrict Anthropomorphization</td>
+<td style="text-align: left;">Human, animal, cyborg, emotional or other images or features that promote anthropomorphization of GAI systems are restricted. (GV-1.3-001, MS-2.5-009)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Restrict Data Collection</td>
+<td style="text-align: left;">All data collection is disclosed, collected data is protected and use in a transparent fashion. (GV-6.2-016, MS-2.2-023, MS-2.10-013)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restrict Decision Making</td>
+<td style="text-align: left;">GAI systems are not employed for material decision-making tasks. (GV-1.3-001, GV-4.1-001, MP-1.1-018, MP-1.6-001, MP-3.4-017)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Restrict Homogeneity</td>
+<td style="text-align: left;">Feedback loops in which GAI systems are trained with GAI-generated data are restricted. (GV-1.3-004, MS-2.11-011)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restrict Internet Access</td>
+<td style="text-align: left;">GAI systems are disconnected from the internet. (MP-2.2-007)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Restrict Location Tracking</td>
+<td style="text-align: left;">Any location tracking is conducted with user consent, disclosed, aligned with relevant privacy policies and laws and potential threats to user safety are managed. (MS-2.10-002)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restrict Minors</td>
+<td style="text-align: left;">Use of organizational GAI systems by minors are restricted. <span style="color: red">()</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Restrict Regulated Dealings</td>
+<td style="text-align: left;">GAI is not deployed in regulated dealings or for material decision making. (GV-1.1-004, GV-1.3-001, GV-4.1-001, GV-5.2-001, MP-2.3-013, MS-2.11-018)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restrict Secondary Use</td>
+<td style="text-align: left;">Any secondary use of GAI input data is conducted with user consent, disclosed, and aligned with relevant privacy policies and laws. (GV-6.1-016, GV-6.2-016)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RLHF</td>
+<td style="text-align: left;">For third-party GAI systems, vendors engage in specific reinforcement with human feedback (RLHF) exercises to address identified risks; for internal systems, internal personnel engage in RLHF to address identified risks. (MG-2.1-002, MS-2.5-005, MS-2.9-003, MS-2.9-007)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sensitive/Personal Data Removal</td>
+<td style="text-align: left;">Personal, sensitive, biometric, or otherwise restricted data is minimized or eliminated from GAI training data. (GV-1.2-009, GV-1.6-003, MP-4.1-002, MP-4.1-016, MS-2.10-002, MS-2.10-003, MS-2.10-005, MS-2.10-014, MS-2.10-017, MS-2.10-018, MS-2.10-020)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Session Limits</td>
+<td style="text-align: left;">Time, query volume, and response rate are limited for GAI user sessions. (GV-4.1-001, MS-2.6-007, MS-2.6-010)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Supply Chain Audit</td>
+<td style="text-align: left;">GAI system supply chains are audited and documented, with a focus on data poisoning, malware, and software and hardware vulnerabilities. (GV-4.1-004, GV-6.1-011, GV-6.1-022, GV-6.2-003, MG-2.3-001, MG-3.1-002, MP-5.1-003, MS-1.1-008, MS-2.6-001, MS-2.7-001)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">System Documentation</td>
+<td style="text-align: left;">GAI systems are well-documented whether internal, open source, or vendor-provided. (GV-1.3-009, GV-1.4-002, GV-1.4-004, GV-1.4-005, GV-1.4-007, GV-1.6-007, GV-3.2-002, GV-3.2-009, GV-4.1-002, GV-4.2-011, GV-4.2-013, GV-4.3-002, GV-6.2-001, GV-6.2-014, MG-1.3-010, MG-2.2-016, MG-3.1-004, MG-3.1-009, MG-3.1-013, MG-3.1-015, MP-2.1-002, MP-2.3-027, MP-3.1-004, MP-3.4-015, MP-4.1-021, MP-4.2-003, MP-5.2-010, MS-1.3-002, MS-2.1-001, MS-2.2-014, MS-2.7-002, MS-2.7-012, MS-2.7-024, MS-2.8-007, MS-2.8-011)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">System Prompt</td>
+<td style="text-align: left;">System prompts are used to tune GAI systems to specific tasks and to mitigate risks. (GV-1.2-002, MS-2.3-004, MS-2.5-005, MS-2.5-012, MS-2.9-003, MG-3.1-001, MG-3.1-006, MG-3.2-002, MG-3.2-003)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Team Diversity</td>
+<td style="text-align: left;">Teams that implement and manage GAI systems represent broad professional, educational, life-stage, and demographic diversity. (GV-2.1-004, GV-3.1-002, GV-3.1-004, GV-3.1-005, GV-3.2-008, MG-2.1-005, MP-1.2-003, MP-1.2-004, MP-1.2-007, MS-1.3-012, MS-1.3-017, MS-2.3-015, MS-3.3-012)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Temperature</td>
+<td style="text-align: left;">Temperature settings are used to tune GAI systems to specific tasks and to mitigate risks. (GV-1.2-002, MS-2.3-004, MS-2.5-005, MS-2.5-012, MS-2.9-003, MG-3.1-001, MG-3.1-006, MG-3.2-002, MG-3.2-003)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Terms of Service</td>
+<td style="text-align: left;">General abuse and misuse by external parties is prohibited by organizational policies. (GV-4.2-003, GV-4.2-005, GV-4.2-007, GV-6.1-016, GV-6.2-016, MP-4.1-021)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Training</td>
+<td style="text-align: left;">Internal personnel recieve training on productivity and basic risk management for GAI systems. (GV-2.2-004, GV-3.2-002, GV-6.1-003, MS-1.1-014)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">User Feedback</td>
+<td style="text-align: left;">GAI systems implement user feedback mechanisms. (GV-1.5-007, GV-1.5-009, GV-3.2-005, GV-5.1-001, GV-5.1-006, GV-5.1-007, GV-5.1-009, MG-1.3-005, MS-1.3-015, MS-1.3-016, MG-2.1-004, MG-2.2-012, MS-2.7-004, MS-4.2-012)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">User Recourse</td>
+<td style="text-align: left;">Policies, processes, and technical mechanisms enable recourse for users who are harmed by GAI systems. (GV-1.5-010, GV-1.7-003, GV-5.1-001, GV-5.1-006, GV-5.1-009, MS-2.8-015, MS-2.8-019, MS-3.2-006, MS-4.2-012)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Validation</td>
+<td style="text-align: left;">GAI systems are shown to reliably generate valid results for their targeted business application. (GV-1.2-009, GV-1.4-002, GV-1.4-004, GV-3.2-002, GV-5.1-005, MG-2.2-016, MG-3.1-009, MG-3.1-014, MP-2.3-006, MP-2.3-013, MP-4.1-012, MS-2.3-005, MS-2.5-016, MS-2.9-002, MS-2.9-014)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">XAI</td>
+<td style="text-align: left;">Methods such as visualization, occlusion, model compression, pertubation studies, and similar are applied to increase explainability of GAI systems. (GV-1.4-002, GV-3.2-002, GV-5.1-005, MG-3.2-001, MP-2.2-006, MS-2.8-019, MS-2.9-001, MS-2.9-005, MS-2.9-006, MS-2.9-009, MS-2.9-011, MS-2.9-013, MS-2.9-015, MS-4.2-006)</td>
+</tr>
+</tbody>
+</table>
+
+**Usage Note**: Appendix E puts forward selected risk controls that
+organizations may apply for GAI risk management. Higher level controls
+are linked to specific GAI and AI RMF Playbook actions.
