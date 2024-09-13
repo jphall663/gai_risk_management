@@ -30,6 +30,8 @@ Copyright `ph_` 2024, CC BY 4.0
   * **D.2**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#d2-selected-adversarial-prompting-techniques-and-attacks-organized-by-generative-ai-risk)
   * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d3-ai-risk-management-framework-actions-aligned-to-red-teaming)  
 
+* ** Section E**: [Selected Risk Controls for Generative AI](e-selected-risk-controls-for-generative-ai)
+* 
 ***
 
 ## A: Example Generative AI-Trustworthy Characteristic Crosswalk
