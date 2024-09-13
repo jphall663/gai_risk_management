@@ -468,7 +468,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2.</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 [28]().</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
@@ -1958,3 +1958,7 @@ be accompanied by field testing for high risk systems or applications.
 **Usage Note**: Appendix E puts forward selected risk controls that
 organizations may apply for GAI risk management. Higher level controls
 are linked to specific GAI and AI RMF Playbook actions.
+
+## References 
+
+#### [28] NIST. Guide for Conducting Risk Assessments. SP800-03R1, 2012.
