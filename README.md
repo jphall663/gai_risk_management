@@ -468,7 +468,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 [28]().</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#">28</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
