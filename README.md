@@ -31,6 +31,10 @@ Copyright `ph_` 2024, CC BY 4.0
   * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d3-ai-risk-management-framework-actions-aligned-to-red-teaming)  
 
 * **Section E**: [Selected Risk Controls for Generative AI](#e-selected-risk-controls-for-generative-ai)
+
+* **Section F**: [Example Low-risk Generative AI Measurement and Management Plan](#f-example-low-risk-generative-ai-measurement-and-management-plan)
+  * **F.1**: [Example Low-risk Generative AI Measurement and Management Plan by Trustworthy Characteristic](#f1-example-low-risk-generative-ai-measurement-and-management-plan-by-trustworthy-characteristic)
+  * **F.2**: [Example Low-risk Generative AI Measurement and Management Plan by Generative AI Risk](#f2-example-low-risk-generative-ai-measurement-and-management-plan-by-generative-ai-risk)
   
 ***
 
