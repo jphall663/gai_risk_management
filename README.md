@@ -30,6 +30,8 @@ Copyright `ph_` 2024, CC BY 4.0
   * **D.2**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#d2-selected-adversarial-prompting-techniques-and-attacks-organized-by-generative-ai-risk)
   * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d3-ai-risk-management-framework-actions-aligned-to-red-teaming)  
 
+* **Section E**: [Selected Risk Controls for Generative AI](#e-selected-risk-controls-for-generative-ai)
+  
 ***
 
 ## A: Example Generative AI-Trustworthy Characteristic Crosswalk
@@ -466,7 +468,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2.</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 [<a href="#28-nist-guide-for-conducting-risk-assessments-sp800-03r1-2012">28</a>].</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
@@ -1953,6 +1955,7 @@ be accompanied by field testing for high risk systems or applications.
 </tbody>
 </table>
 
+<<<<<<< HEAD
 **Usage Note**: Appendix E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions.
 
 ## F: Example Low-risk Generative AI Measurement and Management Plan
@@ -2092,3 +2095,12 @@ be accompanied by field testing for high risk systems or applications.
 -   Material in Table F.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
 
 Appendix G below presents an example plan for medium risk systems and Appendix H presents an example plan for high risk systems.
+=======
+**Usage Note**: Appendix E puts forward selected risk controls that
+organizations may apply for GAI risk management. Higher level controls
+are linked to specific GAI and AI RMF Playbook actions.
+
+## References 
+
+#### [28] NIST. Guide for Conducting Risk Assessments. SP800-03R1, 2012.
+>>>>>>> c4ce3cd0e4216aa95f0bcf5bd841f6f51ab19a01
