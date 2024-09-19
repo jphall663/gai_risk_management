@@ -33,8 +33,8 @@ Copyright `ph_` 2024, CC BY 4.0
 * **Section E**: [Selected Risk Controls for Generative AI](#e-selected-risk-controls-for-generative-ai)
 
 * **Section F**: [Example Low-risk Generative AI Measurement and Management Plan](#f-example-low-risk-generative-ai-measurement-and-management-plan)
-  * **F.1**: [Example Low-risk Generative AI Measurement and Management Plan by Trustworthy Characteristic](#f1-example-low-risk-generative-ai-measurement-and-management-plan-by-trustworthy-characteristic)
-  * **F.2**: [Example Low-risk Generative AI Measurement and Management Plan by Generative AI Risk](#f2-example-low-risk-generative-ai-measurement-and-management-plan-by-generative-ai-risk)
+  * **F.1**: [Example Low-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic](#f1-example-low-risk-generative-ai-measurement-and-management-plan-organized-by-trustworthy-characteristic)
+  * **F.2**: [Example Low-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk](#f2-example-low-risk-generative-ai-measurement-and-management-plan-organized-by-generative-ai-risk)
   
 ***
 
@@ -1963,7 +1963,7 @@ be accompanied by field testing for high risk systems or applications.
 
 ## F: Example Low-risk Generative AI Measurement and Management Plan
 
-### F.1: Example Low-risk Generative AI Measurement and Management Plan by Trustworthy Characteristic
+### F.1: Example Low-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic
 
 <table>
   <caption>Table F.1: Example risk measurement and management approaches suitable for low-risk GAI applications organized by trustworthy characteristic.</caption>
@@ -2017,7 +2017,7 @@ be accompanied by field testing for high risk systems or applications.
   </tr>
 </table>
 
-### F.2: Example Low-risk Generative AI Measurement and Management Plan by Generative AI Risk
+### F.2: Example Low-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk
 
 <table>
   <caption>Table F.2: Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk.</caption>
