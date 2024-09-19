@@ -1955,7 +1955,6 @@ be accompanied by field testing for high risk systems or applications.
 </tbody>
 </table>
 
-<<<<<<< HEAD
 **Usage Note**: Appendix E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions.
 
 ## F: Example Low-risk Generative AI Measurement and Management Plan
@@ -2095,7 +2094,7 @@ be accompanied by field testing for high risk systems or applications.
 -   Material in Table F.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
 
 Appendix G below presents an example plan for medium risk systems and Appendix H presents an example plan for high risk systems.
-=======
+
 **Usage Note**: Appendix E puts forward selected risk controls that
 organizations may apply for GAI risk management. Higher level controls
 are linked to specific GAI and AI RMF Playbook actions.
@@ -2103,4 +2102,3 @@ are linked to specific GAI and AI RMF Playbook actions.
 ## References 
 
 #### [28] NIST. Guide for Conducting Risk Assessments. SP800-03R1, 2012.
->>>>>>> c4ce3cd0e4216aa95f0bcf5bd841f6f51ab19a01
