@@ -2028,7 +2028,7 @@ be accompanied by field testing for high risk systems or applications.
 ### F.2: Example Low-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk
 
 <table>
-  <caption>Table F.2: Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk.</caption>
+  <caption>Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk.</caption>
   <tr>
     <th rowspan="2">Function</th>
     <th colspan="2" style="text-align:center">GAI Risk</th>
@@ -2045,7 +2045,7 @@ be accompanied by field testing for high risk systems or applications.
 </table>
 
 <table>
-  <caption>Table F.2: Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk (continued).</caption>
+  <caption>Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk (continued).</caption>
   <tr>
     <th rowspan="2">Function</th>
     <th colspan="4" style="text-align:center">GAI Risk</th>
@@ -2064,7 +2064,7 @@ be accompanied by field testing for high risk systems or applications.
 </table>
 
 <table>
-  <caption>Table F.2: Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk (continued).</caption>
+  <caption>Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk (continued).</caption>
   <tr>
     <th rowspan="2">Function</th>
     <th colspan="3" style="text-align:center">GAI Risk</th>
@@ -2082,7 +2082,7 @@ be accompanied by field testing for high risk systems or applications.
 </table>
 
 <table>
-  <caption>Table F.2: Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk (continued).</caption>
+  <caption>Table F.2: Example risk measurement and management approaches suitable for low-risk GAI applications organized by GAI risk (continued).</caption>
   <tr>
     <th rowspan="2">Function</th>
     <th colspan="3" style="text-align:center">GAI Risk</th>
@@ -2110,6 +2110,146 @@ Appendix G below presents an example plan for medium risk systems and Appendix H
 **Usage Note**: Appendix E puts forward selected risk controls that
 organizations may apply for GAI risk management. Higher level controls
 are linked to specific GAI and AI RMF Playbook actions.
+
+## G: Example Medium-risk Generative AI Measurement and Management Plan
+
+### G.1: Example Medium-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic
+
+<table>
+  <caption>Table G.1: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by trustworthy characteristic.</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="2" style="text-align:center">Trustworthy Characteristic</th>
+  <tr>
+    <th>Accountable and Transparent</th>
+    <th>Fair with Harmful Bias Managed</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table G.1: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by trustworthy characteristic (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="4" style="text-align:center">Trustworthy Characteristic</th>
+  <tr>
+    <th>Interpretable and Explainable</th>
+    <th>Privacy-enhanced</th>
+    <th>Safe</th>
+    <th>Secure and Resilient</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table G.1: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by trustworthy characteristic (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th>Trustworthy Characteristic</th>
+  <tr>
+    <th style="text-align:center">Valid and Reliable</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td>
+  </tr>
+</table>
+
+### G.2: Example Medium-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk
+
+<table>
+  <caption>Table G.2: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by GAI risk.</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="2" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th>CBRN Information</th>
+    <th>Confabulation</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table G.2: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by GAI risk (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="4" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th style="text-align:center">Dangerous or Violent Recommendations</th>
+    <th style="text-align:center">Data Privacy</th>
+    <th style="text-align:center">Environmental</th>
+    <th style="text-align:center">Human-AI Configuration</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table G.2: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by GAI risk (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="3" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th style="text-align:center">Information Integrity</th>
+    <th style="text-align:center">Information Security</th>
+    <th style="text-align:center">Intellectual Property</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table G.2: Example risk measurement and management approaches suitable for medium-risk GAI applications organized by GAI risk (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="3" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th style="text-align:center">Obscene, Degrading, and/or Abusive Content</th>
+    <th style="text-align:center">Toxicity, Bias, and Homogenization</th>
+    <th style="text-align:center">Value Chain and Component Integration</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+**Usage Note**: Appendix G puts forward an example risk measurement and management plan for medium risk GAI systems or applications. The
+medium risk plan focuses on red-teaming and applies moderate risk controls. Measurement and management approaches from Appendix F should
+also be applied to medium risk systems or applications.
+
+-   Material in Table G.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics.
+
+-   Material in Table G.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
+
+Appendix H below presents an example plan for high risk systems.
 
 ## References 
 
