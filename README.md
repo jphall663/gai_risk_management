@@ -2391,99 +2391,101 @@ be applied to high risk systems or applications.
 
 ## References 
 
-#### [1] Simone Balloccu, Patrícia Schmidtová, Mateusz Lango, and Ondřej Dušek. Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs. arXiv preprint [arXiv:2402.03927](https://arxiv.org/abs/2402.03927), 2024.
+AI Verify Foundation and Infocomm Media Development Authority. *Cataloguing LLM Evaluations.* Draft for Discussion, October 2023. [https://aiverifyfoundation.sg/downloads/Cataloguing_LLM_Evaluations.pdf](https://aiverifyfoundation.sg/downloads/Cataloguing_LLM_Evaluations.pdf).
 
-#### [2] Lucas Bandarkar, Davis Liang, Benjamin Muller, Mikel Artetxe, Satya Narayan Shukla, Donald Husa, Naman Goyal, Abhinandan Krishnan, Luke Zettlemoyer, and Madian Khabsa. The Belebele benchmark: A parallel reading comprehension dataset in 122 language variants. arXiv preprint [arXiv:2308.16884](https://arxiv.org/abs/2308.16884), 2023.
+AI Verify Foundation and Infocomm Media Development Authority. *LLM Evals Catalogue.* GitHub repository. Accessed September 19, 2024. [https://github.com/aiverify-foundation/LLM-Evals-Catalogue](https://github.com/aiverify-foundation/LLM-Evals-Catalogue).
 
-#### [3] Marco Barreno, Blaine Nelson, Anthony D Joseph, and J Doug Tygar. The security of machine learning. *Machine Learning*, 81:121–148, 2010.
+Balloccu, Simone, Patrícia Schmidtová, Mateusz Lango, and Ondřej Dušek. "Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMs." *arXiv* preprint, last revised February 22, 2024. [https://doi.org/10.48550/arXiv.2402.03927](https://doi.org/10.48550/arXiv.2402.03927).
 
-#### [4] Rishi Bommasani, Percy Liang, and Tony Lee. Holistic evaluation of language models. *Annals of the New York Academy of Sciences*, 1525(1):140–146, 2023.
+Bandarkar, Lucas, Davis Liang, Benjamin Muller, Mikel Artetxe, Satya Narayan Shukla, Donald Husa, Naman Goyal, Abhinandan Krishnan, Luke Zettlemoyer, and Madian Khabsa. "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants." *arXiv* preprint, last revised July 25, 2024. [https://doi.org/10.48550/arXiv.2308.16884](https://doi.org/10.48550/arXiv.2308.16884).
 
-#### [5] Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J Pappas, and Eric Wong. Jailbreaking black box large language models in twenty queries. arXiv preprint [arXiv:2310.08419](https://arxiv.org/abs/2310.08419), 2023.
+Barreno, Marco, Blaine Nelson, Anthony D. Joseph, and J.D. Tygar. "The Security of Machine Learning." *Machine Learning* 81, no. 2 (2010): 121–148. [https://doi.org/10.1007/s10994-010-5188-5](https://doi.org/10.1007/s10994-010-5188-5).
 
-#### [6] Adrian de Wynter, Xun Wang, Alex Sokolov, Qilong Gu, and Si-Qing Chen. An evaluation on large language model outputs: Discourse and memorization. *Natural Language Processing Journal*, 4:100024, 2023.
+Bommasani, Rishi, Percy Liang, and Tony Lee. "Holistic Evaluation of Language Models." *Annals of the New York Academy of Sciences* 1525, no. 1 (July 2023): 140–146. [https://doi.org/10.1111/nyas.15007](https://doi.org/10.1111/nyas.15007).
 
-#### [7] Innovation Department for Science and Technology. International scientific report on the safety of advanced AI. [gov.uk](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai), 2024.
+Chao, Patrick, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, and Eric Wong. "Jailbreaking Black Box Large Language Models in Twenty Queries." *arXiv* preprint, last revised July 18, 2024. [https://doi.org/10.48550/arXiv.2310.08419](https://doi.org/10.48550/arXiv.2310.08419).
 
-#### [8] Leon Derczynski, Erick Galinkin, Jeffrey Martin, Subho Majumdar, and Nanna Inie. GARAK: A Framework for Security Probing Large Language Models. 2024.
+De Wynter, Adrian, Xun Wang, Alex Sokolov, Qilong Gu, and Si-Qing Chen. "An Evaluation on Large Language Model Outputs: Discourse and Memorization." *Natural Language Processing Journal* 4 (September 2023): 100024. [https://doi.org/10.1016/j.nlp.2023.100024](https://doi.org/10.1016/j.nlp.2023.100024).
 
-#### [9] Jeremy Dohmann. Blazingly fast LLM evaluation for in-context learning. [Databricks blog](https://www.databricks.com/blog/llm-evaluation-for-icl). Last accessed: May 24, 2024.
+Department for Science, Innovation and Technology, and AI Safety Institute. *International Scientific Report on the Safety of Advanced AI: Interim Report.* Published May 17, 2024. [https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai).
 
-#### [10] Michael Duan, Anshuman Suri, Niloofar Mireshghallah, Sewon Min, Weijia Shi, Luke Zettlemoyer, Yulia Tsvetkov, Yejin Choi, David Evans, and Hannaneh Hajishirzi. Do membership inference attacks work on large language models? [arXiv:2402.07841](https://arxiv.org/abs/2402.07841), 2024.
+Derczynski, Leon, Erick Galinkin, Jeffrey Martin, Subho Majumdar, and Nanna Inie. "garak: A Framework for Security Probing Large Language Models." *arXiv* preprint, submitted June 16, 2024. [https://doi.org/10.48550/arXiv.2406.11036](https://doi.org/10.48550/arXiv.2406.11036).
 
-#### [11] Esin Durmus, Karina Nyugen, Thomas I Liao, Nicholas Schiefer, Amanda Askell, Anton Bakhtin, Carol Chen, Zac Hatfield-Dodds, Danny Hernandez, Nicholas Joseph, et al. Towards measuring the representation of subjective global opinions in language models. arXiv preprint [arXiv:2306.16388](https://arxiv.org/abs/2306.16388), 2023.
+Dohmann, Jeremy. "Blazingly Fast LLM Evaluation for In-Context Learning." *Databricks: Mosaic AI Research*, February 2, 2023. [https://www.databricks.com/blog/llm-evaluation-for-icl](https://www.databricks.com/blog/llm-evaluation-for-icl).
 
-#### [12] Hugging Face. [Evaluation](https://huggingface.co/docs/evaluate/index). Last accessed: May 24, 2024.
+Duan, Michael, Anshuman Suri, Niloofar Mireshghallah, Sewon Min, Weijia Shi, Luke Zettlemoyer, Yulia Tsvetkov, Yejin Choi, David Evans, and Hannaneh Hajishirzi. "Do Membership Inference Attacks Work on Large Language Models?" *arXiv* preprint, last revised September 16, 2024. [https://doi.org/10.48550/arXiv.2402.07841](https://doi.org/10.48550/arXiv.2402.07841).
 
-#### [13] Shangbin Feng, Chan Young Park, Yuhan Liu, and Yulia Tsvetkov. From pretraining data to language models to downstream tasks: Tracking the trails of political biases leading to unfair NLP models. arXiv preprint [arXiv:2305.08283](https://arxiv.org/abs/2305.08283), 2023.
+Durmus, Esin, Karina Nguyen, Thomas I. Liao, Nicholas Schiefer, Amanda Askell, Anton Bakhtin, Carol Chen, Zac Hatfield-Dodds, et al. "Towards Measuring the Representation of Subjective Global Opinions in Language Models." *arXiv* preprint, last revised April 12, 2024. [https://doi.org/10.48550/arXiv.2306.16388](https://doi.org/10.48550/arXiv.2306.16388).
 
-#### [14] Jack FitzGerald, Christopher Hench, Charith Peris, Scott Mackie, Kay Rottmann, Ana Sanchez, Aaron Nash, Liam Urbach, Vishesh Kakarala, Richa Singh, et al. Massive: A 1M-example multilingual natural language understanding dataset with 51 typologically-diverse languages. arXiv preprint [arXiv:2204.08582](https://arxiv.org/abs/2204.08582), 2022.
+Hugging Face. "Evaluate." Last accessed September 19, 2024. [https://huggingface.co/docs/evaluate/index](https://huggingface.co/docs/evaluate/index).
 
-#### [15] AI Verify Foundation. Cataloguing LLM evaluations. [AI Verify Foundation](https://aiverifyfoundation.sg/), 2023. See also: [GitHub](https://github.com/aiverify-foundation/LLM-Evals-Catalogue).
+Feng, Shangbin, Chan Young Park, Yuhan Liu, and Yulia Tsvetkov. "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models." *arXiv* preprint, last revised July 6, 2023. [https://doi.org/10.48550/arXiv.2305.08283](https://doi.org/10.48550/arXiv.2305.08283).
 
-#### [16] Leo Gao, Jonathan Tow, Baber Abbasi, Stella Biderman, Sid Black, Anthony DiPofi, Charles Foster, Laurence Golding, Jeffrey Hsu, Alain Le Noac’h, Haonan Li, Kyle McDonell, Niklas Muennighoff, Chris Ociepa, Jason Phang, Laria Reynolds, Hailey Schoelkopf, Aviya Skowron, Lintang Sutawika, Eric Tang, Anish Thite, Ben Wang, Kevin Wang, and Andy Zou. A framework for few-shot language model evaluation, 12 2023.
+FitzGerald, Jack, Christopher Hench, Charith Peris, Scott Mackie, Kay Rottmann, Ana Sanchez, Aaron Nash, Liam Urbach, et al. "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages." *arXiv* preprint, last revised June 17, 2022. [https://doi.org/10.48550/arXiv.2204.08582](https://doi.org/10.48550/arXiv.2204.08582).
 
-#### [17] Patrick Hall and Daniel Atherton. Awesome machine learning interpretability, 2024. [GitHub](https://github.com/jphall663/awesome-machine-learning-interpretability).
+Gao, Leo, Jonathan Tow, Baber Abbasi, Stella Biderman, Sid Black, Anthony DiPofi, Charles Foster, Laurence Golding, Jeffrey Hsu, Alain Le Noac’h, Haonan Li, Kyle McDonell, Niklas Muennighoff, Chris Ociepa, Jason Phang, Laria Reynolds, Hailey Schoelkopf, Aviya Skowron, Lintang Sutawika, Eric Tang, Anish Thite, Ben Wang, Kevin Wang, and Andy Zou. *A Framework for Few-Shot Language Model Evaluation.* GitHub repository. Accessed September 19, 2024. [https://github.com/EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness).
 
-#### [18] Hongsheng Hu, Zoran Salcic, Lichao Sun, Gillian Dobbie, Philip S Yu, and Xuyun Zhang. Membership inference attacks on machine learning: A survey. *ACM Computing Surveys (CSUR)*, 54(11s):1–37, 2022.
+Hall, Patrick, and Daniel Atherton. *Awesome Machine Learning Interpretability.* GitHub repository. Accessed September 19, 2024. [https://github.com/jphall663/awesome-machine-learning-interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability).
 
-#### [19] Yangsibo Huang, Samyak Gupta, Mengzhou Xia, Kai Li, and Danqi Chen. Catastrophic jailbreak of open-source LLMs via exploiting generation. In The Twelfth International Conference on Learning Representations, 2023.
+Hu, Hongsheng, Zoran Salcic, Lichao Sun, Gillian Dobbie, Philip S. Yu, and Xuyun Zhang. "Membership Inference Attacks on Machine Learning: A Survey." *ACM Computing Surveys* 54, no. 11s (September 2022): 1–37. [https://doi.org/10.1145/3523273](https://doi.org/10.1145/3523273).
 
-#### [20] Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Yao Fu, et al. C-eval: A multi-level multi-discipline Chinese evaluation suite for foundation models. *Advances in Neural Information Processing Systems*, 36, 2024.
+Huang, Yangsibo, Samyak Gupta, Mengzhou Xia, Kai Li, and Danqi Chen. "Catastrophic Jailbreak of Open-Source LLMs via Exploiting Generation." *ICLR 2024 Spotlight*, published January 16, 2024, last modified March 15, 2024. [https://openreview.net/forum?id=r42tSSCHPh](https://openreview.net/forum?id=r42tSSCHPh).
 
-#### [21] ISO. Information technology — artificial intelligence — management system. [ISO/IEC 42001:2023](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:42001:ed-1:v1:en), 2023.
+Huang, Yuzhen, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, and Junxian He. "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models." *arXiv* preprint, last revised November 6, 2023. [https://doi.org/10.48550/arXiv.2305.08322](https://doi.org/10.48550/arXiv.2305.08322).
 
-#### [22] Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, et al. The WMDP benchmark: Measuring and reducing malicious use with unlearning. arXiv preprint [arXiv:2403.03218](https://arxiv.org/abs/2403.03218), 2024.
+*ISO/IEC 42001:2023. Information Technology — Artificial Intelligence — Management System.* 1st ed. Geneva: International Organization for Standardization, 2023. [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:42001:ed-1:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:42001:ed-1:v1:en).
 
-#### [23] Yi Liu, Gelei Deng, Yuekang Li, Kailong Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, and Yang Liu. Prompt injection attack against LLM-integrated applications. arXiv preprint [arXiv:2306.05499](https://arxiv.org/abs/2306.05499), 2023.
+Li, Nathaniel, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, et al. "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning." *arXiv* preprint, last revised May 15, 2024. [https://doi.org/10.48550/arXiv.2403.03218](https://doi.org/10.48550/arXiv.2403.03218).
 
-#### [24] Gary McGraw, Harold Figueroa, Katie McMahon, and Richie Bonett. An architectural risk analysis of large language models: Applied machine learning security. Berryville Inst. Mach. Learn. (BIML), Berryville, VA, USA, Tech. Rep, 2024.
+Liu, Yi, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, and Yang Liu. "Prompt Injection Attack Against LLM-Integrated Applications." *arXiv* preprint, last revised March 2, 2024. [https://doi.org/10.48550/arXiv.2306.05499](https://doi.org/10.48550/arXiv.2306.05499).
 
-#### [25] Gary McGraw, Harold Figueroa, Victor Shepardson, and Richie Bonett. An architectural risk analysis of machine learning systems: Toward more secure machine learning. *Berryville Institute of Machine Learning*, Clarke County, VA. Accessed on: Mar, 23, 2020.
+McGraw, Gary, Harold Figueroa, Katie McMahon, and Richie Bonett. *An Architectural Risk Analysis of Large Language Models: Applied Machine Learning Security.* Version 1.0. Berryville Institute of Machine Learning (BIML), January 24, 2024. [https://berryvilleiml.com/docs/BIML-LLM24.pdf](https://berryvilleiml.com/docs/BIML-LLM24.pdf).
 
-#### [26] Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, and Amin Karbasi. Tree of attacks: Jailbreaking black-box LLMs automatically. arXiv preprint [arXiv:2312.02119](https://arxiv.org/abs/2312.02119), 2023.
+McGraw, Gary, Harold Figueroa, Victor Shepardson, and Richie Bonett. *An Architectural Risk Analysis of Machine Learning Systems: Toward More Secure Machine Learning.* Version 1.0 (1.13.20). Berryville Institute of Machine Learning (BIML), January 13, 2020. [https://berryvilleiml.com/docs/ara.pdf](https://berryvilleiml.com/docs/ara.pdf).
 
-#### [27] Microsoft. Microsoft responsible AI standard, v2. [Microsoft](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5cmFl).
+Mehrotra, Anay, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, and Amin Karbasi. "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically." *arXiv* preprint, last revised February 21, 2024. [https://doi.org/10.48550/arXiv.2312.02119](https://doi.org/10.48550/arXiv.2312.02119).
 
-#### [28] NIST. Guide for Conducting Risk Assessments. SP800-03R1, 2012.
+Microsoft. *Microsoft Responsible AI Standard, v2: General Requirements.* For External Release. June 2022. [https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5cmFl](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5cmFl).
 
-#### [29] NIST. Artificial Intelligence Risk Management Framework (AI RMF 1.0). [nist.gov](https://www.nist.gov/news-events/news/2023/01/nist-releases-artificial-intelligence-risk-management-framework), 2023.
+National Institute of Standards and Technology (NIST). *Artificial Intelligence Risk Management Framework (AI RMF 1.0).* NIST AI 100-1. Gaithersburg, MD: NIST, January 26, 2023. [https://doi.org/10.6028/NIST.AI.100-1](https://doi.org/10.6028/NIST.AI.100-1).
 
-#### [30] NIST. NIST AI RMF playbook, 2023. [NIST AI RMF Knowledge Base](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook).
+National Institute of Standards and Technology (NIST). *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile.* NIST AI 600-1. Gaithersburg, MD: NIST, July 2024. [https://doi.org/10.6028/NIST.AI.600-1](https://doi.org/10.6028/NIST.AI.600-1).
 
-#### [31] NIST. AI 600-1, generative AI risk profile (draft). [NIST](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf), 2024.
+National Institute of Standards and Technology (NIST). *Guide for Conducting Risk Assessments.* NIST Special Publication 800-30 Rev. 1. Prepared by the Joint Task Force Transformation Initiative. Gaithersburg, MD: NIST, September 2012. [https://doi.org/10.6028/NIST.SP.800-30r1](https://doi.org/10.6028/NIST.SP.800-30r1).
 
-#### [32] Office of the Comptroller of the Currency. Model risk management. OCC Handbook, 2021. [OCC](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html).
+National Institute of Standards and Technology (NIST). *NIST AI RMF Playbook.* Trustworthy & Responsible AI Resource Center. Accessed September 19, 2024. [https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook).
 
-#### [33] Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. Red teaming language models with language models. arXiv preprint [arXiv:2202.03286](https://arxiv.org/abs/2202.03286), 2022.
+Office of the Comptroller of the Currency (OCC). *Model Risk Management.* Comptroller’s Handbook, Version 1.0, August 2021. [https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html).
 
-#### [34] Julien Piet, Chawin Sitawarin, Vivian Fang, Norman Mu, and David Wagner. Mark my words: Analyzing and evaluating language model watermarks. arXiv preprint [arXiv:2312.00273](https://arxiv.org/abs/2312.00273), 2023.
+Perez, Ethan, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. "Red Teaming Language Models with Language Models." *arXiv* preprint, submitted February 7, 2022. [https://doi.org/10.48550/arXiv.2202.03286](https://doi.org/10.48550/arXiv.2202.03286).
 
-#### [35] Jérôme Rutinowski, Sven Franke, Jan Endendyk, Ina Dormuth, Moritz Roidl, Markus Pauly, et al. The self-perception and political biases of ChatGPT. *Human Behavior and Emerging Technologies*, 2024, 2023.
+Piet, Julien, Chawin Sitawarin, Vivian Fang, Norman Mu, and David Wagner. "Mark My Words: Analyzing and Evaluating Language Model Watermarks." *arXiv* preprint, last revised December 7, 2023. [https://doi.org/10.48550/arXiv.2312.00273](https://doi.org/10.48550/arXiv.2312.00273).
 
-#### [36] Elvis Saravia. Prompt Engineering Guide. [GitHub](https://github.com/dair-ai/Prompt-Engineering-Guide), 12 2022.
+Rutinowski, Jérôme, Sven Franke, Jan Endendyk, Ina Dormuth, Moritz Roidl, and Markus Pauly. "The Self-Perception and Political Biases of ChatGPT." *Human Behavior and Emerging Technologies*, 2024. [https://doi.org/10.1155/2024/7115633](https://doi.org/10.1155/2024/7115633).
 
-#### [37] Xinyue Shen, Zeyuan Chen, Michael Backes, Yun Shen, and Yang Zhang. ”Do anything now”: Characterizing and evaluating in-the-wild jailbreak prompts on large language models. arXiv preprint [arXiv:2308.03825](https://arxiv.org/abs/2308.03825), 2023.
+Saravia, Elvis. *Prompt Engineering Guide.* GitHub repository. Last modified December 2022. Accessed September 19, 2024. [https://github.com/dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide).
 
-#### [38] Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, and Luke Zettlemoyer. Detecting pretraining data from large language models. arXiv preprint [arXiv:2310.16789](https://arxiv.org/abs/2310.16789), 2023.
+Shen, Xinyue, Zeyuan Chen, Michael Backes, Yun Shen, and Yang Zhang. "‘Do Anything Now’: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models." *arXiv* preprint, last revised May 15, 2024. [https://doi.org/10.48550/arXiv.2308.03825](https://doi.org/10.48550/arXiv.2308.03825).
 
-#### [39] Ilia Shumailov, Yiren Zhao, Daniel Bates, Nicolas Papernot, Robert Mullins, and Ross Anderson. Sponge examples: Energy-latency attacks on neural networks. In 2021 IEEE European Symposium on Security and Privacy (EuroS&P), pages 212–231. IEEE, 2021.
+Shi, Weijia, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, and Luke Zettlemoyer. "Detecting Pretraining Data from Large Language Models." *arXiv* preprint, last revised March 9, 2024. [https://doi.org/10.48550/arXiv.2310.16789](https://doi.org/10.48550/arXiv.2310.16789).
 
-#### [40] Chawin Sitawarin and Charlie Cheng-Jie Ji. LLM security & privacy. [GitHub](https://github.com/chawins), 2024.
+Shumailov, Ilia, Yiren Zhao, Daniel Bates, Nicolas Papernot, Robert Mullins, and Ross Anderson. "Sponge Examples: Energy-Latency Attacks on Neural Networks." In *2021 IEEE European Symposium on Security and Privacy (EuroS&P)*, 6–10 September 2021, Vienna, Austria. IEEE, 2021. [https://doi.org/10.1109/EuroSP51992.2021.00024](https://doi.org/10.1109/EuroSP51992.2021.00024).
 
-#### [41] Eric Michael Smith, Melissa Hall, Melanie Kambadur, Eleonora Presani, and Adina Williams. ”I’m sorry to hear that”: Finding new biases in language models with a holistic descriptor dataset. arXiv preprint [arXiv:2205.09209](https://arxiv.org/abs/2205.09209), 2022.
+Sitawarin, Chawin, Charlie Cheng-Jie Ji, Apurv Verma, and Luckyfan-cs. *LLM Security & Privacy.* GitHub repository. Accessed September 19, 2024. [https://github.com/chawins/llm-sp](https://github.com/chawins/llm-sp).
 
-#### [42] Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar Abid, Adam Fisch, Adam R Brown, Adam Santoro, Aditya Gupta, Adrià Garriga-Alonso, et al. Beyond the imitation game: Quantifying and extrapolating the capabilities of language models. arXiv preprint [arXiv:2206.04615](https://arxiv.org/abs/2206.04615), 2022.
+Smith, Eric Michael, Melissa Hall, Melanie Kambadur, Eleonora Presani, and Adina Williams. "‘I’m Sorry to Hear That’: Finding New Biases in Language Models with a Holistic Descriptor Dataset." *arXiv* preprint, last revised October 27, 2022. [https://doi.org/10.48550/arXiv.2205.09209](https://doi.org/10.48550/arXiv.2205.09209).
 
-#### [43] Robin Staab, Mark Vero, Mislav Balunović, and Martin Vechev. Beyond memorization: Violating privacy via inference with large language models. arXiv preprint [arXiv:2310.07298](https://arxiv.org/abs/2310.07298), 2023.
+Srivastava, Aarohi, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar Abid, Adam Fisch, Adam R. Brown, Adam Santoro, et al. "Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models." *arXiv* preprint, last revised June 12, 2023. [https://doi.org/10.48550/arXiv.2206.04615](https://doi.org/10.48550/arXiv.2206.04615).
 
-#### [44] Victor Storchan, Ravin Kumar, Rumman Chowdhury, Seraphina Goldfarb-Tarrant, and Sven Cattell. Generative AI red teaming challenge: Transparency report. [Humane Intelligence](https://www.humane-intelligence.org/), 2024.
+Staab, Robin, Mark Vero, Mislav Balunović, and Martin Vechev. "Beyond Memorization: Violating Privacy via Inference with Large Language Models." *arXiv* preprint, last revised May 6, 2024. [https://doi.org/10.48550/arXiv.2310.07298](https://doi.org/10.48550/arXiv.2310.07298).
 
-#### [45] Bertie Vidgen, Adarsh Agrawal, Ahmed M Ahmed, Victor Akinwande, Namir Al-Nuaimi, Najla Alfaraj, Elie Alhajjar, Lora Aroyo, Trupti Bavalatti, Borhane Blili-Hamelin, et al. Introducing v0.5 of the AI safety benchmark from MLCommons. arXiv preprint [arXiv:2404.12241](https://arxiv.org/abs/2404.12241), 2024.
+Storchan, Victor, Ravin Kumar, Rumman Chowdhury, Seraphina Goldfarb-Tarrant, and Sven Cattell. *Generative AI Red Teaming Challenge: Transparency Report.* Humane Intelligence, 2024. [https://drive.google.com/file/d/1JqpbIP6DNomkb32umLoiEPombK2-0Rc-/view](https://drive.google.com/file/d/1JqpbIP6DNomkb32umLoiEPombK2-0Rc-/view).
 
-#### [46] Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, et al. DecodingTrust: A comprehensive assessment of trustworthiness in GPT models. *Advances in Neural Information Processing Systems*, 36, 2024.
+Vidgen, Bertie, Adarsh Agrawal, Ahmed M. Ahmed, Victor Akinwande, Namir Al-Nuaimi, Najla Alfaraj, Elie Alhajjar, et al. "Introducing v0.5 of the AI Safety Benchmark from MLCommons." *arXiv* preprint, last revised May 13, 2024. [https://doi.org/10.48550/arXiv.2404.12241](https://doi.org/10.48550/arXiv.2404.12241).
 
-#### [47] Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae Jo, James Thorne, Juho Kim, and Minjoon Seo. Flask: Fine-grained language model evaluation based on alignment skill sets. arXiv preprint [arXiv:2307.10928](https://arxiv.org/abs/2307.10928), 2023.
+Wang, Boxin, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, et al. "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models." In *Proceedings of the 37th International Conference on Neural Information Processing Systems (NIPS '23)*, Article No. 1361, 31232–31339. Published May 30, 2024. [https://dl.acm.org/doi/10.5555/3666122.3667483](https://dl.acm.org/doi/10.5555/3666122.3667483).
 
-#### [48] Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Eric Xing, et al. Judging LLM-as-a-judge with MT-bench and Chatbot Arena. *Advances in Neural Information Processing Systems*, 36, 2024.
+Ye, Seonghyeon, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae Jo, James Thorne, Juho Kim, and Minjoon Seo. "FLASK: Fine-Grained Language Model Evaluation Based on Alignment Skill Sets." *arXiv* preprint, last revised April 14, 2024. [https://doi.org/10.48550/arXiv.2307.10928](https://doi.org/10.48550/arXiv.2307.10928).
+
+Zheng, Lianmin, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, and Eric P. Xing. "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena." In *Proceedings of the 37th International Conference on Neural Information Processing Systems (NIPS '23)*, Article No. 2020, 46595–46623. Published May 30, 2024. [https://dl.acm.org/doi/10.5555/3666122.3668142](https://dl.acm.org/doi/10.5555/3666122.3668142).
 
