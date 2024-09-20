@@ -2251,6 +2251,144 @@ also be applied to medium risk systems or applications.
 
 Appendix H below presents an example plan for high risk systems.
 
+## H: Example High-risk Generative AI Measurement and Management Plan
+
+### H.1: Example High-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic
+
+<table>
+  <caption>Table H.1: Example risk measurement and management approaches suitable for high-risk GAI applications organized by trustworthy characteristic.</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="2" style="text-align:center">Trustworthy Characteristic</th>
+  <tr>
+    <th>Accountable and Transparent</th>
+    <th>Fair with Harmful Bias Managed</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table H.1: Example risk measurement and management approaches suitable for high-risk GAI applications organized by trustworthy characteristic (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="4" style="text-align:center">Trustworthy Characteristic</th>
+  <tr>
+    <th>Interpretable and Explainable</th>
+    <th>Privacy-enhanced</th>
+    <th>Safe</th>
+    <th>Secure and Resilient</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table H.1: Example risk measurement and management approaches suitable for high-risk GAI applications organized by trustworthy characteristic (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th>Trustworthy Characteristic</th>
+  <tr>
+    <th style="text-align:center">Valid and Reliable</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td>
+  </tr>
+</table>
+
+### H.2: Example Medium-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk
+
+<table>
+  <caption>Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI risk.</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="2" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th>CBRN Information</th>
+    <th>Confabulation</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI risk (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="4" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th style="text-align:center">Dangerous or Violent Recommendations</th>
+    <th style="text-align:center">Data Privacy</th>
+    <th style="text-align:center">Environmental</th>
+    <th style="text-align:center">Human-AI Configuration</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI risk (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="3" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th style="text-align:center">Information Integrity</th>
+    <th style="text-align:center">Information Security</th>
+    <th style="text-align:center">Intellectual Property</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+<table>
+  <caption>Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI risk (continued).</caption>
+  <tr>
+    <th rowspan="2">Function</th>
+    <th colspan="3" style="text-align:center">GAI Risk</th>
+  <tr>
+    <th style="text-align:center">Obscene, Degrading, and/or Abusive Content</th>
+    <th style="text-align:center">Toxicity, Bias, and Homogenization</th>
+    <th style="text-align:center">Value Chain and Component Integration</th>
+  </tr>
+  <tr>
+    <th>Measure</th><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <th>Manage</th><td> </td><td> </td><td> </td>
+  </tr>
+</table>
+
+**Usage Note**: Appendix H puts forward an example risk measurement and management plan for high risk GAI systems or applications. The high
+risk plan focuses on field testing and applies extensive risk controls. Measurement and management approaches from Appendices F and G should also
+be applied to high risk systems or applications.
+
+- Material in Table H.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics.
+ 
+- Material in Table H.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
+
 ## References 
 
 #### [1] Simone Balloccu, Patrícia Schmidtová, Mateusz Lango, and Ondřej Dušek. Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs. arXiv preprint [arXiv:2402.03927](https://arxiv.org/abs/2402.03927), 2024.
