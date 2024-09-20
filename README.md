@@ -12,7 +12,7 @@ Copyright `ph_` 2024, CC BY 4.0
   * **A.3**: [Traditional Banking Risks, Generative AI Risks and Trustworthy Characteristics Crosswalk](#a3-traditional-banking-risks-generative-ai-risks-and-trustworthy-characteristics-crosswalk)
 
 * **Section B**: [Example Risk-tiering Materials for Generative AI](#b-example-risk-tiering-materials-for-generative-ai)
-  * **B.1**: [Example Adverse Impacts](https://github.com/jphall663/gai_risk_management/blob/main/README.md#b1-example-adverse-impacts)
+  * **B.1**: [Example Adverse Impacts](#b1-example-adverse-impacts)
   * **B.2**: [Example Impact Descriptions](#b2-example-impact-descriptions)
   * **B.3**: [Example Likelihood Descriptions](#b3-example-likelihood-descriptions)
   * **B.4**: [Example Risk Tiers](#b4-example-risk-tiers)
