@@ -35,7 +35,15 @@ Copyright `ph_` 2024, CC BY 4.0
 * **Section F**: [Example Low-risk Generative AI Measurement and Management Plan](#f-example-low-risk-generative-ai-measurement-and-management-plan)
   * **F.1**: [Example Low-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic](#f1-example-low-risk-generative-ai-measurement-and-management-plan-organized-by-trustworthy-characteristic)
   * **F.2**: [Example Low-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk](#f2-example-low-risk-generative-ai-measurement-and-management-plan-organized-by-generative-ai-risk)
-  
+
+* **Section G**: [Example Medium-risk Generative AI Measurement and Management Plan](#g-example-medium-risk-generative-ai-measurement-and-management-plan)
+  * **G.1**: [Example Medium-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic](#g1-example-medium-risk-generative-ai-measurement-and-management-plan-organized-by-trustworthy-characteristic)
+  * **G.2**: [Example Medium-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk](#g2-example-medium-risk-generative-ai-measurement-and-management-plan-organized-by-generative-ai-risk)
+ 
+* **Section H**: [Example High-risk Generative AI Measurement and Management Plan](#h-example-high-risk-generative-ai-measurement-and-management-plan)
+  * **H.1**: [Example High-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic](#h1-example-high-risk-generative-ai-measurement-and-management-plan-organized-by-trustworthy-characteristic)
+  * **H.2**: [Example High-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk](#h2-example-high-risk-generative-ai-measurement-and-management-plan-organized-by-generative-ai-risk)
+
 ***
 
 ## A: Example Generative AI-Trustworthy Characteristic Crosswalk
