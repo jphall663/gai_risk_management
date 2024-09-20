@@ -480,7 +480,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 [<a href="#28-nist-guide-for-conducting-risk-assessments-sp800-03r1-2012">28</a>].</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#nist-guide-for-conducting-risk-assessments">[source]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
@@ -2451,7 +2451,7 @@ National Institute of Standards and Technology (NIST). *Artificial Intelligence 
 
 National Institute of Standards and Technology (NIST). *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile.* NIST AI 600-1. Gaithersburg, MD: NIST, July 2024. [https://doi.org/10.6028/NIST.AI.600-1](https://doi.org/10.6028/NIST.AI.600-1).
 
-National Institute of Standards and Technology (NIST). *Guide for Conducting Risk Assessments.* NIST Special Publication 800-30 Rev. 1. Prepared by the Joint Task Force Transformation Initiative. Gaithersburg, MD: NIST, September 2012. [https://doi.org/10.6028/NIST.SP.800-30r1](https://doi.org/10.6028/NIST.SP.800-30r1).
+##### National Institute of Standards and Technology (NIST). *Guide for Conducting Risk Assessments.* NIST Special Publication 800-30 Rev. 1. Prepared by the Joint Task Force Transformation Initiative. Gaithersburg, MD: NIST, September 2012. [https://doi.org/10.6028/NIST.SP.800-30r1](https://doi.org/10.6028/NIST.SP.800-30r1).
 
 National Institute of Standards and Technology (NIST). *NIST AI RMF Playbook.* Trustworthy & Responsible AI Resource Center. Accessed September 19, 2024. [https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook).
 
