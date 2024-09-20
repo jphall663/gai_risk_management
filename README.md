@@ -480,7 +480,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#nist-guide-for-conducting-risk-assessments">[source]</a>.</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
