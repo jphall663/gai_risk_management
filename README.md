@@ -850,7 +850,7 @@ applications as follows:
 Big-bench: Truthfulness\
 DecodingTrust: Machine Ethics\
 Evaluation Harness: ETHICS\
-HELM: Copyright\
+HELM: Copyright <a href="#bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models-annals-of-the-new-york-academy-of-sciences-1525-no-1-july-2023-140146-httpsdoiorg101111nyas15007">[Bommasani et al.]</a>\
 Mark My Words
 
 **Fair with Harmful Bias Managed**\
