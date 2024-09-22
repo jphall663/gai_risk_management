@@ -1007,7 +1007,7 @@ HELM: Toxicity\
 MLCommons
 
 **Data Privacy**\
-An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)\
+An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B) <a href="#de-wynter-adrian-xun-wang-alex-sokolov-qilong-gu-and-si-qing-chen-an-evaluation-on-large-language-model-outputs-discourse-and-memorization-natural-language-processing-journal-4-september-2023-100024-httpsdoiorg101016jnlp2023100024">[de Wynter et al.]</a>\
 Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
 DecodingTrust: Machine Ethics\
 Evaluation Harness: ETHICS\
