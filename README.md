@@ -1124,7 +1124,7 @@ that may give rise to GAI risks or violate trustworthy characteristics.
 Model testing and benchmarking outcomes cannot be dispositive for the
 presence or absence of any *in situ* real-world risk. Model testing and
 benchmarking results may be compromised by task-contamination and other
-scientific measurement issues. Furthermore, model testing is often ineffective
+scientific measurement issues <a href="#balloccu-simone-patrícia-schmidtová-mateusz-lango-and-ondřej-dušek-leak-cheat-repeat-data-contamination-and-evaluation-malpractices-in-closed-source-llms-arxiv-preprint-last-revised-february-22-2024-httpsdoiorg1048550arxiv240203927">[source]</a>. Furthermore, model testing is often ineffective
 for measuring human-AI configuration and value chain risks and few model tests
 appear to address explainability and interpretability.
 
