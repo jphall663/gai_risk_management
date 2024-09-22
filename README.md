@@ -583,7 +583,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.2 Example Impact Descriptions
 
 <table style="width:85%;">
-<caption>Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3.</caption>
+<caption>Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -635,7 +635,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.3 Example Likelihood Descriptions
 
 <table style="width:85%;">
-<caption>Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3.</caption>
+<caption>Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -687,7 +687,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.4 Example Risk Tiers
 
 <table>
-<caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2.</caption>
+<caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
 <tbody>
 <tr class="even">
 <td style="text-align: center;"></td>
@@ -743,7 +743,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.5 Example Risk Descriptions
 
 <table style="width:85%;">
-<caption>Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3.</caption>
+<caption>Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
