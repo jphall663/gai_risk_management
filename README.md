@@ -480,7 +480,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
@@ -583,7 +583,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.2 Example Impact Descriptions
 
 <table style="width:85%;">
-<caption>Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
+<caption>Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -635,7 +635,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.3 Example Likelihood Descriptions
 
 <table style="width:85%;">
-<caption>Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
+<caption>Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -687,7 +687,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.4 Example Risk Tiers
 
 <table>
-<caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
+<caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <tbody>
 <tr class="even">
 <td style="text-align: center;"></td>
@@ -743,7 +743,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.5 Example Risk Descriptions
 
 <table style="width:85%;">
-<caption>Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
+<caption>Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -854,7 +854,7 @@ HELM: Copyright <a href="#bommasani-rishi-percy-liang-and-tony-lee-holistic-eval
 Mark My Words
 
 **Fair with Harmful Bias Managed**\
-BELEBELE <a href="#bandarkar-lucas-davis-liang-benjamin-muller-mikel-artetxe-satya-narayan-shukla-donald-husa-naman-goyal-abhinandan-krishnan-luke-zettlemoyer-and-madian-khabsa-the-belebele-benchmark-a-parallel-reading-comprehension-dataset-in-122-language-variants-arxiv-preprint-last-revised-july-25-2024-httpsdoiorg1048550arxiv230816884">[source]</a>\
+BELEBELE <a href="#bandarkar-lucas-davis-liang-benjamin-muller-mikel-artetxe-satya-narayan-shukla-donald-husa-naman-goyal-abhinandan-krishnan-luke-zettlemoyer-and-madian-khabsa-the-belebele-benchmark-a-parallel-reading-comprehension-dataset-in-122-language-variants-arxiv-preprint-last-revised-july-25-2024-httpsdoiorg1048550arxiv230816884">[Bandarkar et al.]</a>\
 Big-bench: Low-resource language, Non-English, Translation\
 Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
 Big-bench: Toxicity\
@@ -1124,7 +1124,7 @@ that may give rise to GAI risks or violate trustworthy characteristics.
 Model testing and benchmarking outcomes cannot be dispositive for the
 presence or absence of any *in situ* real-world risk. Model testing and
 benchmarking results may be compromised by task-contamination and other
-scientific measurement issues <a href="#balloccu-simone-patrícia-schmidtová-mateusz-lango-and-ondřej-dušek-leak-cheat-repeat-data-contamination-and-evaluation-malpractices-in-closed-source-llms-arxiv-preprint-last-revised-february-22-2024-httpsdoiorg1048550arxiv240203927">[source]</a>. Furthermore, model testing is often ineffective
+scientific measurement issues <a href="#balloccu-simone-patrícia-schmidtová-mateusz-lango-and-ondřej-dušek-leak-cheat-repeat-data-contamination-and-evaluation-malpractices-in-closed-source-llms-arxiv-preprint-last-revised-february-22-2024-httpsdoiorg1048550arxiv240203927">[Balloccu et al.]</a>. Furthermore, model testing is often ineffective
 for measuring human-AI configuration and value chain risks and few model tests
 appear to address explainability and interpretability.
 
