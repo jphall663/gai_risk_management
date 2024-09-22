@@ -889,7 +889,7 @@ detect-pretrain-code\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination,
 xss\
 In-The-Wild Jailbreak Prompts on LLMs\
-JailbreakingLLMs\
+JailbreakingLLMs <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>\
 llmprivacy\
 mimir\
 TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs
@@ -1145,7 +1145,7 @@ and field testing for high risk systems or applications.
 ## D: Selected Adversarial Prompting Strategies and Attacks
 
 <table style="width:95%;">
-<caption>Table D: Selected adversarial prompting strategies and attacks. [36], [44], [17], [18], [5], <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, [39], [33], [23], [8].</caption>
+<caption>Table D: Selected adversarial prompting strategies and attacks. [36], [44], [17], [18], <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>, <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, [39], [33], [23], [8].</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
