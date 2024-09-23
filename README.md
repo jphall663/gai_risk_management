@@ -907,7 +907,7 @@ Big-bench: Sufficient information\
 Big-bench: Summarization\
 DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness,
 Robustness Against Adversarial Demonstrations\
-Eval Gauntlet: Reading comprehension\
+Eval Gauntlet: Reading comprehension <a href="#dohmann-jeremy-blazingly-fast-llm-evaluation-for-in-context-learning-databricks-mosaic-ai-research-february-2-2023-httpswwwdatabrickscomblogllm-evaluation-for-icl">[Dohmann]</a>\
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving,
 Programming\
 Eval Gauntlet: Language Understanding\
