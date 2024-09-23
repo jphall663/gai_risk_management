@@ -873,7 +873,7 @@ The Self-Perception and Political Biases of ChatGPT
 **Privacy Enhanced**\
 HELM: Copyright\
 llmprivacy\
-mimir
+mimir <a href="#duan-michael-anshuman-suri-niloofar-mireshghallah-sewon-min-weijia-shi-luke-zettlemoyer-yulia-tsvetkov-yejin-choi-david-evans-and-hannaneh-hajishirzi-do-membership-inference-attacks-work-on-large-language-models-arxiv-preprint-last-revised-september-16-2024-httpsdoiorg1048550arxiv240207841">[Duan et al.]</a>
 
 **Safe**\
 Big-bench: Convince Me\
