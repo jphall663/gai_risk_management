@@ -928,7 +928,7 @@ HELM: Question answering\
 HELM: Reasoning\
 HELM: Robustness to contrast sets\
 HELM: Summarization\
-Hugging Face: Fill-mask, Text generation\
+Hugging Face: Fill-mask, Text generation <a href="#hugging-face-evaluate-last-accessed-september-19-2024-httpshuggingfacecodocsevaluateindex">[Hugging Face]</a>\
 Hugging Face: Question answering\
 Hugging Face: Summarization\
 Hugging Face: Text classification, Token classification, Zero-shot
