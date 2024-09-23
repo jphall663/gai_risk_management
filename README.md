@@ -852,7 +852,7 @@ Big-bench: Truthfulness\
 DecodingTrust: Machine Ethics\
 Evaluation Harness: ETHICS <a href="#gao-leo-jonathan-tow-baber-abbasi-stella-biderman-sid-black-anthony-dipofi-charles-foster-laurence-golding-jeffrey-hsu-alain-le-noach-haonan-li-kyle-mcdonell-niklas-muennighoff-chris-ociepa-jason-phang-laria-reynolds-hailey-schoelkopf-aviya-skowron-lintang-sutawika-eric-tang-anish-thite-ben-wang-kevin-wang-and-andy-zou-a-framework-for-few-shot-language-model-evaluation-github-repository-accessed-september-19-2024-httpsgithubcomeleutherailm-evaluation-harness">[Gao et al.]</a>\
 HELM: Copyright <a href="#bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models-annals-of-the-new-york-academy-of-sciences-1525-no-1-july-2023-140146-httpsdoiorg101111nyas15007">[Bommasani et al.]</a>\
-Mark My Words
+Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a>
 
 **Fair with Harmful Bias Managed**\
 BELEBELE <a href="#bandarkar-lucas-davis-liang-benjamin-muller-mikel-artetxe-satya-narayan-shukla-donald-husa-naman-goyal-abhinandan-krishnan-luke-zettlemoyer-and-madian-khabsa-the-belebele-benchmark-a-parallel-reading-comprehension-dataset-in-122-language-variants-arxiv-preprint-last-revised-july-25-2024-httpsdoiorg1048550arxiv230816884">[Bandarkar et al.]</a>\
@@ -870,7 +870,7 @@ From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trail
 HELM: Bias\
 HELM: Toxicity\
 MT-bench\
-The Self-Perception and Political Biases of ChatGPT
+The Self-Perception and Political Biases of ChatGPT <a href="#rutinowski-jérôme-sven-franke-jan-endendyk-ina-dormuth-moritz-roidl-and-markus-pauly-the-self-perception-and-political-biases-of-chatgpt-human-behavior-and-emerging-technologies-2024-httpsdoiorg10115520247115633">[Rutinowski et al.]</a>
 
 **Privacy Enhanced**\
 HELM: Copyright\
@@ -881,16 +881,16 @@ mimir <a href="#duan-michael-anshuman-suri-niloofar-mireshghallah-sewon-min-weij
 Big-bench: Convince Me\
 Big-bench: Truthfulness\
 HELM: Reiteration, Wedging\
-Mark My Words\
+Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a>\
 MLCommons\
 The WMDP Benchmark <a href="#li-nathaniel-alexander-pan-anjali-gopal-summer-yue-daniel-berrios-alice-gatti-justin-d-li-ann-kathrin-dombrowski-et-al-the-wmdp-benchmark-measuring-and-reducing-malicious-use-with-unlearning-arxiv-preprint-last-revised-may-15-2024-httpsdoiorg1048550arxiv240303218">[Li et al.]</a>
 
 **Secure and Resilient**\
 Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
-detect-pretrain-code\
+detect-pretrain-code <a href="#shi-weijia-anirudh-ajith-mengzhou-xia-yangsibo-huang-daogao-liu-terra-blevins-danqi-chen-and-luke-zettlemoyer-detecting-pretraining-data-from-large-language-models-arxiv-preprint-last-revised-march-9-2024-httpsdoiorg1048550arxiv231016789">[Shi et al.]</a>\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination,
 xss <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>\
-In-The-Wild Jailbreak Prompts on LLMs\
+In-The-Wild Jailbreak Prompts on LLMs <a href="#shen-xinyue-zeyuan-chen-michael-backes-yun-shen-and-yang-zhang-do-anything-now-characterizing-and-evaluating-in-the-wild-jailbreak-prompts-on-large-language-models-arxiv-preprint-last-revised-may-15-2024-httpsdoiorg1048550arxiv230803825">[Shen et al.]</a>\
 JailbreakingLLMs <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>\
 llmprivacy\
 mimir\
@@ -1015,12 +1015,12 @@ Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#h
 DecodingTrust: Machine Ethics\
 Evaluation Harness: ETHICS\
 HELM: Copyright\
-In-The-Wild Jailbreak Prompts on LLMs\
+In-The-Wild Jailbreak Prompts on LLMs <a href="#shen-xinyue-zeyuan-chen-michael-backes-yun-shen-and-yang-zhang-do-anything-now-characterizing-and-evaluating-in-the-wild-jailbreak-prompts-on-large-language-models-arxiv-preprint-last-revised-may-15-2024-httpsdoiorg1048550arxiv230803825">[Shen et al.]</a>\
 JailbreakingLLMs\
 MLCommons\
-Mark My Words\
+Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a>\
 TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs\
-detect-pretrain-code\
+detect-pretrain-code <a href="#shi-weijia-anirudh-ajith-mengzhou-xia-yangsibo-huang-daogao-liu-terra-blevins-danqi-chen-and-luke-zettlemoyer-detecting-pretraining-data-from-large-language-models-arxiv-preprint-last-revised-march-9-2024-httpsdoiorg1048550arxiv231016789">[Shi et al.]</a>\
 llmprivacy\
 mimir
 
@@ -1059,7 +1059,7 @@ Hugging Face: Question answering\
 Hugging Face: Summarization\
 MLCommons\
 MT-bench\
-Mark My Words
+Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a>
 
 **Information Security**\
 Big-bench: Convince Me\
@@ -1069,19 +1069,19 @@ DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustnes
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination, xss\
 HELM: Copyright\
-In-The-Wild Jailbreak Prompts on LLMs\
+In-The-Wild Jailbreak Prompts on LLMs <a href="#shen-xinyue-zeyuan-chen-michael-backes-yun-shen-and-yang-zhang-do-anything-now-characterizing-and-evaluating-in-the-wild-jailbreak-prompts-on-large-language-models-arxiv-preprint-last-revised-may-15-2024-httpsdoiorg1048550arxiv230803825">[Shen et al.]</a>\
 JailbreakingLLMs\
-Mark My Words\
+Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a>\
 TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs <a href="#mehrotra-anay-manolis-zampetakis-paul-kassianik-blaine-nelson-hyrum-anderson-yaron-singer-and-amin-karbasi-tree-of-attacks-jailbreaking-black-box-llms-automatically-arxiv-preprint-last-revised-february-21-2024-httpsdoiorg1048550arxiv231202119">[Mehrotra et al.]</a>
 \
-detect-pretrain-code\
+detect-pretrain-code <a href="#shi-weijia-anirudh-ajith-mengzhou-xia-yangsibo-huang-daogao-liu-terra-blevins-danqi-chen-and-luke-zettlemoyer-detecting-pretraining-data-from-large-language-models-arxiv-preprint-last-revised-march-9-2024-httpsdoiorg1048550arxiv231016789">[Shi et al.]</a>\
 llmprivacy\
 mimir
 
 **Intellectual Property**\
 An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)\
 HELM: Copyright\
-Mark My Words\
+Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a>\
 llmprivacy\
 mimir
 
@@ -1113,7 +1113,7 @@ Finding New Biases in Language Models with a Holistic Descriptor
 Dataset\
 HELM: Bias\
 HELM: Toxicity\
-The Self-Perception and Political Biases of ChatGPT\
+The Self-Perception and Political Biases of ChatGPT <a href="#rutinowski-jérôme-sven-franke-jan-endendyk-ina-dormuth-moritz-roidl-and-markus-pauly-the-self-perception-and-political-biases-of-chatgpt-human-behavior-and-emerging-technologies-2024-httpsdoiorg10115520247115633">[Rutinowski et al.]</a>\
 Towards Measuring the Representation of Subjective Global Opinions in
 Language Models <a href="#durmus-esin-karina-nguyen-thomas-i-liao-nicholas-schiefer-amanda-askell-anton-bakhtin-carol-chen-zac-hatfield-dodds-et-al-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models-arxiv-preprint-last-revised-april-12-2024-httpsdoiorg1048550arxiv230616388">[Durmus et al.]</a>
 
@@ -1149,7 +1149,7 @@ and field testing for high risk systems or applications.
 ## D: Selected Adversarial Prompting Strategies and Attacks
 
 <table style="width:95%;">
-<caption>Table D: Selected adversarial prompting strategies and attacks. [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>, <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, [39], [33], <a href="#liu-yi-gelei-deng-yuekang-li-kailong-wang-zihao-wang-xiaofeng-wang-tianwei-zhang-yepang-liu-haoyu-wang-yan-zheng-and-yang-liu-prompt-injection-attack-against-llm-integrated-applications-arxiv-preprint-last-revised-march-2-2024-httpsdoiorg1048550arxiv230605499">[Liu et al.]</a>, <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>.</caption>
+<caption>Table D: Selected adversarial prompting strategies and attacks. <a href="#saravia-elvis-prompt-engineering-guide-github-repository-last-modified-december-2022-accessed-september-19-2024-httpsgithubcomdair-aiprompt-engineering-guide">[Saravia]</a>, [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>, <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, <a href="#shumailov-ilia-yiren-zhao-daniel-bates-nicolas-papernot-robert-mullins-and-ross-anderson-sponge-examples-energy-latency-attacks-on-neural-networks-in-2021-ieee-european-symposium-on-security-and-privacy-eurosp-610-september-2021-vienna-austria-ieee-2021-httpsdoiorg101109eurosp51992202100024">[Shumailov et al.]</a>, <a href="#perez-ethan-saffron-huang-francis-song-trevor-cai-roman-ring-john-aslanides-amelia-glaese-nat-mcaleese-and-geoffrey-irving-red-teaming-language-models-with-language-models-arxiv-preprint-submitted-february-7-2022-httpsdoiorg1048550arxiv220203286">[Perez et al.]</a>, <a href="#liu-yi-gelei-deng-yuekang-li-kailong-wang-zihao-wang-xiaofeng-wang-tianwei-zhang-yepang-liu-haoyu-wang-yan-zheng-and-yang-liu-prompt-injection-attack-against-llm-integrated-applications-arxiv-preprint-last-revised-march-2-2024-httpsdoiorg1048550arxiv230605499">[Liu et al.]</a>, <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>.</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
@@ -1286,7 +1286,7 @@ and field testing for high risk systems or applications.
 </table>
 
 ### D.1: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
-Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, [40].
+Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic <a href="#saravia-elvis-prompt-engineering-guide-github-repository-last-modified-december-2022-accessed-september-19-2024-httpsgithubcomdair-aiprompt-engineering-guide">[Saravia]</a>, [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#sitawarin-chawin-charlie-cheng-jie-ji-apurv-verma-and-luckyfan-cs-llm-security--privacy-github-repository-accessed-september-19-2024-httpsgithubcomchawinsllm-sp">[Sitawarin et al.]</a>.
 
 <table>
 <caption>Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic.</caption>
@@ -1457,7 +1457,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 </table>
 
 ### D.2: Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk
-Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, [40].
+Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk <a href="#saravia-elvis-prompt-engineering-guide-github-repository-last-modified-december-2022-accessed-september-19-2024-httpsgithubcomdair-aiprompt-engineering-guide">[Saravia]</a>, [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#sitawarin-chawin-charlie-cheng-jie-ji-apurv-verma-and-luckyfan-cs-llm-security--privacy-github-repository-accessed-september-19-2024-httpsgithubcomchawinsllm-sp">[Sitawarin et al.]</a>.
 
 <table>
 <caption>Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.</caption>
@@ -1702,7 +1702,7 @@ be accompanied by field testing for high risk systems or applications.
 ## E: Selected Risk Controls for Generative AI
 
 <table style="width:95%;">
-<caption>Table E: Selected generative AI risk controls <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-ai-rmf-10-nist-ai-100-1-gaithersburg-md-nist-january-26-2023-httpsdoiorg106028nistai100-1">[NIST AI RMF 1.0]</a>, <a href="#national-institute-of-standards-and-technology-nist-nist-ai-rmf-playbook-trustworthy--responsible-ai-resource-center-accessed-september-19-2024-httpsaircnistgovai_rmf_knowledge_baseplaybook">[NIST AI RMF Playbook]</a>, [31], <a href="#isoiec-420012023-information-technology--artificial-intelligence--management-system-1st-ed-geneva-international-organization-for-standardization-2023-httpswwwisoorgobpuienisostdiso-iec42001ed-1v1en">[ISO/IEC 42001:2023]</a>, <a href="#mcgraw-gary-harold-figueroa-katie-mcmahon-and-richie-bonett-an-architectural-risk-analysis-of-large-language-models-applied-machine-learning-security-version-10-berryville-institute-of-machine-learning-biml-january-24-2024-httpsberryvilleimlcomdocsbiml-llm24pdf">[McGraw et al. 1]</a>, <a href="#mcgraw-gary-harold-figueroa-victor-shepardson-and-richie-bonett-an-architectural-risk-analysis-of-machine-learning-systems-toward-more-secure-machine-learning-version-10-11320-berryville-institute-of-machine-learning-biml-january-13-2020-httpsberryvilleimlcomdocsarapdf">[McGraw et al. 2]</a>, <a href="#microsoft-microsoft-responsible-ai-standard-v2-general-requirements-for-external-release-june-2022-httpsqueryprodcmsrtmicrosoftcomcmsapiambinaryre5cmfl">[Microsoft]</a>, <a href="#department-for-science-innovation-and-technology-and-ai-safety-institute-international-scientific-report-on-the-safety-of-advanced-ai-interim-report-published-may-17-2024-httpswwwgovukgovernmentpublicationsinternational-scientific-report-on-the-safety-of-advanced-ai">[DSIT & AISI]</a>, [32].</caption>
+<caption>Table E: Selected generative AI risk controls <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-ai-rmf-10-nist-ai-100-1-gaithersburg-md-nist-january-26-2023-httpsdoiorg106028nistai100-1">[NIST AI RMF 1.0]</a>, <a href="#national-institute-of-standards-and-technology-nist-nist-ai-rmf-playbook-trustworthy--responsible-ai-resource-center-accessed-september-19-2024-httpsaircnistgovai_rmf_knowledge_baseplaybook">[NIST AI RMF Playbook]</a>, <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile-nist-ai-600-1-gaithersburg-md-nist-july-2024-httpsdoiorg106028nistai600-1">[NIST AI 600-1]</a>, <a href="#isoiec-420012023-information-technology--artificial-intelligence--management-system-1st-ed-geneva-international-organization-for-standardization-2023-httpswwwisoorgobpuienisostdiso-iec42001ed-1v1en">[ISO/IEC 42001:2023]</a>, <a href="#mcgraw-gary-harold-figueroa-katie-mcmahon-and-richie-bonett-an-architectural-risk-analysis-of-large-language-models-applied-machine-learning-security-version-10-berryville-institute-of-machine-learning-biml-january-24-2024-httpsberryvilleimlcomdocsbiml-llm24pdf">[McGraw et al. 1]</a>, <a href="#mcgraw-gary-harold-figueroa-victor-shepardson-and-richie-bonett-an-architectural-risk-analysis-of-machine-learning-systems-toward-more-secure-machine-learning-version-10-11320-berryville-institute-of-machine-learning-biml-january-13-2020-httpsberryvilleimlcomdocsarapdf">[McGraw et al. 2]</a>, <a href="#microsoft-microsoft-responsible-ai-standard-v2-general-requirements-for-external-release-june-2022-httpsqueryprodcmsrtmicrosoftcomcmsapiambinaryre5cmfl">[Microsoft]</a>, <a href="#department-for-science-innovation-and-technology-and-ai-safety-institute-international-scientific-report-on-the-safety-of-advanced-ai-interim-report-published-may-17-2024-httpswwwgovukgovernmentpublicationsinternational-scientific-report-on-the-safety-of-advanced-ai">[DSIT & AISI]</a>, <a href="#office-of-the-comptroller-of-the-currency-occ-model-risk-management-comptrollers-handbook-version-10-august-2021-httpswwwoccgovpublications-and-resourcespublicationscomptrollers-handbookfilesmodel-risk-managementindex-model-risk-managementhtml">[OCC Model Risk Management]</a>.</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
@@ -1973,7 +1973,7 @@ be accompanied by field testing for high risk systems or applications.
 </tbody>
 </table>
 
-**Usage Note**: Appendix E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions <a href="#national-institute-of-standards-and-technology-nist-nist-ai-rmf-playbook-trustworthy--responsible-ai-resource-center-accessed-september-19-2024-httpsaircnistgovai_rmf_knowledge_baseplaybook">[NIST AI RMF Playbook]</a>, <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-ai-rmf-10-nist-ai-100-1-gaithersburg-md-nist-january-26-2023-httpsdoiorg106028nistai100-1">[NIST AI RMF 1.0]</a>.
+**Usage Note**: Appendix E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions <a href="#national-institute-of-standards-and-technology-nist-nist-ai-rmf-playbook-trustworthy--responsible-ai-resource-center-accessed-september-19-2024-httpsaircnistgovai_rmf_knowledge_baseplaybook">[NIST AI RMF Playbook]</a>, <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile-nist-ai-600-1-gaithersburg-md-nist-july-2024-httpsdoiorg106028nistai600-1">[NIST AI 600-1]</a>.
 
 ## F: Example Low-risk Generative AI Measurement and Management Plan
 
@@ -1997,7 +1997,7 @@ be accompanied by field testing for high risk systems or applications.
         <li>DecodingTrust: Machine Ethics</li>
         <li>Evaluation Harness: ETHICS</li>
         <li>HELM: Copyright</li>
-        <li>Mark My Words</li>
+        <li>Mark My Words <a href="#piet-julien-chawin-sitawarin-vivian-fang-norman-mu-and-david-wagner-mark-my-words-analyzing-and-evaluating-language-model-watermarks-arxiv-preprint-last-revised-december-7-2023-httpsdoiorg1048550arxiv231200273">[Piet et al.]</a></li>
       </ul>    
     </td>
     <td>
@@ -2017,7 +2017,7 @@ be accompanied by field testing for high risk systems or applications.
         <li>HELM: Bias</li>
         <li>HELM: Toxicity</li>
         <li>MT-bench</li>
-        <li>The Self-Perception and Political Biases of ChatGPT</li>
+        <li>The Self-Perception and Political Biases of ChatGPT <a href="#rutinowski-jérôme-sven-franke-jan-endendyk-ina-dormuth-moritz-roidl-and-markus-pauly-the-self-perception-and-political-biases-of-chatgpt-human-behavior-and-emerging-technologies-2024-httpsdoiorg10115520247115633">[Rutinowski et al.]</a></li>
         <li>Towards Measuring the Representation of Subjective Global Opinions in Language Models</li>
       </ul>    
     </td>
