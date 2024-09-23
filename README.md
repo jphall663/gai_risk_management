@@ -1696,7 +1696,7 @@ be accompanied by field testing for high risk systems or applications.
 ## E: Selected Risk Controls for Generative AI
 
 <table style="width:95%;">
-<caption>Table E: Selected generative AI risk controls.</caption>
+<caption>Table E: Selected generative AI risk controls [29], [30], [31], [21], [24], [25], [27], <a href="#department-for-science-innovation-and-technology-and-ai-safety-institute-international-scientific-report-on-the-safety-of-advanced-ai-interim-report-published-may-17-2024-httpswwwgovukgovernmentpublicationsinternational-scientific-report-on-the-safety-of-advanced-ai">[DSIT & AISI]</a>, [32].</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
