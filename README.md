@@ -480,7 +480,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.1: Example Adverse Impacts
 
 <table style="width:95%;">
-<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[source]</a>.</caption>
+<caption>Table B.1: Example adverse impacts, adapted from NIST 800-30r1 Table H-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 75%" />
@@ -583,7 +583,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.2 Example Impact Descriptions
 
 <table style="width:85%;">
-<caption>Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3.</caption>
+<caption>Table B.2: Example Impact level descriptions, adapted from NIST SP800-30r1 Appendix H, Table H-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -635,7 +635,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.3 Example Likelihood Descriptions
 
 <table style="width:85%;">
-<caption>Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3.</caption>
+<caption>Table B.3: Example likelihood levels, adapted from NIST SP800-30r1 Appendix G, Table G-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -687,7 +687,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.4 Example Risk Tiers
 
 <table>
-<caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2.</caption>
+<caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <tbody>
 <tr class="even">
 <td style="text-align: center;"></td>
@@ -743,7 +743,7 @@ Copyright `ph_` 2024, CC BY 4.0
 ### B.5 Example Risk Descriptions
 
 <table style="width:85%;">
-<caption>Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3.</caption>
+<caption>Table B.5: Example risk descriptions, adapted from NIST SP800-30r1 Appendix I, Table I-3 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 20%" />
@@ -845,26 +845,28 @@ applications as follows:
 ## C: List of Selected Model Testing Suites
 
 ### C.1: Selected Model Testing Suites Organized by Trustworthy Characteristic
+Adapted from <a href="#ai-verify-foundation-and-infocomm-media-development-authority-cataloguing-llm-evaluations-draft-for-discussion-october-2023-httpsaiverifyfoundationsgdownloadscataloguing_llm_evaluationspdf">[AI Verify Foundation]</a> Taxonimization and various additional resources.
 
 **Accountable and Transparent**\
 Big-bench: Truthfulness\
 DecodingTrust: Machine Ethics\
-Evaluation Harness: ETHICS\
-HELM: Copyright\
+Evaluation Harness: ETHICS <a href="#gao-leo-jonathan-tow-baber-abbasi-stella-biderman-sid-black-anthony-dipofi-charles-foster-laurence-golding-jeffrey-hsu-alain-le-noach-haonan-li-kyle-mcdonell-niklas-muennighoff-chris-ociepa-jason-phang-laria-reynolds-hailey-schoelkopf-aviya-skowron-lintang-sutawika-eric-tang-anish-thite-ben-wang-kevin-wang-and-andy-zou-a-framework-for-few-shot-language-model-evaluation-github-repository-accessed-september-19-2024-httpsgithubcomeleutherailm-evaluation-harness">[Gao et al.]</a>\
+HELM: Copyright <a href="#bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models-annals-of-the-new-york-academy-of-sciences-1525-no-1-july-2023-140146-httpsdoiorg101111nyas15007">[Bommasani et al.]</a>\
 Mark My Words
 
 **Fair with Harmful Bias Managed**\
-BELEBELE\
+BELEBELE <a href="#bandarkar-lucas-davis-liang-benjamin-muller-mikel-artetxe-satya-narayan-shukla-donald-husa-naman-goyal-abhinandan-krishnan-luke-zettlemoyer-and-madian-khabsa-the-belebele-benchmark-a-parallel-reading-comprehension-dataset-in-122-language-variants-arxiv-preprint-last-revised-july-25-2024-httpsdoiorg1048550arxiv230816884">[Bandarkar et al.]</a>\
 Big-bench: Low-resource language, Non-English, Translation\
 Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
 Big-bench: Toxicity\
 DecodingTrust: Fairness\
 DecodingTrust: Stereotype Bias\
 DecodingTrust: Toxicity\
-C-Eval (Chinese evaluation suite)\
+C-Eval (Chinese evaluation suite) <a href="#huang-yuzhen-yuzhuo-bai-zhihao-zhu-junlei-zhang-jinghan-zhang-tangjun-su-junteng-liu-chuancheng-lv-yikai-zhang-jiayi-lei-yao-fu-maosong-sun-and-junxian-he-c-eval-a-multi-level-multi-discipline-chinese-evaluation-suite-for-foundation-models-arxiv-preprint-last-revised-november-6-2023-httpsdoiorg1048550arxiv230508322">[Huang, Yuzhen et al.]</a>\
 Evaluation Harness: CrowS-Pairs\
 Evaluation Harness: ToxiGen\
 Finding New Biases in Language Models with a Holistic Descriptor Dataset\
+From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models <a href="#feng-shangbin-chan-young-park-yuhan-liu-and-yulia-tsvetkov-from-pretraining-data-to-language-models-to-downstream-tasks-tracking-the-trails-of-political-biases-leading-to-unfair-nlp-models-arxiv-preprint-last-revised-july-6-2023-httpsdoiorg1048550arxiv230508283">[Feng et al.]</a>\
 HELM: Bias\
 HELM: Toxicity\
 MT-bench\
@@ -873,7 +875,7 @@ The Self-Perception and Political Biases of ChatGPT
 **Privacy Enhanced**\
 HELM: Copyright\
 llmprivacy\
-mimir
+mimir <a href="#duan-michael-anshuman-suri-niloofar-mireshghallah-sewon-min-weijia-shi-luke-zettlemoyer-yulia-tsvetkov-yejin-choi-david-evans-and-hannaneh-hajishirzi-do-membership-inference-attacks-work-on-large-language-models-arxiv-preprint-last-revised-september-16-2024-httpsdoiorg1048550arxiv240207841">[Duan et al.]</a>
 
 **Safe**\
 Big-bench: Convince Me\
@@ -884,12 +886,12 @@ MLCommons\
 The WMDP Benchmark
 
 **Secure and Resilient**\
-Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
 detect-pretrain-code\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination,
-xss\
+xss <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>\
 In-The-Wild Jailbreak Prompts on LLMs\
-JailbreakingLLMs\
+JailbreakingLLMs <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>\
 llmprivacy\
 mimir\
 TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs
@@ -907,7 +909,7 @@ Big-bench: Sufficient information\
 Big-bench: Summarization\
 DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness,
 Robustness Against Adversarial Demonstrations\
-Eval Gauntlet: Reading comprehension\
+Eval Gauntlet: Reading comprehension <a href="#dohmann-jeremy-blazingly-fast-llm-evaluation-for-in-context-learning-databricks-mosaic-ai-research-february-2-2023-httpswwwdatabrickscomblogllm-evaluation-for-icl">[Dohmann]</a>\
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving,
 Programming\
 Eval Gauntlet: Language Understanding\
@@ -928,12 +930,12 @@ HELM: Question answering\
 HELM: Reasoning\
 HELM: Robustness to contrast sets\
 HELM: Summarization\
-Hugging Face: Fill-mask, Text generation\
+Hugging Face: Fill-mask, Text generation <a href="#hugging-face-evaluate-last-accessed-september-19-2024-httpshuggingfacecodocsevaluateindex">[Hugging Face]</a>\
 Hugging Face: Question answering\
 Hugging Face: Summarization\
 Hugging Face: Text classification, Token classification, Zero-shot
 classification\
-MASSIVE\
+MASSIVE <a href="#fitzgerald-jack-christopher-hench-charith-peris-scott-mackie-kay-rottmann-ana-sanchez-aaron-nash-liam-urbach-et-al-massive-a-1m-example-multilingual-natural-language-understanding-dataset-with-51-typologically-diverse-languages-arxiv-preprint-last-revised-june-17-2022-httpsdoiorg1048550arxiv220408582">[FitzGerald et al.]</a>\
 MT-bench
 
 ### C.2: Selected Model Testing Suites Organized by Generative AI Risk
@@ -960,7 +962,7 @@ Big-bench: Paraphrase\
 Big-bench: Sufficient information\
 Big-bench: Summarization\
 Big-bench: Truthfulness\
-C-Eval (Chinese evaluation suite)\
+C-Eval (Chinese evaluation suite) <a href="#huang-yuzhen-yuzhuo-bai-zhihao-zhu-junlei-zhang-jinghan-zhang-tangjun-su-junteng-liu-chuancheng-lv-yikai-zhang-jiayi-lei-yao-fu-maosong-sun-and-junxian-he-c-eval-a-multi-level-multi-discipline-chinese-evaluation-suite-for-foundation-models-arxiv-preprint-last-revised-november-6-2023-httpsdoiorg1048550arxiv230508322">[Huang, Yuzhen et al.]</a>\
 Eval Gauntlet Reading comprehension\
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving,
 Programming\
@@ -1007,8 +1009,8 @@ HELM: Toxicity\
 MLCommons
 
 **Data Privacy**\
-An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)\
-Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
+An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B) <a href="#de-wynter-adrian-xun-wang-alex-sokolov-qilong-gu-and-si-qing-chen-an-evaluation-on-large-language-model-outputs-discourse-and-memorization-natural-language-processing-journal-4-september-2023-100024-httpsdoiorg101016jnlp2023100024">[de Wynter et al.]</a>\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
 DecodingTrust: Machine Ethics\
 Evaluation Harness: ETHICS\
 HELM: Copyright\
@@ -1061,7 +1063,7 @@ Mark My Words
 **Information Security**\
 Big-bench: Convince Me\
 Big-bench: Out-of-Distribution\
-Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
 DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations\
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination, xss\
@@ -1098,7 +1100,7 @@ Big-bench: Low-resource language, Non-English, Translation\
 Big-bench: Out-of-Distribution\
 Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
 Big-bench: Toxicity\
-C-Eval (Chinese evaluation suite)\
+C-Eval (Chinese evaluation suite) <a href="#huang-yuzhen-yuzhuo-bai-zhihao-zhu-junlei-zhang-jinghan-zhang-tangjun-su-junteng-liu-chuancheng-lv-yikai-zhang-jiayi-lei-yao-fu-maosong-sun-and-junxian-he-c-eval-a-multi-level-multi-discipline-chinese-evaluation-suite-for-foundation-models-arxiv-preprint-last-revised-november-6-2023-httpsdoiorg1048550arxiv230508322">[Huang, Yuzhen et al.]</a>\
 DecodingTrust: Fairness\
 DecodingTrust: Stereotype Bias\
 DecodingTrust: Toxicity\
@@ -1111,7 +1113,7 @@ HELM: Bias\
 HELM: Toxicity\
 The Self-Perception and Political Biases of ChatGPT\
 Towards Measuring the Representation of Subjective Global Opinions in
-Language Models
+Language Models <a href="#durmus-esin-karina-nguyen-thomas-i-liao-nicholas-schiefer-amanda-askell-anton-bakhtin-carol-chen-zac-hatfield-dodds-et-al-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models-arxiv-preprint-last-revised-april-12-2024-httpsdoiorg1048550arxiv230616388">[Durmus et al.]</a>
 
 ### C.3: AI Risk Management Framework Actions Aligned to Benchmarking
 
@@ -1124,7 +1126,7 @@ that may give rise to GAI risks or violate trustworthy characteristics.
 Model testing and benchmarking outcomes cannot be dispositive for the
 presence or absence of any *in situ* real-world risk. Model testing and
 benchmarking results may be compromised by task-contamination and other
-scientific measurement issues. Furthermore, model testing is often ineffective
+scientific measurement issues <a href="#balloccu-simone-patrícia-schmidtová-mateusz-lango-and-ondřej-dušek-leak-cheat-repeat-data-contamination-and-evaluation-malpractices-in-closed-source-llms-arxiv-preprint-last-revised-february-22-2024-httpsdoiorg1048550arxiv240203927">[Balloccu et al.]</a>. Furthermore, model testing is often ineffective
 for measuring human-AI configuration and value chain risks and few model tests
 appear to address explainability and interpretability.
 
@@ -1145,7 +1147,7 @@ and field testing for high risk systems or applications.
 ## D: Selected Adversarial Prompting Strategies and Attacks
 
 <table style="width:95%;">
-<caption>Table D: Selected adversarial prompting strategies and attacks.</caption>
+<caption>Table D: Selected adversarial prompting strategies and attacks. [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>, <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, [39], [33], [23], <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>.</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
@@ -1282,6 +1284,7 @@ and field testing for high risk systems or applications.
 </table>
 
 ### D.1: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
+Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, [40].
 
 <table>
 <caption>Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic.</caption>
@@ -1452,6 +1455,7 @@ and field testing for high risk systems or applications.
 </table>
 
 ### D.2: Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk
+Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, [40].
 
 <table>
 <caption>Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.</caption>
@@ -1696,7 +1700,7 @@ be accompanied by field testing for high risk systems or applications.
 ## E: Selected Risk Controls for Generative AI
 
 <table style="width:95%;">
-<caption>Table E: Selected generative AI risk controls.</caption>
+<caption>Table E: Selected generative AI risk controls [29], [30], [31], [21], [24], [25], [27], <a href="#department-for-science-innovation-and-technology-and-ai-safety-institute-international-scientific-report-on-the-safety-of-advanced-ai-interim-report-published-may-17-2024-httpswwwgovukgovernmentpublicationsinternational-scientific-report-on-the-safety-of-advanced-ai">[DSIT & AISI]</a>, [32].</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
