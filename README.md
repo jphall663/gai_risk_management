@@ -862,7 +862,7 @@ Big-bench: Toxicity\
 DecodingTrust: Fairness\
 DecodingTrust: Stereotype Bias\
 DecodingTrust: Toxicity\
-C-Eval (Chinese evaluation suite)\
+C-Eval (Chinese evaluation suite) <a href="#huang-yuzhen-yuzhuo-bai-zhihao-zhu-junlei-zhang-jinghan-zhang-tangjun-su-junteng-liu-chuancheng-lv-yikai-zhang-jiayi-lei-yao-fu-maosong-sun-and-junxian-he-c-eval-a-multi-level-multi-discipline-chinese-evaluation-suite-for-foundation-models-arxiv-preprint-last-revised-november-6-2023-httpsdoiorg1048550arxiv230508322">[Huang, Yuzhen et al.]</a>\
 Evaluation Harness: CrowS-Pairs\
 Evaluation Harness: ToxiGen\
 Finding New Biases in Language Models with a Holistic Descriptor Dataset\
@@ -962,7 +962,7 @@ Big-bench: Paraphrase\
 Big-bench: Sufficient information\
 Big-bench: Summarization\
 Big-bench: Truthfulness\
-C-Eval (Chinese evaluation suite)\
+C-Eval (Chinese evaluation suite) <a href="#huang-yuzhen-yuzhuo-bai-zhihao-zhu-junlei-zhang-jinghan-zhang-tangjun-su-junteng-liu-chuancheng-lv-yikai-zhang-jiayi-lei-yao-fu-maosong-sun-and-junxian-he-c-eval-a-multi-level-multi-discipline-chinese-evaluation-suite-for-foundation-models-arxiv-preprint-last-revised-november-6-2023-httpsdoiorg1048550arxiv230508322">[Huang, Yuzhen et al.]</a>\
 Eval Gauntlet Reading comprehension\
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving,
 Programming\
@@ -1100,7 +1100,7 @@ Big-bench: Low-resource language, Non-English, Translation\
 Big-bench: Out-of-Distribution\
 Big-bench: Social bias, Racial bias, Gender bias, Religious bias\
 Big-bench: Toxicity\
-C-Eval (Chinese evaluation suite)\
+C-Eval (Chinese evaluation suite) <a href="#huang-yuzhen-yuzhuo-bai-zhihao-zhu-junlei-zhang-jinghan-zhang-tangjun-su-junteng-liu-chuancheng-lv-yikai-zhang-jiayi-lei-yao-fu-maosong-sun-and-junxian-he-c-eval-a-multi-level-multi-discipline-chinese-evaluation-suite-for-foundation-models-arxiv-preprint-last-revised-november-6-2023-httpsdoiorg1048550arxiv230508322">[Huang, Yuzhen et al.]</a>\
 DecodingTrust: Fairness\
 DecodingTrust: Stereotype Bias\
 DecodingTrust: Toxicity\
