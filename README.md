@@ -2029,13 +2029,25 @@ be accompanied by field testing for high risk systems or applications.
   			<li>Instructions</li> 	
   			<li>Inventory</li> 	
   			<li>Ownership</li> 	
-  			<li>Prohibited Use Policy</li> 
+  			<li>Prohibited Use Policy</li>
   			<li>Restrict Decision Making </li>					
   			<li>System Documentation</li> 	
   			<li>Terms of Service</li>
       </ul>
     </td>
     <td>
+      <ul>
+      <li> Access Control </li>
+      <li> Approved List </li> 	
+      <li> Authentication </li> 	
+      <li> Change Management </li> 	
+      <li> Dependency Screening </li> 	
+      <li> Failure Avoidance </li> 	
+      <li> Inventory </li> 	
+      <li> Ownership </li>  	
+      <li> Malware Screening </li>
+      <li> Restrict Anonymous Use </li> 	
+      </ul>
     </td>
   </tr>
 </table>
@@ -2052,10 +2064,93 @@ be accompanied by field testing for high risk systems or applications.
     <th>Secure and Resilient</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+    <td>
+    </td>
+    <td>
+      <ul>
+      <li> HELM: Copyright </li>
+      <li> llmprivacy </li>
+      <li> mimir
+      </ul>
+    </td>
+    <td>
+      <ul>
+      <li> Big-bench: Convince Me </li>
+      <li> Big-bench: Truthfulness </li>
+      <li> HELM: Reiteration, Wedging </li>
+      <li> Mark My Words </li>
+      <li> MLCommons </li>
+      <li> The WMDP Benchmark </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+      <li> Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation </li>
+      <li> DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations </li>
+      <li> detect-pretrain-code </li>
+      <li> In-The-Wild Jailbreak Prompts on LLMs </li>
+      <li> JailbreakingLLMs </li>
+      <li> llmprivacy </li>
+      <li> mimir </li>
+      <li> TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs </li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+      <li> Instructions</li> 	
+      <li> Inventory</li>
+      <li> System Documentation</li> 	
+      </ul>
+    </td>
+    <td>
+      <ul>
+      <li> Content Moderation</li> 	
+      <li> Contract Review</li> 	
+      <li> Failure Avoidance</li> 	
+      <li> Inventory</li> 	
+      <li> Ownership</li> 	
+      <li> Prohibited Use Policy</li>
+      <li> Restrict Anonymous Use</li> 					
+      <li> System Documentation</li> 	
+      <li> Terms of Service</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+      <li> Content Moderation</li> 	
+      <li> Disclosure of AI Interaction</li> 	
+      <li> Failure Avoidance</li> 	
+      <li> Instructions</li> 	
+      <li> Inventory</li> 	
+      <li> Ownership</li> 	
+      <li> Prohibited Use Policy</li> 	
+      <li> Restrict Anonymous Use</li> 	
+      <li> Restrict Anthropomorphization </li> 				
+      <li> Restrict Decision Making</li> 				
+      <li> System Documentation</li> 	
+      <li> System Prompt</li> 	
+      <li> Temperature</li> 	
+      <li> Terms of Service </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+      <li> Access Control</li> 	
+      <li> Approved List</li> 	
+      <li> Authentication</li> 	
+      <li> Change Management</li> 	
+      <li> Dependency Screening</li> 	
+      <li> Failure Avoidance</li> 	
+      <li> Inventory</li> 	
+      <li> Ownership</li>  	
+      <li> Malware Screening</li>
+      <li> Restrict Anonymous Use</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -2068,10 +2163,62 @@ be accompanied by field testing for high risk systems or applications.
     <th style="text-align:center">Valid and Reliable</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td>
+    <th>Measure</th>
+    <td>
+      <ul>
+      <li> Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof, Black-Box Fallacy, Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning, Multi-step, Understanding the World </li>
+      <li> Big-bench: Analytic entailment, Formal fallacies and syllogisms with negation, Entailed polarity </li>
+      <li> Big-bench: Context Free Question Answering </li>
+      <li> Big-bench: Contextual question answering, Reading comprehension, Question generation </li>
+      <li> Big-bench: Morphology, Grammar, Syntax </li>
+      <li> Big-bench: Out-of-Distribution </li>
+      <li> Big-bench: Paraphrase </li>
+      <li> Big-bench: Sufficient information </li>
+      <li> Big-bench: Summarization </li>
+      <li> DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations </li>
+      <li> Eval Gauntlet: Reading comprehension </li>
+      <li> Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming </li>
+      <li> Eval Gauntlet: Language Understanding </li>
+      <li> Eval Gauntlet: World Knowledge </li>
+      <li> Evaluation Harness: BLiMP </li>
+      <li> Evaluation Harness: CoQA, ARC </li>
+      <li> Evaluation Harness: GLUE </li>
+      <li> Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA </li>
+      <li> Evaluation Harness: MuTual </li>
+      <li> Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP </li>
+      <li> FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension, Completeness  </li>
+      <li> FLASK: Readability, Conciseness, Insightfulness </li>
+      <li> HELM: Knowledge </li>
+      <li> HELM: Language </li>
+      <li> HELM: Text classification </li>
+      <li> HELM: Question answering </li>
+      <li> HELM: Reasoning </li>
+      <li> HELM: Robustness to contrast sets </li>
+      <li> HELM: Summarization </li>
+      <li> Hugging Face: Fill-mask, Text generation  </li>
+      <li> Hugging Face: Question answering </li>
+      <li> Hugging Face: Summarization </li>
+      <li> Hugging Face: Text classification, Token classification, Zero-shot classification </li>
+      <li> MASSIVE  </li>
+      <li> MT-bench </li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+      <li> Content Moderation </li>
+      <li> Disclosure of AI Interaction </li>
+      <li> Failure Avoidance </li>
+      <li> Instructions</li> 	
+      <li> Restrict Anthropomorphization </li>		
+      <li> Restrict Decision Making </li> 					 
+      <li> System Documentation</li> 			
+      <li> System Prompt </li>
+      <li> Temperature </li> 	
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -2087,10 +2234,89 @@ be accompanied by field testing for high risk systems or applications.
     <th>Confabulation</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td>
+    <th>Measure</th>
+    <td>
+      <ul>
+        <li>Big-bench: Convince Me </li>
+  			<li>Big-bench: Truthfulness </li>
+  			<li>HELM: Reiteration, Wedging </li>
+  			<li>MLCommons </li>
+  			<li>The WMDP Benchmark </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof, Black-Box Fallacy, Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning,  Multi-step, Understanding the World </li>
+  			<li>Big-bench: Analytic entailment, Formal fallacies and syllogisms with negation, Entailed polarity </li>
+  			<li>Big-bench: Context Free Question Answering </li>
+  			<li>Big-bench: Contextual question answering, Reading comprehension, Question generation </li>
+  			<li>Big-bench: Convince Me </li>
+  			<li>Big-bench: Low-resource language, Non-English, Translation </li>
+  			<li>Big-bench: Morphology, Grammar, Syntax </li>
+  			<li>Big-bench: Out-of-Distribution </li>
+  			<li>Big-bench: Paraphrase </li>
+  			<li>Big-bench: Sufficient information </li>
+  			<li>Big-bench: Summarization </li>
+  			<li>Big-bench: Truthfulness </li>
+  			<li>C-Eval (Chinese evaluation suite) </li>
+  			<li>DecodingTrust: Out-of-Distribution Robustness, Robustness Against Adversarial Demonstrations </li>
+  			<li>Eval Gauntlet Reading comprehension </li>
+  			<li>Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming </li>
+  			<li>Eval Gauntlet: Language Understanding </li>
+  			<li>Eval Gauntlet: World Knowledge </li>
+  			<li>Evaluation Harness: BLiMP </li>
+  			<li>Evaluation Harness: CoQA, ARC </li>
+  			<li>Evaluation Harness: GLUE </li>
+  			<li>Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA </li>
+  			<li>Evaluation Harness: MuTual </li>
+  			<li>Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP </li>
+  			<li>FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension,  Completeness </li>
+  			<li>FLASK: Readability, Conciseness, Insightfulness </li>
+  			<li>Finding New Biases in Language Models with a Holistic Descriptor Dataset </li>
+  			<li>HELM: Knowledge </li>
+  			<li>HELM: Language </li>
+  			<li>HELM: Language (Twitter AAE) </li>
+  			<li>HELM: Question answering </li>
+  			<li>HELM: Reasoning </li>
+  			<li>HELM: Reiteration, Wedging </li>
+  			<li>HELM: Robustness to contrast sets </li>
+  			<li>HELM: Summarization </li>
+  			<li>HELM: Text classification </li>
+  			<li>Hugging Face: Fill-mask, Text generation </li>
+  			<li>Hugging Face: Question answering </li>
+  			<li>Hugging Face: Summarization </li>
+  			<li>Hugging Face: Text classification, Token classification, Zero-shot classification </li>
+  			<li>MASSIVE </li>
+  			<li>MLCommons </li>
+  			<li>MT-bench  </li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+        <li>Access Control </li>
+  			<li>Failure Avoidance </li>
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy </li>
+  			<li>Terms of Service </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Content Moderation </li>
+  			<li>Disclosure of AI Interaction </li>
+  			<li>Failure Avoidance </li>
+  			<li>Instructions</li> 	
+  			<li>Restrict Anthropomorphization </li>			
+  			<li>Restrict Decision Making </li> 					 
+  			<li>System Documentation</li> 			
+  			<li>System Prompt </li>
+  			<li>Temperature </li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -2106,10 +2332,102 @@ be accompanied by field testing for high risk systems or applications.
     <th style="text-align:center">Human-AI Configuration</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+    <td>
+      <ul>
+        <li>Big-bench: Convince Me</li> 	
+  			<li>Big-bench: Toxicity</li> 	
+  			<li>DecodingTrust: Adversarial Robustness, Robustness Against Adversarial Demonstrations</li> 	
+  			<li>DecodingTrust: Machine Ethics</li> 	
+  			<li>DecodingTrust: Toxicity</li> 	
+  			<li>Evaluation Harness: ToxiGen</li> 	
+  			<li>HELM: Reiteration, Wedging</li> 	
+  			<li>HELM: Toxicity</li> 	
+  			<li>MLCommons	</li> 	
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)</li> 	
+  			\makecell[l]{<li>Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation}</li> 	
+  			<li>DecodingTrust: Machine Ethics</li> 	
+  			<li>Evaluation Harness: ETHICS</li> 	
+  			<li>HELM: Copyright</li> 	
+  			<li>In-The-Wild Jailbreak Prompts on LLMs</li> 	
+  			<li>JailbreakingLLMs</li> 	
+  			<li>MLCommons</li> 	
+  			<li>Mark My Words</li> 	
+  			\makecell[l]{<li>TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs}</li> 	
+  			<li>detect-pretrain-code</li> 	
+  			<li>llmprivacy</li> 	
+  			<li>mimir 	</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+			   <li>HELM: Efficiency	</li>
+      </ul>
+    </td>
+    <td> </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+        <li>Content Moderation</li>
+  			<li>Disclosure of AI Interaction </li>				
+  			<li>Failure Avoidance</li>
+  			<li>Instructions </li>
+  			<li>Inventory </li>
+  			<li>Ownership </li>		 		
+  			<li>Prohibited Use Policy</li>
+  			<li>Restrict Anonymous Use</li>
+  			<li>Restrict Anthropomorphization </li>
+  			<li>Restrict Decision making </li>
+  			<li>System Documentation </li>
+  			<li>System Prompt </li>
+  			<li>Temperature	</li>
+  			<li>Terms of Service</li> 	
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Content Moderation</li> 	
+  			<li>Contract Review</li> 	
+  			<li>Failure Avoidance</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy</li> 	
+  			<li>Restrict Anonymous Use</li> 				
+  			<li>System Documentation</li> 	
+  			<li>Terms of Service</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Access Control</li> 	
+  			<li>Failure Avoidance</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li>
+  			<li>Restrict Anonymous Use</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Content Moderation</li> 	
+  			<li>Disclosure of AI Interaction</li> 	
+  			<li>Failure Avoidance</li> 	
+  			<li>Instructions</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy</li> 	
+  			<li>Restrict Anonymous Use</li> 	
+  			<li>Restrict Anthropomorphization</li> 	
+  			<li>Restrict Decision Making</li> 			
+  			<li>Terms of Service</li> 	
+  			<li>Training</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -2124,10 +2442,112 @@ be accompanied by field testing for high risk systems or applications.
     <th style="text-align:center">Intellectual Property</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+    <td>
+      <ul>
+        <li>Big-bench: Analytic entailment, Formal fallacies and syllogisms with negation, Entailed polarity</li> 	
+  			<li>Big-bench: Convince Me</li> 	
+  			<li>Big-bench: Paraphrase</li> 	
+  			<li>Big-bench: Sufficient information</li> 	
+  			<li>Big-bench: Summarization</li> 	
+  			<li>Big-bench: Truthfulness</li> 	
+  			<li>DecodingTrust: Machine Ethics</li> 	
+  			<li>DecodingTrust: Out-of-Distribution Robustness, Robustness Against Adversarial Demonstrations, Adversarial Robustness </li> 	
+  			<li>Eval Gauntlet: Language Understanding</li> 	
+  			<li>Eval Gauntlet: World Knowledge</li> 	
+  			<li>Evaluation Harness: CoQA, ARC</li> 	
+  			<li>Evaluation Harness: ETHICS</li> 	
+  			<li>Evaluation Harness: GLUE</li> 	
+  			<li>Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA</li> 	
+  			<li>Evaluation Harness: MuTual</li> 	
+  			\makecell[l]{<li>Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP}</li> 	
+  			<li>FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension, Completeness</li> 	
+  			<li>FLASK: Readability, Conciseness, Insightfulness</li> 	
+  			<li>HELM: Knowledge</li> 	
+  			<li>HELM: Language</li> 	
+  			<li>HELM: Question answering</li> 	
+  			<li>HELM: Reasoning</li> 	
+  			<li>HELM: Reiteration, Wedging</li> 	
+  			<li>HELM: Robustness to contrast sets</li> 	
+  			<li>HELM: Summarization</li> 	
+  			<li>HELM: Text classification</li> 	
+  			<li>Hugging Face: Fill-mask, Text generation</li> 	
+  			<li>Hugging Face: Question answering</li> 	
+  			<li>Hugging Face: Summarization</li> 	
+  			<li>MLCommons</li> 	
+  			<li>MT-bench</li> 	
+  			<li>Mark My Words	</li> 	
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Big-bench: Convince Me</li> 	
+  			<li>Big-bench: Out-of-Distribution</li> 	
+  			<li>Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation</li> 	
+  			<li>DecodingTrust: Out-of-Distribution  Robustness, Robustness Against Adversarial Demonstrations,  Adversarial Robustness, </li> 	
+  			<li>Eval Gauntlet: Commonsense  reasoning, Symbolic problem solving, Programming</li> 	
+  			<li>HELM: Copyright</li> 	
+  			<li>In-The-Wild Jailbreak Prompts on LLMs</li> 	
+  			<li>JailbreakingLLMs</li> 	
+  			<li>Mark My Words</li> 	
+  			<li>TAP: A Query-Efficient Method for  Jailbreaking Black-Box LLMs</li> 	
+  			<li>detect-pretrain-code</li> 	
+  			<li>llmprivacy</li> 	
+  			<li>mimir</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)</li> 	
+  			<li>HELM: Copyright</li> 	
+  			<li>Mark My Words</li> 	
+  			<li>llmprivacy</li> 	
+  			<li>mimir	</li> 	
+      </ul>
+    </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+        <li>Content Moderation</li> 	
+  			<li>Disclosure of AI Interaction</li> 	
+  			<li>Failure Avoidance</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy</li> 	
+  			<li>Restrict Anonymous Use</li> 	
+  			<li>Restrict Anthropomorphization</li>				
+  			<li>System Prompt</li> 	
+  			<li>Temperature</li> 	
+  			<li>Terms of Service</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Access Control</li> 	
+  			<li>Approved List</li> 	
+  			<li>Authentication</li> 	
+  			<li>Change Management</li> 	
+  			<li>Dependency Screening</li> 	
+  			<li>Failure Avoidance</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Malware Screening</li>
+  			<li>Restrict Anonymous Use</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Contract Review</li> 	
+  			<li>Disclosure of AI Interaction</li> 	
+  			<li>Instructions</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy</li> 	
+  			<li>Terms of Service</li> 	
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -2142,10 +2562,88 @@ be accompanied by field testing for high risk systems or applications.
     <th style="text-align:center">Value Chain and Component Integration</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+    <td>
+      <ul>
+        <li>Big-bench: Social bias, Racial bias, Gender bias, Religious bias</li> 	
+  			<li>Big-bench: Toxicity</li> 	
+  			<li>DecodingTrust: Fairness</li> 	
+  			<li>DecodingTrust: Stereotype Bias</li> 	
+  			<li>DecodingTrust: Toxicity</li> 	
+  			<li>Evaluation Harness: CrowS-Pairs</li> 	
+  			<li>Evaluation Harness: ToxiGen</li> 	
+  			<li>HELM: Bias</li> 	
+  			<li>HELM: Toxicity</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>BELEBELE</li> 	
+  			<li>Big-bench: Low-resource language,  Non-English, Translation</li> 	
+  			<li>Big-bench: Out-of-Distribution</li> 	
+  			<li>Big-bench: Social bias, Racial bias, Gender bias, Religious bias</li> 	
+  			<li>Big-bench: Toxicity</li> 	
+  			<li>C-Eval (Chinese evaluation suite)</li> 	
+  			<li>DecodingTrust: Fairness</li> 	
+  			<li>DecodingTrust: Stereotype Bias</li> 	
+  			<li>DecodingTrust: Toxicity</li> 	
+  			<li>Eval Gauntlet: World Knowledge</li> 	
+  			<li>Evaluation Harness: CrowS-Pairs</li> 	
+  			<li>Evaluation Harness: ToxiGen</li> 	
+  			<li>Finding New Biases in Language Models with a Holistic Descriptor Dataset</li> 	
+  			<li>From Pretraining Data to Language Models to Downstream Tasks:
+  			Tracking the Trails of Political Biases Leading to Unfair NLP Models</li> 	
+  			<li>HELM: Bias</li> 	
+  			<li>HELM: Toxicity</li> 	
+  			<li>The Self-Perception and Political Biases of ChatGPT</li> 	
+  			<li>Towards Measuring the Representation of Subjective Global Opinions in Language Models </li>
+      </ul>
+    </td>
+    <td> </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+        <li>Content Moderation</li> 		
+  			<li>Failure Avoidance</li> 	
+  			<li>Instructions</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li>
+  			<li>Prohibited Use Policy</li> 	
+  			<li>Restrict Anonymous Use</li> 			
+  			<li>System Prompt</li> 	
+  			<li>Temperature</li> 	
+  			<li>Terms of Service</li> 	
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Content Moderation</li>		
+  			<li>Failure Avoidance</li> 	
+  			<li>Instructions</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li>
+  			<li>Prohibited Use Policy</li> 	
+  			<li>Restrict Anonymous Use</li>
+  			<li>Restrict Decision Making</li>  						
+  			<li>System Prompt</li> 	
+  			<li>Temperature</li> 	
+  			<li>Terms of Service</li> 	
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Contract Review</li> 	
+  			<li>Disclosure of AI Interaction</li> 	
+  			<li>Failure Avoidance</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy</li> 	
+  			<li>System Documentation</li> 	
+  			<li>Terms of Service	</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
