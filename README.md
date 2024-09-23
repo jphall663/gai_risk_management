@@ -850,7 +850,7 @@ Adapted from <a href="#ai-verify-foundation-and-infocomm-media-development-autho
 **Accountable and Transparent**\
 Big-bench: Truthfulness\
 DecodingTrust: Machine Ethics\
-Evaluation Harness: ETHICS\
+Evaluation Harness: ETHICS <a href="#gao-leo-jonathan-tow-baber-abbasi-stella-biderman-sid-black-anthony-dipofi-charles-foster-laurence-golding-jeffrey-hsu-alain-le-noach-haonan-li-kyle-mcdonell-niklas-muennighoff-chris-ociepa-jason-phang-laria-reynolds-hailey-schoelkopf-aviya-skowron-lintang-sutawika-eric-tang-anish-thite-ben-wang-kevin-wang-and-andy-zou-a-framework-for-few-shot-language-model-evaluation-github-repository-accessed-september-19-2024-httpsgithubcomeleutherailm-evaluation-harness">[Gao et al.]</a>\
 HELM: Copyright <a href="#bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models-annals-of-the-new-york-academy-of-sciences-1525-no-1-july-2023-140146-httpsdoiorg101111nyas15007">[Bommasani et al.]</a>\
 Mark My Words
 
