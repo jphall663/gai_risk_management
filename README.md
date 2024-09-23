@@ -2347,7 +2347,7 @@ be accompanied by field testing for high risk systems or applications.
     <td>
       <ul>
         <li>An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B)</li> 	
-  			\makecell[l]{<li>Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation}</li> 	
+  			<li>Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation}</li> 	
   			<li>DecodingTrust: Machine Ethics</li> 	
   			<li>Evaluation Harness: ETHICS</li> 	
   			<li>HELM: Copyright</li> 	
@@ -2355,7 +2355,7 @@ be accompanied by field testing for high risk systems or applications.
   			<li>JailbreakingLLMs</li> 	
   			<li>MLCommons</li> 	
   			<li>Mark My Words</li> 	
-  			\makecell[l]{<li>TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs}</li> 	
+  			<li>TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs</li> 	
   			<li>detect-pretrain-code</li> 	
   			<li>llmprivacy</li> 	
   			<li>mimir 	</li>
@@ -2458,7 +2458,7 @@ be accompanied by field testing for high risk systems or applications.
   			<li>Evaluation Harness: GLUE</li> 	
   			<li>Evaluation Harness: HellaSwag, OpenBookQA, TruthfulQA</li> 	
   			<li>Evaluation Harness: MuTual</li> 	
-  			\makecell[l]{<li>Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP}</li> 	
+  			<li>Evaluation Harness: PIQA, PROST, MC-TACO, MathQA, LogiQA, DROP</li> 	
   			<li>FLASK: Logical correctness, Logical robustness, Logical efficiency, Comprehension, Completeness</li> 	
   			<li>FLASK: Readability, Conciseness, Insightfulness</li> 	
   			<li>HELM: Knowledge</li> 	
