@@ -39,7 +39,7 @@ Copyright `ph_` 2024, CC BY 4.0
 * **Section G**: [Example Medium-risk Generative AI Measurement and Management Plan](#g-example-medium-risk-generative-ai-measurement-and-management-plan)
   * **G.1**: [Example Medium-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic](#g1-example-medium-risk-generative-ai-measurement-and-management-plan-organized-by-trustworthy-characteristic)
   * **G.2**: [Example Medium-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk](#g2-example-medium-risk-generative-ai-measurement-and-management-plan-organized-by-generative-ai-risk)
- 
+
 * **Section H**: [Example High-risk Generative AI Measurement and Management Plan](#h-example-high-risk-generative-ai-measurement-and-management-plan)
   * **H.1**: [Example High-risk Generative AI Measurement and Management Plan Organized by Trustworthy Characteristic](#h1-example-high-risk-generative-ai-measurement-and-management-plan-organized-by-trustworthy-characteristic)
   * **H.2**: [Example High-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk](#h2-example-high-risk-generative-ai-measurement-and-management-plan-organized-by-generative-ai-risk)
@@ -1983,10 +1983,56 @@ be accompanied by field testing for high risk systems or applications.
     <th>Fair with Harmful Bias Managed</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td>
+    <th>Measure</th>
+    <td>
+      <ul>
+        <li>An Evaluation on Large Language Model Outputs: Discourse and Memorization (see Appendix B)</li>
+        <li>Big-bench: Truthfulness</li>
+        <li>DecodingTrust: Machine Ethics</li>
+        <li>Evaluation Harness: ETHICS</li>
+        <li>HELM: Copyright</li>
+        <li>Mark My Words</li>
+      </ul>    
+    </td>
+    <td>
+      <ul>
+        <li>BELEBELE</li>
+        <li>Big-bench: Low-resource language, Non-English, Translation</li>
+        <li>Big-bench: Social bias, Racial bias, Gender bias, Religious bias</li>
+        <li>Big-bench: Toxicity</li>
+        <li>DecodingTrust: Fairness</li>
+        <li>DecodingTrust: Stereotype Bias</li>
+        <li>DecodingTrust: Toxicity</li>
+        <li>C-Eval (Chinese evaluation suite)</li>
+        <li>Evaluation Harness: CrowS-Pairs</li>
+        <li>Evaluation Harness: ToxiGen</li>
+        <li>Finding New Biases in Language Models with a Holistic Descriptor Dataset</li>
+        <li>From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models</li>
+        <li>HELM: Bias</li>
+        <li>HELM: Toxicity</li>
+        <li>MT-bench</li>
+        <li>The Self-Perception and Political Biases of ChatGPT</li>
+        <li>Towards Measuring the Representation of Subjective Global Opinions in Language Models</li>
+      </ul>    
+    </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td>
+    <th>Manage</th>
+    <td>
+      <ul>
+        <li>Contract Review</li> 	
+  			<li>Disclosure of AI Interaction</li> 		
+  			<li>Instructions</li> 	
+  			<li>Inventory</li> 	
+  			<li>Ownership</li> 	
+  			<li>Prohibited Use Policy</li> 
+  			<li>Restrict Decision Making </li>					
+  			<li>System Documentation</li> 	
+  			<li>Terms of Service</li>
+      </ul>
+    </td>
+    <td>
+    </td>
   </tr>
 </table>
 
@@ -2386,10 +2432,10 @@ risk plan focuses on field testing and applies extensive risk controls. Measurem
 be applied to high risk systems or applications.
 
 - Material in Table H.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics.
- 
+
 - Material in Table H.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
 
-## References 
+## References
 
 ##### AI Verify Foundation and Infocomm Media Development Authority. *Cataloguing LLM Evaluations.* Draft for Discussion, October 2023. [https://aiverifyfoundation.sg/downloads/Cataloguing_LLM_Evaluations.pdf](https://aiverifyfoundation.sg/downloads/Cataloguing_LLM_Evaluations.pdf).
 
@@ -2488,4 +2534,3 @@ be applied to high risk systems or applications.
 ##### Ye, Seonghyeon, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae Jo, James Thorne, Juho Kim, and Minjoon Seo. "FLASK: Fine-Grained Language Model Evaluation Based on Alignment Skill Sets." *arXiv* preprint, last revised April 14, 2024. [https://doi.org/10.48550/arXiv.2307.10928](https://doi.org/10.48550/arXiv.2307.10928).
 
 ##### Zheng, Lianmin, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, and Eric P. Xing. "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena." In *Proceedings of the 37th International Conference on Neural Information Processing Systems (NIPS '23)*, Article No. 2020, 46595–46623. Published May 30, 2024. [https://dl.acm.org/doi/10.5555/3666122.3668142](https://dl.acm.org/doi/10.5555/3666122.3668142).
-
