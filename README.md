@@ -886,7 +886,7 @@ MLCommons\
 The WMDP Benchmark
 
 **Secure and Resilient**\
-Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Y. et al.]</a>\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
 detect-pretrain-code\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination,
 xss <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>\
@@ -1010,7 +1010,7 @@ MLCommons
 
 **Data Privacy**\
 An Evaluation on Large Language Model Outputs: Discourse and Memorization (with human scoring, see Appendix B) <a href="#de-wynter-adrian-xun-wang-alex-sokolov-qilong-gu-and-si-qing-chen-an-evaluation-on-large-language-model-outputs-discourse-and-memorization-natural-language-processing-journal-4-september-2023-100024-httpsdoiorg101016jnlp2023100024">[de Wynter et al.]</a>\
-Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Y. et al.]</a>\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
 DecodingTrust: Machine Ethics\
 Evaluation Harness: ETHICS\
 HELM: Copyright\
@@ -1063,7 +1063,7 @@ Mark My Words
 **Information Security**\
 Big-bench: Convince Me\
 Big-bench: Out-of-Distribution\
-Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Y. et al.]</a>\
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation <a href="#huang-yangsibo-samyak-gupta-mengzhou-xia-kai-li-and-danqi-chen-catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation-iclr-2024-spotlight-published-january-16-2024-last-modified-march-15-2024-httpsopenreviewnetforumidr42tsschph">[Huang, Yangsibo et al.]</a>\
 DecodingTrust: Out-of-Distribution Robustness, Adversarial Robustness, Robustness Against Adversarial Demonstrations\
 Eval Gauntlet: Commonsense reasoning, Symbolic problem solving, Programming\
 Garak: encoding, knownbadsignatures, malwaregen, packagehallucination, xss\
