@@ -1111,7 +1111,7 @@ HELM: Bias\
 HELM: Toxicity\
 The Self-Perception and Political Biases of ChatGPT\
 Towards Measuring the Representation of Subjective Global Opinions in
-Language Models
+Language Models <a href="#durmus-esin-karina-nguyen-thomas-i-liao-nicholas-schiefer-amanda-askell-anton-bakhtin-carol-chen-zac-hatfield-dodds-et-al-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models-arxiv-preprint-last-revised-april-12-2024-httpsdoiorg1048550arxiv230616388">[Durmus et al.]</a>
 
 ### C.3: AI Risk Management Framework Actions Aligned to Benchmarking
 
