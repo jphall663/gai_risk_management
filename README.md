@@ -1147,7 +1147,7 @@ and field testing for high risk systems or applications.
 ## D: Selected Adversarial Prompting Strategies and Attacks
 
 <table style="width:95%;">
-<caption>Table D: Selected adversarial prompting strategies and attacks. [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, [18], <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>, <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, [39], [33], [23], <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>.</caption>
+<caption>Table D: Selected adversarial prompting strategies and attacks. [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#chao-patrick-alexander-robey-edgar-dobriban-hamed-hassani-george-j-pappas-and-eric-wong-jailbreaking-black-box-large-language-models-in-twenty-queries-arxiv-preprint-last-revised-july-18-2024-httpsdoiorg1048550arxiv231008419">[Chao et al.]</a>, <a href="#barreno-marco-blaine-nelson-anthony-d-joseph-and-jd-tygar-the-security-of-machine-learning-machine-learning-81-no-2-2010-121148-httpsdoiorg101007s10994-010-5188-5">[Barreno et al.]</a>, [39], [33], [23], <a href="#derczynski-leon-erick-galinkin-jeffrey-martin-subho-majumdar-and-nanna-inie-garak-a-framework-for-security-probing-large-language-models-arxiv-preprint-submitted-june-16-2024-httpsdoiorg1048550arxiv240611036">[Derczynski et al.]</a>.</caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 70%" />
@@ -1284,7 +1284,7 @@ and field testing for high risk systems or applications.
 </table>
 
 ### D.1: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
-Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, [18], [40].
+Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, [40].
 
 <table>
 <caption>Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic.</caption>
@@ -1455,7 +1455,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 </table>
 
 ### D.2: Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk
-Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, [18], [40].
+Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk [36], [44], <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, [40].
 
 <table>
 <caption>Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk.</caption>
