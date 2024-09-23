@@ -845,6 +845,7 @@ applications as follows:
 ## C: List of Selected Model Testing Suites
 
 ### C.1: Selected Model Testing Suites Organized by Trustworthy Characteristic
+Adapted from <a href="#ai-verify-foundation-and-infocomm-media-development-authority-cataloguing-llm-evaluations-draft-for-discussion-october-2023-httpsaiverifyfoundationsgdownloadscataloguing_llm_evaluationspdf">[AI Verify Foundation]</a> Taxonimization and various additional resources.
 
 **Accountable and Transparent**\
 Big-bench: Truthfulness\
