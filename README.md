@@ -3556,7 +3556,7 @@ Appendix H below presents an example plan for high risk systems.
   </tr>
 </table>
 
-### H.2: Example Medium-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk
+### H.2: Example High-risk Generative AI Measurement and Management Plan Organized by Generative AI Risk
 
 <table>
   <caption>Table H.2: Example risk measurement and management approaches suitable for high-risk GAI applications organized by GAI risk.</caption>
