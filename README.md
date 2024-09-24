@@ -2671,10 +2671,71 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th>Fair with Harmful Bias Managed</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Context exhaustion: logic-overloading prompts </li>
+			<li> Loaded/leading questions </li>
+			<li> Multi-tasking prompts </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Backwards relationships</li>   	
+			<li> Counterfactual prompts</li>   	
+			<li> Pros and cons prompts</li>   	
+			<li> Role-playing prompts</li>   	
+			<li> Loaded/leading questions</li>   	
+			<li> Low context prompts</li>   	
+			<li> Repeat this </li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> Decommission Process</li>  	
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>  	
+			<li> Fine Tuning</li>  	
+			<li> Grounding</li>  	
+			<li> Human Review </li>  	
+			<li> Incident Response</li>  	
+			<li> Incorporate feedback </li>  	
+			<li> Model Documentation </li>  	
+			<li> Monitoring</li>
+			<li> Narrow Scope</li>
+		 	<li> Open Source</li>  		
+			<li> RAG</li>  	
+			<li> Refresh</li>  	
+			<li> RLHF</li>  	
+			<li> Restrict Data Collection</li>  				
+			<li> Restrict Secondary Use</li>  		
+			<li> User Feedback</li>  	
+			<li> Validation</li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Accessibility </li>  	
+			<li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> External Audit</li>  	
+			<li> Fine Tuning</li>  	
+			<li> Grounding</li>  	
+			<li> Human Review </li>  	
+			<li> Incident Response</li>  	
+			<li> Incorporate feedback </li>  	
+		 	<li> Narrow Scope</li>   
+			<li> Restrict Homogeneity</li>  			 	
+			<li> Team Diversity</li>  	
+			<li> User Feedback</li>  	
+			<li> Validation</li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2690,10 +2751,99 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th>Secure and Resilient</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+      <ul>
+			<li> Context exhaustion: logic-overloading prompts (to reveal unexplainable decisioning processes) </li>
+      </ul>
+    </td>
+		<td>
+			<ul>
+      <li> Auto/biographical prompts</li>   	
+			<li> Location awareness prompts</li>   	
+			<li> Autocompletion prompts</li>   	
+			<li> Repeat this 	</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Pros and cons prompts </li>
+			<li> Role-playing prompts </li>
+			<li> Content exhaustion: niche-seeking prompts </li>
+			<li> Ingratiation/reverse psychology prompts </li>
+			<li> Loaded/leading questions </li>
+			<li> Location awareness prompts </li>
+			<li> Repeat this </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Multi-tasking prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Role-playing prompts </li>
+			<li> Content exhaustion: niche-seeking prompts </li>
+			<li> Ingratiation/reverse psychology prompts </li>
+			<li> Prompt injection attacks </li>
+			<li> Membership inference attacks </li>
+			<li> Random attacks </li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Data Provenance</li>
+	 		<li> External Audit</li>  		
+			<li> Human Review </li>
+			<li> Model Documentation </li>  	
+			<li> Monitoring</li>
+			<li> Open Source</li>  	
+			<li> User Feedback</li>
+			<li> XAI </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Consent</li>  	
+			<li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> Data Retention</li>  	
+			<li> External Audit</li>  	
+			<li> Restrict Data Collection</li>  				
+			<li> Restrict Location Tracking</li>  		 
+			<li> Restrict Secondary Use</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Blocklist </li> 			 
+			<li> Data Retention</li>  	
+			<li> Decommission Process</li>  	
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Human Review </li>  	
+			<li> Incident Response</li>  	
+			<li> Monitoring</li>  	
+			<li> Narrow Scope</li>
+			<li> Rate-limiting </li>
+			<li> Restrict Location Tracking</li>   		
+			<li> Session Limits</li>
+			<li> User Feedback</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Blocklist </li>  	
+			<li> Decommission Process</li>  	
+			<li> External Audit</li>
+			<li> Incident Response</li>   
+			<li> Monitoring</li>  	
+			<li> Open Source</li>
+			<li> Rate-limiting </li>
+			<li> Session Limits</li>
+      </ul>
+		</td>
   </tr>
 </table>
 
@@ -2706,10 +2856,44 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th style="text-align:center">Valid and Reliable</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Backwards relationships </li>
+			<li> Multi-tasking prompts </li>
+			<li> Role-playing prompts </li>
+			<li> Ingratiation/reverse psychology prompts </li>
+			<li> Loaded/leading questions </li>
+			<li> Time-perplexity prompts </li>
+			<li> Niche-seeking prompts </li>
+			<li> Logic overloading prompts </li>
+			<li> Repeat this </li>
+			<li> Numeric calculation </li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Data Quality</li>
+			<li> Fine Tuning</li>  	
+			<li> Grounding</li>  	
+			<li> Human Review </li>  	
+			<li> Incorporate feedback </li>
+			<li> Model Documentation </li>  	
+			<li> Monitoring</li>  	
+			<li> Narrow Scope</li>  	
+			<li> Open Source</li>  	
+			<li> RAG</li>  	
+			<li> Refresh</li>
+			<li> Restrict Homogeneity</li>  					
+			<li> RLHF</li>
+			<li> Team Diversity</li>  	
+			<li> User Feedback</li>  	
+			<li> Validation</li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2725,10 +2909,65 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th>Confabulation</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Auto-completion prompts  </li>
+			<li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>
+			<li> Repeat this </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Backwards relationship prompts </li>
+			<li> Context exhaustion: Logic overloading prompts </li>
+			<li> Context exhaustion: Multi-tasking prompts </li>
+			<li> Context exhaustion: Niche-seeking prompts </li>
+			<li> Time perplexity prompts </li>
+			<li> Loaded/leading questions </li>
+			<li> Calculation and numeric queries </li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Blocklist </li>
+			<li> Data Provenance</li>
+			<li> Data Quality</li>   	 
+			<li> Decommission Process</li>
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Incident Response</li>
+			<li> Monitoring</li>  	
+			<li> Rate-limiting </li>  	
+			<li> Session Limits</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Data Quality</li>
+			<li> Fine Tuning</li>  	
+			<li> Grounding</li>  	
+			<li> Human Review </li>  	
+			<li> Incorporate feedback </li>
+			<li> Model Documentation </li>  	
+			<li> Monitoring</li>  	
+			<li> Narrow Scope</li>  	
+			<li> Open Source</li>  	
+			<li> RAG</li>  	
+			<li> Refresh</li>
+			<li> Restrict Homogeneity</li>  				
+			<li> RLHF</li>
+			<li> Team Diversity</li>  	
+			<li> User Feedback</li>  	
+			<li> Validation</li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2744,10 +2983,101 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th style="text-align:center">Human-AI Configuration</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>
+			<li> Repeat this </li>
+			<li> Loaded/leading questions </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Location awareness </li>
+			<li> Membership inference attacks </li>
+			<li> Auto/biographical prompts </li>
+			<li> Repeat this </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Availability attacks </li>
+			<li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>
+			</ul>
+		</td>
+		<td>
+      <ul>
+      <li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>        
+      </ul>
+    </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Blocklist </li> 			 
+			<li> Data Retention</li>  	
+			<li> Decommission Process</li>  	
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Human Review </li>  	
+			<li> Incident Response</li>  	
+			<li> Monitoring</li>  	
+			<li> Narrow Scope</li>
+			<li> Rate-limiting </li>
+			<li> Restrict Location Tracking</li>  					
+			<li> Session Limits</li>
+			<li> User Feedback</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Consent</li>  	
+			<li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> Data Retention</li>  	
+			<li> External Audit</li>  	
+			<li> Restrict Data Collection</li>  			
+			<li> Restrict Location Tracking</li>  		 
+			<li> Restrict Secondary Use</li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Decommission Process</li>  	
+			<li> External Audit</li>
+			<li> Incident Response</li>
+			<li> Monitoring</li>
+			<li> Rate-limiting </li>
+			<li> Session Limits</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Accessibility </li>  	
+			<li> Blocklist </li>  	
+			<li> Consent</li>  	
+			<li> Decommission Process</li>  	
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Human Review </li>
+			<li> Incorporate feedback </li>
+			<li> Restrict Data Collection</li>  		
+			<li> Restrict Location Tracking</li>  	
+			<li> Restrict Secondary Use</li>  		
+			<li> Session Limits</li>  	
+			<li> User Feedback</li>  	
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2762,10 +3092,88 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th style="text-align:center">Intellectual Property</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Loaded/leading questions  </li>
+			<li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Confidentiality attacks  </li>
+			<li> Integrity attacks  </li>
+			<li> Availability attacks </li>
+			<li> Random attacks </li>
+			<li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Confidentiality attacks </li>
+			<li> Auto-complete prompts </li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Fine Tuning</li>  	
+			<li> Grounding</li>  	
+			<li> Human Review </li>  	
+			<li> Incident Response</li>  	
+			<li> Incorporate feedback </li>
+			<li> Monitoring</li>  	
+			<li> Narrow Scope</li>  	
+			<li> Open Source</li>  	
+			<li> RAG</li>  	
+			<li> Refresh</li>  	
+			<li> Restrict Homogeneity</li>  			
+			<li> RLHF</li>
+			<li> User Feedback</li>
+			<li> Validation</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Blocklist </li>  	
+			<li> Decommission Process</li>  	
+			<li> External Audit</li>
+			<li> Incident Response</li>   
+			<li> Monitoring</li>  	
+			<li> Open Source</li>
+			<li> Rate-limiting </li>
+			<li> Session Limits</li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Blocklist </li>
+			<li> Data Provenance</li>
+			<li> Data Quality</li>   	 
+			<li> Decommission Process</li>
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Incident Response</li>
+			<li> Incorporate feedback </li>
+			<li> Monitoring</li>  	
+			<li> Open Source</li>
+			<li> Rate-limiting </li>  	
+			<li> Session Limits</li>  	
+			<li> User Feedback</li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2780,10 +3188,79 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th style="text-align:center">Value Chain and Component Integration</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Confidentiality attacks </li>
+			<li> Autocomplete prompts </li>
+			<li> Role-playing prompts </li>
+			<li> Reverse psychology prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Multitasking prompts </li>
+			<li> Loaded/leading questions  </li>
+			<li> Repeat this </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Backwards relationship prompts </li>
+			<li> Data poisoning attacks </li>
+			<li> Counterfactual prompts </li>
+			<li> Pros and cons prompts </li>
+			<li> Role-playing prompts </li>
+			<li> Low context prompts </li>
+			<li> Loaded/leading questions  </li>
+			<li> Repeat this </li>
+			</ul>
+		</td>
+		<td> </td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Blocklist </li>
+			<li> Data Provenance</li>
+			<li> Data Quality</li>   	 
+			<li> Decommission Process</li>
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>
+			<li> Incident Response</li>
+			<li> Monitoring</li>  	
+			<li> Rate-limiting </li>  	
+			<li> Session Limits</li>
+			<li> User Feedback</li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Accessibility </li>  	
+			<li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> External Audit</li>  	
+			<li> Fine Tuning</li>  	
+			<li> Grounding</li>  	
+			<li> Human Review </li>  	
+			<li> Incident Response</li>  	
+			<li> Incorporate feedback </li>  	
+			<li> Narrow Scope</li>   
+			<li> Restrict Homogeneity</li>  				
+			<li> Team Diversity</li>  	
+			<li> User Feedback</li>  	
+			<li> Validation</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Data Provenance</li>  	
+			<li> Data Quality</li>  	
+			<li> Digital Signature</li>  	
+			<li> External Audit</li>  	
+			<li> Model Documentation </li>
+			<li> Restrict Data Collection</li>  				
+			<li> Restrict Secondary Use</li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2811,10 +3288,86 @@ Appendix H below presents an example plan for high risk systems.
     <th>Fair with Harmful Bias Managed</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Assessing data quality*</li>
+			<li> Bias bounties </li>
+			<li> Calibration*</li>
+			<li> Cybersecurity testing </li>
+			<li> Environmental metrics </li>
+			<li> Field testing*</li>
+			<li> Input/output measurement using classifiers </li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Multi-session experiments*</li>
+			<li> Online metrics/monitoring </li>
+			<li> Perturbation studies*</li>
+			<li> PII identification and removal </li>
+			<li> Root cause analysis*</li>
+			<li> Screening for information integrity </li>
+			<li> Sensitivity analysis*</li>
+			<li> Software testing </li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> Statistical quality control*</li>
+			<li> Stress testing*</li>
+			<li> Sub-sampling traffic for manually annotating </li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li>
+			<li> User surveys*</li>
+			<li> Validity testing/validation.* </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>  	
+			<li> Anomaly detection*</li>   	
+			<li> Assessing data quality*</li>   	
+			<li> Bias bounties</li>   	
+			<li> Bias testing</li>   	
+			<li> Calibration*</li>   	
+			<li> Counterfactual/causal analysis</li>   	
+			<li> Disaggregated metrics</li>   	
+			<li> Field testing*</li>   	
+			<li> Model assessment*</li>   	
+			<li> Model comparison*</li>   	
+			<li> Multi-session experiments*</li>   	
+			<li> Root cause analysis*</li>   	
+			<li> Software testing</li>   	
+			<li> Statistical quality control*</li>   	
+			<li> Stress testing*</li>   		
+			<li> User surveys*</li>   		
+			<li> Validity testing/validation.*
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  			
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>   
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2830,10 +3383,128 @@ Appendix H below presents an example plan for high risk systems.
     <th>Secure and Resilient</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>
+			<li> Model comparison.* </li>
+			<li> Multi-session experiments.* </li>
+			<li> Root cause analysis.* </li> 			
+			<li> Stakeholder engagement and feedback.*	</li> 		
+			<li> UI/UX studies </li> 			
+			<li> User surveys*</li>   
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Assessing data quality.* </li>
+			<li> Cybersecurity testing</li>   
+			<li> PII identification and removal</li>   		
+			<li> Root cause analysis*</li>   	
+			<li> Stakeholder engagement and feedback*</li>   	
+			<li> Stress testing*</li>   	
+			<li> Testing third-party dependencies </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>  	 	
+			<li> Assessing data quality*</li>   	 	
+			<li> Bias bounties</li>   	
+			<li> Calibration*</li>   	
+			<li> Chaos testing</li>   	
+			<li> Dangerous and violent
+			content removal</li>   		
+			<li> Field testing*</li>   	
+			<li> Input/output measurement using classifiers </li>
+			<li> Model assessment*</li>   	
+			<li> Model comparison*</li>   	
+			<li> Multi-session experiments*</li>   	
+			<li> Perturbation studies*</li>   		
+			<li> Root cause analysis*</li>   	
+			<li> Sensitivity analysis*</li>   	
+			<li> Stakeholder engagement and feedback*</li>   	
+			<li> Statistical quality control*</li>   	
+			<li> Stress testing*</li>   		
+			<li> User surveys*</li>   	
+			<li> Validity testing/validation*</li>   
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Anomaly detection*</li>
+			<li> Assessing data quality*</li>
+			<li> Bias bounties </li>
+			<li> Calibration*</li>
+			<li> Chaos testing </li>
+			<li> Cybersecurity testing </li>
+			<li> Data poisoning detection </li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Root cause analysis*</li>
+			<li> Software testing </li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> Stress testing*</li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Restrict regulated dealings </li>  		
+			<li> Supply Chain Audit </li>  	
+			<li> User recourse </li>   
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  		
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>   
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Redundancy </li>  	
+			<li> Restrict internet access </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply Chain Audit </li>  	
+			<li> User recourse </li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  	
+			<li> Redundancy </li>  	
+			<li> Restrict internet access </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2846,10 +3517,42 @@ Appendix H below presents an example plan for high risk systems.
     <th style="text-align:center">Valid and Reliable</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>  			
+			<li> Assessing data quality*</li>   		
+			<li> Bias bounties</li>   	
+			<li> Calibration*</li>   	
+			<li> Field testing*</li>   	
+			<li> Input/output measurement using classifiers </li>
+			<li> Model assessment*</li>   	
+			<li> Model comparison*</li>   	
+			<li> Multi-session experiments*</li>   		
+			<li> Perturbation studies*</li>   				
+			<li> Root cause analysis*</li>   	
+			<li> Sensitivity analysis*</li>   	
+			<li> Stakeholder engagement and  feedback*</li>   	
+			<li> Statistical quality control*</li>   	
+			<li> Stress testing*</li>   		
+			<li> User surveys*</li>   	
+			<li> Validity testing/validation*</li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Redundancy </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>   	
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2865,10 +3568,64 @@ Appendix H below presents an example plan for high risk systems.
     <th>Confabulation</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Chaos testing</li>   	
+			<li> Cybersecurity testing</li>   	
+			<li> Input/output measurement using classifiers </li>
+			<li> Online metrics/monitoring</li>   	
+			<li> Perturbation studies*</li>   	
+			<li> Prompt engineering</li>   		
+			<li> Root cause analysis*</li>   	
+			<li> Sensitivity analysis*</li>   	
+			<li> Software testing</li>   	
+			<li> Stress testing*</li>   	
+			<li> Supply chain auditing </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>  			
+			<li> Assessing data quality*</li>   		
+			<li> Bias bounties</li>   	
+			<li> Calibration*</li>   	
+			<li> Field testing*</li>   	
+			<li> Input/output measurement using classifiers </li>
+			<li> Model assessment*</li>   	
+			<li> Model comparison*</li>   	
+			<li> Multi-session experiments*</li>   		
+			<li> Perturbation studies*</li>   				
+			<li> Root cause analysis*</li>   	
+			<li> Sensitivity analysis*</li>   	
+			<li> Stakeholder engagement and  feedback*</li>   	
+			<li> Statistical quality control*</li>   	
+			<li> Stress testing*</li>   		
+			<li> User surveys*</li>   	
+			<li> Validity testing/validation*</li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> CBRN info removal</li>   
+			<li> Fast decommission </li>  	
+			<li> Restrict internet access </li>  	
+			<li> Supply chain audit </li>  		
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Restrict regulated dealings </li>  		
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>   
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2884,10 +3641,118 @@ Appendix H below presents an example plan for high risk systems.
     <th style="text-align:center">Human-AI Configuration</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>  	 	
+			<li> Assessing data quality*</li>   	 	
+			<li> Bias bounties</li>   	
+			<li> Calibration*</li>   	
+			<li> Chaos testing</li>   	
+			<li> Dangerous and violent content removal</li>   		
+			<li> Field testing*</li>   	
+			<li> Input/output measurement using classifiers </li>
+			<li> Model assessment*</li>   	
+			<li> Model comparison*</li>   	
+			<li> Multi-session experiments*</li>   	
+			<li> Perturbation studies*</li>   		
+			<li> Root cause analysis*</li>   	
+			<li> Sensitivity analysis*</li>   	
+			<li> Stakeholder engagement and feedback*</li>   	
+			<li> Statistical quality control*</li>   	
+			<li> Stress testing*</li>   		
+			<li> User surveys*</li>   	
+			<li> Validity testing/validation*</li>   
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Assessing data quality.* </li>
+			<li> Cybersecurity testing</li>   
+			<li> PII identification and removal</li>   		
+			<li> Root cause analysis*</li>   	
+			<li> Stakeholder engagement and feedback*</li>   	
+			<li> Stress testing*</li>   	
+			<li> Testing third-party dependencies </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li>  Algorithmic impact assessments </li>
+			<li>  Environmental metrics </li>
+			<li>  Model comparison*</li>
+			<li>  Online metrics/monitoring </li>
+			<li>  Supply chain auditing </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Analyze differences between intended and actual population of users or data subjects*</li>  	 
+			<li> Analyzing user feedback </li>
+			<li> Bias bounties </li>
+			<li> Calibration*</li>
+			<li> Explainability/interpretability </li>
+			<li> Field testing*</li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Multi-session experiments*</li>
+			<li> Root cause analysis*</li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> UI/UX studies </li>
+			<li> User surveys*</li>
+			<li> Validity testing/validation*</li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  		
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>   	 
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Fast decommission </li>  	
+			<li> Insurance </li>  		
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  		
+			<li> Intellectual property removal </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2902,10 +3767,108 @@ Appendix H below presents an example plan for high risk systems.
     <th style="text-align:center">Intellectual Property</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Assessing data quality*</li>
+			<li> Calibration*</li>
+			<li> Human content moderation</li>   
+			<li> Data poisoning detection </li>
+			<li> Field testing*</li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Multi-session experiments*</li>
+			<li> Perturbation studies*</li>
+			<li> Root cause analysis*</li>
+			<li> Screening for information integrity </li>
+			<li> Sensitivity analysis*</li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> Statistical quality control*</li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li>
+			<li> User surveys*</li>
+			<li> Validity testing/validation.* </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Anomaly detection*</li>
+			<li> Assessing data quality*</li>
+			<li> Bias bounties </li>
+			<li> Calibration*</li>
+			<li> Chaos testing </li>
+			<li> Cybersecurity testing </li>
+			<li> Data poisoning detection </li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Root cause analysis*</li>
+			<li> Software testing </li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> Stress testing*</li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Assessing data quality*</li>
+			<li> Cybersecurity testing </li>
+			<li> Field testing*</li>
+			<li> Input/output measurement using classifiers </li>   
+			<li> Model comparison*</li>
+			<li> Root cause analysis*</li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> Sub-sampling traffic for manually annotating </li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li>
+			<li> User surveys*</li>
+			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  	
+			<li> Restrict internet access </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>  	
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  	
+			<li> Redundancy </li>  	
+			<li> Restrict internet access </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  	
+			<li> Restrict internet access </li>  		
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
   </tr>
 </table>
 
@@ -2920,10 +3883,96 @@ Appendix H below presents an example plan for high risk systems.
     <th style="text-align:center">Value Chain and Component Integration</th>
   </tr>
   <tr>
-    <th>Measure</th><td> </td><td> </td><td> </td>
+    <th>Measure</th>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments </li>
+			<li> Assessing data quality*</li>
+			<li> Calibration*</li>
+			<li> Field testing*</li>
+			<li> Input/output measurement using classifiers </li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Root cause analysis*</li>
+			<li> Small user studies </li>
+			<li> Software testing </li>
+			<li> Stakeholder engagement and feedback*</li>
+			<li> Statistical quality control*</li>
+			<li> Stress testing*</li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li>
+			<li> User surveys*</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Algorithmic impact assessments</li>   	
+			<li> Analyze differences between intended and actual population of  users or data subjects*</li>  	
+			<li> Anomaly detection*</li>   	
+			<li> Assessing data quality*</li>   	
+			<li> Bias bounties</li>   	
+			<li> Bias testing</li>   	
+			<li> Calibration*</li>   	
+			<li> Counterfactual/causal analysis</li>   	
+			<li> Disaggregated metrics</li>   	
+			<li> Field testing*</li>   	
+			<li> Model assessment*</li>   	
+			<li> Model comparison*</li>   	
+			<li> Multi-session experiments*</li>   	
+			<li> Root cause analysis*</li>   	
+			<li> Software testing</li>   	
+			<li> Statistical quality control*</li>   	
+			<li> Stress testing*</li>   		
+			<li> User surveys*</li>   		
+			<li> Validity testing/validation.*
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> Assessing data quality*</li>
+			<li> Model assessment*</li>
+			<li> Model comparison*</li>
+			<li> Software testing </li>
+			<li> Supply chain auditing </li>
+			<li> Testing third-party dependencies </li> 			</ul>
+		</td>
   </tr>
   <tr>
-    <th>Manage</th><td> </td><td> </td><td> </td>
+    <th>Manage</th>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Restrict internet access </li>  	
+			<li> Restrict minors </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  	
+			<li> Fast decommission </li>  	
+			<li> Insurance </li>  	
+			<li> Intellectual property removal </li>  	
+			<li> Restrict regulated dealings </li>  	
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			<li> User recourse </li>   
+			</ul>
+		</td>
+		<td>
+			<ul>
+      <li> CSAM/Obscenity removal </li>  		
+			<li> Intellectual property removal </li>  	
+			<li> Redundancy </li>  		
+			<li> Sensitive/Personal data removal </li>  	
+			<li> Supply chain audit </li>  	
+			</ul>
+		</td>
   </tr>
 </table>
 
