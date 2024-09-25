@@ -689,6 +689,9 @@ Copyright `ph_` 2024, CC BY 4.0
 <table>
 <caption>Table B.4: Example risk assessment matrix with 5 impact levels, 5 likelihood levels, and 5 risk tiers, adapted from NIST SP800-30r1 Appendix I, Table I-2 <a href="#national-institute-of-standards-and-technology-nist-guide-for-conducting-risk-assessments-nist-special-publication-800-30-rev-1-prepared-by-the-joint-task-force-transformation-initiative-gaithersburg-md-nist-september-2012-httpsdoiorg106028nistsp800-30r1">[NIST Special Publication 800-30 Rev. 1]</a>.</caption>
 <tbody>
+<tr>
+<td style="text-align: center;" rowspan="2">Likelihood</td><td style="text-align: center;" colspan="5">Level of Impact</td>
+</tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: center;"><strong>Very Low</strong></td>
