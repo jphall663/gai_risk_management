@@ -874,7 +874,7 @@ HELM: Bias\
 HELM: Toxicity\
 MT-bench <a href="#zheng-lianmin-wei-lin-chiang-ying-sheng-siyuan-zhuang-zhanghao-wu-yonghao-zhuang-zi-lin-zhuohan-li-dacheng-li-and-eric-p-xing-judging-llm-as-a-judge-with-mt-bench-and-chatbot-arena-in-proceedings-of-the-37th-international-conference-on-neural-information-processing-systems-nips-23-article-no-2020-4659546623-published-may-30-2024-httpsdlacmorgdoi10555536661223668142">[Zheng et al.]</a>\
 The Self-Perception and Political Biases of ChatGPT <a href="#rutinowski-jérôme-sven-franke-jan-endendyk-ina-dormuth-moritz-roidl-and-markus-pauly-the-self-perception-and-political-biases-of-chatgpt-human-behavior-and-emerging-technologies-2024-httpsdoiorg10115520247115633">[Rutinowski et al.]</a>\
-Towards Measuring the Representation of Subjective Global Opinions in Language Models <a href="">[Durmus et al.]</a>\
+Towards Measuring the Representation of Subjective Global Opinions in Language Models <a href="#durmus-esin-karina-nguyen-thomas-i-liao-nicholas-schiefer-amanda-askell-anton-bakhtin-carol-chen-zac-hatfield-dodds-et-al-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models-arxiv-preprint-last-revised-april-12-2024-httpsdoiorg1048550arxiv230616388">[Durmus et al.]</a>
 
 **Privacy Enhanced**\
 HELM: Copyright\
