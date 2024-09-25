@@ -2030,28 +2030,30 @@ be accompanied by field testing for high risk systems or applications.
     <td>
       <ul>
         <li>Contract Review</li> 	
-  			<li>Disclosure of AI Interaction</li> 		
-  			<li>Instructions</li> 	
-  			<li>Inventory</li> 	
-  			<li>Ownership</li> 	
-  			<li>Prohibited Use Policy</li>
-  			<li>Restrict Decision Making </li>					
-  			<li>System Documentation</li> 	
-  			<li>Terms of Service</li>
+	<li>Disclosure of AI Interaction</li> 		
+	<li>Instructions</li> 	
+	<li>Inventory</li> 	
+	<li>Ownership</li> 	
+	<li>Prohibited Use Policy</li>
+	<li>Restrict Decision Making </li>					
+	<li>System Documentation</li> 	
+	<li>Terms of Service</li>
       </ul>
     </td>
     <td>
       <ul>
-      <li> Access Control </li>
-      <li> Approved List </li> 	
-      <li> Authentication </li> 	
-      <li> Change Management </li> 	
-      <li> Dependency Screening </li> 	
+      <li> Content Moderation </li>
       <li> Failure Avoidance </li> 	
+      <li> Instructions </li> 	
       <li> Inventory </li> 	
+      <li> Ownership </li> 	
+      <li> Prohibited Use Policy </li> 	
+      <li> System Prompt </li> 	
       <li> Ownership </li>  	
-      <li> Malware Screening </li>
-      <li> Restrict Anonymous Use </li> 	
+      <li> Restrict Anonymous Use </li>
+      <li> Restrict Decision Making </li> 
+      <li> Temperature </li>
+      <li> Terms of Service </li>
       </ul>
     </td>
   </tr>
