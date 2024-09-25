@@ -902,6 +902,9 @@ TAP: A Query-Efficient Method for Jailbreaking Black-Box LLMs <a href="#mehrotra
 
 
 **Valid and Reliable**\
+Big-bench: Algorithms, Logical reasoning, Implicit reasoning, Mathematics, Arithmetic, Algebra, Mathematical proof,
+Fallacy, Negation, Computer code, Probabilistic reasoning, Social reasoning, Analogical reasoning, Multi-step,
+Understanding the World\
 Big-bench: Analytic entailment, Formal fallacies and syllogisms with
 negation, Entailed polarity\
 Big-bench: Context Free Question Answering\
