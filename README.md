@@ -1,4 +1,10 @@
-# gai_risk_management
+# Generative AI Risk Management Resources: 
+
+TL; DR: 
+- This repository contains resources to assist in the creation of technical standards or procedures for organizational AI governance policies.
+- This information must be combined with a higher-level governance approach as described in, e.g., [The Interagnecy Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf) or the [NIST AI RMF Govern Function](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Govern).
+- The information below is aligend with [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf).  
+
 
 A place for personal ideas and drafts related to GAI risk management.
 
