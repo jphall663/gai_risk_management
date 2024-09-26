@@ -3,7 +3,8 @@
 **TL; DR**: 
 - This repository contains resources to assist in the creation of technical standards or procedures for organizational AI governance policies.
 - This information must be combined with a higher-level governance approach as described in, e.g., [The Interagnecy Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf) or the [NIST AI RMF Govern Function](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Govern).
-- The information below is aligend with [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf).  
+- The information below is aligend with [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf).
+- For non-commercial use. For commercial support please reach out to [info@hallresearch.ai](mailto: info@hallresearch.ai)
 
 (c) Patrick Hall and Daniel Atherton 2024, CC BY 4.0
 
