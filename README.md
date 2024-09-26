@@ -1,4 +1,4 @@
-# Generative AI Risk Management Resources: 
+# Generative AI Risk Management Resources
 
 TL; DR: 
 - This repository contains resources to assist in the creation of technical standards or procedures for organizational AI governance policies.
