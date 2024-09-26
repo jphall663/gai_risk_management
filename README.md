@@ -661,31 +661,31 @@
 <td style="text-align: left;">Very High</td>
 <td style="text-align: left;">96-100</td>
 <td style="text-align: left;">10</td>
-<td style="text-align: left;">An incident is almost certain to occur; or occurs more than 100 times a year.</td>
+<td style="text-align: left;">An incident is almost certain to occur; or the likelihood of the incident is near 100% across one week; or the incident occurs more than 100 times a year. </td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">High</td>
 <td style="text-align: left;">80-95</td>
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">An incident is highly likely to occur; or occurs between 10-100 times a year.</td>
+<td style="text-align: left;">An incident is highly likely to occur; or the likelihood of the incident is over 80% across one month; or occurs between 10-100 times a year.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Moderate</td>
 <td style="text-align: left;">21-79</td>
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">An incident is somewhat likely to occur; or occurs between 1-10 times a year.</td>
+<td style="text-align: left;">An incident is somewhat likely to occur; or the likelihood of the incident is greater than 80% across one calendar year; or occurs between 1-10 times a year.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Low</td>
 <td style="text-align: left;">5-20</td>
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">An incident is unlikely to occur; or occurs less than once a year, but more than once every 10 years.</td>
+<td style="text-align: left;">An incident is unlikely to occur; or the likelihood of an incident is less than 80% across one calendar year; or occurs less than once a year, but more than once every 10 years.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Very Low</td>
 <td style="text-align: left;">0-4</td>
 <td style="text-align: left;">0</td>
-<td style="text-align: left;">An incident is highly unlikely to occur; or occurs less than once every 10 years.</td>
+<td style="text-align: left;">An incident is highly unlikely to occur; or the likelihood of an incident is less than 10% across one calendar year; or occurs less than once every 10 years.</td>
 </tr>
 </tbody>
 </table>
