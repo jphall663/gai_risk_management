@@ -23,6 +23,7 @@ Measurement and testing is a critical aspect of ensuring GAI systems perform as 
 - **High-risk GAI systems**: model testing, red-teaming, and structured experiments and human feedback   
 
 where measurement for lower-risk systems can be highly-automated, and human risk management resources are reserved for medium and high-risk systems.  
+
 For managing and mitigating GAI risks, [Section E](#e-selected-risk-controls-for-generative-ai) outlines several risk controls for GAI.  Controls range from technical settings for GAI systems to commonsense recommendations, e.g., limiting or restricting access for minors. Sections F, G, and H pair risk measurement techniques with controls to form more fulsome risk management plans. Recommended usage for the plans in Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan)-[H](#h-example-high-risk-generative-ai-measurement-and-management-plan) is: 
 
 - **Low-risk GAI systems**: apply [Section F](#f-example-low-risk-generative-ai-measurement-and-management-plan) only
