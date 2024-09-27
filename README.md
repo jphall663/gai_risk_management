@@ -10,6 +10,28 @@
 
 (c) Patrick Hall and Daniel Atherton 2024, CC BY 4.0
 
+This information is designed to help organizations build the governance policies required to measure and manage risks associated with deploying and using generative artificial intelligence (GAI) systems. Governance is key to addressing the growing need for trustworthy and responsible AI systems, and this repository is aligned to the NIST AI Risk Management Framework trustworthy characteristics. Governance is also a necessary component of AI strategy, necessary to address real legal, ethical, and operational headwinds. 
+
+At its core, this repository provides technical materials for building or augmenting detailed model or AI governance procedures or standards, and align them to guidance from NIST. Starting in [Section A](#a-example-generative-ai-trustworthy-characteristic-crosswalk), two important perspectives are central to this framework. The first is the NIST AI RMF trustworthy characteristic to GAI risk—operating from this perspective allows organizations to understand how each trustworthy characteristic can mitigate specific risks posed by GAI. The second perspective is the reverse—the GAI risk to trustworthy characteristics. That mapping can help organizations understand which characteristics should be prioritized to manage specific GAI risks. As consumer finance organizations are likely to adopt both NIST (or other more technical frameworks) and traditional enterprise risk management methodologies, ideas on linking trustworthy characteristics, GAI risks, and established banking risk buckets are also presented in [Section A](#a-example-generative-ai-trustworthy-characteristic-crosswalk). 
+
+The framework also guides the users through authoritative resources for risk-tiering. Sections [B.1](#b1-example-adverse-impacts) through [B.7](#b7-ai-risk-management-framework-actions-aligned-to-risk-tiering) walk the user of the framework through the process of defining adverse impacts: Harm to Operations, Harm to Assets, Harm to Individuals, Harm to Other Organizations, and Harm to the Nation, along with guidance on understanding potential impact descriptions. The framework also offers tables with guidance on assessing the likelihood of certain risks. Organizations and companies can leverage this combination of adverse impacts and risk tiers to develop tailored risk descriptions that reflect the specific context in which their AI systems may be operating. They can utilize practical risk-tiering to guide their decision-making and evaluate how best to calibrate existing safeguards or whether to implement additional ones. 
+
+Measurement and testing is a critical aspect of ensuring AI systems perform as expected. For measuring the severity of certain GAI risks, [Section C](#c-list-of-selected-model-testing-suites) presents various model testing benchmarks (i.e., evals). Model testing suites provide the user with tools to roughly assess GAI performance against trustworthy characters as well to quickly test for resilience in the face of known GAI risks. As GAI systems are vulnerable to adversarial attacks via prompting and hacks, [Section D](#d-selected-adversarial-prompting-strategies-and-attacks) presents red-teaming and adversarial prompting approaches for human elicitation of evidence of GAI risks in adversarial scenarios. [Section H](#h-example-high-risk-generative-ai-measurement-and-management-plan) hints at more in-depth structured experiments and human feedback for risk assessment. Suggested usage for these types of measurement is as follows: 
+
+- **Low-risk GAI systems**: model testing only
+- **Medium-risk GAI systems**: model testing and red-teaming
+- **High-risk GAI systems**: model testing, red-teaming, and structured experiments and human feedback   
+
+where measurement for lower-risk systems can be highly-automated, and human risk management resources are reserved for medium and high-risk systems.  
+For managing and mitigating GAI risks, [Section E](#e-selected-risk-controls-for-generative-ai) outlines several risk controls for GAI.  Controls range from technical settings for GAI systems to commonsense recommendations, e.g., limiting or restricting access for minors. Sections F, G, and H pair risk measurement techniques with controls to form more fulsome risk management plans. Recommended usage for the plans in Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan)-[H](#h-example-high-risk-generative-ai-measurement-and-management-plan) is: 
+
+- **Low-risk GAI systems**: apply [Section F](#f-example-low-risk-generative-ai-measurement-and-management-plan) only
+- **Medium-risk GAI systems**: apply Section [F](#f-example-low-risk-generative-ai-measurement-and-management-plan) and [G](#g-example-medium-risk-generative-ai-measurement-and-management-plan)
+- **High-risk GAI systems**: apply Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan), [G](#g-example-medium-risk-generative-ai-measurement-and-management-plan), and [H](#h-example-high-risk-generative-ai-measurement-and-management-plan)  
+
+Regardless of the risk level of the system, the framework offers detailed measurement plans that guide the user through the process of assessing the system’s performance, along with tracking risks, and harmonizing the system with trustworthy AI principles. 
+
+
 ## Table of Contents
 
 * **Section A**: [Example Generative AI-Trustworthy Characteristic Crosswalk](#a-example-generative-ai-trustworthy-characteristic-crosswalk)
