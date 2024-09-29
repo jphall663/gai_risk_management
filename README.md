@@ -6,6 +6,11 @@
 - The information below is aligned with [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf).
 - For non-commercial use. For commercial support please reach out to `info@hallresearch.ai`.
 
+**What's missing?**
+- Higher-level policies and procedure language to tie these resources together into cohesive governance documentments.
+- Methodology for estimating business risk (e.g., monetary losses) from model testing, red-teaming, feedback and experimental results.
+- ...
+
 **Introduction**
 
 (c) Patrick Hall and Daniel Atherton 2024, CC BY 4.0
