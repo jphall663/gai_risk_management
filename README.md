@@ -853,7 +853,7 @@ impacts? Do vendors provide incident response with guaranteed response times? Wh
 
 GOVERN 1.3, GOVERN 1.5, GOVERN 2.3, GOVERN 3.2, GOVERN 4.1, GOVERN 5.2, GOVERN 6.1, MANAGE 1.2, MANAGE 1.3, MANAGE 2.1, MANAGE 2.2, MANAGE 2.3, MANAGE 2.4, MANAGE 3.1, MANAGE 3.2, MANAGE 4.1, MAP 1.1, MAP 1.5, MEASURE 2.6
 
-**Usage Note**: Materials in Appendix B can be used to create or update
+**Usage Note**: Materials in Section B can be used to create or update
 risk tiers or other risk assessment tools for GAI systems or
 applications as follows:
 
@@ -1159,7 +1159,7 @@ Language Models <a href="#durmus-esin-karina-nguyen-thomas-i-liao-nicholas-schie
 GOVERN 5.1, MAP 1.2, MAP 3.1, MEASURE 2.2, MEASURE 2.3, MEASURE 2.7,
 MEASURE 2.9, MEASURE 2.11, MEASURE 3.1, MEASURE 4.2
 
-**Usage Note**: Materials in Appendix C can be used to perform *in
+**Usage Note**: Materials in Section C can be used to perform *in
 silica* model testing for the presence of information in LLM outputs
 that may give rise to GAI risks or violate trustworthy characteristics.
 Model testing and benchmarking outcomes cannot be dispositive for the
@@ -1179,7 +1179,7 @@ appear to address explainability and interpretability.
 -   Subsection C.3 highlights subcategories to indicate alignment with
     the AI RMF.
 
-The materials in Appendix C reference measurement approaches that should
+The materials in Section C reference measurement approaches that should
 be accompanied by red-teaming for medium risk systems or applications
 and field testing for high risk systems or applications.
 
@@ -1717,7 +1717,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE
 1.3, MEASURE 2.6, MEASURE 2.7, MEASURE 2.8, MEASURE 2.10, MEASURE 2.11
 
-**Usage Note**: Materials in Appendix D can be used to perform
+**Usage Note**: Materials in Section D can be used to perform
 red-teaming to measure the risk that expert adversarial actors can
 manipulate LLM systems or risks that users may encounter under
 worst-case or anomalous scenarios.
@@ -1733,7 +1733,7 @@ worst-case or anomalous scenarios.
 -   Subsection D.3 highlights subcategories to indicate alignment with
     the AI RMF.
 
-The materials in Appendix D reference measurement approaches that should
+The materials in Section D reference measurement approaches that should
 be accompanied by field testing for high risk systems or applications.
 
 ## E: Selected Risk Controls for Generative AI
@@ -2010,7 +2010,7 @@ be accompanied by field testing for high risk systems or applications.
 </tbody>
 </table>
 
-**Usage Note**: Appendix E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions <a href="#national-institute-of-standards-and-technology-nist-nist-ai-rmf-playbook-trustworthy--responsible-ai-resource-center-accessed-september-19-2024-httpsaircnistgovai_rmf_knowledge_baseplaybook">[NIST AI RMF Playbook]</a>, <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile-nist-ai-600-1-gaithersburg-md-nist-july-2024-httpsdoiorg106028nistai600-1">[NIST AI 600-1]</a>.
+**Usage Note**: Section E puts forward selected risk controls that organizations may apply for GAI risk management. Higher level controls are linked to specific GAI and AI RMF Playbook actions <a href="#national-institute-of-standards-and-technology-nist-nist-ai-rmf-playbook-trustworthy--responsible-ai-resource-center-accessed-september-19-2024-httpsaircnistgovai_rmf_knowledge_baseplaybook">[NIST AI RMF Playbook]</a>, <a href="#national-institute-of-standards-and-technology-nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile-nist-ai-600-1-gaithersburg-md-nist-july-2024-httpsdoiorg106028nistai600-1">[NIST AI 600-1]</a>.
 
 ## F: Example Low-risk Generative AI Measurement and Management Plan
 
@@ -2688,15 +2688,15 @@ be accompanied by field testing for high risk systems or applications.
   </tr>
 </table>
 
-**Usage Note**: Appendix F puts forward an example risk measurement and management plan for low risk GAI systems or applications. The low risk plan focuses on automatable model testing and applies minimally burdensome risk controls.
+**Usage Note**: Section F puts forward an example risk measurement and management plan for low risk GAI systems or applications. The low risk plan focuses on automatable model testing and applies minimally burdensome risk controls.
 
 -   Material in Table F.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics.
 
 -   Material in Table F.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
 
-Appendix G below presents an example plan for medium risk systems and Appendix H presents an example plan for high risk systems.
+Section G below presents an example plan for medium risk systems and Section H presents an example plan for high risk systems.
 
-**Usage Note**: Appendix E puts forward selected risk controls that
+**Usage Note**: Section E puts forward selected risk controls that
 organizations may apply for GAI risk management. Higher level controls
 are linked to specific GAI and AI RMF Playbook actions.
 
@@ -3307,15 +3307,15 @@ are linked to specific GAI and AI RMF Playbook actions.
   </tr>
 </table>
 
-**Usage Note**: Appendix G puts forward an example risk measurement and management plan for medium risk GAI systems or applications. The
-medium risk plan focuses on red-teaming and applies moderate risk controls. Measurement and management approaches from Appendix F should
+**Usage Note**: Section G puts forward an example risk measurement and management plan for medium risk GAI systems or applications. The
+medium risk plan focuses on red-teaming and applies moderate risk controls. Measurement and management approaches from Section F should
 also be applied to medium risk systems or applications.
 
 -   Material in Table G.1 can be applied to measure and manage GAI risks in risk programs that are aligned to the trustworthy characteristics.
 
 -   Material in Table G.2 can be applied to measure and manage GAI risks in risk programs that are aligned to GAI risks.
 
-Appendix H below presents an example plan for high risk systems.
+Section H below presents an example plan for high risk systems.
 
 ## H: Example High-risk Generative AI Measurement and Management Plan
 
@@ -4019,7 +4019,7 @@ Appendix H below presents an example plan for high risk systems.
   </tr>
 </table>
 
-**Usage Note**: Appendix H puts forward an example risk measurement and management plan for high risk GAI systems or applications. The high
+**Usage Note**: Section H puts forward an example risk measurement and management plan for high risk GAI systems or applications. The high
 risk plan focuses on field testing and applies extensive risk controls. Measurement and management approaches from Appendices F and G should also
 be applied to high risk systems or applications.
 
