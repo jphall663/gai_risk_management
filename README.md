@@ -60,9 +60,10 @@ Regardless of the risk level of the system, the framework offers detailed measur
   * **C.3**: [AI Risk Management Framework Actions Aligned to Benchmarking](#c3-ai-risk-management-framework-actions-aligned-to-benchmarking)  
 
 * **Section D**: [Selected Adversarial Prompting Strategies and Attacks](#d-selected-adversarial-prompting-strategies-and-attacks)
-  * **D.1**: [Selected Adversarial Prompting Strategies and Attacks by Organized Trustworthy Characteristic](#d1-selected-adversarial-prompting-strategies-and-attacks-organized-by-trustworthy-characteristic)
-  * **D.2**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#d2-selected-adversarial-prompting-techniques-and-attacks-organized-by-generative-ai-risk)
-  * **D.3**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d3-ai-risk-management-framework-actions-aligned-to-red-teaming)  
+  * **D.1**: [D.1: Common AI Red-teaming Tools](#d1-common-ai-red-teaming-tools)
+  * **D.2**: [Selected Adversarial Prompting Strategies and Attacks by Organized Trustworthy Characteristic](#d2-selected-adversarial-prompting-strategies-and-attacks-organized-by-trustworthy-characteristic)
+  * **D.3**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#d3-selected-adversarial-prompting-techniques-and-attacks-organized-by-generative-ai-risk)
+  * **D.4**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d4-ai-risk-management-framework-actions-aligned-to-red-teaming)  
 
 * **Section E**: [Selected Risk Controls for Generative AI](#e-selected-risk-controls-for-generative-ai)
 
@@ -1198,88 +1199,94 @@ and field testing for high risk systems or applications.
 </tr>
 </thead>
 <tbody>
-<tr class="even">
+<tr>
 <td style="text-align: left;">AI and coding framing</td>
 <td style="text-align: left;">Coding or AI language that may more easily circumvent content moderation rules due to cognitive biases in design and implementation of guardrails.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Autocompletion</td>
 <td style="text-align: left;">Ask a system to autocomplete an inappropriate word or phrase with restricted or sensitive information.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">Backwards Relationships</td>
 <td style="text-align: left;">Asking a system identify the less popular or well-known entity in a multi-entity relationship, e.g., "Who is Mary Lee's son?" (As opposed to: "Who is Tom Cruise's mother?")</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Biographical</td>
 <td style="text-align: left;">Asking a system to describe another person or yourself in an attempt to elicit provably untrue information or restricted or sensitive information.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">Calculation and numeric queries</td>
-<td style="text-align: left;">Exploting GAI systems’ difficulties in dealing with numeric quantities.</td>
+<td style="text-align: left;">Exploting GAI systems’ difficulties in dealing with numeric quantities; using poor quality statistics from an LLM for dis or misinformation.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Character and word play</td>
-<td style="text-align: left;">Content moderation often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play.</td>
-</tr>
+<td style="text-align: left;">Content moderation often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play; using string fragments to trick a language model into generating or manipulating problematic text. </td>
 <tr class="even">
 <td style="text-align: left;">Content exhaustion:</td>
 <td style="text-align: left;">A class of strategies that circumvent content moderation rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">&bull; Goading</td>
 <td style="text-align: left;">Begging, pleading, manipulating, and bullying to circumvent content moderation.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">&bull; Logic-overloading</td>
 <td style="text-align: left;">Exploiting the inability of ML systems to reliably perform reasoning tasks.</td>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">&bull; Multi-tasking</td>
 <td style="text-align: left;">Simultaneous task assignments where some tasks are benign and others are adversarial.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">&bull; Pros-and-cons</td>
 <td style="text-align: left;">Eliciting the “pros” of problematic topics.</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Niche-seeking</td>
-<td style="text-align: left;">Forcing a GAI system into addressing niche topics where training data and content moderation are sparse.</td>
+<tr>
+<td style="text-align: left;">Context Baiting (and/or Switching)</td>
+<td style="text-align: left;"> Loading a language model's context window with confusing, leading, or misleading content then switching contexts with new prompts to elicit problematic outcomes. <a href="">[Li, Han, Steneker, Primack, et al.]</a> </td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">Counterfactuals</td>
 <td style="text-align: left;">Repeated prompts with different entities or subjects from different demographic groups.</td>
 </tr>
-<tr class="odd">
+<td style="text-align: left;">Impossible Situations</td>
+<td style="text-align: left;"> Asking a language model for advice in an impossible situation where all outcomes are negative or require severe tradeoffs. </td>	
+</tr>
+<tr>
+<td style="text-align: left;">Niche-seeking</td>
+<td style="text-align: left;">Forcing a GAI system into addressing niche topics where training data and content moderation are sparse.</td>
+</tr>
+<tr>
 <td style="text-align: left;">Loaded/leading questions</td>
 <td style="text-align: left;">Queries based on incorrect premises or that suggest incorrrect answers.</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">Location awareness</td>
-<td style="text-align: left;">Prompts that reveal a prompter’s location or expose location tracking.</td>
-</tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Low-context</td>
 <td style="text-align: left;">“Leader,” “bad guys,” or other simple or blank inputs that may expose latent biases.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">“Repeat this”</td>
-<td style="text-align: left;">Prompts that exploit instability in underlying LLM autoregressive predictions.</td>
+<td style="text-align: left;">Prompts that exploit instability in underlying LLM autoregressive predictions. Can be augmented by probing limits for repeated terms or characteres in prompts. </td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Reverse psychology</td>
 <td style="text-align: left;">Falsely presenting a good-faith need for negative or problematic language.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">Role-playing</td>
-<td style="text-align: left;">Adopting a character that would reasonably make problematic statements or need to access problematic topics.</td>
+<td style="text-align: left;">Adopting a character that would reasonably make problematic statements or need to access problematic topics; using a language model to speak in the voice of an expert, e.g., medical doctor or professor. </td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Text encoding</td>
 <td style="text-align: left;">Using alternate or whitespace text encodings to bypass safeguards.</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">Time perplexity</td>
 <td style="text-align: left;">Exploiting ML’s inability to understand the passage of time or the occurrence of real-world events over time; exploiting task contamination before and after a model’s release date.</td>
+</tr>
+<tr>
+<td style="text-align: left;">User Information</td>
+<td style="text-align: left;">Prompts that reveal a prompter’s location or IP address, location tracking of other users or their IP addresses, details from past interactions with the prompter or other users, past medical, financial, or legal advice to the prompter or other users.</td>
 </tr>
 </tbody>
 </table>
@@ -1322,7 +1329,11 @@ and field testing for high risk systems or applications.
 </tbody>
 </table>
 
-### D.1: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
+### D.1: Common AI Red-teaming Tools
+[Burpsuite](https://portswigger.net/burp/communitydownload), broswer developer panes, bash utilities, other language models and GAI productivity tools, note-taking apps.
+
+
+### D.2: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
 Table D.1: Selected adversarial prompting techniques and attacks organized by trustworthy characteristic <a href="#saravia-elvis-prompt-engineering-guide-github-repository-last-modified-december-2022-accessed-september-19-2024-httpsgithubcomdair-aiprompt-engineering-guide">[Saravia]</a>, <a href="#storchan-victor-ravin-kumar-rumman-chowdhury-seraphina-goldfarb-tarrant-and-sven-cattell-generative-ai-red-teaming-challenge-transparency-report-humane-intelligence-2024-httpsdrivegooglecomfiled1jqpbip6dnomkb32umloiepombk2-0rc-view">[Storchan et al.]</a>, <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#sitawarin-chawin-charlie-cheng-jie-ji-apurv-verma-and-luckyfan-cs-llm-security--privacy-github-repository-accessed-september-19-2024-httpsgithubcomchawinsllm-sp">[Sitawarin et al.]</a>.
 
 <table>
@@ -1493,7 +1504,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 </tbody>
 </table>
 
-### D.2: Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk
+### D.3: Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk
 Table D.2: Selected adversarial prompting techniques and attacks organized by generative AI risk <a href="#saravia-elvis-prompt-engineering-guide-github-repository-last-modified-december-2022-accessed-september-19-2024-httpsgithubcomdair-aiprompt-engineering-guide">[Saravia]</a>, <a href="#storchan-victor-ravin-kumar-rumman-chowdhury-seraphina-goldfarb-tarrant-and-sven-cattell-generative-ai-red-teaming-challenge-transparency-report-humane-intelligence-2024-httpsdrivegooglecomfiled1jqpbip6dnomkb32umloiepombk2-0rc-view">[Storchan et al.]</a>, <a href="#hall-patrick-and-daniel-atherton-awesome-machine-learning-interpretability-github-repository-accessed-september-19-2024-httpsgithubcomjphall663awesome-machine-learning-interpretability">[Hall and Atherton]</a>, <a href="#hu-hongsheng-zoran-salcic-lichao-sun-gillian-dobbie-philip-s-yu-and-xuyun-zhang-membership-inference-attacks-on-machine-learning-a-survey-acm-computing-surveys-54-no-11s-september-2022-137-httpsdoiorg1011453523273">[Hu et al.]</a>, <a href="#sitawarin-chawin-charlie-cheng-jie-ji-apurv-verma-and-luckyfan-cs-llm-security--privacy-github-repository-accessed-september-19-2024-httpsgithubcomchawinsllm-sp">[Sitawarin et al.]</a>.
 
 <table>
@@ -1713,7 +1724,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 </tbody>
 </table>
 
-### D.3: AI Risk Management Framework Actions Aligned to Red Teaming
+### D.4: AI Risk Management Framework Actions Aligned to Red Teaming
 GOVERN 3.2, GOVERN 4.1, MANAGE 2.2, MANAGE 4.1, MEASURE 1.1, MEASURE
 1.3, MEASURE 2.6, MEASURE 2.7, MEASURE 2.8, MEASURE 2.10, MEASURE 2.11
 
@@ -1722,15 +1733,17 @@ red-teaming to measure the risk that expert adversarial actors can
 manipulate LLM systems or risks that users may encounter under
 worst-case or anomalous scenarios.
 
--   Strategies and goals in Table D.1 can be applied to assess whether
+-   Try augmenting strategies with tools listed in D.1. 
+
+-   Strategies and goals in Table D.2 can be applied to assess whether
     LLM outputs may violate trustworthy characteristics under
     adversarial, anomalous, or worst-case scenarios.
 
--   Strategies and goals in Table D.2 can be applied to assess whether
+-   Strategies and goals in Table D.3 can be applied to assess whether
     LLM outputs may give rise to GAI risks under adversarial, anomalous,
     or worst-case scenarios.
 
--   Subsection D.3 highlights subcategories to indicate alignment with
+-   Subsection D.4 highlights subcategories to indicate alignment with
     the AI RMF.
 
 The materials in Section D reference measurement approaches that should
@@ -4074,6 +4087,8 @@ be applied to high risk systems or applications.
 ##### *ISO/IEC 42001:2023. Information Technology — Artificial Intelligence — Management System.* 1st ed. Geneva: International Organization for Standardization, 2023. [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:42001:ed-1:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:42001:ed-1:v1:en).
 
 ##### Li, Nathaniel, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, et al. "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning." *arXiv* preprint, last revised May 15, 2024. [https://doi.org/10.48550/arXiv.2403.03218](https://doi.org/10.48550/arXiv.2403.03218).
+
+##### Li, Nathaniel, Ziwen Han, Ian Steneker, Willow Primack, et al. "LLM defenses are not robust to multi-turn human jailbreaks yet." *arXiv* preprint, last revised Wed, September 4, 2024.[https://arxiv.org/pdf/2408.15221](https://arxiv.org/pdf/2408.15221).
 
 ##### Liu, Yi, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, and Yang Liu. "Prompt Injection Attack Against LLM-Integrated Applications." *arXiv* preprint, last revised March 2, 2024. [https://doi.org/10.48550/arXiv.2306.05499](https://doi.org/10.48550/arXiv.2306.05499).
 
