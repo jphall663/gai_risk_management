@@ -1243,7 +1243,7 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">Context Baiting (and/or Switching)</td>
-<td style="text-align: left;"> Loading a language model's context window with confusing, leading, or misleading content then switching contexts with new prompts to elicit problematic outcomes. <a href="">[Li, Han, Steneker, Primack, et al.]</a> </td>
+<td style="text-align: left;"> Loading a language model's context window with confusing, leading, or misleading content then switching contexts with new prompts to elicit problematic outcomes. <a href="https://github.com/jphall663/gai_risk_management/blob/main/README.md#li-nathaniel-ziwen-han-ian-steneker-willow-primack-et-al-llm-defenses-are-not-robust-to-multi-turn-human-jailbreaks-yet-arxiv-preprint-last-revised-wed-september-4-2024-httpsarxivorgpdf240815221">[Li, Han, Steneker, Primack, et al.]</a> </td>
 </tr>
 <tr>
 <td style="text-align: left;">Counterfactuals</td>
