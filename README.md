@@ -1998,7 +1998,7 @@ be accompanied by field testing for high risk systems or applications.
 </tr>
 <tr class="even">
 <td style="text-align: left;">Terms of Service</td>
-<td style="text-align: left;">General abuse and misuse by external parties is prohibited by organizational policies. (GV-4.2-003, GV-4.2-005, GV-4.2-007, GV-6.1-016, GV-6.2-016, MP-4.1-021)</td>
+<td style="text-align: left;">General abuse and misuse by external parties is prohibited by organizational policies. Adaptive terms of service based on trust-level for user. (GV-4.2-003, GV-4.2-005, GV-4.2-007, GV-6.1-016, GV-6.2-016, MP-4.1-021)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Training</td>
