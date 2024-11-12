@@ -1208,7 +1208,7 @@ and field testing for high risk systems or applications.
 <td style="text-align: left;">Ask a system to autocomplete an inappropriate word or phrase with restricted or sensitive information.</td>
 </tr>
 <tr>
-<td style="text-align: left;">Backwards Relationships</td>
+<td style="text-align: left;">Backwards relationships</td>
 <td style="text-align: left;">Asking a system identify the less popular or well-known entity in a multi-entity relationship, e.g., "Who is Mary Lee's son?" (As opposed to: "Who is Tom Cruise's mother?")</td>
 </tr>
 <tr>
@@ -1242,14 +1242,14 @@ and field testing for high risk systems or applications.
 <td style="text-align: left;">Eliciting the “pros” of problematic topics.</td>
 </tr>
 <tr>
-<td style="text-align: left;">Context Baiting (and/or Switching)</td>
+<td style="text-align: left;">Context baiting (and/or switching)</td>
 <td style="text-align: left;"> Loading a language model's context window with confusing, leading, or misleading content then switching contexts with new prompts to elicit problematic outcomes. <a href="https://github.com/jphall663/gai_risk_management/blob/main/README.md#li-nathaniel-ziwen-han-ian-steneker-willow-primack-et-al-llm-defenses-are-not-robust-to-multi-turn-human-jailbreaks-yet-arxiv-preprint-last-revised-wed-september-4-2024-httpsarxivorgpdf240815221">[Li, Han, Steneker, Primack, et al.]</a> </td>
 </tr>
 <tr>
 <td style="text-align: left;">Counterfactuals</td>
 <td style="text-align: left;">Repeated prompts with different entities or subjects from different demographic groups.</td>
 </tr>
-<td style="text-align: left;">Impossible Situations</td>
+<td style="text-align: left;">Impossible situations</td>
 <td style="text-align: left;"> Asking a language model for advice in an impossible situation where all outcomes are negative or require severe tradeoffs. </td>	
 </tr>
 <tr>
