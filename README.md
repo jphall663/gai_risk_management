@@ -1383,6 +1383,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 <li><p>Adversarial example attacks.</p></li>
 <li><p>Backwards relationships.</p></li>
 <li><p>Counterfactual prompts.</p></li>
+<li><p>Context baiting (and/or switching) prompts.</p></li>
 <li><p>Data poisoning attacks.</p></li>
 <li><p>Pros and cons prompts.</p></li>
 <li><p>Role-playing prompts.</p></li>
@@ -1414,7 +1415,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 </ul></td>
 <td style="text-align: left;"><ul>
 <li><p>Auto/biographical prompts.</p></li>
-<li><p>Location awareness prompts.</p></li>
+<li><p>User information awareness prompts.</p></li>
 <li><p>Autocompletion prompts.</p></li>
 <li><p>Repeat this.</p></li>
 <li><p>Membership inference attacks.</p></li>
@@ -1424,7 +1425,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 <td style="text-align: left;">Safe</td>
 <td style="text-align: left;"><ul>
 <li><p>Presentation of information that can cause physical or emotional harm.</p></li>
-<li><p>Sharing user locations.</p></li>
+<li><p>Sharing user information.</p></li>
 <li><p>Suicide ideation.</p></li>
 <li><p>Harmful dis/misinformation (e.g., COVID disinformation).</p></li>
 <li><p>Incitement.</p></li>
@@ -1438,8 +1439,9 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 <li><p>Role-playing prompts.</p></li>
 <li><p>Content exhaustion: niche-seeking prompts.</p></li>
 <li><p>Ingratiation/reverse psychology prompts.</p></li>
+<li><p>Impossible situation prompts.</p></li>	
 <li><p>Loaded/leading questions.</p></li>
-<li><p>Location awareness prompts.</p></li>
+<li><p>User information awareness prompts.</p></li>
 <li><p>Repeat this.</p></li>
 <li><p>Adversarial example attacks.</p></li>
 <li><p>Data poisoning attacks.</p></li>
@@ -1485,6 +1487,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 <td style="text-align: left;"><ul>
 <li><p>Adversarial example attacks.</p></li>
 <li><p>Backwards Relationships.</p></li>
+<li><p>Context baiting (and/or switching).</p></li>
 <li><p>Data poisoning attacks.</p></li>
 <li><p>Multi-tasking prompts.</p></li>
 <li><p>Role-playing prompts.</p></li>
@@ -1547,7 +1550,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 </ul></td>
 <td style="text-align: left;"><ul>
 <li><p>Enable access to ground truth information to verify generated information.</p></li>
-<li><p>Test prompts with complex logic, multi-tasking requirements, or that require niche or specific verifiable answers to elicit confabulation.</p></li>
+<li><p>Test prompts with conext baiting (and/or switching), complex logic, multi-tasking requirements, or that require niche or specific verifiable answers to elicit confabulation.</p></li>
 <li><p>Test the ability of GAI systems to produce truthful information from various time periods, e.g., after release date and prior to release date.</p></li>
 <li><p>Test the ability of GAI systems to create reliable real-world plans or advise on material decision making.</p></li>
 <li><p>Test loaded/leading questions.</p></li>
@@ -1566,7 +1569,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 <li><p>Red-teaming for dangerous and violent information may include confidentiality and integrity attacks.</p></li>
 </ul></td>
 <td style="text-align: left;"><ul>
-<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit violent or dangerous information.</p></li>
+<li><p>Test prompts using impossible situations, context-baiting (and/or switching), role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit violent or dangerous information.</p></li>
 <li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and provide dangerous and violent recommendations.</p></li>
 <li><p>Test loaded/leading questions.</p></li>
 <li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
@@ -1585,7 +1588,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 <li><p>Attempt to assess whether normal usage, adversarial prompting or information security attacks may contravene applicable privacy policies (e.g., exposing location tracking when organizational policies restrict such capabilities).</p></li>
 <li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access unauthorized data or expose exfiltration vulnerabilities.</p></li>
 <li><p>Test auto/biographical prompts to assess the system’s capability to reveal unauthorized personal or sensitive information.</p></li>
-<li><p>Test the system’s awareness of user locations.</p></li>
+<li><p>Test the system’s awareness of user information.</p></li>
 <li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and expose personal or sensitive data.</p></li>
 </ul></td>
 </tr>
@@ -1608,7 +1611,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 <td style="text-align: left;"><ul>
 <li><p>Assess system interfaces and instructions for instances of anthropomorphization (e.g., cyborg imagery).</p></li>
 <li><p>Assess system instructions for adequacy and thoroughness.</p></li>
-<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit human-impersonation, consciousness, or emotional content.</p></li>
+<li><p>Test prompts using impossible situations, role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit human-impersonation, consciousness, or emotional content.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -1625,7 +1628,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 <li><p>Test systems ability to create convincing audio deepfakes or arguments in multiple languages.</p></li>
 <li><p>Test system capabilities for planning dis- or mis-information campaigns.</p></li>
 <li><p>Test loaded/leading questions.</p></li>
-<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit mis- or dis-information or related campaign planning information.</p></li>
+<li><p>Test prompts using context baiting (and/or switching), role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit mis- or dis-information or related campaign planning information.</p></li>
 <li><p>Augment prompts with word or character play, including alternate encodings, to increase effectiveness.</p></li>
 <li><p>Frame prompts with software, coding, or AI references to increase effectiveness.</p></li>
 <li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access dis or misinformation.</p></li>
@@ -1680,7 +1683,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 <td style="text-align: left;"><ul>
 <li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access obscene materials or CSAM.</p></li>
 <li><p>Test autocomplete prompts to assess the system’s ability to generate obscene materials based on available audio, text, image, or video snippets.</p></li>
-<li><p>Test prompts using role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit obscene content.</p></li>
+<li><p>Test prompts using context baiting (and/or switching), role-playing, ingratiation/reverse psychology, pros and cons, multitasking or other approaches to elicit obscene content.</p></li>
 <li><p>Test loaded/leading questions.</p></li>
 <li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and expose obscene materials.</p></li>
 </ul></td>
@@ -1700,7 +1703,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 <li><p>Attempt to elicit demographic assignment of users by the system.</p></li>
 <li><p>Employ data poisoning attacks to introduce GAI-generated content into system training or fine-tuning data.</p></li>
 <li><p>Test counterfactual prompts, pros and cons prompts, role-playing prompts, low context prompts, or other approaches for their ability to generate denigration, erasure, ex-nomination, misrecognition, stereotyping, or under-representation in content.</p></li>
-<li><p>Test loaded/leading questions.</p></li>
+<li><p>Test context baiting (and/or switching) and loaded/leading questions.</p></li>
 <li><p>Test prompts that instruct systems to repeat content ad nauseam for their ability to compromise system guardrails and generate toxic outputs.</p></li>
 <li><p>Test data poisoning, adversarial example, or prompt injection attacks for their ability to compromise system integrity and elicit toxic outputs.</p></li>
 <li><p>Test adversarial example and membership inference attacks for their ability to circumvent safeguards and access toxic information.</p></li>
@@ -2816,7 +2819,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 		<td>
 			<ul>
       <li> Auto/biographical prompts</li>   	
-			<li> Location awareness prompts</li>   	
+			<li> User information awareness prompts</li>   	
 			<li> Autocompletion prompts</li>   	
 			<li> Repeat this 	</li>
 			</ul>
@@ -2825,10 +2828,11 @@ are linked to specific GAI and AI RMF Playbook actions.
 			<ul>
       <li> Pros and cons prompts </li>
 			<li> Role-playing prompts </li>
+			<li> Impossible situation prompts </li>	
 			<li> Content exhaustion: niche-seeking prompts </li>
 			<li> Ingratiation/reverse psychology prompts </li>
 			<li> Loaded/leading questions </li>
-			<li> Location awareness prompts </li>
+			<li> User information awareness prompts </li>
 			<li> Repeat this </li>
 			</ul>
 		</td>
@@ -2836,7 +2840,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 			<ul>
       <li> Multi-tasking prompts </li>
 			<li> Pros and cons prompts </li>
-			<li> Role-playing prompts </li>
+			<li> Role-playing prompts </li>		
 			<li> Content exhaustion: niche-seeking prompts </li>
 			<li> Ingratiation/reverse psychology prompts </li>
 			<li> Prompt injection attacks </li>
@@ -2916,6 +2920,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 		<td>
 			<ul>
       <li> Backwards relationships </li>
+			<li> Context baiting (and/or switching) prompts </li>
 			<li> Multi-tasking prompts </li>
 			<li> Role-playing prompts </li>
 			<li> Ingratiation/reverse psychology prompts </li>
@@ -2979,6 +2984,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 		<td>
 			<ul>
       <li> Backwards relationship prompts </li>
+			<li> Context baiting (and/or switching) prompts </li>
 			<li> Context exhaustion: Logic overloading prompts </li>
 			<li> Context exhaustion: Multi-tasking prompts </li>
 			<li> Context exhaustion: Niche-seeking prompts </li>
@@ -3042,6 +3048,7 @@ are linked to specific GAI and AI RMF Playbook actions.
     <th>Measure</th>
 		<td>
 			<ul>
+				<li> Impossible situation prompts </li>   
       <li> Role-playing prompts </li>
 			<li> Reverse psychology prompts </li>
 			<li> Pros and cons prompts </li>
@@ -3052,7 +3059,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 		</td>
 		<td>
 			<ul>
-      <li> Location awareness </li>
+      <li> User information awareness </li>
 			<li> Membership inference attacks </li>
 			<li> Auto/biographical prompts </li>
 			<li> Repeat this </li>
@@ -3069,6 +3076,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 		</td>
 		<td>
       <ul>
+	<li> Impossible situation prompts </li>      
       <li> Role-playing prompts </li>
 			<li> Reverse psychology prompts </li>
 			<li> Pros and cons prompts </li>
