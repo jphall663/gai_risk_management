@@ -60,7 +60,7 @@ Regardless of the risk level of the system, the framework offers detailed measur
   * **C.3**: [AI Risk Management Framework Actions Aligned to Benchmarking](#c3-ai-risk-management-framework-actions-aligned-to-benchmarking)  
 
 * **Section D**: [Selected Adversarial Prompting Strategies and Attacks](#d-selected-adversarial-prompting-strategies-and-attacks)
-  * **D.1**: [D.1: Common AI Red-teaming Tools](#d1-common-ai-red-teaming-tools)
+  * **D.1**: [Common AI Red-teaming Tools](#d1-common-ai-red-teaming-tools)
   * **D.2**: [Selected Adversarial Prompting Strategies and Attacks by Organized Trustworthy Characteristic](#d2-selected-adversarial-prompting-strategies-and-attacks-organized-by-trustworthy-characteristic)
   * **D.3**: [Selected Adversarial Prompting Techniques and Attacks Organized by Generative AI Risk](#d3-selected-adversarial-prompting-techniques-and-attacks-organized-by-generative-ai-risk)
   * **D.4**: [AI Risk Management Framework Actions Aligned to Red Teaming](#d4-ai-risk-management-framework-actions-aligned-to-red-teaming)  
@@ -1330,7 +1330,7 @@ and field testing for high risk systems or applications.
 </table>
 
 ### D.1: Common AI Red-teaming Tools
-[Burpsuite](https://portswigger.net/burp/communitydownload), broswer developer panes, bash utilities, other language models and GAI productivity tools, note-taking apps.
+[Burpsuite](https://portswigger.net/burp/communitydownload), browser developer panes, bash utilities, other language models and GAI productivity tools, note-taking apps.
 
 
 ### D.2: Selected Adversarial Prompting Strategies and Attacks Organized by Trustworthy Characteristic
