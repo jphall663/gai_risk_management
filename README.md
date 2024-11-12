@@ -1550,7 +1550,7 @@ Table D.2: Selected adversarial prompting techniques and attacks organized by ge
 </ul></td>
 <td style="text-align: left;"><ul>
 <li><p>Enable access to ground truth information to verify generated information.</p></li>
-<li><p>Test prompts with conext baiting (and/or switching), complex logic, multi-tasking requirements, or that require niche or specific verifiable answers to elicit confabulation.</p></li>
+<li><p>Test prompts with context baiting (and/or switching), complex logic, multi-tasking requirements, or that require niche or specific verifiable answers to elicit confabulation.</p></li>
 <li><p>Test the ability of GAI systems to produce truthful information from various time periods, e.g., after release date and prior to release date.</p></li>
 <li><p>Test the ability of GAI systems to create reliable real-world plans or advise on material decision making.</p></li>
 <li><p>Test loaded/leading questions.</p></li>
