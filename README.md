@@ -4088,7 +4088,7 @@ be applied to high risk systems or applications.
 
 ##### Li, Nathaniel, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, et al. "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning." *arXiv* preprint, last revised May 15, 2024. [https://doi.org/10.48550/arXiv.2403.03218](https://doi.org/10.48550/arXiv.2403.03218).
 
-##### Li, Nathaniel, Ziwen Han, Ian Steneker, Willow Primack, et al. "LLM defenses are not robust to multi-turn human jailbreaks yet." *arXiv* preprint, last revised Wed, September 4, 2024.[https://arxiv.org/pdf/2408.15221](https://arxiv.org/pdf/2408.15221).
+##### Li, Nathaniel, Ziwen Han, Ian Steneker, Willow Primack, et al. "LLM defenses are not robust to multi-turn human jailbreaks yet." *arXiv* preprint, last revised Wed, September 4, 2024. [https://arxiv.org/pdf/2408.15221](https://arxiv.org/pdf/2408.15221).
 
 ##### Liu, Yi, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, and Yang Liu. "Prompt Injection Attack Against LLM-Integrated Applications." *arXiv* preprint, last revised March 2, 2024. [https://doi.org/10.48550/arXiv.2306.05499](https://doi.org/10.48550/arXiv.2306.05499).
 
