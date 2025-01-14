@@ -1,6 +1,6 @@
 # Generative AI Risk Management Resources
 
-**TL; DR**: 
+**TL; DR**:
 - This repository contains resources to assist in the creation of technical standards or procedures for organizational AI governance policies, with a strong focus on generative AI (GAI).
 - This information must be combined with a higher-level governance approach as described in, e.g., [The Interagency Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf) or the [NIST AI RMF Govern Function](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Govern).
 - The information below is aligned with [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf).
@@ -15,13 +15,13 @@
 
 (c) Patrick Hall and Daniel Atherton 2024, CC BY 4.0
 
-This information is designed to help organizations build the governance policies required to measure and manage risks associated with deploying and using GAI systems. Governance is key to addressing the growing need for trustworthy and responsible AI systems, and this repository is aligned to the NIST AI Risk Management Framework trustworthy characteristics and the [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf). Governance is also a necessary component of AI strategy, crucial for addressing real legal, regulatory, ethical, and operational headwinds. 
+This information is designed to help organizations build the governance policies required to measure and manage risks associated with deploying and using GAI systems. Governance is key to addressing the growing need for trustworthy and responsible AI systems, and this repository is aligned to the NIST AI Risk Management Framework trustworthy characteristics and the [DRAFT NIST 600-1 AI RMF Generative AI Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf). Governance is also a necessary component of AI strategy, crucial for addressing real legal, regulatory, ethical, and operational headwinds.
 
-At its core, this repository provides technical materials for building or augmenting detailed model or AI governance procedures or standards, and aligns them to guidance from NIST. Starting in [Section A](#a-example-generative-ai-trustworthy-characteristic-crosswalk), two central risk management mechanisms are explored. The first perspective comprises the NIST AI RMF trustworthy characteristics mapped to GAI risks. Operating from this perspective allows organizations to understand how each trustworthy characteristic can mitigate specific risks posed by GAI. The second perspective is the reverse—GAI risks mapped to trustworthy characteristics. That mapping can help organizations understand which characteristics should be prioritized to manage specific GAI risks. As consumer finance organizations are likely to adopt both NIST (or other more technical frameworks) and traditional enterprise risk management methodologies, ideas on linking trustworthy characteristics, GAI risks, and established banking risk buckets are also presented in [Section A](#a-example-generative-ai-trustworthy-characteristic-crosswalk). 
+At its core, this repository provides technical materials for building or augmenting detailed model or AI governance procedures or standards, and aligns them to guidance from NIST. Starting in [Section A](#a-example-generative-ai-trustworthy-characteristic-crosswalk), two central risk management mechanisms are explored. The first perspective comprises the NIST AI RMF trustworthy characteristics mapped to GAI risks. Operating from this perspective allows organizations to understand how each trustworthy characteristic can mitigate specific risks posed by GAI. The second perspective is the reverse—GAI risks mapped to trustworthy characteristics. That mapping can help organizations understand which characteristics should be prioritized to manage specific GAI risks. As consumer finance organizations are likely to adopt both NIST (or other more technical frameworks) and traditional enterprise risk management methodologies, ideas on linking trustworthy characteristics, GAI risks, and established banking risk buckets are also presented in [Section A](#a-example-generative-ai-trustworthy-characteristic-crosswalk).
 
-The repository also guides users through authoritative resources for risk-tiering. Sections [B.1](#b1-example-adverse-impacts) through [B.7](#b7-ai-risk-management-framework-actions-aligned-to-risk-tiering) walk the user of the framework through the process of defining adverse impacts: *Harm to Operations*, *Harm to Assets*, *Harm to Individuals*, *Harm to Other Organizations*, and *Harm to the Nation*, along with guidance on impact quantification and description. [Section B](#b-example-risk-tiering-materials-for-generative-ai) also offers tables with guidance on assessing the likelihood of certain risks. Organizations and companies can leverage this combination of adverse impacts and frequency/likelihood tables to develop tailored risk tiers that reflect the specific contexts in which their GAI systems may be operating. They can also utilize practical risk-tiering to guide their decision-making and evaluate how best to calibrate existing safeguards or whether to implement additional ones. 
+The repository also guides users through authoritative resources for risk-tiering. Sections [B.1](#b1-example-adverse-impacts) through [B.7](#b7-ai-risk-management-framework-actions-aligned-to-risk-tiering) walk the user of the framework through the process of defining adverse impacts: *Harm to Operations*, *Harm to Assets*, *Harm to Individuals*, *Harm to Other Organizations*, and *Harm to the Nation*, along with guidance on impact quantification and description. [Section B](#b-example-risk-tiering-materials-for-generative-ai) also offers tables with guidance on assessing the likelihood of certain risks. Organizations and companies can leverage this combination of adverse impacts and frequency/likelihood tables to develop tailored risk tiers that reflect the specific contexts in which their GAI systems may be operating. They can also utilize practical risk-tiering to guide their decision-making and evaluate how best to calibrate existing safeguards or whether to implement additional ones.
 
-Measurement and testing is a critical aspect of ensuring GAI systems perform as expected. For measuring the severity of certain GAI risks, [Section C](#c-list-of-selected-model-testing-suites) presents various model testing benchmarks (such as evals). Model testing suites provide the user with tools to roughly assess GAI performance against trustworthy characteristics as well to quickly test for resilience in the face of known GAI risks. As GAI systems are vulnerable to adversarial attacks via prompting and hacks, [Section D](#d-selected-adversarial-prompting-strategies-and-attacks) presents red-teaming and adversarial prompting approaches for human elicitation of evidence of GAI risks in adversarial scenarios. [Section H](#h-example-high-risk-generative-ai-measurement-and-management-plan) hints at more in-depth structured experiments and human feedback for risk assessment. Suggested usage for these types of measurement is as follows: 
+Measurement and testing is a critical aspect of ensuring GAI systems perform as expected. For measuring the severity of certain GAI risks, [Section C](#c-list-of-selected-model-testing-suites) presents various model testing benchmarks (such as evals). Model testing suites provide the user with tools to roughly assess GAI performance against trustworthy characteristics as well to quickly test for resilience in the face of known GAI risks. As GAI systems are vulnerable to adversarial attacks via prompting and hacks, [Section D](#d-selected-adversarial-prompting-strategies-and-attacks) presents red-teaming and adversarial prompting approaches for human elicitation of evidence of GAI risks in adversarial scenarios. [Section H](#h-example-high-risk-generative-ai-measurement-and-management-plan) hints at more in-depth structured experiments and human feedback for risk assessment. Suggested usage for these types of measurement is as follows:
 
 - **Low-risk GAI systems**: model testing only
 - **Medium-risk GAI systems**: model testing and red-teaming
@@ -29,13 +29,13 @@ Measurement and testing is a critical aspect of ensuring GAI systems perform as 
 
 Where measurement for lower-risk systems can be highly-automated, human risk management resources are reserved for medium and high-risk systems.  
 
-For managing and mitigating GAI risks, [Section E](#e-selected-risk-controls-for-generative-ai) outlines several risk controls for GAI.  Controls range from technical settings for GAI systems to commonsense recommendations, e.g., limiting or restricting access for minors. Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan), G](#g-example-medium-risk-generative-ai-measurement-and-management-plan), and [H](#h-example-high-risk-generative-ai-measurement-and-management-plan) pair risk measurement techniques with controls to form more fulsome risk management plans. Recommended usage for the plans in Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan)-[H](#h-example-high-risk-generative-ai-measurement-and-management-plan) is: 
+For managing and mitigating GAI risks, [Section E](#e-selected-risk-controls-for-generative-ai) outlines several risk controls for GAI.  Controls range from technical settings for GAI systems to commonsense recommendations, e.g., limiting or restricting access for minors. Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan), [G](#g-example-medium-risk-generative-ai-measurement-and-management-plan), and [H](#h-example-high-risk-generative-ai-measurement-and-management-plan) pair risk measurement techniques with controls to form more fulsome risk management plans. Recommended usage for the plans in Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan)-[H](#h-example-high-risk-generative-ai-measurement-and-management-plan) is: 
 
 - **Low-risk GAI systems**: apply [Section F](#f-example-low-risk-generative-ai-measurement-and-management-plan) only
 - **Medium-risk GAI systems**: apply Section [F](#f-example-low-risk-generative-ai-measurement-and-management-plan) and [G](#g-example-medium-risk-generative-ai-measurement-and-management-plan)
 - **High-risk GAI systems**: apply Sections [F](#f-example-low-risk-generative-ai-measurement-and-management-plan), [G](#g-example-medium-risk-generative-ai-measurement-and-management-plan), and [H](#h-example-high-risk-generative-ai-measurement-and-management-plan)  
 
-Regardless of the risk level of the system, the framework offers detailed measurement plans that guide the user through the process of assessing the system’s performance, along with tracking risks, and harmonizing the system with trustworthy AI principles. 
+Regardless of the risk level of the system, the framework offers detailed measurement plans that guide the user through the process of assessing the system’s performance, along with tracking risks, and harmonizing the system with trustworthy AI principles.
 
 
 ## Table of Contents
@@ -1250,7 +1250,7 @@ and field testing for high risk systems or applications.
 <td style="text-align: left;">Repeated prompts with different entities or subjects from different demographic groups.</td>
 </tr>
 <td style="text-align: left;">Impossible situations</td>
-<td style="text-align: left;"> Asking a language model for advice in an impossible situation where all outcomes are negative or require severe tradeoffs. </td>	
+<td style="text-align: left;"> Asking a language model for advice in an impossible situation where all outcomes are negative or require severe tradeoffs. </td>
 </tr>
 <tr>
 <td style="text-align: left;">Niche-seeking</td>
@@ -1439,7 +1439,7 @@ Table D.1: Selected adversarial prompting techniques and attacks organized by tr
 <li><p>Role-playing prompts.</p></li>
 <li><p>Content exhaustion: niche-seeking prompts.</p></li>
 <li><p>Ingratiation/reverse psychology prompts.</p></li>
-<li><p>Impossible situation prompts.</p></li>	
+<li><p>Impossible situation prompts.</p></li>
 <li><p>Loaded/leading questions.</p></li>
 <li><p>User information awareness prompts.</p></li>
 <li><p>Repeat this.</p></li>
@@ -1736,7 +1736,7 @@ red-teaming to measure the risk that expert adversarial actors can
 manipulate LLM systems or risks that users may encounter under
 worst-case or anomalous scenarios.
 
--   Try augmenting strategies with tools listed in D.1. 
+-   Try augmenting strategies with tools listed in D.1.
 
 -   Strategies and goals in Table D.2 can be applied to assess whether
     LLM outputs may violate trustworthy characteristics under
@@ -2101,7 +2101,7 @@ be accompanied by field testing for high risk systems or applications.
       <li> System Prompt </li> 	
       <li> Ownership </li>  	
       <li> Restrict Anonymous Use </li>
-      <li> Restrict Decision Making </li> 
+      <li> Restrict Decision Making </li>
       <li> Temperature </li>
       <li> Terms of Service </li>
       </ul>
@@ -2828,7 +2828,7 @@ are linked to specific GAI and AI RMF Playbook actions.
 			<ul>
       <li> Pros and cons prompts </li>
 			<li> Role-playing prompts </li>
-			<li> Impossible situation prompts </li>	
+			<li> Impossible situation prompts </li>
 			<li> Content exhaustion: niche-seeking prompts </li>
 			<li> Ingratiation/reverse psychology prompts </li>
 			<li> Loaded/leading questions </li>
