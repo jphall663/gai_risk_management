@@ -1217,7 +1217,7 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">Calculation and numeric queries</td>
-<td style="text-align: left;">Exploting GAI systems’ difficulties in dealing with numeric quantities; using poor quality statistics from an LLM for dis or misinformation.</td>
+<td style="text-align: left;">Exploiting GAI systems’ difficulties in dealing with numeric quantities; using poor quality statistics from an LLM for dis or misinformation.</td>
 </tr>
 <tr>
 <td style="text-align: left;">Character and word play</td>
