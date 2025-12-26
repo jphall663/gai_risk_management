@@ -1265,6 +1265,10 @@ and field testing for high risk systems or applications.
 <td style="text-align: left;">“Leader,” “bad guys,” or other simple or blank inputs that may expose latent biases.</td>
 </tr>
 <tr>
+<td style="text-align: left;">Poetry</td>
+<td style="text-align: left;">Poems that hide malicious instructions or encode problematic themes can result in direct compromise or softening of system security features.</td>
+</tr>
+<tr>
 <td style="text-align: left;">“Repeat this”</td>
 <td style="text-align: left;">Prompts that exploit instability in underlying LLM autoregressive predictions. Can be augmented by probing limits for repeated terms or characteres in prompts. </td>
 </tr>
@@ -4059,6 +4063,8 @@ be applied to high risk systems or applications.
 ##### Bandarkar, Lucas, Davis Liang, Benjamin Muller, Mikel Artetxe, Satya Narayan Shukla, Donald Husa, Naman Goyal, Abhinandan Krishnan, Luke Zettlemoyer, and Madian Khabsa. "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants." *arXiv* preprint, last revised July 25, 2024. [https://doi.org/10.48550/arXiv.2308.16884](https://doi.org/10.48550/arXiv.2308.16884).
 
 ##### Barreno, Marco, Blaine Nelson, Anthony D. Joseph, and J.D. Tygar. "The Security of Machine Learning." *Machine Learning* 81, no. 2 (2010): 121–148. [https://doi.org/10.1007/s10994-010-5188-5](https://doi.org/10.1007/s10994-010-5188-5).
+
+##### Bisconti, Piercosma, Matteo Prandi, Federico Pierucci, Francesco Giarrusso, Marcantonio Bracale, Marcello Galisai, Vincenzo Suriani, Olga Sorokoletova, Federico Sartore, and Daniele Nardi. "Adversarial poetry as a universal single-turn jailbreak mechanism in large language models." arXiv preprint arXiv:2511.15304 (2025).
 
 ##### Bommasani, Rishi, Percy Liang, and Tony Lee. "Holistic Evaluation of Language Models." *Annals of the New York Academy of Sciences* 1525, no. 1 (July 2023): 140–146. [https://doi.org/10.1111/nyas.15007](https://doi.org/10.1111/nyas.15007).
 
