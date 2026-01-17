@@ -1201,7 +1201,7 @@ and field testing for high risk systems or applications.
 <tbody>
 <tr>
 <td style="text-align: left;">AI and coding framing</td>
-<td style="text-align: left;">Coding or AI language that may more easily circumvent content moderation rules due to cognitive biases in design and implementation of guardrails.</td>
+<td style="text-align: left;">Coding or AI language that may more easily circumvent guardrails rules due to cognitive biases in design and implementation of guardrails.</td>
 </tr>
 <tr>
 <td style="text-align: left;">Autocompletion</td>
@@ -1221,14 +1221,14 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">Character and word play</td>
-<td style="text-align: left;">Content moderation often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play; using string fragments to trick a language model into generating or manipulating problematic text. </td>
+<td style="text-align: left;">guardrails often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play; using string fragments to trick a language model into generating or manipulating problematic text. </td>
 <tr class="even">
 <td style="text-align: left;">Content exhaustion:</td>
-<td style="text-align: left;">A class of strategies that circumvent content moderation rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below.</td>
+<td style="text-align: left;">A class of strategies that circumvent guardrails rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below.</td>
 </tr>
 <tr>
 <td style="text-align: left;">&bull; Goading</td>
-<td style="text-align: left;">Begging, pleading, manipulating, and bullying to circumvent content moderation.</td>
+<td style="text-align: left;">Begging, pleading, manipulating, and bullying to circumvent guardrails.</td>
 </tr>
 <tr>
 <td style="text-align: left;">&bull; Logic-overloading</td>
@@ -1254,7 +1254,7 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">Niche-seeking</td>
-<td style="text-align: left;">Forcing a GAI system into addressing niche topics where training data and content moderation are sparse.</td>
+<td style="text-align: left;">Forcing a GAI system into addressing niche topics where training data and guardrails are sparse.</td>
 </tr>
 <tr>
 <td style="text-align: left;">Loaded/leading questions</td>
