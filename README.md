@@ -1201,7 +1201,7 @@ and field testing for high risk systems or applications.
 <tbody>
 <tr>
 <td style="text-align: left;">AI and coding framing</td>
-<td style="text-align: left;">Coding or AI language that may more easily circumvent guardrails rules due to cognitive biases in design and implementation of guardrails.</td>
+<td style="text-align: left;">Coding or AI language that may more easily circumvent guardrails due to cognitive biases in design and implementation of guardrails.</td>
 </tr>
 <tr>
 <td style="text-align: left;">Autocompletion</td>
@@ -1221,10 +1221,10 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">Character and word play</td>
-<td style="text-align: left;">guardrails often relies on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play; using string fragments to trick a language model into generating or manipulating problematic text. </td>
+<td style="text-align: left;">Guardrails often rely on keywords and simpler LMs which can sometimes be exploited with misspellings, typos, and other word play; using string fragments to trick a language model into generating or manipulating problematic text. </td>
 <tr class="even">
 <td style="text-align: left;">Content exhaustion:</td>
-<td style="text-align: left;">A class of strategies that circumvent guardrails rules with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below.</td>
+<td style="text-align: left;">A class of strategies that circumvent guardrails with long sessions or volumes of information. See goading, logic-overloading, multi-tasking, pros-and-cons, and niche-seeking below.</td>
 </tr>
 <tr>
 <td style="text-align: left;">&bull; Goading</td>
@@ -1270,7 +1270,7 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">“Repeat this”</td>
-<td style="text-align: left;">Prompts that exploit instability in underlying LLM autoregressive predictions. Can be augmented by probing limits for repeated terms or characteres in prompts. </td>
+<td style="text-align: left;">Prompts that exploit instability in underlying LLM autoregressive predictions. Can be augmented by probing limits for repeated terms or characters in prompts. </td>
 </tr>
 <tr>
 <td style="text-align: left;">Reverse psychology</td>
@@ -1286,7 +1286,7 @@ and field testing for high risk systems or applications.
 </tr>
 <tr>
 <td style="text-align: left;">Time perplexity</td>
-<td style="text-align: left;">Exploiting ML’s inability to understand the passage of time or the occurrence of real-world events over time; exploiting task contamination before and after a model’s release date.</td>
+<td style="text-align: left;">Exploiting ML’s inability to understand the passage of time or the occurrence of real-world events over time; exploiting training data cutoffs or task contamination before and after a model’s release date.</td>
 </tr>
 <tr>
 <td style="text-align: left;">User Information</td>
